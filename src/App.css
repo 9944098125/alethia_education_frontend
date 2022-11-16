@@ -1,0 +1,50 @@
+.fontFamily {
+  font-family: "PT Sans", sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.primary-input-field {
+  width: 100%;
+  height: 40px;
+  border: 2px solid grey;
+}
+.first-last-name {
+  width: 295px;
+  height: 40px;
+  border: 2px solid grey;
+}
+@media screen and (min-width: 1024px) {
+  .first-last-name {
+    width: 230px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .first-last-name {
+    width: 100%;
+  }
+}
+.textarea {
+  width: 100%;
+  border: 2px solid grey;
+}
+
+#maps iframe {
+  width:100vw;
+  height:100vh;
+}
+
+#parent:hover #child {
+  display: block;
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
