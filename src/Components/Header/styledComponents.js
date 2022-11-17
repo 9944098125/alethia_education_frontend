@@ -39,7 +39,7 @@ export const HeadLink = styled.h3`
   }
 `;
 export const HoldingsButton = styled.button`
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgb(59, 59, 62, 0.445);
   display: flex;
   align-items: center;
   padding: 15px;
@@ -48,6 +48,7 @@ export const HoldingsButton = styled.button`
   font-weight: 700;
   color: #ffffff;
   cursor: pointer;
+  height: 50px;
 `;
 export const HoveredBlock = styled.div`
   background-color: #ffffff;
