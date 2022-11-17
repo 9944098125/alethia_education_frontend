@@ -28,15 +28,20 @@ import {
 import Footer from "../Footer/Footer";
 import { HashLink } from "react-router-hash-link";
 import ReactPlayer from "react-player";
+import Comment from "./Comment";
 
 function Australia() {
   useEffect(() => {
     document.title = "Alethia Education - University Of Newcastle";
   }, []);
-  const [comment, setComment] = useState("");
-  const changeComment = (event) => {
-    setComment(event.target.value);
-  };
+  // const [comment, setComment] = useState("");
+  // const [viewFullInput, setViewFullInput] = useState(false);
+  // const changeComment = (event) => {
+  //   setComment(event.target.value);
+  // };
+  // const onClickInputContainer = () => {
+  //   setViewFullInput(!viewFullInput);
+  // };
   return (
     <Fragment>
       <NewsRoomImageContainer id="news">
@@ -301,7 +306,7 @@ function Australia() {
           </UnorderedList>
           <ReactPlayer
             url="https://youtu.be/pGt_oapFdzg"
-            width={{ xs: "200px", md: "300px", lg: "400px" }}
+            width="400"
             // height={{ xs: "170px", md: "1000px", lg: "800px" }}
           />
           <EachText fontSize="18px">
@@ -440,14 +445,15 @@ function Australia() {
           COMMENTS
         </EachText>
         <HorizontalLine mb="50px" />
-        <InputContainer>
+        {/* <InputContainer onClick={onClickInputContainer}>
           <Avatar />
           <InputField
             placeholder="write any comment"
             onChange={changeComment}
             value={comment}
           />
-        </InputContainer>
+        </InputContainer> */}
+        <Comment />
       </NewsContainer>
       <Footer />
     </Fragment>

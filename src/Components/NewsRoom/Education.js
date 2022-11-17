@@ -26,16 +26,17 @@ import {
 import Footer from "../Footer/Footer";
 import { HashLink } from "react-router-hash-link";
 import ReactPlayer from "react-player";
+import Comment from "./Comment";
 
 function Education() {
   useEffect(() => {
     document.title =
       "Alethia Education - Education, Career and Migration Fair in Sydney";
   }, []);
-  const [comment, setComment] = useState("");
-  const changeComment = (event) => {
-    setComment(event.target.value);
-  };
+  // const [comment, setComment] = useState("");
+  // const changeComment = (event) => {
+  //   setComment(event.target.value);
+  // };
   return (
     <Fragment>
       <NewsRoomImageContainer id="news">
@@ -134,7 +135,7 @@ function Education() {
         {/* <ReactPlayerContainer> */}
         <ReactPlayer
           url="https://youtu.be/k3koOXV4Ojc"
-          width={{ xs: "200px", md: "300px", lg: "400px" }}
+          width="400"
           // height={{ xs: "170px", md: "300px", lg: "400px" }}
         />
         {/* </ReactPlayerContainer> */}
@@ -184,14 +185,15 @@ function Education() {
           COMMENTS
         </EachText>
         <HorizontalLine mb="50px" />
-        <InputContainer>
+        {/* <InputContainer>
           <Avatar />
           <InputField
             placeholder="write any comment"
             onChange={changeComment}
             value={comment}
           />
-        </InputContainer>
+        </InputContainer> */}
+        <Comment />
       </NewsContainer>
       <Footer />
     </Fragment>

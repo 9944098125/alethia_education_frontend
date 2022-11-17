@@ -26,15 +26,16 @@ import {
 } from "./styledComponents";
 import { HashLink } from "react-router-hash-link";
 import Footer from "../Footer/Footer";
+import Comment from "./Comment";
 
 function Canada() {
   useEffect(() => {
     document.title = "Alethia Education - Top 10 Universities of Canada";
   }, []);
-  const [comment, setComment] = useState("");
-  const changeComment = (event) => {
-    setComment(event.target.value);
-  };
+  // const [comment, setComment] = useState("");
+  // const changeComment = (event) => {
+  //   setComment(event.target.value);
+  // };
   return (
     <Fragment>
       <NewsRoomImageContainer id="news">
@@ -234,14 +235,15 @@ function Canada() {
           COMMENTS
         </EachText>
         <HorizontalLine mb="50px" />
-        <InputContainer>
+        {/* <InputContainer>
           <Avatar />
           <InputField
             placeholder="write any comment"
             onChange={changeComment}
             value={comment}
           />
-        </InputContainer>
+        </InputContainer> */}
+        <Comment />
       </NewsContainer>
       <Footer />
     </Fragment>

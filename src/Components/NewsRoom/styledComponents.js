@@ -157,6 +157,9 @@ export const EachPost = styled.div`
   align-items: center;
   margin-right: 5%;
   padding: 5%;
+  @media screen and (max-width: 425px) {
+    padding: 15%;
+  }
 `;
 export const PostImage = styled.img`
   margin-top: ${(props) => props.mt};
@@ -171,20 +174,40 @@ export const PostImage = styled.img`
     width: 180px;
     margin-left: 25px;
   }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 425px and min-width:375px) {
     height: 100px;
-    width: 280px;
+    width: 320px;
   }
 `;
 export const InputContainer = styled.div`
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 `;
 export const InputField = styled.input`
-  border: 0.5px solid grey;
+  border: none;
   width: 90%;
   height: 50px;
   margin-left: 25px;
+`;
+export const BorderedInput = styled.div`
+  border: 0.5px solid black;
+  padding: 5%;
+  margin: 2%;
+  width: 100%;
+  padding-bottom: 0px;
+  @media screen and (max-width: 425px) {
+    padding: 10%;
+  }
+`;
+export const IconsAndButtonsContainer = styled.div`
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 425px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `;
 export const Avatar = styled(IoMdPerson)`
   background-color: lightgrey;
@@ -199,4 +222,16 @@ export const UnoList = styled.ul`
 `;
 export const UniversitiesTextContainer = styled.div`
   width: 30%;
+  @media screen and (max-width: 768px) {
+    width: 85%;
+  }
+`;
+export const CommentButton = styled.button`
+  padding: 5%;
+  margin-right: 10%;
+  border: ${(props) => props.border};
+  background-color: ${(props) => props.bg};
+  @media screen and (max-width: 425px) {
+    font-size: 10px;
+  }
 `;
