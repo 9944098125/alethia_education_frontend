@@ -182,6 +182,7 @@ export const PostImage = styled.img`
 export const InputContainer = styled.div`
   display: flex;
   align-items: flex-start;
+  cursor: pointer;
 `;
 export const InputField = styled.input`
   border: none;
