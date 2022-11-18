@@ -134,9 +134,9 @@ function Education() {
         </EachText>
         {/* <ReactPlayerContainer> */}
         <ReactPlayer
-          url="https://youtu.be/ejIJg4JPlb8"
+          url="https://youtu.be/wzaLOqIALpo"
           width="400"
-          // height={{ xs: "170px", md: "300px", lg: "400px" }}
+          // height={{ xs: "170px", md: "1000px", lg: "800px" }}
         />
         {/* </ReactPlayerContainer> */}
         <HorizontalLine />
