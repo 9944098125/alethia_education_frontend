@@ -168,6 +168,14 @@ export const Description = styled.p`
     font-size: 8px;
   }
 `;
+export const Gap = styled.div`
+  @media screen and (min-width: 768px) {
+    margin-bottom: 25px;
+  }
+  @media screen and (max-width: 425px) {
+    margin-bottom: 15px;
+  }
+`;
 
 export const Links = styled.p`
   color: orange;
@@ -237,8 +245,8 @@ export const ItemDescription = styled.p`
 `;
 
 export const PhilosophyContainer = styled.div`
-  background-image: url("https://img.lovepik.com/photo/20211120/small/lovepik-the-playground-of-youth-students-raised-a-fist-picture_500392145.jpg");
-  height: 150vh;
+  background-image: url("https://www.india.com/wp-content/uploads/2016/09/Untitled-design-71.jpg");
+  height: 180vh;
   width: 100vw;
   display: flex;
   align-items: flex-end;

@@ -181,7 +181,7 @@ export const PostImage = styled.img`
 `;
 export const InputContainer = styled.div`
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   cursor: pointer;
 `;
 export const InputField = styled.input`
@@ -189,15 +189,21 @@ export const InputField = styled.input`
   width: 90%;
   height: 50px;
   margin-left: 25px;
+  &:focus {
+    border: none;
+    outline: none;
+  }
 `;
 export const BorderedInput = styled.div`
   border: 0.5px solid black;
-  padding: 5%;
+  padding: 0%;
+  padding-right: 2%;
   margin: 2%;
   width: 100%;
   padding-bottom: 0px;
   @media screen and (max-width: 425px) {
-    padding: 10%;
+    padding: 0%;
+    padding-right: 2%;
   }
 `;
 export const IconsAndButtonsContainer = styled.div`
@@ -222,7 +228,7 @@ export const UnoList = styled.ul`
   padding: 5%;
 `;
 export const UniversitiesTextContainer = styled.div`
-  width: 30%;
+  width: 50%;
   @media screen and (max-width: 768px) {
     width: 85%;
   }

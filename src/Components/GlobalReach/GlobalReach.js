@@ -79,14 +79,20 @@ function GlobalReach() {
                     className="primary-input-field"
                   />
                 </div>
-                <div className="col mb-3">
+                <div className="d-flex flex-column mb-3">
                   <Label htmlFor="iam">I am*</Label>
                   <Field
+                    as="select"
                     type="text"
                     name="iam"
                     id="iam"
-                    className="primary-input-field"
-                  />
+                    defaultValue=""
+                  >
+                    <option value=""></option>
+                    <option value="student">a student</option>
+                    <option value="institution">an institution</option>
+                    <option value="others">others</option>
+                  </Field>
                 </div>
                 <div className="col mb-3">
                   <Label htmlFor="coi">Country of Interest*</Label>

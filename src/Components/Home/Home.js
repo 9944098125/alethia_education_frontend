@@ -79,7 +79,7 @@ function Home() {
           </TextContainer>
         </HomeImageContainer>
         <SupportContainer>
-          <SupportText>Support study abroad</SupportText>
+          <SupportText>Supporting Education abroad</SupportText>
           <HashLink to="/our-story#vision">
             <VisionButton>
               Our Vision <AiOutlineArrowRight />
@@ -93,10 +93,14 @@ function Home() {
             <Description>
               Millions have chosen to move Down Under to further their education
               and career prospects, making this learning powerhouse the third
-              most popular study destination in the world. Thinking of joining
-              them? ​ Let us help you figure out your options and chart the best
-              pathway to a better future in Australia.
+              most popular study destination in the world.
             </Description>
+            <Description>
+              Thinking of joining them? ​ Let us help you figure out your
+              options and chart the best pathway to a better future in
+              Australia.
+            </Description>
+
             <HashLink
               style={{ textDecoration: "none", color: "inherit" }}
               to="/study-abroad#australia"
@@ -110,9 +114,11 @@ function Home() {
             <Description>
               Won over by the quality, safety, affordability and friendliness
               this country offers to all international students and making it
-              your study destination of choice? ​ Let us help you figure out
-              your options and chart the best pathway to a better future in New
-              Zealand.
+              your study destination of choice?
+            </Description>
+            <Description>
+              ​ Let us help you figure out your options and chart the best
+              pathway to a better future in New Zealand.
             </Description>
             <HashLink
               style={{ textDecoration: "none", color: "inherit" }}
@@ -126,9 +132,12 @@ function Home() {
             <CountryName>Canada</CountryName>
             <Description>
               Want a world-class education and an amazing North American study
-              experience but on a lower budget? For value for money choose
-              Canada! ​ Let us help you figure out your options and chart the
-              best pathway to a better future in Canada.
+              experience but on a lower budget?
+            </Description>
+            <Description>
+              For value for money choose Canada! ​ Let us help you figure out
+              your options and chart the best pathway to a better future in
+              Canada.
             </Description>
             <HashLink
               style={{ textDecoration: "none", color: "inherit" }}
@@ -143,8 +152,11 @@ function Home() {
             <Description>
               Dreaming of living and studying in the United States but
               overwhelmed by the vast information and choices available out
-              there? ​ Let us help you figure out your options and chart the
-              best pathway to a better future in “America”.
+              there? ​
+            </Description>
+            <Description>
+              Let us help you figure out your options and chart the best pathway
+              to a better future in “America”.
             </Description>
             <HashLink
               style={{ textDecoration: "none", color: "inherit" }}
@@ -159,8 +171,11 @@ function Home() {
             <Description>
               Determined to get a quality British education, graduate with a
               world-recognised qualification and improve your career and future
-              prospects? Let us help you figure out your options and chart the
-              best pathway to a better future in the UK.
+              prospects?
+            </Description>
+            <Description>
+              Let us help you figure out your options and chart the best pathway
+              to a better future in the UK.
             </Description>
             <HashLink
               style={{ textDecoration: "none", color: "inherit" }}
@@ -175,8 +190,10 @@ function Home() {
             <Description>
               There is always an iae office nearby with highly-trained,
               professional Education Planners waiting to help you achieve your
-              academic, career and life goals. More than 60 service and support
-              offices worldwide!
+              academic, career and life goals.
+            </Description>
+            <Description>
+              More than 60 service and support offices worldwide!
             </Description>
             <HashLink
               style={{ textDecoration: "none", color: "inherit" }}
@@ -263,7 +280,7 @@ function Home() {
               style={{ textDecoration: "none" }}
             >
               <MeetingButton>
-                Learn more <AiFillCaretRight style={{ marginBottom: "-2px" }} />
+                Learn more <AiFillCaretRight style={{ marginBottom: "0px" }} />
               </MeetingButton>
             </HashLink>
           </MeetingTextContainer>

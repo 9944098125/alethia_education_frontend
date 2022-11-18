@@ -10,6 +10,12 @@
   height: 40px;
   border: 2px solid grey;
 }
+#iam {
+  width:60%;
+  height:40px;
+  border: 2px solid grey;
+  cursor: pointer;
+}
 .first-last-name {
   width: 295px;
   height: 40px;

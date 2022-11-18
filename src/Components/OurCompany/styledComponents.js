@@ -171,13 +171,13 @@ export const GridItem = styled.div`
 
 export const TextInGrid = styled.p`
   text-align: center;
-  @media screen and (min-width: ) {
+  font-weight: ${(props) => props.fontW};
+  font-family: "PT Sans Narrow", sans-serif;
+  @media screen and (min-width: 1024px) {
     font-size: ${(props) => props.fontSizeInLg};
-    font-weight: 700;
   }
   @media screen and (max-width: 768px) {
     font-size: ${(props) => props.fontSizeInSm};
-    font-weight: 500;
   }
 `;
 
@@ -198,18 +198,11 @@ export const BeliefContainer = styled.div`
   width: 70%;
   height: 50vh;
   padding-left: 50px;
-  @media screen and (min-width: 768px) {
-    padding-left: 200px;
-    margin-bottom: 150px;
+  @media screen and (min-width: 1440px) {
+    margin-bottom: -250px;
   }
-  @media screen and (max-width: 760px) {
-    margin-bottom: 300px;
-  }
-  @media screen and (min-width: 1023px) {
-    margin-bottom: 0px;
-  }
-  @media screen and (max-width: 500px) {
-    margin-bottom: 190%;
+  @media screen and (max-width: 425px) {
+    margin-bottom: 200px;
   }
 `;
 
@@ -219,24 +212,37 @@ export const BeliefTextContainer = styled.div`
 `;
 
 export const DosContainer = styled.div`
+  @media screen and (min-width: 1440px) {
+    height: 80vh !important;
+    display: flex;
+    margin-bottom: 10%;
+  }
   @media screen and (min-width: 1024px) {
     display: flex;
     height: 140vh;
+    margin-bottom: 20%;
   }
   @media screen and (max-width: 768px) {
-    margin-bottom: 5%;
+    margin-bottom: 1%;
   }
   @media screen and (max-width: 425px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 210vh;
-    margin-bottom: 55%;
+    margin-bottom: 0%;
+  }
+  @media screen and (max-width: 376px) {
+    margin-bottom: 200px;
   }
 `;
 export const DosImage = styled.img`
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1440px) {
     height: 100%;
+    width: 50%;
+  }
+  @media screen and (min-width: 1024px) {
+    height: 115%;
     width: 50%;
   }
   @media screen and (max-width: 768px) {
@@ -267,6 +273,9 @@ export const UnorderedList = styled.ul`
   list-style-type: disc;
   @media screen and (max-width: 768px) {
     padding: 10%;
+    padding-bottom: 0px;
+  }
+  @media screen and (max-width: 375px) {
     margin-bottom: 100px;
   }
 `;
@@ -293,6 +302,7 @@ export const CommittedText = styled.p`
   width: 70%;
   font-weight: 700;
   font-family: "PT Sans Narrow", sans-serif;
+  margin-bottom: 5%;
   @media screen and (min-width: 768px) {
     font-size: 35px;
   }
@@ -316,7 +326,7 @@ export const SmallTextContainer = styled.div`
   padding: 2%;
   padding-left: 20%;
   padding-right: 20%;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 `;
 export const LeadersContainer = styled.div`
   display: flex;
@@ -365,6 +375,7 @@ export const AffiliatesContainer = styled.div`
   margin-bottom: 10%;
   width: 100%;
   padding: 10%;
+  margin-top: -5%;
 `;
 export const AffiliatesImage = styled.img`
   width: 20%;

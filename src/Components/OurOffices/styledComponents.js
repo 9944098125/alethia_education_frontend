@@ -54,13 +54,13 @@ export const SmallTextContainer = styled.div`
   margin-left: 16%;
 `;
 export const SmallText = styled.p`
-  font-size: 10px;
+  font-size: 20px;
   text-align: center;
   margin-bottom: 5%;
   font-family: "PT Sans Narrow", sans-serif;
 `;
 export const SmallBoldText = styled.p`
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 7%;

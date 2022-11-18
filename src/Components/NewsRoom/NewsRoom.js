@@ -39,7 +39,7 @@ function NewsRoom() {
           <EachRowInSeniorContainer>
             <EachImage src={eachImage1} alt="university" />
             <EachTextContainer>
-              <EachText color="#080808" fontSize="10px" fontWeight="400">
+              <EachText color="#080808" fontSize="15px" fontWeight="400">
                 Jan 8, 2020
               </EachText>
               <EachText color="orange" fontSize="25px" fontWeight="700">
@@ -60,7 +60,7 @@ function NewsRoom() {
           <EachRowInSeniorContainer>
             <EachImage src={eachImage2} alt="education" />
             <EachTextContainer>
-              <EachText color="#080808" fontSize="10px" fontWeight="400">
+              <EachText color="#080808" fontSize="15px" fontWeight="400">
                 Aug 19, 2019
               </EachText>
               <EachText color="orange" fontSize="25px" fontWeight="700">
@@ -82,7 +82,7 @@ function NewsRoom() {
           <EachRowInSeniorContainer>
             <EachImage src={eachImage3} alt="canada" />
             <EachTextContainer>
-              <EachText color="#080808" fontSize="10px" fontWeight="400">
+              <EachText color="#080808" fontSize="15px" fontWeight="400">
                 Feb 12, 2019
               </EachText>
               <EachText color="orange" fontSize="25px" fontWeight="700">
@@ -104,7 +104,7 @@ function NewsRoom() {
           <EachRowInSeniorContainer>
             <EachImage src={eachImage4} alt="australia" />
             <EachTextContainer>
-              <EachText color="#080808" fontSize="10px" fontWeight="400">
+              <EachText color="#080808" fontSize="15px" fontWeight="400">
                 Feb 2, 2019
               </EachText>
               <EachText color="orange" fontSize="25px" fontWeight="700">

@@ -170,7 +170,7 @@ function Canada() {
           The other 16 top universities in Canada are:
         </EachText>
         <UniversitiesTextContainer>
-          <EachText fontSize="14px">
+          <EachText fontSize="16px">
             Simon Fraser University – ranked joint 264th in the world Dalhousie
             University – ranked joint 279th University of Ottawa – ranked joint
             289th University of Victoria – ranked joint 359th Laval University –

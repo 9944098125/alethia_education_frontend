@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StudyAbroadImageContainer = styled.div`
   height: 120vh;
   max-width: 100vw;
-  background-image: url("https://img.lovepik.com/photo/50047/0292.jpg_wh860.jpg");
+  background-image: url("https://media.istockphoto.com/id/1029791952/photo/happy-female-student-stock-image.jpg?s=612x612&w=0&k=20&c=Jze530IMuR1xUohpMugaOoQZ1hnr5s_N_P2yQxnaJpo=");
   background-size: cover;
   margin-top: -70px;
   display: flex;

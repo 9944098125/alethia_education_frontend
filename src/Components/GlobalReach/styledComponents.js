@@ -15,8 +15,9 @@ export const Container = styled.div`
 export const ImageContainer = styled.div`
   @media screen and (min-width: 1024px) {
     height: 85vw;
-    width: 50vw;
+    width: 40vw;
     padding: 55px;
+    margin-left: 5%;
   }
   @media screen and (max-width: 1024px) {
     height: 120vw;

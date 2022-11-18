@@ -108,34 +108,34 @@ function OurCompany() {
             </TextWithGridContainer>
             <GridContainer>
               <GridItem>
-                <TextInGrid fontSizeInLg="25px" fontSizeInSm="15px">
+                <TextInGrid fontW="900" fontSizeInLg="30px" fontSizeInSm="20px">
                   350,000
                 </TextInGrid>
-                <TextInGrid fontSizeInLg="15px" fontSizeInSm="10px">
+                <TextInGrid fontW="600" fontSizeInLg="20px" fontSizeInSm="15px">
                   Satisfied and successful students
                 </TextInGrid>
               </GridItem>
               <GridItem>
-                <TextInGrid fontSizeInLg="25px" fontSizeInSm="15px">
+                <TextInGrid fontW="900" fontSizeInLg="30px" fontSizeInSm="20px">
                   60+
                 </TextInGrid>
-                <TextInGrid fontSizeInLg="15px" fontSizeInSm="10px">
+                <TextInGrid fontW="600" fontSizeInLg="20px" fontSizeInSm="15px">
                   Service and Support offices
                 </TextInGrid>
               </GridItem>
               <GridItem>
-                <TextInGrid fontSizeInLg="25px" fontSizeInSm="15px">
+                <TextInGrid fontW="900" fontSizeInLg="30px" fontSizeInSm="20px">
                   1000s
                 </TextInGrid>
-                <TextInGrid fontSizeInLg="15px" fontSizeInSm="10px">
+                <TextInGrid fontW="600" fontSizeInLg="20px" fontSizeInSm="15px">
                   Top University campus choices
                 </TextInGrid>
               </GridItem>
               <GridItem>
-                <TextInGrid fontSizeInLg="25px" fontSizeInSm="15px">
+                <TextInGrid fontW="900" fontSizeInLg="30px" fontSizeInSm="20px">
                   350
                 </TextInGrid>
-                <TextInGrid fontSizeInLg="15px" fontSizeInSm="10px">
+                <TextInGrid fontW="600" fontSizeInLg="20px" fontSizeInSm="15px">
                   Experienced and caring Experts
                 </TextInGrid>
               </GridItem>
@@ -368,13 +368,13 @@ function OurCompany() {
           iae GLOBAL or its directors are affiliated with or a member of:
         </SmallText>
         <ImagesRow>
-          <AffiliatedImage src={affiliated1} alt="affiliated1" width="70%" />
+          <AffiliatedImage src={affiliated1} alt="affiliated1" width="80%" />
         </ImagesRow>
         <ListHead>Awards</ListHead>
         <SmallText>
           iae GLOBAL has been awarded the following industry accolades.
         </SmallText>
-        <AffiliatedImage src={awards} alt="awards" width="30%" />
+        <AffiliatedImage src={awards} alt="awards" width="50%" />
       </AffiliatesContainer>
       <Footer />
     </Fragment>
