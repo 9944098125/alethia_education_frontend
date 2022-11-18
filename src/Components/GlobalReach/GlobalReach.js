@@ -86,7 +86,8 @@ function GlobalReach() {
                     type="text"
                     name="iam"
                     id="iam"
-                    defaultValue=""
+                    className="primary-input-field"
+                    value=""
                   >
                     <option value=""></option>
                     <option value="student">a student</option>

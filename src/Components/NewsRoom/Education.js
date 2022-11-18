@@ -25,7 +25,7 @@ import {
 } from "./styledComponents";
 import Footer from "../Footer/Footer";
 import { HashLink } from "react-router-hash-link";
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/youtube";
 import Comment from "./Comment";
 
 function Education() {
@@ -136,6 +136,7 @@ function Education() {
         <ReactPlayer
           url="https://youtu.be/wzaLOqIALpo"
           width="400"
+          controls={true}
           // height={{ xs: "170px", md: "1000px", lg: "800px" }}
         />
         {/* </ReactPlayerContainer> */}

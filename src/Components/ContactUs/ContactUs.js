@@ -97,6 +97,7 @@ function ContactUs() {
                     name="iam"
                     id="iam"
                     className="primary-input-field"
+                    value=""
                   >
                     <option value=""></option>
                     <option value="student">a student</option>
