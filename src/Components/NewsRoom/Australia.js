@@ -305,7 +305,7 @@ function Australia() {
             </ListItem>
           </UnorderedList>
           <ReactPlayer
-            url="https://youtu.be/pGt_oapFdzg"
+            url="https://youtu.be/wzaLOqIALpo"
             width="400"
             // height={{ xs: "170px", md: "1000px", lg: "800px" }}
           />
