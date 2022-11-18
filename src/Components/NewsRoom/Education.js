@@ -33,6 +33,7 @@ function Education() {
     document.title =
       "Alethia Education - Education, Career and Migration Fair in Sydney";
   }, []);
+  const embedId = "k3koOXV4Ojc";
   // const [comment, setComment] = useState("");
   // const changeComment = (event) => {
   //   setComment(event.target.value);
@@ -133,12 +134,22 @@ function Education() {
           pm 66 Goulburn st. Sydney, Australia
         </EachText>
         {/* <ReactPlayerContainer> */}
-        <ReactPlayer
+        {/* <ReactPlayer
           url="https://youtu.be/wzaLOqIALpo"
           width="400"
           controls={true}
           // height={{ xs: "170px", md: "1000px", lg: "800px" }}
-        />
+        /> */}
+        <div className="video-responsive">
+          <iframe
+            width="740"
+            height="416"
+            src={`https://www.youtube.com/embed/${embedId}`}
+            title="Education Fair Sydney - May 2019"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
         {/* </ReactPlayerContainer> */}
         <HorizontalLine />
         <IconsContainer>

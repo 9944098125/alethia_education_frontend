@@ -83,13 +83,10 @@ function GlobalReach() {
                   <Label htmlFor="iam">I am*</Label>
                   <Field
                     as="select"
-                    type="text"
                     name="iam"
                     id="iam"
                     className="primary-input-field"
-                    value=""
                   >
-                    <option value=""></option>
                     <option value="student">a student</option>
                     <option value="institution">an institution</option>
                     <option value="others">others</option>

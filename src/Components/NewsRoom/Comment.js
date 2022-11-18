@@ -34,15 +34,15 @@ function Comment() {
             id="comment"
             value={comment}
             onChange={onChangeComment}
-            placeholder="Write any comment"
+            placeholder="Write a comment"
           />
           {viewFullInput && (
             <IconsAndButtonsContainer>
-              <IconsContainer>
-                <BsEmojiSmile style={{ marginRight: "10px" }} />
-                <BsCameraFill style={{ marginRight: "10px" }} />
-                <AiOutlineGif style={{ marginRight: "10px" }} />
-                <BsFillCameraVideoFill style={{ marginRight: "10px" }} />
+              <IconsContainer className="mb-2">
+                <BsEmojiSmile className="me-2" />
+                <BsCameraFill className="me-2" />
+                <AiOutlineGif className="me-2" />
+                <BsFillCameraVideoFill className="me-2" />
               </IconsContainer>
               <IconsContainer>
                 <CommentButton border="none" bg="none">

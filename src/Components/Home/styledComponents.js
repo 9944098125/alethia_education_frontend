@@ -245,8 +245,8 @@ export const ItemDescription = styled.p`
 `;
 
 export const PhilosophyContainer = styled.div`
-  background-image: url("https://www.india.com/wp-content/uploads/2016/09/Untitled-design-71.jpg");
-  height: 180vh;
+  background-image: url("https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29sbGVnZSUyMHN0dWRlbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+  height: 120vh;
   width: 100vw;
   display: flex;
   align-items: flex-end;

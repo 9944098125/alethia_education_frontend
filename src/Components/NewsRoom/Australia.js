@@ -34,6 +34,7 @@ function Australia() {
   useEffect(() => {
     document.title = "Alethia Education - University Of Newcastle";
   }, []);
+  const embedId = "pGt_oapFdzg";
   // const [comment, setComment] = useState("");
   // const [viewFullInput, setViewFullInput] = useState(false);
   // const changeComment = (event) => {
@@ -83,7 +84,7 @@ function Australia() {
         </EachText>
         <ImagesContainer>
           <EachRoomImages
-            src="https://image.shutterstock.com/image-photo/beautiful-photo-high-speed-modern-260nw-172581671.jpg"
+            src="https://www.alstom.com/sites/alstom.com/files/styles/large_media_cover/public/2022/04/05/SJ250_Sunset_High_Speed_Sweden.jpg?h=06ac0d8c&itok=vVjmm6oN"
             alt="newcastle1"
           />
           <EachText fontSize="18px">
@@ -304,12 +305,22 @@ function Australia() {
               Business & Law ; 5) Education & Arts{" "}
             </ListItem>
           </UnorderedList>
-          <ReactPlayer
+          {/* <ReactPlayer
             url="https://youtu.be/wzaLOqIALpo"
             width="400"
             controls={true}
             // height={{ xs: "170px", md: "1000px", lg: "800px" }}
-          />
+          /> */}
+          <div className="video-responsive">
+            <iframe
+              width="740"
+              height="416"
+              src={`https://www.youtube.com/embed/${embedId}`}
+              title="University of Newcastle, Australia - Campus Tour"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
           <EachText fontSize="18px">
             The University of Newcastle is committed to growing top job
             opportunities for graduates. It has some of the highest employment

@@ -188,7 +188,6 @@ export const InputField = styled.input`
   border: none;
   width: 90%;
   height: 50px;
-  margin-left: 25px;
   &:focus {
     border: none;
     outline: none;
@@ -213,6 +212,7 @@ export const IconsAndButtonsContainer = styled.div`
   @media screen and (max-width: 425px) {
     display: flex;
     flex-direction: column;
+    align-items: center;
     align-items: flex-start;
   }
 `;

@@ -5,7 +5,7 @@ import ame from "../../Assets/Images/ame.jpg";
 import au from "../../Assets/Images/au.jpg";
 import land from "../../Assets/Images/land.jpg";
 import offices from "../../Assets/Images/offices.jpeg";
-import uk from "../../Assets/Images/uk.jpg";
+import uk from "../../Assets/Images/uk.webp";
 import trophy from "../../Assets/Images/trophy.jpg";
 import globe from "../../Assets/Images/globe.png";
 import cap from "../../Assets/Images/cap.webp";
@@ -132,12 +132,12 @@ function Home() {
             <CountryName>Canada</CountryName>
             <Description>
               Want a world-class education and an amazing North American study
-              experience but on a lower budget?
+              experience but on a lower budget?For value for money choose
+              Canada!
             </Description>
             <Description>
-              For value for money choose Canada! ​ Let us help you figure out
-              your options and chart the best pathway to a better future in
-              Canada.
+              ​ Let us help you figure out your options and chart the best
+              pathway to a better future in Canada.
             </Description>
             <HashLink
               style={{ textDecoration: "none", color: "inherit" }}
@@ -280,7 +280,7 @@ function Home() {
               style={{ textDecoration: "none" }}
             >
               <MeetingButton>
-                Learn more <AiFillCaretRight style={{ marginBottom: "0px" }} />
+                Learn more <AiFillCaretRight style={{ marginBottom: "3px" }} />
               </MeetingButton>
             </HashLink>
           </MeetingTextContainer>

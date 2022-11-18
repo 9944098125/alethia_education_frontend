@@ -338,6 +338,7 @@ export const LeadersContainer = styled.div`
 export const EachLeaderBlock = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 80%;
   margin-bottom: 3%;
 `;
@@ -386,14 +387,11 @@ export const AffiliatesImage = styled.img`
 export const AffiliatesButton = styled.button`
   background-color: #080808;
   color: white;
-  width: 15%;
+  width: 170px;
   margin-top: 2%;
   margin-bottom: 2%;
   border: none;
   padding: 1%;
-  @media screen and (max-width: 768px) {
-    width: 30%;
-  }
 `;
 export const ImagesRow = styled.div`
   display: flex;
