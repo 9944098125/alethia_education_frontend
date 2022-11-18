@@ -8,26 +8,21 @@ import eachImage3 from "../../Assets/Images/eachImage3.webp";
 import eachImage4 from "../../Assets/Images/eachImage4.webp";
 
 import {
-  Avatar,
   EachPost,
   EachRoomImages,
   EachText,
   HorizontalLine,
   IconsContainer,
   ImagesContainer,
-  InputContainer,
-  InputField,
   NewsContainer,
   NewsRoomImageContainer,
   PostImage,
-  ReactPlayerContainer,
   RecentPostsContainer,
   TextContainer,
   TextInsideImage,
 } from "./styledComponents";
 import Footer from "../Footer/Footer";
 import { HashLink } from "react-router-hash-link";
-import ReactPlayer from "react-player/youtube";
 import Comment from "./Comment";
 
 function Australia() {

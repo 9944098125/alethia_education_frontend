@@ -13,19 +13,14 @@ import {
   NewsContainer,
   EachRoomImages,
   UnoList,
-  ReactPlayerContainer,
   HorizontalLine,
   IconsContainer,
-  InputField,
-  Avatar,
-  InputContainer,
   PostImage,
   EachPost,
   RecentPostsContainer,
 } from "./styledComponents";
 import Footer from "../Footer/Footer";
 import { HashLink } from "react-router-hash-link";
-import ReactPlayer from "react-player/youtube";
 import Comment from "./Comment";
 
 function Education() {

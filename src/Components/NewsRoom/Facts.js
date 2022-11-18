@@ -6,14 +6,11 @@ import eachImage1 from "../../Assets/Images/eachImage1.webp";
 import eachImage3 from "../../Assets/Images/eachImage3.webp";
 import eachImage2 from "../../Assets/Images/eachImage2.webp";
 import {
-  Avatar,
   EachPost,
   EachRoomImages,
   EachText,
   HorizontalLine,
   IconsContainer,
-  InputContainer,
-  InputField,
   NewsContainer,
   NewsRoomImageContainer,
   PostImage,

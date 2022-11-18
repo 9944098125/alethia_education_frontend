@@ -12,7 +12,6 @@ import cap from "../../Assets/Images/cap.webp";
 import university from "../../Assets/Images/university.jpg";
 import meet from "../../Assets/Images/meet.webp";
 import { HashLink } from "react-router-hash-link";
-import { Link } from "react-router-dom";
 import {
   AwardsContainer,
   CountryName,
