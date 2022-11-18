@@ -235,9 +235,9 @@ export const UniversitiesTextContainer = styled.div`
 `;
 export const CommentButton = styled.button`
   padding: 5%;
-  margin-right: 10%;
   border: ${(props) => props.border};
   background-color: ${(props) => props.bg};
+  margin-right: 15px;
   @media screen and (max-width: 425px) {
     font-size: 10px;
   }
