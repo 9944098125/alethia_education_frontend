@@ -33,7 +33,7 @@ function StudyAbroad() {
           <TextInsideImage
             mb="-15%"
             color="#ffffff"
-            fontWeight="600"
+            fontWeight="500"
             fontSize="50px"
           >
             Study Abroad

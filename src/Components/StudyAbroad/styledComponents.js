@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const StudyAbroadImageContainer = styled.div`
   height: 70vh;
   max-width: 100%;
-  background-image: url("https://www.oxford-royale.com/wp-content/uploads/2020/12/joshua-ness-97202.jpg");
+  background-image: url("https://static.wixstatic.com/media/e4c206_807aa5e00d304159a136cf7ae381bb62~mv2.jpeg/v1/fill/w_980,h_601,al_b,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_807aa5e00d304159a136cf7ae381bb62~mv2.jpeg");
   background-size: cover;
   background-attachment: fixed;
+  background-position: bottom;
   margin-top: -70px;
   display: flex;
   align-items: flex-end;

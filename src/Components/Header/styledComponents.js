@@ -15,7 +15,7 @@ export const HeaderContainer = styled.div`
   }
 `;
 export const EachItem = styled.div`
-  margin-right: 55px;
+  margin-right: 45px;
   display: flex;
   align-items: center;
   @media screen and (max-width: 875px) {
@@ -27,6 +27,11 @@ export const ImageIcon = styled.img`
   height: 50px;
   width: 300px;
   margin-top: -15px;
+  margin-right: 70px !important;
+  @media screen and (max-width: 768px) {
+    margin-right: 0px;
+    margin-bottom: 25px;
+  }
 `;
 
 export const HoldingsButton = styled.button`
@@ -58,7 +63,6 @@ export const HeadLink = styled.h3`
 
 export const HoveredBlock = styled.div`
   background-color: #ffffff;
-  margin-bottom: -200px;
   margin-left: -25px;
   padding: 10px;
   position: relative;

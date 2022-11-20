@@ -9,7 +9,7 @@ export const CompanyContainer = styled.div`
 export const CompanyImageContainer = styled.div`
   height: 75vh;
   max-width: 100%;
-  background-image: url("https://static.wixstatic.com/media/e4c206_eb767afbe0b740b9ae383863f0b402b9~mv2.jpg/v1/fill/w_640,h_298,al_t,q_80,usm_0.66_1.00_0.01,enc_auto/e4c206_eb767afbe0b740b9ae383863f0b402b9~mv2.jpg");
+  background-image: url("https://static.wixstatic.com/media/e4c206_eb767afbe0b740b9ae383863f0b402b9~mv2.jpg/v1/fill/w_980,h_601,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_eb767afbe0b740b9ae383863f0b402b9~mv2.jpg");
   background-size: cover;
   background-attachment: fixed;
   margin-top: -70px;
@@ -111,6 +111,7 @@ export const StatisticsImage = styled.img`
   width: 100%;
   height: 40%;
   margin-top: 50px;
+  margin-bottom: 5%;
 `;
 
 export const TextAndGridContainer = styled.div`
@@ -194,7 +195,7 @@ export const VisionContainer = styled.div`
   background-image: url("https://static.wixstatic.com/media/e4c206_3475b0bc8d06423aac7cd272954c74ea~mv2.jpg/v1/fill/w_1895,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_3475b0bc8d06423aac7cd272954c74ea~mv2.jpg");
   background-size: cover;
   min-width: 100%;
-  height: 70vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;

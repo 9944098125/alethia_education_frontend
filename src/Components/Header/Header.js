@@ -145,9 +145,7 @@ function Header() {
     <Fragment>
       <HeaderContainer>
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-          <EachItem>
-            <ImageIcon src={logo} alt="logo" />
-          </EachItem>
+          <ImageIcon src={logo} alt="logo" />
         </Link>
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <EachItem>
@@ -231,22 +229,6 @@ function Header() {
           <HoldingsButton>iae HOLDINGS</HoldingsButton>
         </a>
       </HeaderContainer>
-      <div id="dropdown-container" className="d-flex justify-content-center">
-        {/* <HoveredBlock id="dropdown">
-          <a href="/our-story/#story" target="_self">
-            <b className="fontFamily mb-1">Our Story</b>
-          </a>
-          <b className="fontFamily mb-1">Vision and Values</b>
-          <b className="fontFamily mb-1">Leadership Team</b>
-          <b className="fontFamily mb-1">Affiliates and Awards</b>
-          <Link
-            to="/news-room"
-            style={{ textDecoration: "none", color: "inherit" }}
-          >
-            <b className="mb-1 fontFamily">News Room</b>
-          </Link>
-        </HoveredBlock> */}
-      </div>
     </Fragment>
   );
 }
