@@ -3,9 +3,9 @@
 .fontFamily {
   font-family: "Oswald", sans-serif;
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
-}
+} */
 
 .primary-input-field {
   width: 100%;
