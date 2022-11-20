@@ -78,7 +78,7 @@ export const PartnersButton = styled.button`
     padding: 7px;
     padding-right: 20px;
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 16px;
   }
   @media screen and (max-width: 768px) {
     padding: 5px;
@@ -104,4 +104,5 @@ export const SubmitButton = styled.button`
   padding: 8px;
   padding-left: 25px;
   padding-right: 25px;
+  font-weight: 700;
 `;

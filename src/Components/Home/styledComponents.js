@@ -2,15 +2,16 @@ import styled from "styled-components";
 
 export const HomeContainer = styled.div`
   height: 100%;
+  width: 100%;
 `;
 
 export const HomeImageContainer = styled.div`
   height: 160vh;
-  max-width: 100vw;
+  max-width: 100%;
   background: url("https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_980,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: 25% 15%;
+  background-position: center 20%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -18,7 +19,7 @@ export const HomeImageContainer = styled.div`
   @media screen and (max-width: 768px) {
     margin-top: -550px;
     height: 100%;
-    max-width: 100vw;
+    max-width: 100%;
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
@@ -51,7 +52,7 @@ export const PathwayButton = styled.button`
   font-weight: 600;
   border: none;
   display: flex;
-  font-size: 17px;
+  font-size: 14px;
   justify-content: center;
   align-items: center;
   width: 200px;
@@ -74,7 +75,7 @@ export const SupportContainer = styled.div`
 `;
 export const SupportText = styled.h3`
   font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 2%;
   @media screen and (min-width: 800px) {
     font-size: 40px;
@@ -87,14 +88,14 @@ export const VisionButton = styled.button`
   border: 2px solid #080808;
   background-color: transparent;
   font-family: "Oswald", sans-serif;
-  height: 47px;
+  height: 45px;
   width: 160px;
   display: flex;
   align-items: center;
   justify-content: center;
   @media screen and (min-width: 800px) {
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
   }
   @media screen and (max-width: 768px) {
     font-weight: 400;
@@ -189,12 +190,12 @@ export const Gap = styled.div`
 `;
 
 export const Links = styled.p`
-  color: #cc5500;
+  color: rgb(255, 142, 13);
   font-weight: 600;
   border-bottom: 0.3px dotted #cc5500;
   @media screen and (min-width: 800px) {
     font-size: 18px;
-    width: 130px;
+    width: 120px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;
@@ -207,7 +208,7 @@ export const AwardsContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
-  width: 100vw;
+  width: 100%;
   margin-top: -150px;
   @media screen and (max-width: 768px) {
     margin-top: 0px;
@@ -270,7 +271,7 @@ export const PhilosophyContainer = styled.div`
   background-image: url("https://j3n6z9t5.rocketcdn.me/wp-content/uploads/2022/02/higher-education-in-chile.jpg");
   height: 180vh;
   background-attachment: fixed;
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -288,13 +289,13 @@ export const PhilosophyContainer = styled.div`
 `;
 
 export const MeetingContainer = styled.div`
-  max-width: 100vw;
+  max-width: 100%;
   padding: 25px;
   @media screen and (min-width: 800px) {
     display: flex;
     height: 100vh;
     align-items: center;
-    width: 100vw;
+    width: 100%;
   }
   @media screen and (max-width: 768px) {
     display: flex;
@@ -330,7 +331,7 @@ export const MeetingButton = styled.button`
     padding: 8px;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 25px;
     width: 200px;
   }

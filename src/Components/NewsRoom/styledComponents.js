@@ -3,7 +3,7 @@ import { IoMdPerson } from "react-icons/io";
 
 export const NewsRoomImageContainer = styled.div`
   height: 70vh;
-  max-width: 100vw;
+  max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg/v1/fill/w_1304,h_572,al_c,q_85,enc_auto/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg");
   background-size: cover;
   margin-top: -70px;
@@ -14,7 +14,7 @@ export const NewsRoomImageContainer = styled.div`
   @media screen and (max-width: 768px) {
     margin-top: -550px;
     height: 100%;
-    max-width: 100vw;
+    max-width: 100%;
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {

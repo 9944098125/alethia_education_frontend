@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const OfficesContainer = styled.div`
   height: 100%;
-  width: 100vw;
+  width: 100%;
 `;
 
 export const OfficesImageContainer = styled.div`
   height: 70vh;
-  max-width: 100vw;
+  max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_1d618749ffdb472fa0b3346707c132df~mv2.jpeg/v1/fill/w_1899,h_538,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_1d618749ffdb472fa0b3346707c132df~mv2.jpeg");
   background-size: cover;
   margin-top: -70px;
@@ -17,7 +17,7 @@ export const OfficesImageContainer = styled.div`
   @media screen and (max-width: 768px) {
     margin-top: -550px;
     height: 100%;
-    max-width: 100vw;
+    max-width: 100%;
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
@@ -67,7 +67,7 @@ export const SmallBoldText = styled.p`
 `;
 export const MapContainer = styled.div`
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
 `;

@@ -50,4 +50,5 @@ export const SubmitButton = styled.button`
   padding: 8px;
   padding-left: 25px;
   padding-right: 25px;
+  font-weight: 700;
 `;

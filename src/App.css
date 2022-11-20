@@ -25,7 +25,7 @@
 }
 @media screen and (min-width: 1024px) {
   .first-last-name {
-    width: 268px;
+    width: 260px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -41,6 +41,14 @@
 #maps iframe {
   width:100vw;
   height:100vh;
+}
+.philosophy-text-container {
+  width:100%;
+}
+@media screen and (min-width:1024px) {
+  .philosophy-text-container {
+    width: 50%;
+  }
 }
 
 #parent:hover #child {

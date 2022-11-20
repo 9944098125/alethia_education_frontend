@@ -33,7 +33,7 @@ function PartnerInstitutions() {
     <Fragment>
       <PartnersImageContainer id="partnersImage">
         <TextContainer>
-          <TextInsideImage color="#ffffff" fontSize="55px" fontWeight="600">
+          <TextInsideImage color="#ffffff" fontSize="55px" fontWeight="500">
             Partner Institutions
           </TextInsideImage>
         </TextContainer>

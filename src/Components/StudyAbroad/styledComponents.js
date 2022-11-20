@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StudyAbroadImageContainer = styled.div`
   height: 70vh;
-  max-width: 100vw;
+  max-width: 100%;
   background-image: url("https://www.oxford-royale.com/wp-content/uploads/2020/12/joshua-ness-97202.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -14,7 +14,7 @@ export const StudyAbroadImageContainer = styled.div`
   @media screen and (max-width: 768px) {
     margin-top: -550px;
     height: 100%;
-    max-width: 100vw;
+    max-width: 100%;
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
@@ -42,7 +42,7 @@ export const TextInsideImage = styled.span`
 `;
 
 export const JourneyTextContainer = styled.div`
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,7 +57,7 @@ export const JourneyText = styled.p`
   text-align: center;
 `;
 export const HorizontalLine = styled.hr`
-  border: 2px solid gray;
+  border: 1.5px solid gray;
   width: ${(props) => props.w};
   margin-bottom: 5%;
   margin-left: ${(props) => props.ml};

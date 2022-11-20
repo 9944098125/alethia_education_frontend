@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const PartnersImageContainer = styled.div`
   height: 70vh;
-  max-width: 100vw;
+  max-width: 100%;
   background-position: center;
   background-image: url("https://static.wixstatic.com/media/e4c206_a96f95faf46442d2a6c7383fd7e48f49~mv2.jpg/v1/fill/w_980,h_894,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_a96f95faf46442d2a6c7383fd7e48f49~mv2.jpg");
   background-size: cover;
@@ -15,7 +15,7 @@ export const PartnersImageContainer = styled.div`
   @media screen and (max-width: 768px) {
     margin-top: -550px;
     height: 100%;
-    max-width: 100vw;
+    max-width: 100%;
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {

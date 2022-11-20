@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.div`
   background-color: #080808;
-  width: 100vw;
-  margin-top: 50px;
+  width: 100%;
+  margin-top: 0px;
   display: flex;
   justify-content: center;
 `;
@@ -42,10 +42,10 @@ export const TextInColumn = styled.p`
   cursor: pointer;
   letter-spacing: none;
   font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-weight: 450;
   margin-top: -10px;
   @media screen and (min-width: 875px) {
-    font-size: 18px;
+    font-size: 16px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const CompanyContainer = styled.div`
   height: 100%;
-  width: 100vw;
+  width: 100%;
   margin-bottom: 10%;
 `;
 
@@ -20,7 +20,7 @@ export const CompanyImageContainer = styled.div`
   @media screen and (max-width: 768px) {
     margin-top: -550px;
     height: 100%;
-    max-width: 100vw;
+    max-width: 100%;
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
@@ -193,7 +193,7 @@ export const TextInGrid = styled.p`
 export const VisionContainer = styled.div`
   background-image: url("https://static.wixstatic.com/media/e4c206_3475b0bc8d06423aac7cd272954c74ea~mv2.jpg/v1/fill/w_1895,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_3475b0bc8d06423aac7cd272954c74ea~mv2.jpg");
   background-size: cover;
-  min-width: 100vw;
+  min-width: 100%;
   height: 70vh;
   display: flex;
   align-items: center;

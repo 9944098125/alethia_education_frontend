@@ -40,6 +40,8 @@ export const TextInsideImage = styled.span`
 `;
 export const PrivacyTextContainer = styled.div`
   padding: 10%;
+  padding-top: 4%;
+  padding-bottom: 3%;
 `;
 export const PrivacyText = styled.p`
   font-size: ${(props) => props.fontSize};

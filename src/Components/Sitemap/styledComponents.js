@@ -2,10 +2,11 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const SitemapImageContainer = styled.div`
-  height: 80vh;
-  max-width: 100vw;
+  height: 70vh;
+  max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/11062b_76ddcbe319b547ca8b77a377e9bec206~mv2.jpg/v1/fill/w_1895,h_645,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_76ddcbe319b547ca8b77a377e9bec206~mv2.jpg");
   background-size: cover;
+  background-position: center;
   margin-top: -70px;
   display: flex;
   align-items: flex-end;
@@ -14,7 +15,7 @@ export const SitemapImageContainer = styled.div`
   @media screen and (max-width: 768px) {
     margin-top: -550px;
     height: 100%;
-    max-width: 100vw;
+    max-width: 100%;
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
@@ -41,7 +42,7 @@ export const TextInsideImage = styled.span`
 `;
 export const LinkedItemsColumnsContainer = styled.div`
   padding: 2%;
-  padding-left: 5%;
+  padding-left: 11%;
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
@@ -64,13 +65,13 @@ export const LinkedItemsColumns = styled.div`
   }
 `;
 export const LinkedItems = styled(Link)`
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
-  font-weight: 800;
+  font-weight: 500;
   text-decoration: none;
   color: #080808;
   cursor: pointer;
-  margin-bottom: 2%;
+  margin-bottom: 7%;
   &:hover {
     text-decoration: none;
     color: black;
@@ -81,7 +82,8 @@ export const SubLinksContainer = styled.div`
 `;
 export const SubLinkedItems = styled.p`
   font-size: ${(props) => props.fontSize};
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 800;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
   cursor: pointer;
+  margin-top: -9%;
 `;

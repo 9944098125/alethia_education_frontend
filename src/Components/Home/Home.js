@@ -79,7 +79,7 @@ function Home() {
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <PathwayButton>
-                Your Pathway{" "}
+                YOUR PATHWAY{" "}
                 <IoIosArrowRoundForward
                   style={{ marginBottom: "-5px", marginLeft: "5px" }}
                 />
@@ -237,7 +237,7 @@ function Home() {
             <TextInsideImage color="#ffffff" fontSize="50px" fontWeight="700">
               Students First
             </TextInsideImage>
-            <div style={{ width: "100%" }}>
+            <div className="philosophy-text-container">
               <p
                 style={{ color: "white", fontWeight: "500", fontSize: "14px" }}
               >
@@ -296,7 +296,7 @@ function Home() {
               style={{ textDecoration: "none" }}
             >
               <MeetingButton>
-                Learn more{" "}
+                LEARN MORE{" "}
                 <HiOutlineArrowRight
                   style={{
                     marginBottom: "3px",

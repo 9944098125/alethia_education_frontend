@@ -31,7 +31,7 @@ function PrivacyPolicy() {
         <PrivacyText mb="50px" fontSize="15px" fontWeight="500">
           Last Modified: 12 of august, 2021
         </PrivacyText>
-        <PrivacyText fontF fontSize="18px" fontWeight="800">
+        <PrivacyText fontF fontSize="16px" fontWeight="800">
           INTRODUCTION
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="500">
@@ -77,7 +77,7 @@ function PrivacyPolicy() {
           make changes is deemed to be acceptance of those changes, so please
           check the policy periodically for updates.
         </PrivacyText>
-        <PrivacyText fontF fontSize="20px" fontWeight="600">
+        <PrivacyText fontF fontSize="16px" fontWeight="600">
           Children Under the age of 16
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="400">
@@ -101,7 +101,7 @@ function PrivacyPolicy() {
           obligation to provide any services and may accept or reject any
           request for services in our sole discretion.
         </PrivacyText>
-        <PrivacyText fontF fontSize="20px" fontWeight="600">
+        <PrivacyText fontF fontSize="16px" fontWeight="600">
           INFORMATION WE COLLECT ABOUT YOU AND HOW WE COLLECT IT
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="15px" fontWeight="500">
@@ -149,7 +149,7 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontF fontSize="20px" fontWeight="600">
+        <PrivacyText fontF fontSize="16px" fontWeight="600">
           INFORMATION YOU PROVIDE TO Us
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="500">
@@ -197,7 +197,7 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontF fontSize="20px" fontWeight="600">
+        <PrivacyText fontF fontSize="16px" fontWeight="600">
           INFORMATION WE COLLECT THROUGH AUTOMATION DATA TRANSFER TECHNOLOGY
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
@@ -245,7 +245,7 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontF fontSize="20px" fontWeight="600">
+        <PrivacyText fontF fontSize="16px" fontWeight="600">
           HOW WE USE YOUR INFORMATION
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
@@ -293,7 +293,7 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontF fontSize="20px" fontWeight="600">
+        <PrivacyText fontF fontSize="16px" fontWeight="600">
           DISCLOSURE OF YOUR INFORMATION
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
@@ -341,7 +341,7 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontF fontSize="20px" fontWeight="600">
+        <PrivacyText fontF fontSize="16px" fontWeight="600">
           CHOICES ABOUT HOW WE USE AND DISCLOSE YOUR INFORMATION
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
@@ -384,7 +384,7 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontF fontSize="20px" fontWeight="600">
+        <PrivacyText fontF fontSize="16px" fontWeight="600">
           YOUR COUNTRY'S PRIVACY RIGHTS
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
@@ -427,7 +427,7 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontF fontSize="20px" fontWeight="600">
+        <PrivacyText fontF fontSize="16px" fontWeight="600">
           DATA SECURITY
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
@@ -475,7 +475,7 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontF fontSize="20px" fontWeight="600">
+        <PrivacyText fontF fontSize="16px" fontWeight="600">
           CONTACT Us
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="400">
