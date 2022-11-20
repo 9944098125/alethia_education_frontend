@@ -20,7 +20,7 @@ export const StudyAbroadImageContainer = styled.div`
   @media screen and (min-width: 1024px) {
     padding-left: 180px;
     padding-bottom: 150px;
-    margin-top: -90px;
+    margin-top: -120px;
   }
 `;
 export const TextContainer = styled.div`
