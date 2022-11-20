@@ -24,22 +24,27 @@ import {
 
 function StudyAbroad() {
   useEffect(() => {
-    document.title = "Alethia Education - Study Abroad";
+    document.title = "Study Abroad - iae Global";
   }, []);
   return (
     <Fragment>
       <StudyAbroadImageContainer id="abroadImage">
         <TextContainer>
-          <TextInsideImage color="#ffffff" fontWeight="800" fontSize="60px">
+          <TextInsideImage
+            mb="-15%"
+            color="#ffffff"
+            fontWeight="600"
+            fontSize="50px"
+          >
             Study Abroad
           </TextInsideImage>
         </TextContainer>
       </StudyAbroadImageContainer>
       <JourneyTextContainer>
-        <JourneyText fontSize="30px" fontWeight="600">
+        <JourneyText fontF fontSize="30px" fontWeight="500">
           "A journey of a thousand miles begins with a single step"
         </JourneyText>
-        <JourneyText fontSize="18px" fontWeight="300">
+        <JourneyText fontSize="16px" fontWeight="400">
           Choose a country of your interest and start your adventure! Study
           destinations are: Australia, New Zealand, Canada, United States and
           the United Kingdom.
@@ -51,23 +56,25 @@ function StudyAbroad() {
           <EachCountryImage src={australia} alt="australia" />
           <EachCountryTextContainer>
             <EachCountryDescription
-              fontWeight="800"
-              fontSizeL="55px"
-              fontSizeS="30px"
+              fontF
+              fontWeight="600"
+              fontSizeL="35px"
+              fontSizeS="20px"
             >
               Australia
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="800"
-              fontSizeL="25px"
-              fontSizeS="20px"
+              fontF
+              fontWeight="600"
+              fontSizeL="20px"
+              fontSizeS="15px"
               mb="10%"
             >
               Why Australia ?
             </EachCountryDescription>
             <EachCountryDescription
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
             >
@@ -78,7 +85,7 @@ function StudyAbroad() {
             </EachCountryDescription>
             <EachCountryDescription
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
             >
@@ -89,7 +96,7 @@ function StudyAbroad() {
             </EachCountryDescription>
             <EachCountryDescription
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
               mb="15%"
             >
@@ -103,39 +110,44 @@ function StudyAbroad() {
                   target="_blank"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  Learn More
+                  LEARN MORE
                 </a>
               </EachCountryButton>
               <HashLink
                 to="/offices#contact-us"
                 style={{ textDecoration: "none" }}
               >
-                <EachCountryButton>Contact us</EachCountryButton>
+                <EachCountryButton>CONTACT US</EachCountryButton>
               </HashLink>
             </EachCountryButtonsContainer>
           </EachCountryTextContainer>
         </EachCountryContainer>
         <EachCountryContainer id="new-zealand">
-          <EachCountryImage src={newzealand} alt="australia" />
+          <EachCountryImage
+            src="https://static.wixstatic.com/media/e4c206_dce66cae09f94d0f83b792e7e2297891~mv2.jpeg/v1/fill/w_384,h_500,al_c,q_80,enc_auto/image-asset%20(3).jpeg"
+            alt="australia"
+          />
           <EachCountryTextContainer>
             <EachCountryDescription
-              fontWeight="800"
-              fontSizeL="55px"
-              fontSizeS="30px"
+              fontF
+              fontWeight="600"
+              fontSizeL="35px"
+              fontSizeS="20px"
             >
               New Zealand
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="800"
-              fontSizeL="25px"
-              fontSizeS="20px"
+              fontF
+              fontWeight="600"
+              fontSizeL="20px"
+              fontSizeS="15px"
               mb="10%"
             >
               Why New Zealand ?
             </EachCountryDescription>
             <EachCountryDescription
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
             >
@@ -148,7 +160,7 @@ function StudyAbroad() {
             </EachCountryDescription>
             <EachCountryDescription
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
             >
@@ -156,7 +168,7 @@ function StudyAbroad() {
             </EachCountryDescription>
             <EachCountryDescription
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
               mb="15%"
             >
@@ -170,41 +182,46 @@ function StudyAbroad() {
                   target="_blank"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  Learn More
+                  LEARN MORE
                 </a>
               </EachCountryButton>
               <HashLink
                 to="/offices#contact-us"
                 style={{ textDecoration: "none" }}
               >
-                <EachCountryButton>Contact us</EachCountryButton>
+                <EachCountryButton>CONTACT US</EachCountryButton>
               </HashLink>
             </EachCountryButtonsContainer>
           </EachCountryTextContainer>
         </EachCountryContainer>
         <EachCountryContainer id="canada">
-          <EachCountryImage src={canada} alt="australia" />
+          <EachCountryImage
+            src="https://static.wixstatic.com/media/e4c206_60758f62cf4242df956a3706223dc0bb~mv2.jpeg/v1/fill/w_693,h_902,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/image-asset%20(4).jpeg"
+            alt="australia"
+          />
           <EachCountryTextContainer>
             <EachCountryDescription
-              fontWeight="800"
-              fontSizeL="55px"
-              fontSizeS="30px"
+              fontF
+              fontWeight="600"
+              fontSizeL="35px"
+              fontSizeS="20px"
             >
               Canada
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="800"
-              fontSizeL="25px"
-              fontSizeS="20px"
+              fontF
+              fontWeight="600"
+              fontSizeL="20px"
+              fontSizeS="15px"
               mb="10%"
             >
               Why Canada ?
             </EachCountryDescription>
             <EachCountryDescription
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
-              mb="10%"
+              mb="8%"
             >
               First-rate education system with globally ranked universities.
               Check. Student-friendly cities that are consistently rated amongst
@@ -212,7 +229,7 @@ function StudyAbroad() {
             </EachCountryDescription>
             <EachCountryDescription
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
             >
@@ -221,8 +238,9 @@ function StudyAbroad() {
               money and a great future investment. Check and check. Why wait?
             </EachCountryDescription>
             <EachCountryDescription
+              fontF
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
             >
@@ -230,9 +248,9 @@ function StudyAbroad() {
             </EachCountryDescription>
             <EachCountryDescription
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
-              mb="15%"
+              mb="8%"
             >
               Talk to us and get the information, advice and support you need to
               make your dream of living and studying in Canada come true.
@@ -244,14 +262,14 @@ function StudyAbroad() {
                   target="_blank"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  Learn More
+                  LEARN MORE
                 </a>
               </EachCountryButton>
               <HashLink
                 to="/offices#contact-us"
                 style={{ textDecoration: "none" }}
               >
-                <EachCountryButton>Contact us</EachCountryButton>
+                <EachCountryButton>CONTACT US</EachCountryButton>
               </HashLink>
             </EachCountryButtonsContainer>
           </EachCountryTextContainer>
@@ -260,23 +278,25 @@ function StudyAbroad() {
           <EachCountryImage src={unitedstates} alt="australia" />
           <EachCountryTextContainer>
             <EachCountryDescription
-              fontWeight="800"
-              fontSizeL="55px"
-              fontSizeS="30px"
+              fontF
+              fontWeight="600"
+              fontSizeL="35px"
+              fontSizeS="20px"
             >
               United States
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="800"
-              fontSizeL="25px"
-              fontSizeS="20px"
+              fontF
+              fontWeight="600"
+              fontSizeL="20px"
+              fontSizeS="15px"
               mb="10%"
             >
               Why The United States ?
             </EachCountryDescription>
             <EachCountryDescription
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
             >
@@ -287,7 +307,7 @@ function StudyAbroad() {
             </EachCountryDescription>
             <EachCountryDescription
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
             >
@@ -299,7 +319,7 @@ function StudyAbroad() {
             </EachCountryDescription>
             <EachCountryDescription
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
               mb="15%"
             >
@@ -313,14 +333,14 @@ function StudyAbroad() {
                   target="_blank"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  Learn More
+                  LEARN MORE
                 </a>
               </EachCountryButton>
               <HashLink
                 to="/offices#contact-us"
                 style={{ textDecoration: "none" }}
               >
-                <EachCountryButton>Contact us</EachCountryButton>
+                <EachCountryButton>CONTACT US</EachCountryButton>
               </HashLink>
             </EachCountryButtonsContainer>
           </EachCountryTextContainer>
@@ -329,23 +349,25 @@ function StudyAbroad() {
           <EachCountryImage src={unitedkingdom} alt="australia" />
           <EachCountryTextContainer>
             <EachCountryDescription
-              fontWeight="800"
-              fontSizeL="55px"
-              fontSizeS="30px"
+              fontF
+              fontWeight="600"
+              fontSizeL="35px"
+              fontSizeS="20px"
             >
               United Kingdom
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="800"
-              fontSizeL="25px"
-              fontSizeS="20px"
+              fontF
+              fontWeight="600"
+              fontSizeL="20px"
+              fontSizeS="15px"
               mb="10%"
             >
               Why United Kingdom ?
             </EachCountryDescription>
             <EachCountryDescription
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
             >
@@ -358,7 +380,7 @@ function StudyAbroad() {
             </EachCountryDescription>
             <EachCountryDescription
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
             >
@@ -370,7 +392,7 @@ function StudyAbroad() {
             </EachCountryDescription>
             <EachCountryDescription
               fontWeight="400"
-              fontSizeL="15px"
+              fontSizeL="13px"
               fontSizeS="10px"
               mb="15%"
             >
@@ -384,14 +406,14 @@ function StudyAbroad() {
                   target="_blank"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
-                  Learn More
+                  LEARN MORE
                 </a>
               </EachCountryButton>
               <HashLink
                 to="/offices#contact-us"
                 style={{ textDecoration: "none" }}
               >
-                <EachCountryButton>Contact us</EachCountryButton>
+                <EachCountryButton>CONTACT US</EachCountryButton>
               </HashLink>
             </EachCountryButtonsContainer>
           </EachCountryTextContainer>

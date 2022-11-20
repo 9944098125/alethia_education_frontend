@@ -27,30 +27,30 @@ import {
 
 function PartnerInstitutions() {
   useEffect(() => {
-    document.title = "Alethia Education - Partner Institutions ";
+    document.title = "Partner Institutions - iae Global";
   }, []);
   return (
     <Fragment>
       <PartnersImageContainer id="partnersImage">
         <TextContainer>
-          <TextInsideImage color="#ffffff" fontSize="55px" fontWeight="800">
+          <TextInsideImage color="#ffffff" fontSize="55px" fontWeight="600">
             Partner Institutions
           </TextInsideImage>
         </TextContainer>
       </PartnersImageContainer>
       <JourneyTextContainer>
-        <JourneyText fontSize="18px" fontWeight="500">
+        <JourneyText fontSize="14px" fontWeight="500">
           We have strong and long-term partnerships with education institutions
           from all sectors, including privately owned language schools,
           vocational training institutes, major global education groups,
           world-class highly ranked universities and government colleges in all
           major study destinations.
         </JourneyText>
-        <HorizontalLine w="100%" />
+        <HorizontalLine w="130%" />
       </JourneyTextContainer>
       <UniversitiesInCountryContainer>
         <UniversitiesInSingleCountry>
-          <CountryName fontSizeL="55px" fontSizeS="35px">
+          <CountryName fontSizeL="45px" fontSizeS="25px">
             Australia
           </CountryName>
           <WrappedUniversities>
@@ -61,8 +61,9 @@ function PartnerInstitutions() {
             ))}
           </WrappedUniversities>
         </UniversitiesInSingleCountry>
+        <HorizontalLine width="80%" />
         <UniversitiesInSingleCountry>
-          <CountryName fontSizeL="55px" fontSizeS="35px">
+          <CountryName fontSizeL="45px" fontSizeS="25px">
             New Zealand
           </CountryName>
           <WrappedUniversities>
@@ -73,8 +74,9 @@ function PartnerInstitutions() {
             ))}
           </WrappedUniversities>
         </UniversitiesInSingleCountry>
+        <HorizontalLine width="80%" />
         <UniversitiesInSingleCountry>
-          <CountryName fontSizeL="55px" fontSizeS="35px">
+          <CountryName fontSizeL="45px" fontSizeS="25px">
             Canada
           </CountryName>
           <WrappedUniversities>
@@ -85,8 +87,9 @@ function PartnerInstitutions() {
             ))}
           </WrappedUniversities>
         </UniversitiesInSingleCountry>
+        <HorizontalLine width="80%" />
         <UniversitiesInSingleCountry>
-          <CountryName fontSizeL="55px" fontSizeS="35px">
+          <CountryName fontSizeL="45px" fontSizeS="25px">
             United States
           </CountryName>
           <WrappedUniversities>
@@ -97,8 +100,9 @@ function PartnerInstitutions() {
             ))}
           </WrappedUniversities>
         </UniversitiesInSingleCountry>
+        <HorizontalLine width="80%" />
         <UniversitiesInSingleCountry>
-          <CountryName fontSizeL="55px" fontSizeS="35px">
+          <CountryName fontSizeL="45px" fontSizeS="25px">
             United Kingdom
           </CountryName>
           <WrappedUniversities>

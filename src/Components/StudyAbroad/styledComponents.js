@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const StudyAbroadImageContainer = styled.div`
-  height: 120vh;
+  height: 70vh;
   max-width: 100vw;
-  background-image: url("https://media.istockphoto.com/id/1029791952/photo/happy-female-student-stock-image.jpg?s=612x612&w=0&k=20&c=Jze530IMuR1xUohpMugaOoQZ1hnr5s_N_P2yQxnaJpo=");
+  background-image: url("https://www.oxford-royale.com/wp-content/uploads/2020/12/joshua-ness-97202.jpg");
   background-size: cover;
+  background-attachment: fixed;
   margin-top: -70px;
   display: flex;
   align-items: flex-end;
@@ -19,12 +20,11 @@ export const StudyAbroadImageContainer = styled.div`
   @media screen and (min-width: 1024px) {
     padding-left: 180px;
     padding-bottom: 150px;
-    margin-top: -120px;
+    margin-top: -90px;
   }
 `;
 export const TextContainer = styled.div`
   width: 70%;
-  padding-left: 50px;
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 768px) {
@@ -36,7 +36,7 @@ export const TextContainer = styled.div`
 export const TextInsideImage = styled.span`
   color: ${(props) => props.color};
   font-weight: ${(props) => props.fontWeight};
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
   margin-bottom: ${(props) => props.mb};
 `;
@@ -53,13 +53,14 @@ export const JourneyTextContainer = styled.div`
 export const JourneyText = styled.p`
   font-size: ${(props) => props.fontSize};
   font-weight: ${(props) => props.fontWeight};
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
   text-align: center;
 `;
 export const HorizontalLine = styled.hr`
   border: 2px solid gray;
   width: ${(props) => props.w};
   margin-bottom: 5%;
+  margin-left: ${(props) => props.ml};
 `;
 export const CountriesContainer = styled.div`
   display: flex;
@@ -69,16 +70,15 @@ export const CountriesContainer = styled.div`
 `;
 export const EachCountryContainer = styled.div`
   width: 80%;
-  padding: 5%;
+  padding: 3%;
   @media screen and (min-width: 1024px) {
-    height: 70vw;
+    height: 60vw;
     display: flex;
   }
   @media screen and (max-width: 768px) {
     height: 100%;
     display: flex;
     flex-direction: column;
-    border: 2px solid #080808;
     margin-bottom: 15%;
   }
 `;
@@ -97,7 +97,7 @@ export const EachCountryTextContainer = styled.div`
   padding: 2%;
 `;
 export const EachCountryDescription = styled.p`
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
   font-weight: ${(props) => props.fontWeight};
   line-height: 1.7em;
   margin-bottom: ${(props) => props.mb};

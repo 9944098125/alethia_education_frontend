@@ -1,6 +1,6 @@
 import React from "react";
 import { Fragment, useEffect } from "react";
-import { AiOutlineRight } from "react-icons/ai";
+import { BiChevronRight } from "react-icons/bi";
 import { HashLink } from "react-router-hash-link";
 import Footer from "../Footer/Footer";
 import {
@@ -16,25 +16,25 @@ import {
 
 function Sitemap() {
   useEffect(() => {
-    document.title = "Alethia Education - Sitemap";
+    document.title = "Sitemap - iae Global";
   }, []);
   return (
     <Fragment>
       <SitemapImageContainer id="sitemap">
         <TextContainer>
           <TextInsideImage color="#ffffff" fontSize="55px" fontWeight="800">
-            Sitemap
+            Sitemaps
           </TextInsideImage>
         </TextContainer>
       </SitemapImageContainer>
       <LinkedItemsColumnsContainer>
         <LinkedItemsColumns>
-          <LinkedItems fontSize="30px" to="/">
-            <AiOutlineRight />
+          <LinkedItems fontSize="25px" to="/">
+            <BiChevronRight />
             Home
           </LinkedItems>
-          <LinkedItems fontSize="30px" to="/our-story">
-            <AiOutlineRight />
+          <LinkedItems fontSize="25px" to="/our-story">
+            <BiChevronRight />
             Our Company
           </LinkedItems>
           <SubLinksContainer>
@@ -42,13 +42,13 @@ function Sitemap() {
               to="/our-story#story"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="25px">- Our Story</SubLinkedItems>
+              <SubLinkedItems fontSize="22px">- Our Story</SubLinkedItems>
             </HashLink>
             <HashLink
               to="/our-story#vision"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="25px">
+              <SubLinkedItems fontSize="22px">
                 - Vision And Values
               </SubLinkedItems>
             </HashLink>
@@ -56,13 +56,13 @@ function Sitemap() {
               to="/our-story#leaders"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="25px">- Leadership Team</SubLinkedItems>
+              <SubLinkedItems fontSize="22px">- Leadership Team</SubLinkedItems>
             </HashLink>
             <HashLink
               to="/our-story#affiliates"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="25px">
+              <SubLinkedItems fontSize="22px">
                 - Affiliates & Awards
               </SubLinkedItems>
             </HashLink>
@@ -70,11 +70,11 @@ function Sitemap() {
               to="/news-room#news"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="25px">- News Room</SubLinkedItems>
+              <SubLinkedItems fontSize="22px">- News Room</SubLinkedItems>
             </HashLink>
           </SubLinksContainer>
-          <LinkedItems fontSize="30px" to="/offices">
-            <AiOutlineRight />
+          <LinkedItems fontSize="25px" to="/offices">
+            <BiChevronRight />
             Our Offices
           </LinkedItems>
           <SubLinksContainer>
@@ -82,13 +82,13 @@ function Sitemap() {
               to="/offices#contact-us"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="25px">- Contact US</SubLinkedItems>
+              <SubLinkedItems fontSize="22px">- Contact US</SubLinkedItems>
             </HashLink>
           </SubLinksContainer>
         </LinkedItemsColumns>
         <LinkedItemsColumns>
-          <LinkedItems fontSize="30px" to="/study-abroad">
-            <AiOutlineRight />
+          <LinkedItems fontSize="25px" to="/study-abroad">
+            <BiChevronRight />
             Study Abroad
           </LinkedItems>
           <SubLinksContainer>
@@ -96,35 +96,35 @@ function Sitemap() {
               to="/study-abroad#australia"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="25px">- Australia</SubLinkedItems>
+              <SubLinkedItems fontSize="22px">- Australia</SubLinkedItems>
             </HashLink>
             <HashLink
               to="/study-abroad#canada"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="25px">- Canada</SubLinkedItems>
+              <SubLinkedItems fontSize="22px">- Canada</SubLinkedItems>
             </HashLink>
             <HashLink
               to="/study-abroad#new-zealand"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="25px">- New Zealand</SubLinkedItems>
+              <SubLinkedItems fontSize="22px">- New Zealand</SubLinkedItems>
             </HashLink>
             <HashLink
               to="/study-abroad#unitedStates"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="25px">- United States</SubLinkedItems>
+              <SubLinkedItems fontSize="22px">- United States</SubLinkedItems>
             </HashLink>
             <HashLink
               to="/study-abroad#unitedKingdom"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="25px">- United Kingdom</SubLinkedItems>
+              <SubLinkedItems fontSize="22px">- United Kingdom</SubLinkedItems>
             </HashLink>
           </SubLinksContainer>
-          <LinkedItems fontSize="30px" to="/partners">
-            <AiOutlineRight />
+          <LinkedItems fontSize="25px" to="/partners">
+            <BiChevronRight />
             Partner Institutions
           </LinkedItems>
         </LinkedItemsColumns>

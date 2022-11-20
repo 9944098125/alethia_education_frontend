@@ -13,7 +13,7 @@ import {
 
 function PrivacyPolicy() {
   useEffect(() => {
-    document.title = "Alethia Education - Privacy Policy";
+    document.title = "Privacy Policy - iae Global";
   }, []);
   return (
     <Fragment>
@@ -25,16 +25,16 @@ function PrivacyPolicy() {
         </TextContainer>
       </PrivacyImageContainer>
       <PrivacyTextContainer>
-        <PrivacyText mb="0px" fontSize="25px" fontWeight="800">
+        <PrivacyText fontF mb="0px" fontSize="22px" fontWeight="600">
           Website Privacy Policy
         </PrivacyText>
         <PrivacyText mb="50px" fontSize="15px" fontWeight="500">
           Last Modified: 12 of august, 2021
         </PrivacyText>
-        <PrivacyText fontSize="20px" fontWeight="800">
+        <PrivacyText fontF fontSize="18px" fontWeight="800">
           INTRODUCTION
         </PrivacyText>
-        <PrivacyText fontSize="17px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="500">
           iae GLOBAL ("Company" or "We") respect your privacy and are committed
           to protecting it through our compliance with this policy. This policy
           describes the types of information we may collect from you or that you
@@ -42,7 +42,7 @@ function PrivacyPolicy() {
           "Website") and our practices for collecting, using, maintaining,
           protecting, and disclosing that information.
         </PrivacyText>
-        <PrivacyText mb="-30px" fontSize="17px" fontWeight="500">
+        <PrivacyText mb="-30px" fontSize="15px" fontWeight="400">
           This Policy applies to information we collect:
         </PrivacyText>
         <ListContainer mb="-20px">
@@ -52,7 +52,7 @@ function PrivacyPolicy() {
             Website.
           </ListItem>
         </ListContainer>
-        <PrivacyText mb="-30px" fontSize="17px" fontWeight="500">
+        <PrivacyText mb="-30px" fontSize="15px" fontWeight="400">
           It does not apply to the information collected by:
         </PrivacyText>
         <ListContainer>
@@ -67,7 +67,7 @@ function PrivacyPolicy() {
             that may link to or be accessible from or through the Website.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="17px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="400">
           Please read this policy carefully to understand our policies and
           practices regarding your information and how we will treat it. If you
           do not agree with our policies and practices, your choice is not to
@@ -77,10 +77,10 @@ function PrivacyPolicy() {
           make changes is deemed to be acceptance of those changes, so please
           check the policy periodically for updates.
         </PrivacyText>
-        <PrivacyText fontSize="20px" fontWeight="800">
+        <PrivacyText fontF fontSize="20px" fontWeight="600">
           Children Under the age of 16
         </PrivacyText>
-        <PrivacyText fontSize="17px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="400">
           Our Website is not intended for children under 16 years of age. No one
           under age 16 may provide any information to or on the Website. We do
           not knowingly collect personal information from children under 16. If
@@ -93,7 +93,7 @@ function PrivacyPolicy() {
           information. If you believe we might have any information from or
           about a child under 16, please contact us at info@iaeglobal.net.
         </PrivacyText>
-        <PrivacyText fontSize="17px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="400">
           If you are under 16 years of age and wish to use our services, your
           parents or legal guardian must provide their agreement on your behalf
           to our privacy policy and the other terms and conditions applicable to
@@ -101,10 +101,10 @@ function PrivacyPolicy() {
           obligation to provide any services and may accept or reject any
           request for services in our sole discretion.
         </PrivacyText>
-        <PrivacyText fontSize="20px" fontWeight="800">
+        <PrivacyText fontF fontSize="20px" fontWeight="600">
           INFORMATION WE COLLECT ABOUT YOU AND HOW WE COLLECT IT
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="17px" fontWeight="500">
+        <PrivacyText mb="-20px" fontSize="15px" fontWeight="500">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -137,7 +137,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="17px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="400">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -149,10 +149,10 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontSize="20px" fontWeight="800">
+        <PrivacyText fontF fontSize="20px" fontWeight="600">
           INFORMATION YOU PROVIDE TO Us
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="17px" fontWeight="500">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="500">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -173,7 +173,7 @@ function PrivacyPolicy() {
             Website, and usage details.
           </ListItem>
         </ListContainer>
-        <PrivacyText mb="-30px" fontSize="17px" fontWeight="500">
+        <PrivacyText mb="-30px" fontSize="15px" fontWeight="500">
           We collect this information
         </PrivacyText>
         <ListContainer mb="-20px">
@@ -185,7 +185,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="17px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="400">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -197,10 +197,10 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontSize="20px" fontWeight="800">
+        <PrivacyText fontF fontSize="20px" fontWeight="600">
           INFORMATION WE COLLECT THROUGH AUTOMATION DATA TRANSFER TECHNOLOGY
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="17px" fontWeight="500">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -233,7 +233,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="17px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="500">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -245,10 +245,10 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontSize="20px" fontWeight="800">
+        <PrivacyText fontF fontSize="20px" fontWeight="600">
           HOW WE USE YOUR INFORMATION
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="17px" fontWeight="500">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -269,7 +269,7 @@ function PrivacyPolicy() {
             Website, and usage details.
           </ListItem>
         </ListContainer>
-        <PrivacyText mb="-30px" fontSize="17px" fontWeight="500">
+        <PrivacyText mb="-30px" fontSize="15px" fontWeight="500">
           We collect this information
         </PrivacyText>
         <ListContainer mb="-20px">
@@ -281,7 +281,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="17px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="400">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -293,10 +293,10 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontSize="20px" fontWeight="800">
+        <PrivacyText fontF fontSize="20px" fontWeight="600">
           DISCLOSURE OF YOUR INFORMATION
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="17px" fontWeight="500">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -317,7 +317,7 @@ function PrivacyPolicy() {
             Website, and usage details.
           </ListItem>
         </ListContainer>
-        <PrivacyText mb="-30px" fontSize="17px" fontWeight="500">
+        <PrivacyText mb="-30px" fontSize="15px" fontWeight="500">
           We collect this information
         </PrivacyText>
         <ListContainer mb="-20px">
@@ -329,7 +329,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="17px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="400">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -341,10 +341,10 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontSize="20px" fontWeight="800">
+        <PrivacyText fontF fontSize="20px" fontWeight="600">
           CHOICES ABOUT HOW WE USE AND DISCLOSE YOUR INFORMATION
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="17px" fontWeight="500">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -372,7 +372,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="17px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -384,10 +384,10 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontSize="20px" fontWeight="800">
+        <PrivacyText fontF fontSize="20px" fontWeight="600">
           YOUR COUNTRY'S PRIVACY RIGHTS
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="17px" fontWeight="500">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -415,7 +415,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="17px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="400">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -427,10 +427,10 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontSize="20px" fontWeight="800">
+        <PrivacyText fontF fontSize="20px" fontWeight="600">
           DATA SECURITY
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="17px" fontWeight="500">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -451,7 +451,7 @@ function PrivacyPolicy() {
             Website, and usage details.
           </ListItem>
         </ListContainer>
-        <PrivacyText mb="-30px" fontSize="17px" fontWeight="500">
+        <PrivacyText mb="-30px" fontSize="15px" fontWeight="500">
           We collect this information
         </PrivacyText>
         <ListContainer mb="-20px">
@@ -463,7 +463,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="17px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="400">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -475,10 +475,10 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontSize="20px" fontWeight="800">
+        <PrivacyText fontF fontSize="20px" fontWeight="600">
           CONTACT Us
         </PrivacyText>
-        <PrivacyText fontSize="17px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="400">
           To ask questions or comment about this privacy policy and our privacy
           practices, or to register a concern, contact us at: 8F Humax Ebisu
           Building Ebisu Minami 1-1-1, Shibuya-ku Tokyo, 150-0022, Japan

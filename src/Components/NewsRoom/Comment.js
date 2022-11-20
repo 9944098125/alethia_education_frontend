@@ -25,6 +25,7 @@ function Comment() {
   const onChangeComment = (e) => {
     setComment(e.target.value);
   };
+
   return (
     <Fragment>
       <InputContainer onClick={onClickDiv}>
@@ -34,7 +35,8 @@ function Comment() {
             id="comment"
             value={comment}
             onChange={onChangeComment}
-            placeholder="Write a comment"
+            placeholder="Write a comment..."
+            className="ps-3"
           />
           {viewFullInput && (
             <IconsAndButtonsContainer>
@@ -45,11 +47,14 @@ function Comment() {
                 <BsFillCameraVideoFill className="me-2" />
               </IconsContainer>
               <IconsContainer>
-                <CommentButton border="none" bg="none">
+                <CommentButton color="lightblue" bg="transparent">
                   cancel
                 </CommentButton>
-                <CommentButton border="none" bg="lightblue">
-                  Comment
+                <CommentButton
+                  color="#ffffff"
+                  bg={comment.length > 0 ? "lightblue" : "lightgrey"}
+                >
+                  Publish
                 </CommentButton>
               </IconsContainer>
             </IconsAndButtonsContainer>

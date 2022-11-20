@@ -45,7 +45,7 @@ export const PrivacyText = styled.p`
   font-size: ${(props) => props.fontSize};
   font-weight: ${(props) => props.fontWeight};
   margin-bottom: ${(props) => props.mb};
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
   @media screen and (max-width: 768px) {
     margin-bottom: 0px;
   }
@@ -60,6 +60,5 @@ export const ListContainer = styled.ul`
 `;
 export const ListItem = styled.li`
   font-size: 15px;
-  font-weight: 500;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
 `;

@@ -14,14 +14,14 @@ import {
 
 function OurOffices() {
   useEffect(() => {
-    document.title = "Alethia Education - Offices";
+    document.title = "Our offices - iae Global";
   }, []);
   return (
     <Fragment>
       <OfficesContainer id="offices">
         <OfficesImageContainer>
           <TextContainer>
-            <TextInsideImage color="#ffffff" fontSize="70px" fontWeight="700">
+            <TextInsideImage color="#ffffff" fontSize="50px" fontWeight="600">
               Our Offices
             </TextInsideImage>
           </TextContainer>

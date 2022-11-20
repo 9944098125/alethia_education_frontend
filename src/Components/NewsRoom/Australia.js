@@ -27,7 +27,7 @@ import Comment from "./Comment";
 
 function Australia() {
   useEffect(() => {
-    document.title = "Alethia Education - University Of Newcastle";
+    document.title = "University Of Newcastle - iae Global";
   }, []);
   const embedId = "pGt_oapFdzg";
   // const [comment, setComment] = useState("");
@@ -47,18 +47,18 @@ function Australia() {
           </TextInsideImage>
         </TextContainer>
       </NewsRoomImageContainer>
-      <NewsContainer mt="5%">
+      <NewsContainer mt="1%">
         <EachText fontSize="12px" fontWeight="400">
           8th August, 2019
         </EachText>
-        <EachText fontSize="40px" fontWeight="800">
+        <EachText fontF fontSize="40px" fontWeight="550">
           The University of New Castle - Australia
         </EachText>
-        <EachText fontSize="18px" fontWeight="500">
+        <EachText fontSize="14px" fontWeight="400">
           The University of New Castle is just 200M from sydney, but offers a
           great world of experience.
         </EachText>
-        <EachText fontSize="18px" fontWeight="500">
+        <EachText fontSize="14px" fontWeight="400">
           The university is set in the vibrant coastal city of Newcastle,
           renowned for its lifestyle, with stunning beaches, eclectic arts
           scene, and relaxed pace. With a warm, sunny climate and surrounded by
@@ -66,10 +66,10 @@ function Australia() {
           higher education and is a magnet for Australian and international
           students.
         </EachText>
-        <EachText fontSize="30px" fontWeight="800">
+        <EachText fontF fontSize="30px" fontWeight="500">
           The City
         </EachText>
-        <EachText fontSize="18px">
+        <EachText fontSize="14px">
           Australia’s second-oldest city, Newcastle has a rich history, it’s
           jam-packed with artistic and cultural experiences, most within walking
           distance in the CBD. Fine dining, hip bars, quirky boutiques, outdoor
@@ -79,10 +79,10 @@ function Australia() {
         </EachText>
         <ImagesContainer>
           <EachRoomImages
-            src="https://www.alstom.com/sites/alstom.com/files/styles/large_media_cover/public/2022/04/05/SJ250_Sunset_High_Speed_Sweden.jpg?h=06ac0d8c&itok=vVjmm6oN"
+            src="https://static.wixstatic.com/media/e4c206_7d5a72ec9aa64df594ab865464ea155f~mv2.png/v1/fill/w_681,h_512,fp_0.50_0.50,q_95,enc_auto/e4c206_7d5a72ec9aa64df594ab865464ea155f~mv2.png"
             alt="newcastle1"
           />
-          <EachText fontSize="18px">
+          <EachText mllg="18%" fontSize="14px">
             Newly installed light rail in Newcastle CBD Australia. Illuminated
             at dusk
           </EachText>
@@ -90,7 +90,7 @@ function Australia() {
             src="https://static.wixstatic.com/media/e4c206_072286f47a004627af5a4da5a1ceab61~mv2.png/v1/fill/w_999,h_667,al_c,q_90,enc_auto/e4c206_072286f47a004627af5a4da5a1ceab61~mv2.png"
             alt="newcastle2"
           />
-          <EachText fontSize="18px">
+          <EachText mllg="12%" fontSize="14px">
             An aerial view of Newcastle Beach and Ocean Baths located a few
             minutes walk from the CBD area
           </EachText>
@@ -98,22 +98,22 @@ function Australia() {
             src="https://static.wixstatic.com/media/e4c206_51460827511642129207d80b8b546961~mv2.png/v1/fill/w_999,h_667,al_c,q_90,enc_auto/e4c206_51460827511642129207d80b8b546961~mv2.png"
             alr="newcastle3"
           />
-          <EachText fontSize="18px">
+          <EachText mllg="2%" fontSize="14px">
             Magnificent coastal views on bright summer day from the Gan Gan
             lookout. Nelson Bay, New South Wales, Australia
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             Surrounded by stunning beaches, Newcastle is the gateway to the
             incredible coastline of Nelson Bay, the whale and dolphin spotting
             area at Port Stephens and Australia’s premier wine region, The
             Hunter Valley.
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             Only 10 minutes’ drive from Newcastle you can paddle along
             picturesque Ironbark Creek to experience first - hand native
             beautiful ecosystem of 45 hectares Hunter Wetlands
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             Smaller than Sydney, with lower costs of living, beautiful nature,
             amazing surf, and vivid cultural life, Newcastle is a perfect
             students’ city hub.
@@ -122,7 +122,7 @@ function Australia() {
             src="https://static.wixstatic.com/media/e4c206_15ebebe688ae450fa8d91611352dc9a1~mv2.png/v1/fill/w_999,h_667,al_c,q_90,enc_auto/e4c206_15ebebe688ae450fa8d91611352dc9a1~mv2.png"
             alt="newcastle4"
           />
-          <EachText fontSize="18px">
+          <EachText mllg="8%" fontSize="14px">
             Annual hot air balloon festival. The balloons are inflated at dawn
             and float over the Hunter Valley wine country
           </EachText>
@@ -130,28 +130,28 @@ function Australia() {
             src="https://static.wixstatic.com/media/e4c206_3da40300156e4ecfac777621fcb0f6ff~mv2.png/v1/fill/w_999,h_501,al_c,q_90,enc_auto/e4c206_3da40300156e4ecfac777621fcb0f6ff~mv2.png"
             alt="newcastle5"
           />
-          <EachText fontSize="18px">
+          <EachText mllg="18%" fontSize="14px">
             Panorama of Fingal Bay Beach and Nelson bay in Port Stephens,
             Australia
           </EachText>
-          <EachText fontSize="30px" fontWeight="800">
+          <EachText fontF fontSize="30px" fontWeight="500">
             University And Student Life
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             Established in 1965, the University of Newcastle has modern local
             and international campuses in Newcastle, the Central Coast, Sydney,
             Singapore and Port Macquarie.
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The university has been consistently ranked in the top ten
             universities in the country and is in the top 3% of universities
             worldwide.
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The University of Newcastle is also recognised by global university
             ratings service QS Rankings with a maximum score of 5 stars.
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The University of Newcastle was awarded the highest possible '5'
             rating across 22 research fields, by Australian Government's
             Excellence in Research assessment.
@@ -160,18 +160,20 @@ function Australia() {
             src="https://static.wixstatic.com/media/e4c206_a87b3b8573ca4ff3b3953245f0d6ed71~mv2.png/v1/fill/w_999,h_667,al_c,q_90,enc_auto/e4c206_a87b3b8573ca4ff3b3953245f0d6ed71~mv2.png"
             alt="newcastle6"
           />
-          <EachText fontSize="18px">New Castle City campuses</EachText>
-          <EachText fontSize="18px">
+          <EachText mllg="40%" fontSize="14px">
+            New Castle City campuses
+          </EachText>
+          <EachText fontSize="14px">
             In 2017, the University of Newcastle opened its $95 million CBD
             education precinct - New Space – 10 storey vertical campus.
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The design joins the community with the campus through its library
             and information common, collaborative learning spaces and zones for
             professional and community engagement, and adjacent University
             House.
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The design joins the community with the campus through its library
             and information common, collaborative learning spaces and zones for
             professional and community engagement, and adjacent University
@@ -181,19 +183,21 @@ function Australia() {
             src="https://static.wixstatic.com/media/e4c206_ee101e834d3f4212a1189533e50b4139~mv2.jpg/v1/fill/w_1000,h_736,al_c,q_85,enc_auto/e4c206_ee101e834d3f4212a1189533e50b4139~mv2.jpg"
             alt="newcastle7"
           />
-          <EachText fontSize="18px">Newcastle city campus</EachText>
-          <EachText fontSize="18px">
+          <EachText mllg="38%" fontSize="14px">
+            Newcastle city campus
+          </EachText>
+          <EachText fontSize="14px">
             The University of Newcastle welcomes international students,
             currently, there are students from 114 countries enrolled.
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             It was awarded the Asia Pacific Association for Student Housing
             award for Excellence in Student Experience, with a Student Living
             team providing 24-hour support services and a unique ResLife program
             to make students feel welcome included and comfortable in their new
             home.
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             It was awarded the Asia Pacific Association for Student Housing
             award for Excellence in Student Experience, with a Student Living
             team providing 24-hour support services and a unique ResLife program
@@ -204,19 +208,21 @@ function Australia() {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUDyqzCny86dfyZSDHFojhz_antxrH1HfWg&usqp=CAU"
             alt="newcastle8"
           />
-          <EachText fontSize="18px">Student Accommodation</EachText>
-          <EachText fontSize="18px">
+          <EachText mllg="40%" fontSize="14px">
+            Student Accommodation
+          </EachText>
+          <EachText fontSize="14px">
             The University of Newcastle programs integrate study with practical
             experience, paid employment and research.
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The University of Newcastle programs integrate study with practical
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The University of Newcastle with practical experience, paid
             employment and research.
           </EachText>
-          <EachText fontSize="22px" fontWeight="800">
+          <EachText fontSize="17px" fontWeight="600">
             "Incredibly hands on experience, great practical knowledge balanced
             with broad theoretical underpinnings. Many Seniors in the Profession
             whom I’ve so far had the chance to meet continuously comment on the
@@ -227,15 +233,15 @@ function Australia() {
             src="https://media.istockphoto.com/id/1349297974/photo/multi-ethnic-group-of-latin-american-college-students-smiling.jpg?b=1&s=170667a&w=0&k=20&c=dkJyrGwyHIkHCWadKMBqsLD5pk-jHH6lpB2Ig23ba-E="
             alt="newcastle9"
           />
-          <EachText fontSize="18px">
+          <EachText mllg="38%" fontSize="14px">
             The students of New castle university
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The University of Newcastle provides access to Australia’s Regional
             Migration Scheme, with dedicated 25,000 regional places available
             each year.
           </EachText>
-          <EachText fontSize="22px" fontWeight="800">
+          <EachText fontSize="17px" fontWeight="700">
             University of Newcastle applicants have:
           </EachText>
           <UnorderedList>
@@ -250,25 +256,25 @@ function Australia() {
               work visa.
             </ListItem>
           </UnorderedList>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             Newcastle is a leader in Australian research and innovation, with a
             research ecosystem linking University of Newcastle,{" "}
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             Hunter Medical Research Institute, (HMRI) and the Commonwealth
             Scientific and Industrial Research Organisation (CSIRO).
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The region has specialisations in energy, health, and medical
             research, and the university has developed an active defence
             industries research cluster.
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The University of Newcastle is focused on applied research, with
             total research funding in 2017 of $141 million and increasing from
             year to year.
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The University of Newcastle is focused on applied research, with
             total research funding in 2017 of $141 million and increasing from
             year to year.
@@ -277,10 +283,10 @@ function Australia() {
             src="https://static.wixstatic.com/media/e4c206_ee101e834d3f4212a1189533e50b4139~mv2.jpg/v1/fill/w_1000,h_736,al_c,q_85,enc_auto/e4c206_ee101e834d3f4212a1189533e50b4139~mv2.jpg"
             alt="newcastle10"
           />
-          <EachText fontSize="18px">
+          <EachText mllg="28%" fontSize="14px">
             The University of Newcastle hosts 40,000 students
           </EachText>
-          <EachText fontSize="20px" fontWeight="800">
+          <EachText fontSize="17px" fontWeight="600">
             Leading research facilities centres of University of Newcastle
             include:
           </EachText>
@@ -300,13 +306,7 @@ function Australia() {
               Business & Law ; 5) Education & Arts{" "}
             </ListItem>
           </UnorderedList>
-          {/* <ReactPlayer
-            url="https://youtu.be/wzaLOqIALpo"
-            width="400"
-            controls={true}
-            // height={{ xs: "170px", md: "1000px", lg: "800px" }}
-          /> */}
-          <div className="video-responsive">
+          <div className="video-responsive" style={{ marginBottom: "25px" }}>
             <iframe
               width="740"
               height="416"
@@ -316,25 +316,25 @@ function Australia() {
               allowFullScreen
             ></iframe>
           </div>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The University of Newcastle is committed to growing top job
             opportunities for graduates. It has some of the highest employment
             rates and starting salaries for graduates in Australia.
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The University of Newcastle is committed to growing top job
             opportunities for graduates. It has some of the highest employment
             rates and starting salaries for graduates in Australia.
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The University of Newcastle is committed to growing top job
             opportunities for graduates. It has some of the highest employment
             rates and starting salaries for graduates in Australia.
           </EachText>
-          <EachText fontSize="20px" fontWeight="800">
+          <EachText fontSize="20px" fontWeight="600">
             The Future
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The city of Newcastle is growing rapidly and provides unique work
             prospects for local alumnae. Key projects include:
           </EachText>
@@ -355,12 +355,12 @@ function Australia() {
               Program funds new business growth and employment
             </ListItem>
           </UnorderedList>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             These major capital projects and the funding committed by business
             and government mean jobs for skilled university graduates in
             Newcastle.
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             The University of Newcastle provides the education and training in
             all the fields that are required for Newcastle’s future: health,
             business, built environment, engineering, skilled trades and is
@@ -370,16 +370,16 @@ function Australia() {
             src="https://static.wixstatic.com/media/e4c206_950d8cb89f4a457eb49af40a9075c851~mv2.png/v1/fill/w_999,h_667,al_c,q_90,enc_auto/e4c206_950d8cb89f4a457eb49af40a9075c851~mv2.png"
             alt="newcastle11"
           />
-          <EachText fontSize="22px" fontWeight="800">
+          <EachText fontSize="20px" fontWeight="600">
             Migration opportunities
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             University of Newcastle graduates have unique opportunities for
             skilled work and migration to Australia. University of Newcastle
             graduates are prioritised over Sydney-based students in migration
             pathways.
           </EachText>
-          <EachText fontSize="18px">
+          <EachText fontSize="14px">
             There is a new Skilled Work Regional visa known as the “Provisional
             subclass 491 Visa”. This visa is granted on the basis of points
             awarded to applicants. It is designed to help regional Australia
@@ -393,11 +393,11 @@ function Australia() {
             src="https://c1.wallpaperflare.com/preview/945/832/999/sea-shore-shore-hang-out-people.jpg"
             alt="newcastle12"
           />
-          <EachText fontSize="18px">
+          <EachText mllg="28%" fontSize="14px">
             New castle is perfect place to live and study
           </EachText>
           <HorizontalLine />
-          <EachText fontSize="20px">
+          <EachText fontSize="14px">
             For top graduate employment, a fantastic student lifestyle and
             priority migration opportunities, The University of Newcastle has
             the answers.
@@ -422,7 +422,7 @@ function Australia() {
         >
           <EachPost>
             <PostImage mr="10px" src={eachImage2} alt="post1" />
-            <EachText color="#080808" fontSize="25px" fontWeight="800">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
               Education, Career & Migration Fair in study
             </EachText>
           </EachPost>
@@ -433,7 +433,7 @@ function Australia() {
         >
           <EachPost>
             <PostImage mt="-30px" mr="25px" src={eachImage3} alt="post1" />
-            <EachText color="#080808" fontSize="25px" fontWeight="800">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
               Canada's top 10 universities
             </EachText>
           </EachPost>
@@ -441,25 +441,17 @@ function Australia() {
         <HashLink to="/news-room/facts#news" style={{ textDecoration: "none" }}>
           <EachPost>
             <PostImage mt="-30px" src={eachImage4} alt="post1" />
-            <EachText color="#080808" fontSize="25px" fontWeight="800">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
               Facts about Australia
             </EachText>
           </EachPost>
         </HashLink>
       </RecentPostsContainer>
       <NewsContainer>
-        <EachText fontSize="25px" fontWeight="800">
+        <EachText fontF fontSize="20px" fontWeight="700">
           COMMENTS
         </EachText>
         <HorizontalLine mb="50px" />
-        {/* <InputContainer onClick={onClickInputContainer}>
-          <Avatar />
-          <InputField
-            placeholder="write any comment"
-            onChange={changeComment}
-            value={comment}
-          />
-        </InputContainer> */}
         <Comment />
       </NewsContainer>
       <Footer />

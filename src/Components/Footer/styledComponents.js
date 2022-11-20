@@ -40,8 +40,9 @@ export const EachColumn = styled.div`
 export const TextInColumn = styled.p`
   color: #ffffff;
   cursor: pointer;
-  font-family: "PT sans Narrow", sans-serif;
-  font-weight: 700;
+  letter-spacing: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
   margin-top: -10px;
   @media screen and (min-width: 875px) {
     font-size: 18px;

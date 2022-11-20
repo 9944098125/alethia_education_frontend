@@ -13,6 +13,7 @@ import {
 import tile from "../../Assets/Images/tile1.webp";
 import { Formik, Form, Field } from "formik";
 import { HashLink } from "react-router-hash-link";
+import { HiOutlineArrowRight } from "react-icons/hi";
 
 function GlobalReach() {
   const initialValues = {
@@ -45,7 +46,10 @@ function GlobalReach() {
             to="/partners#partnersImage"
             style={{ textDecoration: "none" }}
           >
-            <PartnersButton>Our Partnership Institutions</PartnersButton>
+            <PartnersButton>
+              Our Partnership Institutions{" "}
+              <HiOutlineArrowRight className="ms-2" />
+            </PartnersButton>
           </HashLink>
           <Formik initialValues={initialValues}>
             <Form>
@@ -87,6 +91,7 @@ function GlobalReach() {
                     id="iam"
                     className="primary-input-field"
                   >
+                    <option value=""></option>
                     <option value="student">a student</option>
                     <option value="institution">an institution</option>
                     <option value="others">others</option>
@@ -112,7 +117,7 @@ function GlobalReach() {
                     className="textarea"
                   />
                 </div>
-                <SubmitButton type="submit">Submit</SubmitButton>
+                <SubmitButton type="submit">SUBMIT</SubmitButton>
               </div>
             </Form>
           </Formik>

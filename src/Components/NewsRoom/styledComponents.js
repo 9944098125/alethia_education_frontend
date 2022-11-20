@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { IoMdPerson } from "react-icons/io";
 
 export const NewsRoomImageContainer = styled.div`
-  height: 80vh;
+  height: 70vh;
   max-width: 100vw;
-  background-image: url("https://static.wixstatic.com/media/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg/v1/fill/w_1304,h_444,al_c,q_85,enc_auto/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg");
+  background-image: url("https://static.wixstatic.com/media/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg/v1/fill/w_1304,h_572,al_c,q_85,enc_auto/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg");
   background-size: cover;
   margin-top: -70px;
   display: flex;
@@ -81,12 +81,18 @@ export const EachText = styled.p`
   font-size: ${(props) => props.fontSize};
   font-weight: ${(props) => props.fontWeight};
   margin-left: ${(props) => props.mllg};
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
   color: ${(props) => props.color};
   margin-bottom: ${(props) => props.mb};
+  @media screen and (min-width: 1024px) {
+    margin-left: ${(props) => props.mllg};
+    margin-top: ${(props) => props.mtlg};
+  }
   @media screen and (max-width: 768px) {
     margin-left: ${(props) => props.mlsm};
+    margin-top: ${(props) => props.mtsm};
   }
+
   &:hover {
     color: black;
   }
@@ -97,7 +103,7 @@ export const NewsContainer = styled.div`
   padding: 10%;
   padding-top: 5%;
   padding-bottom: 5%;
-  border: 0.2px solid grey;
+  shadow: 1px, 1px, 1px, 1px;
   width: 80vw;
   margin-left: 10%;
   margin-bottom: 5%;
@@ -110,7 +116,7 @@ export const ImagesContainer = styled.div`
   flex-direction: column;
 `;
 export const EachRoomImages = styled.img`
-  height: 10%;
+  height: 80vh;
   width: 100%;
   margin-top: 25px;
   margin-bottom: 15px;
@@ -188,6 +194,7 @@ export const InputField = styled.input`
   border: none;
   width: 90%;
   height: 50px;
+  cursor: pointer;
   &:focus {
     border: none;
     outline: none;
@@ -235,9 +242,10 @@ export const UniversitiesTextContainer = styled.div`
 `;
 export const CommentButton = styled.button`
   padding: 5%;
-  border: ${(props) => props.border};
   background-color: ${(props) => props.bg};
   margin-right: 15px;
+  color: ${(props) => props.color};
+  border: none;
   @media screen and (max-width: 425px) {
     font-size: 10px;
   }

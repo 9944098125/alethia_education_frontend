@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 .fontFamily {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
-} */
+}
 
 .primary-input-field {
   width: 100%;
@@ -17,13 +19,13 @@
   cursor: pointer;
 }
 .first-last-name {
-  width: 295px;
+  /* width: 295px; */
   height: 40px;
   border: 2px solid grey;
 }
 @media screen and (min-width: 1024px) {
   .first-last-name {
-    width: 230px;
+    width: 268px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -43,6 +45,7 @@
 
 #parent:hover #child {
   display: block;
+  margin-bottom: -200px;
 }
 .player-wrapper {
   position: relative;

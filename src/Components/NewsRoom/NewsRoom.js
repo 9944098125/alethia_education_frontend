@@ -20,7 +20,7 @@ import { HashLink } from "react-router-hash-link";
 
 function NewsRoom() {
   useEffect(() => {
-    document.title = "Alethia Education - News Room";
+    document.title = "News Room - iae Global";
   }, []);
   return (
     <Fragment>
@@ -39,13 +39,13 @@ function NewsRoom() {
           <EachRowInSeniorContainer>
             <EachImage src={eachImage1} alt="university" />
             <EachTextContainer>
-              <EachText color="#080808" fontSize="15px" fontWeight="400">
+              <EachText color="#080808" fontSize="12px" fontWeight="400">
                 Jan 8, 2020
               </EachText>
-              <EachText color="orange" fontSize="25px" fontWeight="700">
+              <EachText fontF color="orange" fontSize="25px" fontWeight="700">
                 The University of Newcastle - Australia
               </EachText>
-              <EachText color="#080808" fontSize="18px" fontWeight="500">
+              <EachText color="#080808" fontSize="14px" fontWeight="400">
                 The university of Newcastle is just 2 hours north of sydney, but
                 offers an experience of another world. The university is set in
                 vibrant.
@@ -60,13 +60,13 @@ function NewsRoom() {
           <EachRowInSeniorContainer>
             <EachImage src={eachImage2} alt="education" />
             <EachTextContainer>
-              <EachText color="#080808" fontSize="15px" fontWeight="400">
+              <EachText color="#080808" fontSize="12px" fontWeight="400">
                 Aug 19, 2019
               </EachText>
-              <EachText color="orange" fontSize="25px" fontWeight="700">
+              <EachText fontF color="orange" fontSize="25px" fontWeight="700">
                 Education, Career and Migration Fair in sydney
               </EachText>
-              <EachText color="#080808" fontSize="18px" fontWeight="500">
+              <EachText color="#080808" fontSize="14px" fontWeight="400">
                 The university of Newcastle is just 2 hours north of sydney, but
                 offers an experience of another world. The university is set in
                 vibrant.
@@ -82,13 +82,13 @@ function NewsRoom() {
           <EachRowInSeniorContainer>
             <EachImage src={eachImage3} alt="canada" />
             <EachTextContainer>
-              <EachText color="#080808" fontSize="15px" fontWeight="400">
+              <EachText color="#080808" fontSize="12px" fontWeight="400">
                 Feb 12, 2019
               </EachText>
-              <EachText color="orange" fontSize="25px" fontWeight="700">
+              <EachText fontF color="orange" fontSize="25px" fontWeight="700">
                 Canada's Top 10 universities
               </EachText>
-              <EachText color="#080808" fontSize="18px" fontWeight="500">
+              <EachText color="#080808" fontSize="14px" fontWeight="400">
                 The university of Newcastle is just 2 hours north of sydney, but
                 offers an experience of another world. The university is set in
                 vibrant.
@@ -104,13 +104,13 @@ function NewsRoom() {
           <EachRowInSeniorContainer>
             <EachImage src={eachImage4} alt="australia" />
             <EachTextContainer>
-              <EachText color="#080808" fontSize="15px" fontWeight="400">
+              <EachText color="#080808" fontSize="12px" fontWeight="400">
                 Feb 2, 2019
               </EachText>
-              <EachText color="orange" fontSize="25px" fontWeight="700">
+              <EachText fontF color="orange" fontSize="25px" fontWeight="700">
                 Facts about Australia
               </EachText>
-              <EachText color="#080808" fontSize="18px" fontWeight="500">
+              <EachText color="#080808" fontSize="14px" fontWeight="400">
                 The university of Newcastle is just 2 hours north of sydney, but
                 offers an experience of another world. The university is set in
                 vibrant.

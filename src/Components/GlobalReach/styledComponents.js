@@ -31,7 +31,7 @@ export const ImageContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 100%;
+  height: 105%;
   width: 100%;
 `;
 
@@ -39,12 +39,13 @@ export const TextContainer = styled.div`
   @media screen and (min-width: 875px) {
     height: 100%;
     width: 50%;
-    padding: 50px;
+    padding: 1%;
+    padding-top: 10%;
   }
   @media screen and (max-width: 768px) {
     height: 70%;
     width: 100%;
-    padding: 25px;
+    padding: 2%;
   }
 `;
 
@@ -71,10 +72,10 @@ export const TextPara = styled.p`
 
 export const PartnersButton = styled.button`
   border: 2px solid #080808;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: transparent;
   @media screen and (min-width: 875px) {
-    padding: 10px;
+    padding: 7px;
     padding-right: 20px;
     padding-left: 20px;
     font-size: 20px;
@@ -84,6 +85,10 @@ export const PartnersButton = styled.button`
     padding-left: 15px;
     padding-right: 15px;
     font-size: 15px;
+  }
+  &:hover {
+    background-color: black;
+    color: white;
   }
 `;
 

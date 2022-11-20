@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const PartnersImageContainer = styled.div`
-  height: 120vh;
+  height: 70vh;
   max-width: 100vw;
-  background-image: url("https://penntoday.upenn.edu/sites/default/files/2020-01/Fihn-Beatrice1-social.jpg");
+  background-position: center;
+  background-image: url("https://static.wixstatic.com/media/e4c206_a96f95faf46442d2a6c7383fd7e48f49~mv2.jpg/v1/fill/w_980,h_894,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_a96f95faf46442d2a6c7383fd7e48f49~mv2.jpg");
   background-size: cover;
+  background-attachment: fixed;
   margin-top: -70px;
   display: flex;
   align-items: flex-end;
@@ -17,14 +19,13 @@ export const PartnersImageContainer = styled.div`
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 180px;
-    padding-bottom: 150px;
+    padding-left: 80px;
+    padding-bottom: 50px;
     margin-top: -120px;
   }
 `;
 export const TextContainer = styled.div`
   width: 70%;
-  padding-left: 50px;
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 768px) {
@@ -36,7 +37,7 @@ export const TextContainer = styled.div`
 export const TextInsideImage = styled.span`
   color: ${(props) => props.color};
   font-weight: ${(props) => props.fontWeight};
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
   margin-bottom: ${(props) => props.mb};
 `;
@@ -49,8 +50,8 @@ export const UniversitiesInSingleCountry = styled.div`
   width: 90%;
 `;
 export const CountryName = styled.p`
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
   margin-left: 5%;
   @media screen and (min-width: 1024px) {
     font-size: ${(props) => props.fontSizeL};
@@ -62,14 +63,17 @@ export const CountryName = styled.p`
 export const WrappedUniversities = styled.div`
   display: flex;
   flex-wrap: wrap;
+  padding: 7%;
+  padding-top: none;
 `;
 export const UniversityNameContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 10%;
-  width: 20%;
-  margin: 2%;
+  width: 18%;
+  margin: 3%;
+  margin-top: 0.5%;
 `;
 export const UniversityImage = styled.img`
   height: 100%;

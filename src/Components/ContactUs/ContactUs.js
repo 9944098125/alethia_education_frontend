@@ -25,34 +25,35 @@ function ContactUs() {
         <ContactUsTextContainer>
           <ContactUsText
             id="contact-us"
-            fontSize="45px"
-            fontWeight="800"
+            fontSize="30px"
+            fontWeight="600"
             mb="20px"
+            fontF
           >
             Contact Us
           </ContactUsText>
-          <ContactUsText fontSize="20px" fontWeight="400" mb="20px">
+          <ContactUsText fontSize="16px" fontWeight="300" mb="20px">
             If you share the same thoughts and values as iae, we sincerely look
             forward to supporting you as a student or growing our business with
             you as a partner.
           </ContactUsText>
-          <ContactUsText fontSize="22px" fontWeight="800" mb="25px">
+          <ContactUsText fontF fontSize="20px" fontWeight="600" mb="25px">
             CORPORATION ADDRESS
           </ContactUsText>
-          <ContactUsText fontSize="20px" fontWeight="300" mb="10px">
+          <ContactUsText fontSize="15px" fontWeight="300" mb="10px">
             iae HOLDINGS, Inc. trading as iae GLOBAL
           </ContactUsText>
-          <ContactUsText fontSize="20px" fontWeight="400" mb="15px">
+          <ContactUsText fontSize="14px" fontWeight="400" mb="15px">
             7F/726 Humax Ebisu Building, Ebisu minami 1-1-1, Shibuya-ku, Tokyo,
             150-0022, Japan
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="500">
+          <ContactUsText fontSize="15px" fontWeight="400">
             Telephone: +102 345 3453 345
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="500">
+          <ContactUsText fontSize="15px" fontWeight="400">
             Fax: +81 (0)345 34 3453
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="500">
+          <ContactUsText fontSize="15px" fontWeight="400">
             Email: sri@gmail.com
           </ContactUsText>
         </ContactUsTextContainer>
@@ -123,7 +124,7 @@ function ContactUs() {
                     className="textarea"
                   />
                 </div>
-                <SubmitButton type="submit">Submit</SubmitButton>
+                <SubmitButton type="submit">SUBMIT</SubmitButton>
               </div>
             </Form>
           </Formik>

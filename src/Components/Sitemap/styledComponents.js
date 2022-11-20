@@ -70,6 +70,7 @@ export const LinkedItems = styled(Link)`
   text-decoration: none;
   color: #080808;
   cursor: pointer;
+  margin-bottom: 2%;
   &:hover {
     text-decoration: none;
     color: black;

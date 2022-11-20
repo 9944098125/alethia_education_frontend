@@ -6,13 +6,13 @@ export const HomeContainer = styled.div`
 `;
 
 export const HomeImageContainer = styled.div`
-  height: 180vh;
+  height: 160vh;
   max-width: 100vw;
-  background-image: url("https://imageio.forbes.com/specials-images/imageserve/911101108/University-graduates-toss-their-caps-up-/960x0.jpg?format=jpg&width=960");
+  background: url("https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_980,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg");
   background-size: cover;
-  margin-top: -70px;
+  background-attachment: fixed;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-start;
   padding-bottom: 5%;
   @media screen and (max-width: 768px) {
@@ -23,12 +23,13 @@ export const HomeImageContainer = styled.div`
   }
   @media screen and (min-width: 1024px) {
     padding-left: 50px;
-    margin-top: -120px;
+    margin-top: -100px;
   }
 `;
 export const TextContainer = styled.div`
-  width: 70%;
-  padding-left: 50px;
+  width: 85%;
+  padding-left: 10%;
+  padding-top: 33%;
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 768px) {
@@ -40,35 +41,41 @@ export const TextContainer = styled.div`
 export const TextInsideImage = styled.span`
   color: ${(props) => props.color};
   font-weight: ${(props) => props.fontWeight};
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
+  margin-bottom: ${(props) => props.mb};
 `;
 export const PathwayButton = styled.button`
   background-color: #e49b0f;
-  padding: 15px;
   color: #ffffff;
-  font-weight: 900;
+  font-weight: 600;
   border: none;
-  border-radius: 8px;
   display: flex;
+  font-size: 17px;
   justify-content: center;
   align-items: center;
   width: 200px;
+  height: 55px;
   margin-top: 2%;
+  font-family: "Oswald", sans-serif;
+  &:hover {
+    background-color: #cd7f32;
+  }
 `;
 export const SupportContainer = styled.div`
   @media screen and (min-width: 768px) {
-    padding-left: 190px;
+    padding-left: 10%;
     padding-top: 50px;
   }
   @media screen and (max-width: 768px) {
-    padding-left: 50px;
+    padding-left: 25%;
     padding-top: 50px;
   }
 `;
 export const SupportText = styled.h3`
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  margin-bottom: 2%;
   @media screen and (min-width: 800px) {
     font-size: 40px;
   }
@@ -79,19 +86,23 @@ export const SupportText = styled.h3`
 export const VisionButton = styled.button`
   border: 2px solid #080808;
   background-color: transparent;
+  font-family: "Oswald", sans-serif;
+  height: 47px;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   @media screen and (min-width: 800px) {
-    font-weight: 600;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding: 10px;
+    font-weight: 500;
     font-size: 25px;
   }
   @media screen and (max-width: 768px) {
     font-weight: 400;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding: 7px;
     font-size: 15px;
+  }
+  &:hover {
+    background: black;
+    color: white;
   }
 `;
 
@@ -99,7 +110,7 @@ export const StudyAbroadOptions = styled.div`
   @media screen and (min-width: 1024px) {
     display: flex;
     flex-wrap: wrap;
-    padding: 5%;
+    padding: 500px;
   }
   @media screen and (min-width: 768px) {
     display: flex;
@@ -108,7 +119,7 @@ export const StudyAbroadOptions = styled.div`
     flex-wrap: wrap;
     padding: 70px;
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,7 +127,7 @@ export const StudyAbroadOptions = styled.div`
 `;
 export const SingleOption = styled.div`
   @media screen and (min-width: 800px) {
-    margin: 30px;
+    margin: 20px;
     height: 600px;
     width: 500px;
   }
@@ -136,8 +147,8 @@ export const SingleOption = styled.div`
 
 export const StudyAbroadImage = styled.img`
   @media screen and (min-width: 800px) {
-    height: 50%;
-    width: 100%;
+    height: 53%;
+    width: 80%;
   }
   @media screen and (min-width: 1024px) {
     width: 100%;
@@ -149,18 +160,18 @@ export const StudyAbroadImage = styled.img`
 `;
 
 export const CountryName = styled.h2`
-  font-weight: 700;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
   @media screen and (min-width: 800px) {
-    font-size: 50px;
+    font-size: 32px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 30px;
+    font-size: 25px;
   }
 `;
 
 export const Description = styled.p`
-  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
   @media screen and (min-width: 800px) {
     font-size: 15px;
   }
@@ -178,12 +189,16 @@ export const Gap = styled.div`
 `;
 
 export const Links = styled.p`
-  color: orange;
+  color: #cc5500;
+  font-weight: 600;
+  border-bottom: 0.3px dotted #cc5500;
   @media screen and (min-width: 800px) {
     font-size: 18px;
+    width: 130px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;
+    width: 90px;
   }
 `;
 
@@ -192,41 +207,48 @@ export const AwardsContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
+  width: 100vw;
+  margin-top: -150px;
+  @media screen and (max-width: 768px) {
+    margin-top: 0px;
+  }
 `;
 
 export const EachItem = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
   @media screen and (min-width: 800px) {
     margin: 15px;
-    width: 200px;
+    width: 100%;
   }
   @media screen and (max-width: 768px) {
     margin: 15px;
-    width: 150px;
+    width: 100%;
   }
 `;
 
 export const ItemImage = styled.img`
   @media screen and (min-width: 800px) {
-    height: 100px;
-    width: 100px;
+    height: 100%;
+    width: 100%;
   }
   @media screen and (max-width: 768px) {
-    height: 40px;
-    width: 35px;
+    height: 100%;
+    width: 100%;
   }
 `;
 
 export const ItemCount = styled.p`
   color: ${(props) => props.color};
-  font-weight: 700;
+  font-weight: 800;
   @media screen and (min-width: 800px) {
-    font-size: 30px;
+    font-size: 35px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 15px;
+    font-size: 22px;
   }
 `;
 
@@ -235,27 +257,33 @@ export const ItemDescription = styled.p`
   font-weight: 600;
   text-align: center;
   @media screen and (min-width: 800px) {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: -25px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 10px;
+    font-size: 15px;
     margin-top: -15px;
   }
 `;
 
 export const PhilosophyContainer = styled.div`
-  background-image: url("https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29sbGVnZSUyMHN0dWRlbnRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
-  height: 120vh;
+  background-image: url("https://j3n6z9t5.rocketcdn.me/wp-content/uploads/2022/02/higher-education-in-chile.jpg");
+  height: 180vh;
+  background-attachment: fixed;
   width: 100vw;
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
   background-size: cover;
   padding-bottom: 100px;
   margin-bottom: 100px;
   @media screen and (max-width: 768px) {
+    height: 130vh;
+  }
+  @media screen and (max-width: 426px) {
     height: 200vh;
+    padding-bottom: 70%;
+    padding-top: -50%;
   }
 `;
 
@@ -264,7 +292,9 @@ export const MeetingContainer = styled.div`
   padding: 25px;
   @media screen and (min-width: 800px) {
     display: flex;
+    height: 100vh;
     align-items: center;
+    width: 100vw;
   }
   @media screen and (max-width: 768px) {
     display: flex;
@@ -279,7 +309,7 @@ export const MeetingTextContainer = styled.div`
   @media screen and (min-width: 800px) {
     height: 100%;
     width: 50%;
-    padding-left: 100px;
+    padding-left: 60px;
     margin-right: 150px;
   }
   @media screen and (max-width: 768px) {
@@ -290,13 +320,19 @@ export const MeetingTextContainer = styled.div`
 `;
 
 export const MeetingButton = styled.button`
+  background-color: transparent;
+  font-family: "Oswald", sans-serif;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
   @media screen and (min-width: 800px) {
     padding: 8px;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 20px;
     margin-top: 25px;
-    width: 250px;
+    width: 200px;
   }
   @media screen and (max-width: 768px) {
     padding: 5px;
@@ -309,8 +345,8 @@ export const MeetingButton = styled.button`
 `;
 
 export const MeetingImage = styled.img`
-  @media screen and (min-width: 1023px) {
-    height: 100%;
+  @media screen and (min-width: 1024px) {
+    height: 120%;
     width: 50%;
   }
   @media screen and (max-width: 768px) {

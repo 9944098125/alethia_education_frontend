@@ -18,28 +18,28 @@ function Footer() {
               to="/our-story#companyImage"
               style={{ textDecoration: "none" }}
             >
-              <TextInColumn>Our Company</TextInColumn>
+              <TextInColumn>OUR COMPANY</TextInColumn>
             </HashLink>
             <HashLink to="/our-story#story" style={{ textDecoration: "none" }}>
-              <TextInColumn>Our Story</TextInColumn>
+              <TextInColumn>OUR STORY</TextInColumn>
             </HashLink>
             <HashLink to="/our-story#vision" style={{ textDecoration: "none" }}>
-              <TextInColumn>Vision And Values</TextInColumn>
+              <TextInColumn>VISION AND VALUES</TextInColumn>
             </HashLink>
             <HashLink
               to="/our-story#leaders"
               style={{ textDecoration: "none" }}
             >
-              <TextInColumn>Leadership Team</TextInColumn>
+              <TextInColumn>LEADERSHIP TEAM</TextInColumn>
             </HashLink>
             <HashLink
               to="/our-story#affiliates"
               style={{ textDecoration: "none" }}
             >
-              <TextInColumn>Affiliates And Awards</TextInColumn>
+              <TextInColumn>AFFILIATES AND AWARDS</TextInColumn>
             </HashLink>
             <HashLink to="/news-room#news" style={{ textDecoration: "none" }}>
-              <TextInColumn>News room</TextInColumn>
+              <TextInColumn>NEWS ROOM</TextInColumn>
             </HashLink>
           </EachColumn>
           <EachColumn>
@@ -47,25 +47,25 @@ function Footer() {
               to="/sitemap#sitemap"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <TextInColumn>Sitemap</TextInColumn>
+              <TextInColumn>SITEMAP</TextInColumn>
             </HashLink>
             <HashLink
               to="/privacy#privacy"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <TextInColumn>Privacy policy</TextInColumn>
+              <TextInColumn>PRIVACY POLICY</TextInColumn>
             </HashLink>
             <HashLink
               to="/terms#terms"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <TextInColumn>Terms of use</TextInColumn>
+              <TextInColumn>TERMS OF USE</TextInColumn>
             </HashLink>
             <HashLink
               to="/offices#contact-us"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <TextInColumn>Contact Us</TextInColumn>
+              <TextInColumn>CONTACT US</TextInColumn>
             </HashLink>
           </EachColumn>
           <EachColumn>

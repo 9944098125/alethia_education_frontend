@@ -13,10 +13,10 @@ export const ContactUsContainer = styled.div`
 `;
 export const ContactUsTextContainer = styled.div`
   margin-right: 10%;
-  padding: 10%;
+  padding: 0%;
   padding-top: 0px;
   @media screen and (min-width: 1024px) {
-    width: 50%;
+    width: 40%;
   }
   @media screen and (max-width: 768px) {
     width: 90%;
@@ -26,14 +26,14 @@ export const ContactUsTextContainer = styled.div`
   }
 `;
 export const ContactUsText = styled.p`
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
   margin-bottom: ${(props) => props.mb};
   font-size: ${(props) => props.fontSize};
   font-weight: ${(props) => props.fontWeight};
 `;
 export const ContactUsFormContainer = styled.div`
   @media screen and (min-width: 1024px) {
-    width: 50%;
+    width: 60%;
   }
   @media screen and (max-width: 768px) {
     width: 90%;
