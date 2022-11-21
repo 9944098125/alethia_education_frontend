@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ContactUsContainer = styled.div`
+  margin-bottom: 5%;
   @media screen and (min-width: 1024px) {
     display: flex;
     padding: 5%;
