@@ -15,9 +15,10 @@ export const HeaderContainer = styled.div`
   }
 `;
 export const EachItem = styled.div`
-  margin-right: 45px;
+  margin-right: 55px;
   display: flex;
   align-items: center;
+  margin-left: -25%;
   @media screen and (max-width: 875px) {
     margin-right: 0px;
     margin-bottom: 15px;
