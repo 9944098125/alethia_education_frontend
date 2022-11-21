@@ -341,7 +341,7 @@ export const MeetingButton = styled.button`
     padding-right: 15px;
     font-size: 10px;
     margin-top: 20px;
-    width: 100px;
+    width: 150px;
   }
 `;
 

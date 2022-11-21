@@ -259,7 +259,7 @@ function Home() {
               style={{ textDecoration: "none" }}
             >
               <PathwayButton>
-                Learn more
+                LEARN MORE
                 <HiOutlineArrowRight
                   className="ms-2"
                   style={{ marginBottom: "-5px" }}
