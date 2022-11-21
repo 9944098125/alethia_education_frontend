@@ -5,32 +5,22 @@ export const HeaderContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
-  padding: 25px;
+  margin-top: 80px;
+  padding-right: 12%;
+  padding-left: 10%;
+  padding-bottom: 0px;
   @media screen and (max-width: 875px) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 25px;
-  }
-`;
-export const EachItem = styled.div`
-  margin-right: 55px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: -25%;
-  @media screen and (max-width: 875px) {
-    margin-right: 0px;
-    padding-right: -45px;
-    margin-bottom: 15px;
+    padding-top: 25px;
   }
 `;
 export const ImageIcon = styled.img`
   height: 50px;
   width: 300px;
   margin-top: -15px;
-  margin-right: 70px !important;
+  margin-right: 80px !important;
   @media screen and (max-width: 768px) {
     margin-left: 20px;
     margin-bottom: 25px;
@@ -49,7 +39,6 @@ export const HoldingsButton = styled.button`
   font-family: "Oswald", sans-serif;
   width: 120px;
   color: #ffffff;
-  margin-left: -65px;
   @media screen and (max-width: 768px) {
     margin-left: 0px;
     margin-top: 15px;
@@ -64,27 +53,32 @@ export const HeadLink = styled.h3`
   font-family: "Oswald", sans-serif;
   color: #ffffff;
   font-weight: 900;
-  font-size: 16px;
+  font-size: 14px;
+  margin-right: 21px;
+  width: 100% !important;
   @media screen and (max-width: 768px) {
-    margin-right: -25px;
+    margin-right: 0px;
+    margin-bottom: 15px;
   }
   &:hover {
-    color: grey;
+    color: maroon;
   }
 `;
 
 export const HoveredBlock = styled.div`
   background-color: #ffffff;
   margin-left: -25px;
+  margin-right: -85px;
   padding: 10px;
   position: relative;
+  width: 175px;
   max-height: 200px;
   display: none;
 `;
 export const CompanyLink = styled(Link)`
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
 `;
 export const LinksInHoveredBlock = styled.p`
   font-weight: 700;

@@ -23,7 +23,7 @@ export const OfficesImageContainer = styled.div`
   @media screen and (min-width: 1024px) {
     padding-left: 180px;
     padding-bottom: 5%;
-    margin-top: -120px;
+    margin-top: -80px;
   }
 `;
 export const TextContainer = styled.div`

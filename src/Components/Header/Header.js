@@ -2,7 +2,6 @@
 import React, { Fragment } from "react";
 import {
   CompanyLink,
-  EachItem,
   HeaderContainer,
   HeadLink,
   HoldingsButton,
@@ -22,16 +21,15 @@ function Header() {
           <ImageIcon src={logo} alt="logo" />
         </Link>
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-          <EachItem id="home">
-            <HeadLink>HOME</HeadLink>
-          </EachItem>
+          <HeadLink id="home">HOME</HeadLink>
         </Link>
         <div id="parent">
-          <CompanyLink to="/our-story">
-            <EachItem id="company">
-              <HeadLink>OUR COMPANY</HeadLink>
-            </EachItem>
-          </CompanyLink>
+          <Link
+            to="/our-story"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <HeadLink id="company">OUR COMPANY</HeadLink>
+          </Link>
           <HoveredBlock id="child">
             <div className="d-flex flex-column">
               <HashLink
@@ -75,25 +73,19 @@ function Header() {
           to="/offices"
           style={{ textDecoration: "none", color: "inherit" }}
         >
-          <EachItem>
-            <HeadLink>OUR OFFICES</HeadLink>
-          </EachItem>
+          <HeadLink id="offices">OUR OFFICES</HeadLink>
         </Link>
         <Link
           to="/study-abroad"
           style={{ textDecoration: "none", color: "inherit" }}
         >
-          <EachItem>
-            <HeadLink>STUDY ABROAD</HeadLink>
-          </EachItem>
+          <HeadLink id="study-abroad">STUDY ABROAD</HeadLink>
         </Link>
         <Link
           to="/partners"
           style={{ textDecoration: "none", color: "inherit" }}
         >
-          <EachItem>
-            <HeadLink>PARTNER INSTITUTIONS</HeadLink>
-          </EachItem>
+          <HeadLink id="partners">PARTNER INSTITUTIONS</HeadLink>
         </Link>
         <a
           href="/holdings"

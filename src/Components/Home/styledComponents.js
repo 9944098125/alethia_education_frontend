@@ -24,7 +24,7 @@ export const HomeImageContainer = styled.div`
   }
   @media screen and (min-width: 1024px) {
     padding-left: 50px;
-    margin-top: -100px;
+    margin-top: -80px;
   }
 `;
 export const TextContainer = styled.div`
