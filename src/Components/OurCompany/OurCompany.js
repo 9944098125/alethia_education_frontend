@@ -374,6 +374,7 @@ function OurCompany() {
           Comments about us for the American International Recruitment Council
         </SmallText>
         <AffiliatesButton>COMMENT ABOUT US</AffiliatesButton>
+        <ThinHorizontalLine />
         <SmallText>
           iae GLOBAL or its directors are affiliated with or a member of:
         </SmallText>

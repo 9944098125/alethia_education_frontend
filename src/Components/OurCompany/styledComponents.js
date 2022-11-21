@@ -56,7 +56,7 @@ export const LeaderShipText = styled.p`
   font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
   margin-bottom: ${(props) => props.mb};
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
 `;
 export const AffiliatesText = styled.p`
   color: ${(props) => props.color};
@@ -130,7 +130,7 @@ export const TextAndGridContainer = styled.div`
 export const TextWithGridContainer = styled.div`
   @media screen and (min-width: 768px) {
     width: 50%;
-    padding: 25px;
+    padding: 15px;
   }
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -291,9 +291,8 @@ export const UnorderedList = styled.ul`
 `;
 export const ListItem = styled.li`
   font-size: 14px;
-  margin-bottom: 30px;
   @media screen and (max-width: 768px) {
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     font-size: 13px;
   }
 `;
@@ -424,6 +423,8 @@ export const ThinHorizontalLine = styled.hr`
   margin: 2%;
   width: 70%;
   margin-left: 15%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 `;
 export const AlignEndTextContainer = styled.div`
   display: flex;

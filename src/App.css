@@ -75,6 +75,7 @@
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
+  margin-bottom:10%;
 }
 
 .video-responsive iframe {
