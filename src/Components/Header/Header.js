@@ -22,13 +22,13 @@ function Header() {
           <ImageIcon src={logo} alt="logo" />
         </Link>
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-          <EachItem>
+          <EachItem id="home">
             <HeadLink>HOME</HeadLink>
           </EachItem>
         </Link>
         <div id="parent">
           <CompanyLink to="/our-story">
-            <EachItem>
+            <EachItem id="company">
               <HeadLink>OUR COMPANY</HeadLink>
             </EachItem>
           </CompanyLink>

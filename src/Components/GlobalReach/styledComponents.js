@@ -61,9 +61,8 @@ export const TextHead = styled.h2`
 `;
 
 export const TextPara = styled.p`
-  font-family: "PT Sans Narrow", sans-serif;
   @media screen and (min-width: 875px) {
-    font-size: 20px;
+    font-size: 14px;
   }
   @media screen and (max-width: 768px) {
     font-size: 10px;

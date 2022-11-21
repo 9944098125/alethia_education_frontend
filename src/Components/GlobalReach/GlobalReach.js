@@ -36,9 +36,14 @@ function GlobalReach() {
             We are committed to expanding our network in both key student
             markets and major study destination countries under a common
             powerful brand, using a standardised model of student counselling
-            and recruitment that focuses on quality, honesty and integrity. ​ We
-            value long-term relationships and continue to work to enhance
-            business opportunities for all our partners. ​ Explore and discover
+            and recruitment that focuses on quality, honesty and integrity. ​
+            Explore and discover
+          </TextPara>
+          <TextPara>
+            ​ We value long-term relationships and continue to work to enhance
+            business opportunities for all our partners.
+          </TextPara>
+          <TextPara>
             why an increasing number of established agencies have trusted us as
             partners, and utilised our business model and strategies.
           </TextPara>
