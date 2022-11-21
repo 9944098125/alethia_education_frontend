@@ -17,10 +17,12 @@ export const HeaderContainer = styled.div`
 export const EachItem = styled.div`
   margin-right: 55px;
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-left: -25%;
   @media screen and (max-width: 875px) {
     margin-right: 0px;
+    padding-right: -45px;
     margin-bottom: 15px;
   }
 `;
@@ -30,8 +32,9 @@ export const ImageIcon = styled.img`
   margin-top: -15px;
   margin-right: 70px !important;
   @media screen and (max-width: 768px) {
-    margin-right: 0px;
+    margin-left: 20px;
     margin-bottom: 25px;
+    margin-right: 0px !important;
   }
 `;
 
@@ -46,6 +49,11 @@ export const HoldingsButton = styled.button`
   font-family: "Oswald", sans-serif;
   width: 120px;
   color: #ffffff;
+  margin-left: -65px;
+  @media screen and (max-width: 768px) {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
   cursor: pointer;
   &:hover {
     background-color: rgb(60, 60, 64, 0.755);
@@ -57,6 +65,9 @@ export const HeadLink = styled.h3`
   color: #ffffff;
   font-weight: 900;
   font-size: 16px;
+  @media screen and (max-width: 768px) {
+    margin-right: -25px;
+  }
   &:hover {
     color: grey;
   }
