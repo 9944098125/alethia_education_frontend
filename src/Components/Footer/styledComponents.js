@@ -6,10 +6,12 @@ export const FooterContainer = styled.div`
   margin-top: 0px;
   display: flex;
   justify-content: center;
+  padding: 1%;
 `;
 
 export const TextContainer = styled.div`
   width: 100%;
+  padding-left: 5%;
   @media screen and (min-width: 875px) {
     display: flex;
     justify-content: center;
@@ -26,8 +28,7 @@ export const EachColumn = styled.div`
   flex-direction: column;
   @media screen and (min-width: 875px) {
     padding: 45px;
-    margin-right: 35px;
-    margin-left: 35px;
+    margin-right: 12%;
   }
   @media screen and (max-width: 768px) {
     padding: 20px;
@@ -42,10 +43,10 @@ export const TextInColumn = styled.p`
   cursor: pointer;
   letter-spacing: none;
   font-family: "Oswald", sans-serif;
-  font-weight: 450;
+  font-weight: 500;
   margin-top: -10px;
   @media screen and (min-width: 875px) {
-    font-size: 16px;
+    font-size: 17px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;

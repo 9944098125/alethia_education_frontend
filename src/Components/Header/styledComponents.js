@@ -53,7 +53,7 @@ export const HeadLink = styled.h3`
   font-family: "Oswald", sans-serif;
   color: #ffffff;
   font-weight: 900;
-  font-size: 14px;
+  font-size: 15px;
   margin-right: 21px;
   width: 100% !important;
   @media screen and (max-width: 768px) {

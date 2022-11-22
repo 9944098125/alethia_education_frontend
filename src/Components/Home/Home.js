@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import aus from "../../Assets/Images/aus.webp";
 import ame from "../../Assets/Images/us.webp";
 import au from "../../Assets/Images/canada.webp";
@@ -40,6 +40,15 @@ import Footer from "../Footer/Footer";
 import GlobalReach from "../GlobalReach/GlobalReach";
 
 function Home() {
+  // const [offsetY, setOffsetY] = useState(0);
+
+  // const handleScroll = () => setOffsetY(window.pageYOffset);
+
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, []);
+
   useEffect(() => {
     document.title = "Home";
   }, []);
@@ -47,7 +56,9 @@ function Home() {
   return (
     <Fragment>
       <HomeContainer>
-        <HomeImageContainer>
+        <HomeImageContainer
+        // style={{ transform: `translateY(${offsetY * 0.5}px)` }}
+        >
           <TextContainer>
             <TextInsideImage
               mb="1%"
