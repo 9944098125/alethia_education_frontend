@@ -325,7 +325,9 @@ export const CommittedText = styled.p`
   text-align: center;
   @media screen and (min-width: 768px) {
     font-size: 38px;
+    margin-top: -8%;
   }
+
   @media screen and (max-width: 768px) {
     font-size: 25px;
   }
