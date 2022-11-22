@@ -56,7 +56,7 @@ function Home() {
   return (
     <Fragment>
       <HomeContainer>
-        <HomeImageContainer offsetY>
+        <HomeImageContainer>
           <TextContainer>
             <TextInsideImage
               mb="1%"
@@ -244,7 +244,7 @@ function Home() {
               Our Philosophy is simple -
             </TextInsideImage>
             <TextInsideImage color="#ffffff" fontSize="50px" fontWeight="700">
-              Students First
+              Students First !
             </TextInsideImage>
             <div className="philosophy-text-container">
               <p
@@ -269,7 +269,7 @@ function Home() {
             >
               <PathwayButton>
                 LEARN MORE
-                <HiOutlineArrowRight
+                <IoIosArrowRoundForward
                   className="ms-2"
                   style={{ marginBottom: "-5px" }}
                 />

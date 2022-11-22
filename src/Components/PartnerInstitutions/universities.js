@@ -81,7 +81,7 @@ export const unitedStatesUniversities = [
   "https://static.wixstatic.com/media/e4c206_3da05601a1ff4c60b58dc9271bc78d13~mv2.jpg/v1/fill/w_321,h_203,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/university-of-sydney-logo-DBC20EBA62-seeklogo_com.jpg",
   "https://static.wixstatic.com/media/e4c206_13d97c7af4224ecc87d0e6a88b4d9f6b~mv2.jpg/v1/fill/w_321,h_203,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/university-of-sydney-logo-DBC20EBA62-seeklogo_com.jpg",
   "https://static.wixstatic.com/media/e4c206_f81c7b8035004f21a7d0796d41573339~mv2.jpg/v1/fill/w_321,h_203,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/university-of-sydney-logo-DBC20EBA62-seeklogo_com.jpg",
-  "https://static.wixstatic.com/media/e4c206_f81c7b8035004f21a7d0796d41573339~mv2.jpg/v1/fill/w_321,h_203,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/university-of-sydney-logo-DBC20EBA62-seeklogo_com.jpg",
+  "https://static.wixstatic.com/media/e4c206_b0e03a95fbfd40369ad45ecae9d8e16b~mv2.jpg/v1/fill/w_321,h_203,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/university-of-sydney-logo-DBC20EBA62-seeklogo_com.jpg",
   "https://static.wixstatic.com/media/e4c206_cdc242974c4c4282826837aa68136fe0~mv2.jpg/v1/fill/w_321,h_203,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/university-of-sydney-logo-DBC20EBA62-seeklogo_com.jpg",
   "https://static.wixstatic.com/media/e4c206_283e1a79f59546899cd281c7e460143d~mv2.jpg/v1/fill/w_321,h_203,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/university-of-sydney-logo-DBC20EBA62-seeklogo_com.jpg",
   "https://static.wixstatic.com/media/e4c206_856cdf8380264d37b849ec0d7cb219b9~mv2.jpg/v1/fill/w_321,h_203,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/university-of-sydney-logo-DBC20EBA62-seeklogo_com.jpg",

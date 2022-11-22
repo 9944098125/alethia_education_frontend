@@ -49,10 +49,10 @@ export const TextInsideImage = styled.span`
 export const PathwayButton = styled.button`
   background-color: #e49b0f;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 500;
   border: none;
   display: flex;
-  font-size: 14px;
+  font-size: 16px;
   justify-content: center;
   align-items: center;
   width: 200px;
@@ -190,19 +190,19 @@ export const Gap = styled.div`
 `;
 
 export const Links = styled.p`
-  color: rgb(255, 142, 13);
+  color: rgb(176, 76, 4);
   font-weight: 600;
   border-bottom: 0.3px dotted #cc5500;
   @media screen and (min-width: 800px) {
     font-size: 18px;
-    width: 120px;
+    width: 115px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;
-    width: 90px;
+    width: 80px;
   }
   &:hover {
-    color: rgb(176, 76, 4);
+    color: rgb(255, 142, 13);
   }
 `;
 

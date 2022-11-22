@@ -7,6 +7,7 @@ import {
   IconsContainer,
   InputContainer,
   InputField,
+  ThinLine,
 } from "./styledComponents";
 import {
   BsEmojiSmile,
@@ -35,29 +36,34 @@ function Comment() {
             id="comment"
             value={comment}
             onChange={onChangeComment}
+            style={{ cursor: viewFullInput ? "text" : "pointer" }}
             placeholder="Write a comment..."
             className="ps-3"
           />
           {viewFullInput && (
-            <IconsAndButtonsContainer>
-              <IconsContainer className="mb-2">
-                <BsEmojiSmile className="me-2" />
-                <BsCameraFill className="me-2" />
-                <AiOutlineGif className="me-2" />
-                <BsFillCameraVideoFill className="me-2" />
-              </IconsContainer>
-              <IconsContainer>
-                <CommentButton color="lightblue" bg="transparent">
-                  cancel
-                </CommentButton>
-                <CommentButton
-                  color="#ffffff"
-                  bg={comment.length > 0 ? "lightblue" : "lightgrey"}
-                >
-                  Publish
-                </CommentButton>
-              </IconsContainer>
-            </IconsAndButtonsContainer>
+            <>
+              <ThinLine />
+              <IconsAndButtonsContainer>
+                <IconsContainer className="mb-2">
+                  <BsEmojiSmile className="me-2" />
+                  <BsCameraFill className="me-2" />
+                  <AiOutlineGif className="me-2" />
+                  <BsFillCameraVideoFill className="me-2" />
+                </IconsContainer>
+                <IconsContainer>
+                  <CommentButton color="lightblue" bg="transparent">
+                    cancel
+                  </CommentButton>
+                  <CommentButton
+                    border
+                    color="#ffffff"
+                    bg={comment.length > 0 ? "lightblue" : "lightgrey"}
+                  >
+                    Publish
+                  </CommentButton>
+                </IconsContainer>
+              </IconsAndButtonsContainer>
+            </>
           )}
         </BorderedInput>
       </InputContainer>

@@ -59,7 +59,7 @@ export const JourneyText = styled.p`
   color: #343434;
 `;
 export const HorizontalLine = styled.hr`
-  border: 1.5px solid gray;
+  background: 2.2px solid grey;
   width: ${(props) => props.w};
   margin-bottom: 5%;
   margin-left: ${(props) => props.ml};

@@ -43,7 +43,7 @@ export const ContactUsFormContainer = styled.div`
   }
 `;
 export const Label = styled.label`
-  font-weight: 500;
+  font-weight: 600;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 18px;
 `;

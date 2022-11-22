@@ -121,7 +121,12 @@ function Education() {
           iPad mini, laptop, Australian attractions vouchers, Movie tickets and
           more.
         </EachText>
-        <EachText fontF fontSize="20px" fontWeight="600">
+        <EachText
+          fontF
+          fontSize="20px"
+          fontWeight="600"
+          style={{ fontStyle: "italic" }}
+        >
           Are You In Sydney ?
         </EachText>
         <EachText fontSize="14px">

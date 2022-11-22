@@ -49,6 +49,7 @@ export const TextInsideImage = styled.span`
   font-style: ${(props) => props.fs};
   text-align: ${(props) => props.ta};
   margin-right: ${(props) => props.mr};
+  text-shadow: ${(props) => props.ts};
 `;
 export const LeaderShipText = styled.p`
   color: ${(props) => props.color};
@@ -100,6 +101,7 @@ export const ValuesButton = styled.button`
   font-family: "Oswald", sans-serif;
   font-weight: 500;
   background-color: transparent;
+  border: 2px solid grey;
   @media screen and (max-width: 768px) {
     padding: 5px;
     width: 150px;
@@ -107,7 +109,6 @@ export const ValuesButton = styled.button`
   }
   &:hover {
     background-color: black;
-    border: 2px solid grey;
     color: white;
   }
 `;
@@ -234,7 +235,7 @@ export const DosContainer = styled.div`
   @media screen and (min-width: 1024px) {
     display: flex;
     height: 140vh;
-    margin-bottom: 0%;
+    margin-bottom: -6.5%;
   }
   @media screen and (max-width: 768px) {
     margin-bottom: 1%;
@@ -256,7 +257,7 @@ export const DosImage = styled.img`
     width: 50%;
   }
   @media screen and (min-width: 1024px) {
-    height: 100%;
+    height: 90%;
     width: 50%;
   }
   @media screen and (max-width: 768px) {
@@ -282,6 +283,7 @@ export const ListHead = styled.p`
   font-size: 40px;
   font-weight: 500;
   font-family: "Oswald", sans-serif;
+  margin-bottom: 12%;
 `;
 
 export const UnorderedList = styled.ul`
@@ -297,6 +299,7 @@ export const UnorderedList = styled.ul`
 export const ListItem = styled.li`
   font-size: 14px;
   color: #343434;
+  margin-bottom: 5%;
   @media screen and (max-width: 768px) {
     margin-bottom: 3%;
     font-size: 13px;
@@ -321,7 +324,7 @@ export const CommittedText = styled.p`
   margin-bottom: 7%;
   text-align: center;
   @media screen and (min-width: 768px) {
-    font-size: 35px;
+    font-size: 38px;
   }
   @media screen and (max-width: 768px) {
     font-size: 25px;
@@ -410,9 +413,9 @@ export const AffiliatesButton = styled.button`
   margin-bottom: 2%;
   border: none;
   padding: 1%;
+  border: 2px solid grey;
   &:hover {
     background-color: rgb(91, 90, 90);
-    border: 2px solid grey;
   }
 `;
 export const ImagesRow = styled.div`

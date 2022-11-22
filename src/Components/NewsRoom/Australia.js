@@ -241,16 +241,18 @@ function Australia() {
             Migration Scheme, with dedicated 25,000 regional places available
             each year.
           </EachText>
-          <EachText fontSize="17px" fontWeight="700">
+          <EachText fontF fontSize="17px" fontWeight="700">
             University of Newcastle applicants have:
           </EachText>
           <UnorderedList>
-            <ListItem>Priority processing on regional visas.</ListItem>
-            <ListItem>
+            <ListItem style={{ marginBottom: "0%" }}>
+              Priority processing on regional visas.
+            </ListItem>
+            <ListItem style={{ marginBottom: "0%" }}>
               Access to Regional Occupations Lists – more jobs compared than
               metropolitan lists, and
             </ListItem>
-            <ListItem>
+            <ListItem style={{ marginBottom: "0%" }}>
               International students studying at the University of Newcastle are
               eligible to access an additional year in Australia on a post-study
               work visa.
@@ -291,16 +293,20 @@ function Australia() {
             include:
           </EachText>
           <UnorderedList>
-            <ListItem>Hunter Medical Research Institute (HMRI)</ListItem>
-            <ListItem>
+            <ListItem style={{ marginBottom: "0%" }}>
+              Hunter Medical Research Institute (HMRI)
+            </ListItem>
+            <ListItem style={{ marginBottom: "0%" }}>
               Newcastle Institute for Energy and Resources (NIER)
             </ListItem>
-            <ListItem>
+            <ListItem style={{ marginBottom: "0%" }}>
               Newcastle Innovation – the university’s technology transfer
               company
             </ListItem>
-            <ListItem>Defence Industries Research Cluster</ListItem>
-            <ListItem>
+            <ListItem style={{ marginBottom: "0%" }}>
+              Defence Industries Research Cluster
+            </ListItem>
+            <ListItem style={{ marginBottom: "0%" }}>
               21 Priority Research Centres across 5 faculties: 1) Engineering &
               Built Environment ; 2) Health & Medicine ; 3) Science ; 4)
               Business & Law ; 5) Education & Arts{" "}
@@ -396,7 +402,6 @@ function Australia() {
           <EachText mllg="28%" fontSize="14px">
             New castle is perfect place to live and study
           </EachText>
-          <HorizontalLine />
           <EachText fontSize="14px">
             For top graduate employment, a fantastic student lifestyle and
             priority migration opportunities, The University of Newcastle has

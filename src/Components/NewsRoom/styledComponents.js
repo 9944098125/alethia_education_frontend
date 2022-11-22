@@ -108,6 +108,7 @@ export const NewsContainer = styled.div`
   margin-left: 10%;
   margin-bottom: 5%;
   margin-top: ${(props) => props.mt};
+  box-shadow: 0 0 4px -2px #444444;
 `;
 export const ImagesContainer = styled.div`
   height: 80%;
@@ -194,7 +195,6 @@ export const InputField = styled.input`
   border: none;
   width: 90%;
   height: 50px;
-  cursor: pointer;
   &:focus {
     border: none;
     outline: none;
@@ -245,8 +245,14 @@ export const CommentButton = styled.button`
   background-color: ${(props) => props.bg};
   margin-right: 15px;
   color: ${(props) => props.color};
-  border: none;
+  border: ${(props) => (props.border ? "2px solid grey" : "none")};
   @media screen and (max-width: 425px) {
     font-size: 10px;
   }
+`;
+export const ThinLine = styled.hr`
+  border-bottom: 0.5px solid black;
+  width: 90%;
+  margin-left: 6%;
+  margin-bottom: -3%;
 `;

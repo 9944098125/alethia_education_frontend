@@ -53,7 +53,7 @@ function GlobalReach() {
           >
             <PartnersButton>
               OUR PARTNERSHIP INSTITUTIONS{" "}
-              <HiOutlineArrowRight className="ms-2" />
+              <HiOutlineArrowRight className="ms-2 mb-1" />
             </PartnersButton>
           </HashLink>
           <Formik initialValues={initialValues}>
@@ -61,7 +61,9 @@ function GlobalReach() {
               <div className="mt-4">
                 <div className="d-lg-flex align-items-center">
                   <div className="d-flex flex-column me-lg-5 mb-sm-3">
-                    <Label htmlFor="firstname">First Name</Label>
+                    <Label htmlFor="firstname">
+                      <strong>First Name</strong>
+                    </Label>
                     <Field
                       type="text"
                       name="firstname"
@@ -70,7 +72,9 @@ function GlobalReach() {
                     />
                   </div>
                   <div className="d-flex flex-column me-lg-5 mb-sm-3">
-                    <Label htmlFor="lastname">Last Name</Label>
+                    <Label htmlFor="lastname">
+                      <strong>Last Name</strong>
+                    </Label>
                     <Field
                       type="text"
                       name="lastname"
@@ -80,7 +84,9 @@ function GlobalReach() {
                   </div>
                 </div>
                 <div className="col mb-3">
-                  <Label htmlFor="email">Email*</Label>
+                  <Label htmlFor="email">
+                    <strong>Email*</strong>
+                  </Label>
                   <Field
                     type="text"
                     name="email"
@@ -89,7 +95,9 @@ function GlobalReach() {
                   />
                 </div>
                 <div className="d-flex flex-column mb-3">
-                  <Label htmlFor="iam">I am*</Label>
+                  <Label htmlFor="iam">
+                    <strong>I am*</strong>
+                  </Label>
                   <Field
                     as="select"
                     name="iam"
@@ -103,7 +111,9 @@ function GlobalReach() {
                   </Field>
                 </div>
                 <div className="col mb-3">
-                  <Label htmlFor="coi">Country of Interest*</Label>
+                  <Label htmlFor="coi">
+                    <strong>Country of Interest*</strong>
+                  </Label>
                   <Field
                     type="text"
                     name="coi"
@@ -112,7 +122,9 @@ function GlobalReach() {
                   />
                 </div>
                 <div className="col mb-3">
-                  <Label htmlFor="message">Message</Label>
+                  <Label htmlFor="message">
+                    <strong>Message</strong>
+                  </Label>
                   <Field
                     type="text"
                     as="textarea"

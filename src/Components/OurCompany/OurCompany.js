@@ -77,7 +77,7 @@ function OurCompany() {
         <StoryContainer id="story">
           <SmallContainer>
             <TextInsideImage color="#080808" fontSize="45px" fontWeight="500">
-              "It all started in 1992..."
+              "It all began in 1992..."
             </TextInsideImage>
             <SmallText color="#080808">
               We started as a single office in Gangnam, Seoul, South Korea. Over
@@ -146,7 +146,12 @@ function OurCompany() {
           </TextAndGridContainer>
         </StoryContainer>
         <VisionContainer id="vision">
-          <TextInsideImage color="#ffffff" fontSize="55px" fontWeight="900">
+          <TextInsideImage
+            ts="1px 1px 2px black"
+            color="#ffffff"
+            fontSize="55px"
+            fontWeight="900"
+          >
             Vision & Values
           </TextInsideImage>
         </VisionContainer>
@@ -165,13 +170,21 @@ function OurCompany() {
               - Mark Lucas, Director of iae Global
             </TextInsideImage>
             <AlignEndTextContainer>
-              <TextInsideImage mr="-25%" color="#080808" fontSize="15px">
+              <p
+                style={{
+                  marginRight: "-100px",
+                  fontSize: "14px",
+                  color: "#343434",
+                  fontWeight: "400",
+                  textAlign: "center",
+                }}
+              >
                 To that end, we started a business model grounded in several
                 core principles and strategic purpose, which have and continue
                 to revolutionise student recruitment and marketing practices by
                 continuing to set new benchmarks and standards in the
                 international education industry.
-              </TextInsideImage>
+              </p>
             </AlignEndTextContainer>
           </BeliefTextContainer>
         </BeliefContainer>
@@ -365,7 +378,9 @@ function OurCompany() {
       </SmallTextContainer>
       <ThinHorizontalLine />
       <AffiliatesContainer>
-        <ListHead>Affiliates</ListHead>
+        <ListHead style={{ marginBottom: "10px", marginTop: "-20px" }}>
+          Affiliates
+        </ListHead>
         <SmallText>
           iae GLOBAL is proud to be an AIRC Certified Agency
         </SmallText>
@@ -381,6 +396,7 @@ function OurCompany() {
         <ImagesRow>
           <AffiliatedImage src={affiliated1} alt="affiliated1" width="90%" />
         </ImagesRow>
+        <ThinHorizontalLine />
         <ListHead>Awards</ListHead>
         <SmallText>
           iae GLOBAL has been awarded the following industry accolades.

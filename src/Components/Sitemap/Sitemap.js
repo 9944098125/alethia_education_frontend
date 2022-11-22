@@ -29,103 +29,103 @@ function Sitemap() {
       </SitemapImageContainer>
       <LinkedItemsColumnsContainer>
         <LinkedItemsColumns>
-          <LinkedItems fontSize="25px" to="/">
+          <LinkedItems fontSize="20px" to="/">
             <BiChevronRight />
-            Home
+            HOME
           </LinkedItems>
-          <LinkedItems fontSize="25px" to="/our-story">
+          <LinkedItems fontSize="20px" to="/our-story">
             <BiChevronRight />
-            Our Company
+            OUR COMPANY
           </LinkedItems>
           <SubLinksContainer>
             <HashLink
               to="/our-story#story"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="22px">- Our Story</SubLinkedItems>
+              <SubLinkedItems fontSize="18px">- OUR STORY</SubLinkedItems>
             </HashLink>
             <HashLink
               to="/our-story#vision"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="22px">
-                - Vision And Values
+              <SubLinkedItems fontSize="18px">
+                - VISION AND VALUES
               </SubLinkedItems>
             </HashLink>
             <HashLink
               to="/our-story#leaders"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="22px">- Leadership Team</SubLinkedItems>
+              <SubLinkedItems fontSize="18px">- LEADERSHIP TEAM</SubLinkedItems>
             </HashLink>
             <HashLink
               to="/our-story#affiliates"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="22px">
-                - Affiliates & Awards
+              <SubLinkedItems fontSize="18px">
+                - AFFILIATES AND AWARDS
               </SubLinkedItems>
             </HashLink>
             <HashLink
               to="/news-room#news"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="22px">- News Room</SubLinkedItems>
+              <SubLinkedItems fontSize="18px">- NEWS ROOM</SubLinkedItems>
             </HashLink>
           </SubLinksContainer>
-          <LinkedItems fontSize="25px" to="/offices">
+          <LinkedItems fontSize="20px" to="/offices">
             <BiChevronRight />
-            Our Offices
+            OUR OFFICES
           </LinkedItems>
           <SubLinksContainer>
             <HashLink
               to="/offices#contact-us"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="22px">- Contact US</SubLinkedItems>
+              <SubLinkedItems fontSize="18px">- CONTACT US</SubLinkedItems>
             </HashLink>
           </SubLinksContainer>
         </LinkedItemsColumns>
         <LinkedItemsColumns>
-          <LinkedItems fontSize="25px" to="/study-abroad">
+          <LinkedItems fontSize="20px" to="/study-abroad">
             <BiChevronRight />
-            Study Abroad
+            STUDY ABROAD
           </LinkedItems>
           <SubLinksContainer>
             <HashLink
               to="/study-abroad#australia"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="22px">- Australia</SubLinkedItems>
+              <SubLinkedItems fontSize="18px">- Australia</SubLinkedItems>
             </HashLink>
             <HashLink
               to="/study-abroad#canada"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="22px">- Canada</SubLinkedItems>
+              <SubLinkedItems fontSize="18px">- CANADA</SubLinkedItems>
             </HashLink>
             <HashLink
               to="/study-abroad#new-zealand"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="22px">- New Zealand</SubLinkedItems>
+              <SubLinkedItems fontSize="18px">- NEW ZEALAND</SubLinkedItems>
             </HashLink>
             <HashLink
               to="/study-abroad#unitedStates"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="22px">- United States</SubLinkedItems>
+              <SubLinkedItems fontSize="18px">- UNITED STATES</SubLinkedItems>
             </HashLink>
             <HashLink
               to="/study-abroad#unitedKingdom"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="22px">- United Kingdom</SubLinkedItems>
+              <SubLinkedItems fontSize="18px">- UNITED KINGDOM</SubLinkedItems>
             </HashLink>
           </SubLinksContainer>
-          <LinkedItems fontSize="25px" to="/partners">
+          <LinkedItems fontSize="20px" to="/partners">
             <BiChevronRight />
-            Partner Institutions
+            PARTNER INSTITUTIONS
           </LinkedItems>
         </LinkedItemsColumns>
       </LinkedItemsColumnsContainer>

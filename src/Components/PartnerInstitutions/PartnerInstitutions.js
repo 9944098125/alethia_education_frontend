@@ -33,7 +33,12 @@ function PartnerInstitutions() {
     <Fragment>
       <PartnersImageContainer id="partnersImage">
         <TextContainer>
-          <TextInsideImage color="#ffffff" fontSize="55px" fontWeight="500">
+          <TextInsideImage
+            color="#ffffff"
+            fontSize="55px"
+            fontWeight="500"
+            style={{ marginLeft: "10%" }}
+          >
             Partner Institutions
           </TextInsideImage>
         </TextContainer>

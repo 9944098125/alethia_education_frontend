@@ -67,7 +67,7 @@ export const LinkedItemsColumns = styled.div`
 export const LinkedItems = styled(Link)`
   font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
-  font-weight: 500;
+  font-weight: 480;
   text-decoration: none;
   color: #080808;
   cursor: pointer;
@@ -83,7 +83,7 @@ export const SubLinksContainer = styled.div`
 export const SubLinkedItems = styled.p`
   font-size: ${(props) => props.fontSize};
   font-family: "Oswald", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   cursor: pointer;
   margin-top: -9%;
 `;
