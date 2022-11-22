@@ -413,6 +413,8 @@ export const AffiliatesButton = styled.button`
   width: 200px;
   margin-top: 2%;
   margin-bottom: 2%;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
   border: none;
   padding: 1%;
   border: 2px solid grey;
