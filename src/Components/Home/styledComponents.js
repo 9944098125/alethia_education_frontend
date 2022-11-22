@@ -268,7 +268,7 @@ export const ItemDescription = styled.p`
 `;
 
 export const PhilosophyContainer = styled.div`
-  background-image: url("https://j3n6z9t5.rocketcdn.me/wp-content/uploads/2022/02/higher-education-in-chile.jpg");
+  background-image: url("https://static.wixstatic.com/media/e4c206_95f2a9037e1a4cb7a8b401711f05ad83~mv2.jpg/v1/fill/w_1440,h_1157,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_95f2a9037e1a4cb7a8b401711f05ad83~mv2.jpg");
   height: 180vh;
   background-attachment: fixed;
   width: 100%;

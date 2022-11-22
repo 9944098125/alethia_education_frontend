@@ -40,14 +40,14 @@ import Footer from "../Footer/Footer";
 import GlobalReach from "../GlobalReach/GlobalReach";
 
 function Home() {
-  // const [offsetY, setOffsetY] = useState(0);
+  const [offsetY, setOffsetY] = useState(0);
 
-  // const handleScroll = () => setOffsetY(window.pageYOffset);
+  const handleScroll = () => setOffsetY(window.pageYOffset);
 
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, []);
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   useEffect(() => {
     document.title = "Home";
@@ -56,9 +56,7 @@ function Home() {
   return (
     <Fragment>
       <HomeContainer>
-        <HomeImageContainer
-        // style={{ transform: `translateY(${offsetY * 0.5}px)` }}
-        >
+        <HomeImageContainer offsetY>
           <TextContainer>
             <TextInsideImage
               mb="1%"
