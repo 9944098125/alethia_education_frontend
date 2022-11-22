@@ -131,4 +131,9 @@ export const EachCountryButton = styled.button`
   background: transparent;
   font-weight: 700;
   font-family: "PT Sans Narrow", sans-serif;
+  &:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+  }
 `;

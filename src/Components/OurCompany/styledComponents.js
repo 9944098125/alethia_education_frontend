@@ -105,6 +105,11 @@ export const ValuesButton = styled.button`
     width: 150px;
     font-size: 10px;
   }
+  &:hover {
+    background-color: black;
+    border: 2px solid grey;
+    color: white;
+  }
 `;
 
 export const StatisticsImage = styled.img`
@@ -402,9 +407,10 @@ export const AffiliatesButton = styled.button`
   margin-top: 2%;
   margin-bottom: 2%;
   border: none;
-  padding: 1.5%;
+  padding: 1%;
   &:hover {
     background-color: rgb(91, 90, 90);
+    border: 2px solid grey;
   }
 `;
 export const ImagesRow = styled.div`

@@ -103,6 +103,7 @@ export const VisionButton = styled.button`
   }
   &:hover {
     background: black;
+    border: 2px solid grey;
     color: white;
   }
 `;
@@ -325,6 +326,7 @@ export const MeetingButton = styled.button`
   font-family: "Oswald", sans-serif;
   &:hover {
     background-color: black;
+    border: 2px solid grey;
     color: white;
   }
   @media screen and (min-width: 800px) {

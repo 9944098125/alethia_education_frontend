@@ -88,6 +88,7 @@ export const PartnersButton = styled.button`
   &:hover {
     background-color: black;
     color: white;
+    border: 2px solid grey;
   }
 `;
 
@@ -104,4 +105,5 @@ export const SubmitButton = styled.button`
   padding-left: 25px;
   padding-right: 25px;
   font-weight: 700;
+  border: 2px solid grey;
 `;
