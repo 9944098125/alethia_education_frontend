@@ -32,6 +32,7 @@ export const ContactUsText = styled.p`
   margin-bottom: ${(props) => props.mb};
   font-size: ${(props) => props.fontSize};
   font-weight: ${(props) => props.fontWeight};
+  color: ${(props) => props.b && "#343434"};
 `;
 export const ContactUsFormContainer = styled.div`
   @media screen and (min-width: 1024px) {
@@ -52,6 +53,11 @@ export const SubmitButton = styled.button`
   padding: 8px;
   padding-left: 25px;
   padding-right: 25px;
-  font-weight: 700;
+  font-weight: 500;
   border: 2px solid grey;
+  width: 150px;
+  font-family: "Oswald", sans-serif;
+  &:hover {
+    background-color: #343434;
+  }
 `;

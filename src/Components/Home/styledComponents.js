@@ -85,7 +85,7 @@ export const SupportText = styled.h3`
   }
 `;
 export const VisionButton = styled.button`
-  border: 2px solid #080808;
+  border: 2px solid grey;
   background-color: transparent;
   font-family: "Oswald", sans-serif;
   height: 45px;
@@ -103,7 +103,6 @@ export const VisionButton = styled.button`
   }
   &:hover {
     background: black;
-    border: 2px solid grey;
     color: white;
   }
 `;
@@ -323,10 +322,10 @@ export const MeetingTextContainer = styled.div`
 
 export const MeetingButton = styled.button`
   background-color: transparent;
+  border: 2px solid grey;
   font-family: "Oswald", sans-serif;
   &:hover {
     background-color: black;
-    border: 2px solid grey;
     color: white;
   }
   @media screen and (min-width: 800px) {

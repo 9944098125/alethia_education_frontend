@@ -43,7 +43,7 @@ export const TextInColumn = styled.p`
   cursor: pointer;
   letter-spacing: none;
   font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-weight: 550;
   margin-top: -10px;
   @media screen and (min-width: 875px) {
     font-size: 17px;

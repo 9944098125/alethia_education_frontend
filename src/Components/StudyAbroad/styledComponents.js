@@ -56,6 +56,7 @@ export const JourneyText = styled.p`
   font-weight: ${(props) => props.fontWeight};
   font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
   text-align: center;
+  color: #343434;
 `;
 export const HorizontalLine = styled.hr`
   border: 1.5px solid gray;
@@ -102,6 +103,7 @@ export const EachCountryDescription = styled.p`
   font-weight: ${(props) => props.fontWeight};
   line-height: 1.7em;
   margin-bottom: ${(props) => props.mb};
+  color: #343434;
   @media screen and (min-width: 1024px) {
     font-size: ${(props) => props.fontSizeL};
   }

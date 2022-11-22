@@ -70,7 +70,7 @@ export const TextPara = styled.p`
 `;
 
 export const PartnersButton = styled.button`
-  border: 2px solid #080808;
+  border: 2px solid grey;
   font-family: "Oswald", sans-serif;
   background-color: transparent;
   @media screen and (min-width: 875px) {
@@ -88,7 +88,6 @@ export const PartnersButton = styled.button`
   &:hover {
     background-color: black;
     color: white;
-    border: 2px solid grey;
   }
 `;
 
@@ -104,6 +103,11 @@ export const SubmitButton = styled.button`
   padding: 8px;
   padding-left: 25px;
   padding-right: 25px;
-  font-weight: 700;
+  font-weight: 500;
   border: 2px solid grey;
+  width: 150px;
+  font-family: "Oswald", sans-serif;
+  &:hover {
+    background: #343434;
+  }
 `;

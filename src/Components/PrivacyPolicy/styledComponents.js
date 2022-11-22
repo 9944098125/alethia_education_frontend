@@ -18,7 +18,7 @@ export const PrivacyImageContainer = styled.div`
   }
   @media screen and (min-width: 1024px) {
     padding-left: 50px;
-    margin-top: -120px;
+    margin-top: -80px;
   }
 `;
 export const TextContainer = styled.div`
@@ -48,6 +48,7 @@ export const PrivacyText = styled.p`
   font-weight: ${(props) => props.fontWeight};
   margin-bottom: ${(props) => props.mb};
   font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
+  color: #343434;
   @media screen and (max-width: 768px) {
     margin-bottom: 0px;
   }

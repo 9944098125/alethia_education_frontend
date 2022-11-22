@@ -296,6 +296,7 @@ export const UnorderedList = styled.ul`
 `;
 export const ListItem = styled.li`
   font-size: 14px;
+  color: #343434;
   @media screen and (max-width: 768px) {
     margin-bottom: 3%;
     font-size: 13px;
@@ -382,6 +383,7 @@ export const LeaderName = styled.p`
 export const LeaderDescription = styled.p`
   font-size: 14px;
   font-weight: 400;
+  color: #343434;
   @media screen and (max-width: 768px) {
     font-size: 10px;
   }

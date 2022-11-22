@@ -285,16 +285,16 @@ function Home() {
             <TextInsideImage color="#080808" fontWeight="550" fontSize="50px">
               GLOBAL Group
             </TextInsideImage>
-            <p style={{ fontSize: "13px" }}>
+            <p style={{ fontSize: "13px", color: "#343434" }}>
               We are an award-winning, growing international network that places
               an average of 18,000 students a year into over 700 key partner
               educational institutions worldwide.
             </p>
-            <p style={{ fontSize: "13px" }}>
+            <p style={{ fontSize: "13px", color: "#343434" }}>
               Explore and discover why hundreds of institutions have trusted us
               with their recruitment and reputation.
             </p>
-            <p style={{ fontSize: "13px" }}>
+            <p style={{ fontSize: "13px", color: "#343434" }}>
               ​ We work with some of the most prestigious and recognised
               institutions in the world. We build robust relationships with our
               partners by working together with them to grow their brand and
