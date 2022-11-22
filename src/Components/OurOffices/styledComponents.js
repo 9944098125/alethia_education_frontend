@@ -10,6 +10,7 @@ export const OfficesImageContainer = styled.div`
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_1d618749ffdb472fa0b3346707c132df~mv2.jpeg/v1/fill/w_1899,h_538,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_1d618749ffdb472fa0b3346707c132df~mv2.jpeg");
   background-size: cover;
+  background-position: center;
   margin-top: -70px;
   display: flex;
   align-items: flex-end;
