@@ -123,7 +123,7 @@ function GlobalReach() {
                 </div>
                 <div className="col mb-3">
                   <Label htmlFor="message">
-                    <strong>Message</strong>
+                    <strong>Message*</strong>
                   </Label>
                   <Field
                     type="text"

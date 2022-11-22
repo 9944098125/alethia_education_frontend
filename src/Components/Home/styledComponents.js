@@ -65,7 +65,7 @@ export const PathwayButton = styled.button`
 `;
 export const SupportContainer = styled.div`
   @media screen and (min-width: 768px) {
-    padding-left: 10%;
+    padding-left: 9.5%;
     padding-top: 50px;
   }
   @media screen and (max-width: 768px) {
