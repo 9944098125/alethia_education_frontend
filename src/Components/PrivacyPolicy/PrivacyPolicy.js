@@ -42,7 +42,7 @@ function PrivacyPolicy() {
           "Website") and our practices for collecting, using, maintaining,
           protecting, and disclosing that information.
         </PrivacyText>
-        <PrivacyText mb="-30px" fontSize="15px" fontWeight="400">
+        <PrivacyText mb="-30px" fontSize="15px" fontWeight="450">
           This Policy applies to information we collect:
         </PrivacyText>
         <ListContainer mb="-20px">
@@ -52,7 +52,7 @@ function PrivacyPolicy() {
             Website.
           </ListItem>
         </ListContainer>
-        <PrivacyText mb="-30px" fontSize="15px" fontWeight="400">
+        <PrivacyText mb="-30px" fontSize="15px" fontWeight="450">
           It does not apply to the information collected by:
         </PrivacyText>
         <ListContainer>
@@ -67,7 +67,7 @@ function PrivacyPolicy() {
             that may link to or be accessible from or through the Website.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="450">
           Please read this policy carefully to understand our policies and
           practices regarding your information and how we will treat it. If you
           do not agree with our policies and practices, your choice is not to
@@ -80,7 +80,7 @@ function PrivacyPolicy() {
         <PrivacyText fontF fontSize="16px" fontWeight="600">
           Children Under the age of 16
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="450">
           Our Website is not intended for children under 16 years of age. No one
           under age 16 may provide any information to or on the Website. We do
           not knowingly collect personal information from children under 16. If
@@ -93,7 +93,7 @@ function PrivacyPolicy() {
           information. If you believe we might have any information from or
           about a child under 16, please contact us at info@iaeglobal.net.
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="450">
           If you are under 16 years of age and wish to use our services, your
           parents or legal guardian must provide their agreement on your behalf
           to our privacy policy and the other terms and conditions applicable to
@@ -137,7 +137,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="450">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -185,7 +185,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="450">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -200,7 +200,7 @@ function PrivacyPolicy() {
         <PrivacyText fontF fontSize="16px" fontWeight="600">
           INFORMATION WE COLLECT THROUGH AUTOMATION DATA TRANSFER TECHNOLOGY
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="450">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -248,7 +248,7 @@ function PrivacyPolicy() {
         <PrivacyText fontF fontSize="16px" fontWeight="600">
           HOW WE USE YOUR INFORMATION
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="450">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -281,7 +281,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="450">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -296,7 +296,7 @@ function PrivacyPolicy() {
         <PrivacyText fontF fontSize="16px" fontWeight="600">
           DISCLOSURE OF YOUR INFORMATION
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="450">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -329,7 +329,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="450">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -344,7 +344,7 @@ function PrivacyPolicy() {
         <PrivacyText fontF fontSize="16px" fontWeight="600">
           CHOICES ABOUT HOW WE USE AND DISCLOSE YOUR INFORMATION
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="450">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -372,7 +372,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="15px" fontWeight="400">
+        <PrivacyText fontSize="15px" fontWeight="450">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -387,7 +387,7 @@ function PrivacyPolicy() {
         <PrivacyText fontF fontSize="16px" fontWeight="600">
           YOUR COUNTRY'S PRIVACY RIGHTS
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="450">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -415,7 +415,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="450">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -430,7 +430,7 @@ function PrivacyPolicy() {
         <PrivacyText fontF fontSize="16px" fontWeight="600">
           DATA SECURITY
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="450">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -463,7 +463,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="450">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -478,7 +478,7 @@ function PrivacyPolicy() {
         <PrivacyText fontF fontSize="16px" fontWeight="600">
           CONTACT Us
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="450">
           To ask questions or comment about this privacy policy and our privacy
           practices, or to register a concern, contact us at: 8F Humax Ebisu
           Building Ebisu Minami 1-1-1, Shibuya-ku Tokyo, 150-0022, Japan

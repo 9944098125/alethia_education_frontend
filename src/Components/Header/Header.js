@@ -1,7 +1,6 @@
 // export default Header;
 import React, { Fragment } from "react";
 import {
-  CompanyLink,
   HeaderContainer,
   HeadLink,
   HoldingsButton,

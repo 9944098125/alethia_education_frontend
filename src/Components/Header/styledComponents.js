@@ -61,7 +61,7 @@ export const HeadLink = styled.h3`
     margin-bottom: 15px;
   }
   &:hover {
-    color: maroon;
+    color: grey;
   }
 `;
 

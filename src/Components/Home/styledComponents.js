@@ -201,6 +201,9 @@ export const Links = styled.p`
     font-size: 12px;
     width: 90px;
   }
+  &:hover {
+    color: rgb(176, 76, 4);
+  }
 `;
 
 export const AwardsContainer = styled.div`

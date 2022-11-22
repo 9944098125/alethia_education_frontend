@@ -39,7 +39,7 @@ export const EachColumn = styled.div`
 `;
 
 export const TextInColumn = styled.p`
-  color: #ffffff;
+  color: ${(props) => (props.grey ? "#D3D3D3" : "white")};
   cursor: pointer;
   letter-spacing: none;
   font-family: "Oswald", sans-serif;

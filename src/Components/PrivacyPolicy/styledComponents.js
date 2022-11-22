@@ -48,7 +48,7 @@ export const PrivacyText = styled.p`
   font-weight: ${(props) => props.fontWeight};
   margin-bottom: ${(props) => props.mb};
   font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
-  color: #343434;
+  color: #36454f;
   @media screen and (max-width: 768px) {
     margin-bottom: 0px;
   }
@@ -64,4 +64,5 @@ export const ListContainer = styled.ul`
 export const ListItem = styled.li`
   font-size: 15px;
   font-weight: 400;
+  color: #36454f;
 `;

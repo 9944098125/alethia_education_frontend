@@ -69,8 +69,8 @@ function Footer() {
             </HashLink>
           </EachColumn>
           <EachColumn>
-            <TextInColumn>© 2018 IAE GLOBAL. ALL RIGHTS</TextInColumn>
-            <TextInColumn>RESERVED</TextInColumn>
+            <TextInColumn grey>© 2018 IAE GLOBAL. ALL RIGHTS</TextInColumn>
+            <TextInColumn grey>RESERVED</TextInColumn>
           </EachColumn>
         </TextContainer>
       </FooterContainer>
