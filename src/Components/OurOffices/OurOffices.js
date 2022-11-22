@@ -11,11 +11,13 @@ import {
   TextContainer,
   TextInsideImage,
 } from "./styledComponents";
+import DocumentTitle from "../DocumentTitle";
 
 function OurOffices() {
-  useEffect(() => {
-    document.title = "Our offices - iae Global";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "Our offices - iae Global";
+  // }, []);
+  DocumentTitle("Our Offices - iae Global");
   return (
     <Fragment>
       <OfficesContainer id="offices">

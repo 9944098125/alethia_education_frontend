@@ -21,11 +21,13 @@ import {
   TextContainer,
   TextInsideImage,
 } from "./styledComponents";
+import DocumentTitle from "../DocumentTitle";
 
 function StudyAbroad() {
-  useEffect(() => {
-    document.title = "Study Abroad - iae Global";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "Study Abroad - iae Global";
+  // }, []);
+  DocumentTitle("Study Abroad - iae Global");
   return (
     <Fragment>
       <StudyAbroadImageContainer id="abroadImage">

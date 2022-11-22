@@ -21,15 +21,13 @@ import {
 import { HashLink } from "react-router-hash-link";
 import Footer from "../Footer/Footer";
 import Comment from "./Comment";
+import DocumentTitle from "../DocumentTitle";
 
 function Facts() {
-  useEffect(() => {
-    document.title = "Facts about Australia - iae Global";
-  }, []);
-  // const [comment, setComment] = useState("");
-  // const changeComment = (event) => {
-  //   setComment(event.target.value);
-  // };
+  // useEffect(() => {
+  //   document.title = "Facts about Australia - iae Global";
+  // }, []);
+  DocumentTitle("Facts about Australia - iae Global");
   return (
     <Fragment>
       <NewsRoomImageContainer id="news">

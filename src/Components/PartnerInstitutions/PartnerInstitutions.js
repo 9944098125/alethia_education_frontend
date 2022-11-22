@@ -24,11 +24,13 @@ import {
   UniversityNameContainer,
   WrappedUniversities,
 } from "./styledComponents";
+import DocumentTitle from "../DocumentTitle";
 
 function PartnerInstitutions() {
-  useEffect(() => {
-    document.title = "Partner Institutions - iae Global";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "Partner Institutions - iae Global";
+  // }, []);
+  DocumentTitle("Partner Institutions - iae Global");
   return (
     <Fragment>
       <PartnersImageContainer id="partnersImage">

@@ -24,20 +24,15 @@ import {
 import Footer from "../Footer/Footer";
 import { HashLink } from "react-router-hash-link";
 import Comment from "./Comment";
+import DocumentTitle from "../DocumentTitle";
 
 function Australia() {
-  useEffect(() => {
-    document.title = "University Of Newcastle - iae Global";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "University Of Newcastle - iae Global";
+  // }, []);
+  DocumentTitle("University of Newcastle - iae Global");
   const embedId = "pGt_oapFdzg";
-  // const [comment, setComment] = useState("");
-  // const [viewFullInput, setViewFullInput] = useState(false);
-  // const changeComment = (event) => {
-  //   setComment(event.target.value);
-  // };
-  // const onClickInputContainer = () => {
-  //   setViewFullInput(!viewFullInput);
-  // };
+
   return (
     <Fragment>
       <NewsRoomImageContainer id="news">

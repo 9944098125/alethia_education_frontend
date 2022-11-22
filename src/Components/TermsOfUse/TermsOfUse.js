@@ -10,11 +10,13 @@ import {
   TextInsideImage,
 } from "../PrivacyPolicy/styledComponents";
 import Footer from "../Footer/Footer";
+import DocumentTitle from "../DocumentTitle";
 
 function TermsOfUse() {
-  useEffect(() => {
-    document.title = "Term Of Use - iae Global";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "Term Of Use - iae Global";
+  // }, []);
+  DocumentTitle("Terms Of Use - iae Global");
   return (
     <Fragment>
       <PrivacyImageContainer id="terms">

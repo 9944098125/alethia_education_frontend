@@ -10,11 +10,13 @@ import {
   TextContainer,
   TextInsideImage,
 } from "./styledComponents";
+import DocumentTitle from "../DocumentTitle";
 
 function PrivacyPolicy() {
-  useEffect(() => {
-    document.title = "Privacy Policy - iae Global";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "Privacy Policy - iae Global";
+  // }, []);
+  DocumentTitle("Privacy Policy - iae Global");
   return (
     <Fragment>
       <PrivacyImageContainer id="privacy">

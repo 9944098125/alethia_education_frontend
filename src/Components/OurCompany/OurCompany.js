@@ -58,11 +58,13 @@ import {
   ThinHorizontalLine,
   AlignEndTextContainer,
 } from "./styledComponents";
+import DocumentTitle from "../DocumentTitle";
 
 function OurCompany() {
-  useEffect(() => {
-    document.title = "Our story - iae Global";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "Our story - iae Global";
+  // }, []);
+  DocumentTitle("Our Story - iae Global");
 
   return (
     <Fragment>

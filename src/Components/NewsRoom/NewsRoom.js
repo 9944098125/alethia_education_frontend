@@ -17,11 +17,13 @@ import {
   TextInsideImage,
 } from "./styledComponents";
 import { HashLink } from "react-router-hash-link";
+import DocumentTitle from "../DocumentTitle";
 
 function NewsRoom() {
-  useEffect(() => {
-    document.title = "News Room - iae Global";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "News Room - iae Global";
+  // }, []);
+  DocumentTitle("News Room - iae Global");
   return (
     <Fragment>
       <NewsRoomImageContainer id="news">

@@ -38,20 +38,22 @@ import {
 } from "./styledComponents";
 import Footer from "../Footer/Footer";
 import GlobalReach from "../GlobalReach/GlobalReach";
+import DocumentTitle from "../DocumentTitle";
 
 function Home() {
-  const [offsetY, setOffsetY] = useState(0);
+  // const [offsetY, setOffsetY] = useState(0);
 
-  const handleScroll = () => setOffsetY(window.pageYOffset);
+  // const handleScroll = () => setOffsetY(window.pageYOffset);
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, []);
 
-  useEffect(() => {
-    document.title = "Home";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "Home";
+  // }, []);
+  DocumentTitle("Home");
 
   return (
     <Fragment>

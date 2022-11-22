@@ -22,15 +22,13 @@ import {
 import { HashLink } from "react-router-hash-link";
 import Footer from "../Footer/Footer";
 import Comment from "./Comment";
+import DocumentTitle from "../DocumentTitle";
 
 function Canada() {
-  useEffect(() => {
-    document.title = "Top 10 Universities of Canada - iae Global";
-  }, []);
-  // const [comment, setComment] = useState("");
-  // const changeComment = (event) => {
-  //   setComment(event.target.value);
-  // };
+  // useEffect(() => {
+  //   document.title = "Top 10 Universities of Canada - iae Global";
+  // }, []);
+  DocumentTitle("Top Universities of Canada - iae Global");
   return (
     <Fragment>
       <NewsRoomImageContainer id="news">

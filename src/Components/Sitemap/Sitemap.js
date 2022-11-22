@@ -13,11 +13,13 @@ import {
   TextContainer,
   TextInsideImage,
 } from "./styledComponents";
+import DocumentTitle from "../DocumentTitle";
 
 function Sitemap() {
-  useEffect(() => {
-    document.title = "Sitemap - iae Global";
-  }, []);
+  // useEffect(() => {
+  //   document.title = "Sitemap - iae Global";
+  // }, []);
+  DocumentTitle("Sitemap - iae Global");
   return (
     <Fragment>
       <SitemapImageContainer id="sitemap">

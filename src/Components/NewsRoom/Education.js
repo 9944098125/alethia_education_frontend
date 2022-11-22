@@ -22,12 +22,14 @@ import {
 import Footer from "../Footer/Footer";
 import { HashLink } from "react-router-hash-link";
 import Comment from "./Comment";
+import DocumentTitle from "../DocumentTitle";
 
 function Education() {
-  useEffect(() => {
-    document.title =
-      "Education, Career and Migration Fair in Sydney - iae Global";
-  }, []);
+  // useEffect(() => {
+  //   document.title =
+  //     "Education, Career and Migration Fair in Sydney - iae Global";
+  // }, []);
+  DocumentTitle("Education, Career and Migration Fair in Sydney");
   const embedId = "k3koOXV4Ojc";
   // const [comment, setComment] = useState("");
   // const changeComment = (event) => {
