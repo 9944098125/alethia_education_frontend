@@ -8,7 +8,7 @@ import {
   ImageIcon,
   LinksInHoveredBlock,
 } from "./styledComponents";
-import logo from "../../Assets/Images/logo.webp";
+import logo from "../../Assets/Images/logo2.webp";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 

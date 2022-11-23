@@ -8,10 +8,10 @@ export const HomeContainer = styled.div`
 export const HomeImageContainer = styled.div`
   height: 160vh;
   max-width: 100%;
-  background: url("https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_980,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg");
+  background: url("https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_2500,h_1668,al_c/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: center 25%;
+  background-position: top center;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -24,7 +24,7 @@ export const HomeImageContainer = styled.div`
   }
   @media screen and (min-width: 1024px) {
     padding-left: 50px;
-    margin-top: -80px;
+    margin-top: -70px;
   }
 `;
 export const TextContainer = styled.div`
@@ -49,7 +49,7 @@ export const TextInsideImage = styled.span`
 export const PathwayButton = styled.button`
   background-color: #e49b0f;
   color: #ffffff;
-  font-weight: 500;
+  font-weight: 580;
   border: none;
   display: flex;
   font-size: 16px;
@@ -189,17 +189,22 @@ export const Gap = styled.div`
   }
 `;
 
-export const Links = styled.p`
+export const Links = styled.button`
   color: rgb(176, 76, 4);
   font-weight: 600;
+  padding-bottom: -12px;
+  border: none;
   border-bottom: 0.3px dotted #cc5500;
+  background: transparent;
+  display: flex;
+  align-items: center;
   @media screen and (min-width: 800px) {
     font-size: 18px;
-    width: 115px;
+    width: 160px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;
-    width: 80px;
+    width: 120px;
   }
   &:hover {
     color: rgb(255, 142, 13);
@@ -327,6 +332,10 @@ export const MeetingButton = styled.button`
   background-color: transparent;
   border: 2px solid grey;
   font-family: "Oswald", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 45px;
   &:hover {
     background-color: black;
     color: white;
@@ -337,7 +346,7 @@ export const MeetingButton = styled.button`
     padding-right: 20px;
     font-size: 16px;
     margin-top: 25px;
-    width: 200px;
+    width: 160px;
   }
   @media screen and (max-width: 768px) {
     padding: 5px;
@@ -345,7 +354,7 @@ export const MeetingButton = styled.button`
     padding-right: 15px;
     font-size: 10px;
     margin-top: 20px;
-    width: 150px;
+    width: 110px;
   }
 `;
 

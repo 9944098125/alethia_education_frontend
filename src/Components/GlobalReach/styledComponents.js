@@ -73,6 +73,9 @@ export const PartnersButton = styled.button`
   border: 2px solid grey;
   font-family: "Oswald", sans-serif;
   background-color: transparent;
+  display: flex;
+  align-items: center;
+  max-height: 45px;
   @media screen and (min-width: 875px) {
     padding: 7px;
     padding-right: 20px;

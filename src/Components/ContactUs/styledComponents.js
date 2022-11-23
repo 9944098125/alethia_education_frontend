@@ -13,7 +13,7 @@ export const ContactUsContainer = styled.div`
   }
 `;
 export const ContactUsTextContainer = styled.div`
-  margin-right: 10%;
+  margin-right: 3%;
   padding: 0%;
   padding-top: 0px;
   padding-left: 10%;
@@ -46,6 +46,7 @@ export const Label = styled.label`
   font-weight: 600;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 18px;
+  color: dark-grey;
 `;
 export const SubmitButton = styled.button`
   background-color: #080808;

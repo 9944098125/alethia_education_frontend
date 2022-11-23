@@ -53,7 +53,20 @@ function GlobalReach() {
           >
             <PartnersButton>
               OUR PARTNERSHIP INSTITUTIONS{" "}
-              <HiOutlineArrowRight className="ms-2 mb-1" />
+              <p
+                style={{
+                  marginRight: "-2px",
+                  marginTop: "14px",
+                  marginLeft: "15px",
+                }}
+              >
+                -
+              </p>
+              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+              <p style={{ marginRight: "-2px", marginTop: "14px" }}>{">"}</p>
             </PartnersButton>
           </HashLink>
           <Formik initialValues={initialValues}>

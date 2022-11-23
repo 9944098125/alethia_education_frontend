@@ -9,7 +9,7 @@ import trophy from "../../Assets/Images/trophy.webp";
 import meet from "../../Assets/Images/meet.webp";
 import { HashLink } from "react-router-hash-link";
 import { HiOutlineArrowRight } from "react-icons/hi";
-import { IoIosArrowRoundForward } from "react-icons/io";
+import { BsArrowRight } from "react-icons/bs";
 import {
   AwardsContainer,
   CountryName,
@@ -39,8 +39,12 @@ import {
 import Footer from "../Footer/Footer";
 import GlobalReach from "../GlobalReach/GlobalReach";
 import DocumentTitle from "../DocumentTitle";
+// import { useParallax } from "react-scroll-parallax";
 
 function Home() {
+  // const parallax = useParallax({
+  //   speed: -50,
+  // });
   // const [offsetY, setOffsetY] = useState(0);
 
   // const handleScroll = () => setOffsetY(window.pageYOffset);
@@ -58,21 +62,24 @@ function Home() {
   return (
     <Fragment>
       <HomeContainer>
-        <HomeImageContainer>
+        <HomeImageContainer
+        // style={{ transform: `translateY(${offsetY * 0.1})` }}
+        // style={{ filter: "brightness(50%)" }}
+        >
           <TextContainer>
             <TextInsideImage
               mb="1%"
               color="#ffffff"
-              fontWeight="500"
-              fontSize="55px"
+              fontWeight="550"
+              fontSize="45px"
             >
               Creating a better future
             </TextInsideImage>
             <TextInsideImage
               mb="3%"
               color="#ffffff"
-              fontWeight="500"
-              fontSize="20px"
+              fontWeight="550"
+              fontSize="15px"
             >
               CONNECTING INTERNATIONAL STUDENTS WITH STUDY AND CAREER
               OPPORTUNITIES ABROAD
@@ -90,10 +97,33 @@ function Home() {
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <PathwayButton>
-                YOUR PATHWAY{" "}
-                <IoIosArrowRoundForward
-                  style={{ marginBottom: "-5px", marginLeft: "5px" }}
-                />
+                YOUR PATHWAY
+                <p
+                  style={{
+                    marginRight: "-2px",
+                    marginTop: "14px",
+                    marginLeft: "15px",
+                  }}
+                >
+                  -
+                </p>
+                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-2px", marginTop: "14px" }}>{">"}</p>
+                {/* <BsArrowRight
+                  style={{
+                    marginBottom: "-5px",
+                    marginLeft: "5px",
+                    width: "35px",
+                  }}
+                /> */}
+                {/* <img
+                  src="https://www.nicepng.com/png/detail/9-97633_right-arrow-white-png-right-arrow-png-white.png"
+                  className="arrow"
+                  alt="arrow"
+                /> */}
               </PathwayButton>
             </HashLink>
           </TextContainer>
@@ -102,7 +132,21 @@ function Home() {
           <SupportText>Supporting education abroad</SupportText>
           <HashLink to="/our-story#vision" style={{ textDecoration: "none" }}>
             <VisionButton>
-              Our Vision <HiOutlineArrowRight className="mt-1 ms-2" />
+              Our Vision{" "}
+              <p
+                style={{
+                  marginRight: "-2px",
+                  marginTop: "14px",
+                  marginLeft: "15px",
+                }}
+              >
+                -
+              </p>
+              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+              <p style={{ marginRight: "-2px", marginTop: "14px" }}>{">"}</p>
             </VisionButton>
           </HashLink>
         </SupportContainer>
@@ -126,7 +170,21 @@ function Home() {
               to="/study-abroad#australia"
             >
               <Links>
-                Read more <IoIosArrowRoundForward style={{ height: "20px" }} />
+                Read more{" "}
+                <p
+                  style={{
+                    marginRight: "-3px",
+                    marginTop: "14px",
+                    marginLeft: "15px",
+                  }}
+                >
+                  -
+                </p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
               </Links>{" "}
             </HashLink>
           </SingleOption>
@@ -147,7 +205,21 @@ function Home() {
               to="/study-abroad#new-zealand"
             >
               <Links>
-                Read more <IoIosArrowRoundForward style={{ height: "20px" }} />
+                Read more{" "}
+                <p
+                  style={{
+                    marginRight: "-3px",
+                    marginTop: "14px",
+                    marginLeft: "15px",
+                  }}
+                >
+                  -
+                </p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
               </Links>{" "}
             </HashLink>
           </SingleOption>
@@ -168,7 +240,21 @@ function Home() {
               to="/study-abroad#canada"
             >
               <Links>
-                Read more <IoIosArrowRoundForward style={{ height: "20px" }} />
+                Read more
+                <p
+                  style={{
+                    marginRight: "-3px",
+                    marginTop: "14px",
+                    marginLeft: "15px",
+                  }}
+                >
+                  -
+                </p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
               </Links>{" "}
             </HashLink>
           </SingleOption>
@@ -189,7 +275,21 @@ function Home() {
               to="/study-abroad#unitedStates"
             >
               <Links>
-                Read more <IoIosArrowRoundForward style={{ height: "20px" }} />
+                Read more{" "}
+                <p
+                  style={{
+                    marginRight: "-3px",
+                    marginTop: "14px",
+                    marginLeft: "15px",
+                  }}
+                >
+                  -
+                </p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
               </Links>{" "}
             </HashLink>
           </SingleOption>
@@ -210,7 +310,21 @@ function Home() {
               to="/study-abroad#unitedKingdom"
             >
               <Links>
-                Read more <IoIosArrowRoundForward style={{ height: "20px" }} />
+                Read more{" "}
+                <p
+                  style={{
+                    marginRight: "-3px",
+                    marginTop: "14px",
+                    marginLeft: "15px",
+                  }}
+                >
+                  -
+                </p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
               </Links>
             </HashLink>
           </SingleOption>
@@ -230,7 +344,21 @@ function Home() {
               to="/offices#offices"
             >
               <Links>
-                Read more <IoIosArrowRoundForward style={{ height: "20px" }} />
+                Read more{" "}
+                <p
+                  style={{
+                    marginRight: "-3px",
+                    marginTop: "14px",
+                    marginLeft: "15px",
+                  }}
+                >
+                  -
+                </p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
               </Links>
             </HashLink>
           </SingleOption>
@@ -271,10 +399,20 @@ function Home() {
             >
               <PathwayButton>
                 LEARN MORE
-                <IoIosArrowRoundForward
-                  className="ms-2"
-                  style={{ marginBottom: "-5px" }}
-                />
+                <p
+                  style={{
+                    marginRight: "-2px",
+                    marginTop: "14px",
+                    marginLeft: "15px",
+                  }}
+                >
+                  -
+                </p>
+                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+                <p style={{ marginRight: "-2px", marginTop: "14px" }}>{">"}</p>
               </PathwayButton>
             </HashLink>
           </TextContainer>
@@ -308,13 +446,36 @@ function Home() {
             >
               <MeetingButton>
                 LEARN MORE{" "}
-                <HiOutlineArrowRight
+                <div className="d-flex align-items-center">
+                  <p
+                    style={{
+                      marginRight: "-2px",
+                      marginTop: "14px",
+                      marginLeft: "15px",
+                    }}
+                  >
+                    -
+                  </p>
+                  <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+                  <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+                  <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+                  <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
+                  <p style={{ marginRight: "-2px", marginTop: "14px" }}>
+                    {">"}
+                  </p>
+                </div>
+                {/* <HiOutlineArrowRight
                   style={{
                     marginBottom: "3px",
                     marginLeft: "10px",
                     fontWeight: "300",
                   }}
-                />
+                /> */}
+                {/* <img
+                  src="https://spng.pngfind.com/pngs/s/33-330448_right-arrow-icon-svg-long-arrow-right-hd.png"
+                  alt="arrow2"
+                  className="arrow"
+                /> */}
               </MeetingButton>
             </HashLink>
           </MeetingTextContainer>
