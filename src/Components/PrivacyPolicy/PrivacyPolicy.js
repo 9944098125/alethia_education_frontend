@@ -484,6 +484,8 @@ function PrivacyPolicy() {
           To ask questions or comment about this privacy policy and our privacy
           practices, or to register a concern, contact us at: 8F Humax Ebisu
           Building Ebisu Minami 1-1-1, Shibuya-ku Tokyo, 150-0022, Japan
+        </PrivacyText>
+        <PrivacyText fontSize="14px" fontWeight="450">
           info@iaeglobal.net
         </PrivacyText>
       </PrivacyTextContainer>
