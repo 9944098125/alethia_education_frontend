@@ -46,7 +46,7 @@ function Australia() {
         <EachText fontSize="12px" fontWeight="400">
           8th August, 2019
         </EachText>
-        <EachText fontF fontSize="40px" fontWeight="550">
+        <EachText color="#343434" fontF fontSize="40px" fontWeight="550">
           The University of New Castle - Australia
         </EachText>
         <EachText fontSize="14px" fontWeight="400">
@@ -200,7 +200,7 @@ function Australia() {
             home.
           </EachText>
           <EachRoomImages
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUDyqzCny86dfyZSDHFojhz_antxrH1HfWg&usqp=CAU"
+            src="https://static.wixstatic.com/media/e4c206_2ed90c39f10d4ec2bf5f14f467f9d720~mv2.png/v1/fill/w_740,h_494,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/e4c206_2ed90c39f10d4ec2bf5f14f467f9d720~mv2.png"
             alt="newcastle8"
           />
           <EachText mllg="40%" fontSize="14px">
@@ -225,7 +225,7 @@ function Australia() {
             students who’ve graduated from the University of Newcastle.”
           </EachText>
           <EachRoomImages
-            src="https://media.istockphoto.com/id/1349297974/photo/multi-ethnic-group-of-latin-american-college-students-smiling.jpg?b=1&s=170667a&w=0&k=20&c=dkJyrGwyHIkHCWadKMBqsLD5pk-jHH6lpB2Ig23ba-E="
+            src="https://static.wixstatic.com/media/e4c206_f548f4b497764dec8bf6a8c94f7bbbf1~mv2.png/v1/fill/w_740,h_494,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/e4c206_f548f4b497764dec8bf6a8c94f7bbbf1~mv2.png"
             alt="newcastle9"
           />
           <EachText mllg="38%" fontSize="14px">
@@ -391,7 +391,7 @@ function Australia() {
             agency
           </EachText>
           <EachRoomImages
-            src="https://c1.wallpaperflare.com/preview/945/832/999/sea-shore-shore-hang-out-people.jpg"
+            src="https://static.wixstatic.com/media/e4c206_5b13c333bee74c6684b5790fb56cc70d~mv2.png/v1/fill/w_740,h_494,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/e4c206_5b13c333bee74c6684b5790fb56cc70d~mv2.png"
             alt="newcastle12"
           />
           <EachText mllg="28%" fontSize="14px">

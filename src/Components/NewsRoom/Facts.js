@@ -41,7 +41,7 @@ function Facts() {
         <EachText fontSize="12px" fontWeight="400">
           8th August, 2019
         </EachText>
-        <EachText fontF fontSize="40px" fontWeight="500">
+        <EachText color="#343434" fontF fontSize="40px" fontWeight="500">
           Facts about Australia
         </EachText>
         <EachText
