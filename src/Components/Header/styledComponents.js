@@ -55,7 +55,7 @@ export const HeadLink = styled.h3`
   font-weight: 600;
   font-size: 14px;
   margin-right: 15px;
-  transform: scale(1, 1.1);
+  transform: scale(1.05, 1.1);
   width: 100% !important;
   @media screen and (max-width: 768px) {
     margin-right: 0px;
