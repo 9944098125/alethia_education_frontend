@@ -42,27 +42,30 @@ import DocumentTitle from "../DocumentTitle";
 // import { useParallax } from "react-scroll-parallax";
 
 function Home() {
-  // const parallax = useParallax({
-  //   speed: -50,
-  // });
-  // const [offsetY, setOffsetY] = useState(0);
-
-  // const handleScroll = () => setOffsetY(window.pageYOffset);
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, []);
-
-  // useEffect(() => {
-  //   document.title = "Home";
-  // }, []);
+  // const [offset, setOffset] = useState(0);
   DocumentTitle("Home");
+
+  // const parallaxShift = () => {
+  //   setOffset(window.pageYOffset);
+  // };
+
+  // useEffect(() => {
+  //   return () => {
+  //     window.addEventListener("scroll", parallaxShift);
+  //   };
+  // }, []);
+
+  // useEffect(() => {
+  //   return () => {
+  //     window.removeEventListener("scroll", parallaxShift);
+  //   };
+  // }, []);
 
   return (
     <Fragment>
       <HomeContainer>
         <HomeImageContainer
+        // style={{ backgroundPosition: offset }}
         // style={{ transform: `translateY(${offsetY * 0.1})` }}
         // style={{ filter: "brightness(50%)" }}
         >
