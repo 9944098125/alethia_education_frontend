@@ -11,7 +11,8 @@ export const HomeImageContainer = styled.div`
   background: url("https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_2500,h_1668,al_c/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: top center right 50%;
+  background-position: center top;
+  right: 200px;
   display: flex;
   align-items: center;
   justify-content: flex-start;

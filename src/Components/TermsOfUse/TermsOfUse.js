@@ -429,10 +429,10 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="17px" fontWeight="600">
           COPYRIGHT INFRINGEMENT
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
+        {/* <PrivacyText mb="-20px" fontSize="14px" fontWeight="400">
           If you believe that any User Contributions violate your copyright,
           please contact info@iaeglobal.net.
-        </PrivacyText>
+        </PrivacyText> */}
 
         <PrivacyText fontF fontSize="17px" fontWeight="600">
           RELIANCE ON INFORMATION POSTED
