@@ -458,6 +458,24 @@ function TermsOfUse() {
           We are not responsible, or liable to you or any third party, for the
           content or accuracy of any materials provided by any third parties.
         </PrivacyText>
+
+        <PrivacyText fontF fontSize="20px" fontWeight="600">
+          WAIVER AND SEVERIBILITY
+        </PrivacyText>
+        <PrivacyText fontSize="14px" fontWeight="400">
+          No waiver by the Company of any term or condition set out in these
+          Terms of Use shall be deemed a further or continuing waiver of such
+          term or condition or a waiver of any other term or condition, and any
+          failure of the Company to assert a right or provision under these
+          Terms of Use shall not constitute a waiver of such right or provision.
+        </PrivacyText>
+        <PrivacyText fontSize="14px" fontWeight="400">
+          If any provision of these Terms of Use is held by a court or other
+          tribunal of competent jurisdiction to be invalid, illegal, or
+          unenforceable for any reason, such provision shall be eliminated or
+          limited to the minimum extent such that the remaining provisions of
+          the Terms of Use will continue in full force and effect.
+        </PrivacyText>
         <PrivacyText fontF fontSize="20px" fontWeight="600">
           ENTIRE AGREEMENT
         </PrivacyText>

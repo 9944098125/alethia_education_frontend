@@ -45,8 +45,9 @@ export const TextInColumn = styled.p`
   font-family: "Oswald", sans-serif;
   font-weight: 550;
   margin-top: -10px;
+  transform: scale(1, 1);
   @media screen and (min-width: 875px) {
-    font-size: 17px;
+    font-size: 16px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;

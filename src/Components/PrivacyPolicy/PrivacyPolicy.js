@@ -478,6 +478,20 @@ function PrivacyPolicy() {
           will not be viewed by unauthorized persons.
         </PrivacyText>
         <PrivacyText fontF fontSize="16px" fontWeight="600">
+          CHANGES TO OUR PRIVACY POLICY
+        </PrivacyText>
+        <PrivacyText fontSize="14px">
+          It is our policy to post any changes we make to our privacy policy on
+          this page. If we make material changes to how we treat our users'
+          personal information, we will notify you by email to the email address
+          specified in your account or through a notice on the Website home
+          page. The date the privacy policy was last revised is identified at
+          the top of the page. You are responsible for ensuring we have an
+          up-to-date active and deliverable email address for you, and for
+          periodically visiting our Website and this privacy policy to check for
+          any changes.
+        </PrivacyText>
+        <PrivacyText fontF fontSize="16px" fontWeight="600">
           CONTACT Us
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="450">

@@ -63,6 +63,7 @@ export const HorizontalLine = styled.hr`
   width: ${(props) => props.w};
   margin-bottom: 5%;
   margin-left: ${(props) => props.ml};
+  margin-top: ${(props) => props.mt};
 `;
 export const CountriesContainer = styled.div`
   display: flex;

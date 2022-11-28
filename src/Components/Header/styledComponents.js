@@ -74,7 +74,7 @@ export const HoveredBlock = styled.div`
   margin-right: -85px;
   padding: 10px;
   position: relative;
-  width: 175px;
+  width: 195px;
   max-height: 200px;
   display: none;
 `;
@@ -84,7 +84,7 @@ export const CompanyLink = styled(Link)`
   font-weight: 900;
 `;
 export const LinksInHoveredBlock = styled.p`
-  font-weight: 700;
+  font-weight: 600;
   font-family: "Oswald", sans-serif;
   text-decoration: none;
   color: #080808;

@@ -9,6 +9,7 @@ import {
   Label,
   SubmitButton,
 } from "./styledComponents";
+import { HorizontalLine } from "../StudyAbroad/styledComponents";
 
 function ContactUs() {
   const initialValues = {
@@ -21,6 +22,7 @@ function ContactUs() {
   };
   return (
     <Fragment>
+      <HorizontalLine width="70%" ml="15%" mt="5%" />
       <ContactUsContainer>
         <ContactUsTextContainer>
           <ContactUsText
@@ -33,7 +35,7 @@ function ContactUs() {
           >
             Contact Us
           </ContactUsText>
-          <ContactUsText fontSize="14px" fontWeight="350" mb="20px">
+          <ContactUsText fontSize="16px" fontWeight="400" mb="20px">
             If you share the same thoughts and values as iae, we sincerely look
             forward to supporting you as a student or growing our business with
             you as a partner.
@@ -48,20 +50,20 @@ function ContactUs() {
             7F/726 Humax Ebisu Building, Ebisu minami 1-1-1, Shibuya-ku, Tokyo,
             150-0022, Japan
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="500">
-            Telephone: +102 345 3453 345
+          <ContactUsText fontSize="15px" fontWeight="400">
+            Tel: +102 345 3453 345
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="500">
+          <ContactUsText fontSize="15px" fontWeight="400">
             Fax: +81 (0)345 34 3453
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="500">
+          <ContactUsText fontSize="15px" fontWeight="400">
             Email: sri@gmail.com
           </ContactUsText>
         </ContactUsTextContainer>
         <ContactUsFormContainer>
           <Formik initialValues={initialValues}>
             <Form>
-              <div className="mt-4">
+              <div className="p-3 ps-lg-5 pt-0 mt-4">
                 <div className="d-lg-flex align-items-center">
                   <div className="d-flex flex-column me-lg-5 mb-sm-3">
                     <Label htmlFor="firstname">First Name</Label>
@@ -73,7 +75,7 @@ function ContactUs() {
                     />
                   </div>
                   <div className="d-flex flex-column me-lg-5 mb-sm-3">
-                    <Label htmlFor="lastname">Last Name</Label>
+                    <Label htmlFor="lastname">Last Name*</Label>
                     <Field
                       type="text"
                       name="lastname"
@@ -115,7 +117,7 @@ function ContactUs() {
                   />
                 </div>
                 <div className="col pe-lg-5 mb-3">
-                  <Label htmlFor="message">Message</Label>
+                  <Label htmlFor="message">Message*</Label>
                   <Field
                     type="text"
                     as="textarea"
