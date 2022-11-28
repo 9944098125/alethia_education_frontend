@@ -73,8 +73,10 @@ function Home() {
             <TextInsideImage
               mb="1%"
               color="#ffffff"
-              fontWeight="550"
+              fontWeight="600"
               fontSize="45px"
+              scale
+              ml="4%"
             >
               Creating a better future
             </TextInsideImage>

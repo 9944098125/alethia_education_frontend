@@ -53,9 +53,10 @@ export const HeadLink = styled.h3`
   font-family: Oswald, sans-serif;
   color: #ffffff;
   font-weight: 620;
-  font-size: 15px;
+  font-size: 16px;
   margin-right: 21px;
   width: 100% !important;
+  transform: scale(0.9, 1);
   @media screen and (max-width: 768px) {
     margin-right: 0px;
     margin-bottom: 15px;
@@ -82,7 +83,7 @@ export const CompanyLink = styled(Link)`
 `;
 export const LinksInHoveredBlock = styled.p`
   font-weight: 700;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Oswald", sans-serif;
   text-decoration: none;
   color: #080808;
   &:hover {
