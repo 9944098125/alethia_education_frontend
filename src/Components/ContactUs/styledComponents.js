@@ -46,7 +46,7 @@ export const Label = styled.label`
   font-weight: 600;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 18px;
-  color: dark-grey;
+  color: #343434;
 `;
 export const SubmitButton = styled.button`
   background-color: #080808;

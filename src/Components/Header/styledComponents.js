@@ -18,7 +18,7 @@ export const HeaderContainer = styled.div`
 `;
 export const ImageIcon = styled.img`
   height: 50px;
-  width: 300px;
+  width: 250px;
   margin-top: -15px;
   margin-right: 80px !important;
   @media screen and (max-width: 768px) {
@@ -52,11 +52,13 @@ export const HoldingsButton = styled.button`
 export const HeadLink = styled.h3`
   font-family: Oswald, sans-serif;
   color: #ffffff;
-  font-weight: 620;
-  font-size: 16px;
-  margin-right: 21px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 15px;
+  transform: scale(1.05, 1.1);
   width: 100% !important;
-  transform: scale(0.9, 1);
+  transform: scale(0.9, 1.1);
+  letter-spacing: 1.2px;
   @media screen and (max-width: 768px) {
     margin-right: 0px;
     margin-bottom: 15px;

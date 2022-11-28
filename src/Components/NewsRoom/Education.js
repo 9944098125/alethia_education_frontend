@@ -48,7 +48,7 @@ function Education() {
         <EachText fontSize="12px" fontWeight="400">
           8th August, 2019
         </EachText>
-        <EachText fontF fontSize="38px" fontWeight="600">
+        <EachText color="#343434" fontF fontSize="38px" fontWeight="600">
           Education, career and Migration Fair in sydney
         </EachText>
         <EachRoomImages

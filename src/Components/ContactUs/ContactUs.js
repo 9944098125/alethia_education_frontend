@@ -29,6 +29,7 @@ function ContactUs() {
             fontWeight="600"
             mb="20px"
             fontF
+            color
           >
             Contact Us
           </ContactUsText>
