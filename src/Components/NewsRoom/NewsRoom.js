@@ -28,7 +28,14 @@ function NewsRoom() {
     <Fragment>
       <NewsRoomImageContainer id="news">
         <TextContainer>
-          <TextInsideImage fontSize="55px" fontWeight="800" color="#ffffff">
+          <TextInsideImage
+            scale
+            fontSize="45px"
+            fontWeight="600"
+            color="#ffffff"
+            ml="10%"
+            ls="2px"
+          >
             News Room
           </TextInsideImage>
         </TextContainer>

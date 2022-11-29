@@ -32,14 +32,15 @@ export const ImageContainer = styled.div`
 
 export const Image = styled.img`
   height: 105%;
-  width: 100%;
+  width: 110%;
 `;
 
 export const TextContainer = styled.div`
   @media screen and (min-width: 875px) {
     height: 100%;
-    width: 50%;
+    width: 60%;
     padding: 1%;
+    padding-right: 10%;
     padding-top: 10%;
   }
   @media screen and (max-width: 768px) {

@@ -26,7 +26,7 @@ export const CompanyImageContainer = styled.div`
   @media screen and (min-width: 1024px) {
     padding-left: 150px;
     padding-bottom: 50px;
-    margin-top: -70px;
+    margin-top: -75px;
   }
 `;
 export const TextContainer = styled.div`
@@ -211,7 +211,7 @@ export const VisionContainer = styled.div`
 export const BeliefContainer = styled.div`
   display: flex;
   justify-content: center;
-  width: 70%;
+  width: 90%;
   height: 50vh;
   padding-left: 50px;
   @media screen and (min-width: 1440px) {
@@ -225,6 +225,7 @@ export const BeliefContainer = styled.div`
 export const BeliefTextContainer = styled.div`
   display: flex;
   flex-direction: column;
+  padding-left: 7%;
 `;
 
 export const DosContainer = styled.div`
@@ -443,9 +444,10 @@ export const ThinHorizontalLine = styled.hr`
 `;
 export const AlignEndTextContainer = styled.div`
   display: flex;
-  justify-content: flex-end;
-  padding-left: 5%;
+  justify-content: center;
   @media screen and (min-width: 1024px) {
-    padding-left: 25%;
+    justify-content: flex-end;
+    padding-left: 7%;
+    width: 80%;
   }
 `;

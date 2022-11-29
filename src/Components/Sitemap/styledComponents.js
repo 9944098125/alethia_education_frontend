@@ -67,18 +67,19 @@ export const LinkedItemsColumns = styled.div`
 export const LinkedItems = styled(Link)`
   font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
-  font-weight: 480;
+  font-weight: 600;
   text-decoration: none;
-  color: #080808;
+  color: #343434;
   cursor: pointer;
   margin-bottom: 7%;
+  transform: scale(0.9, 1);
   &:hover {
     text-decoration: none;
     color: black;
   }
 `;
 export const SubLinksContainer = styled.div`
-  padding-left: 8%;
+  padding-left: 3%;
 `;
 export const SubLinkedItems = styled.p`
   font-size: ${(props) => props.fontSize};
@@ -86,4 +87,5 @@ export const SubLinkedItems = styled.p`
   font-weight: 500;
   cursor: pointer;
   margin-top: -9%;
+  transform: scale(0.9, 1.1);
 `;

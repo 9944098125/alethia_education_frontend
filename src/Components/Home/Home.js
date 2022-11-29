@@ -137,7 +137,7 @@ function Home() {
           <SupportText>Supporting education abroad</SupportText>
           <HashLink to="/our-story#vision" style={{ textDecoration: "none" }}>
             <VisionButton>
-              Our Vision{" "}
+              OUR VISION{" "}
               <p
                 style={{
                   marginRight: "-2px",
@@ -237,7 +237,7 @@ function Home() {
               Canada!
             </Description>
             <Description>
-              ​ Let us help you figure out your options and chart the best
+              ​Let us help you figure out your options and chart the best
               pathway to a better future in Canada.
             </Description>
             <HashLink
@@ -375,10 +375,23 @@ function Home() {
         </AwardsContainer>
         <PhilosophyContainer>
           <TextContainer>
-            <TextInsideImage color="#ffffff" fontWeight="700" fontSize="50px">
+            <TextInsideImage
+              scale
+              color="#ffffff"
+              fontWeight="500"
+              fontSize="50px"
+              ml="4%"
+            >
               Our Philosophy is simple -
             </TextInsideImage>
-            <TextInsideImage color="#ffffff" fontSize="50px" fontWeight="700">
+            <TextInsideImage
+              scale
+              color="#ffffff"
+              fontSize="50px"
+              fontWeight="500"
+              ml="4%"
+              mb="4%"
+            >
               Students First !
             </TextInsideImage>
             <div className="philosophy-text-container">

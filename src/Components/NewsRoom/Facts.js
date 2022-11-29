@@ -167,6 +167,21 @@ function Facts() {
           <AiFillPrinter className="me-5" />
         </IconsContainer>
       </NewsContainer>
+      <div className="d-flex align-items-center justify-content-between">
+        <EachText mlsm="50px" mllg="150px" fontSize="20px">
+          Recent Posts
+        </EachText>
+        <HashLink
+          to="/news-room#news"
+          style={{
+            marginRight: "12%",
+            textDecoration: "none",
+            color: "inherit",
+          }}
+        >
+          <EachText fontSize="15px">see all</EachText>
+        </HashLink>
+      </div>
       <RecentPostsContainer>
         <HashLink
           to="/news-room/australia#news"
@@ -195,16 +210,16 @@ function Facts() {
           style={{ textDecoration: "none" }}
         >
           <EachPost>
-            <PostImage mt="25px" src={eachImage2} alt="post1" />
+            <PostImage src={eachImage2} alt="post1" />
             <EachText fontF color="#080808" fontSize="20px" fontWeight="600">
               Education, Career & Migration Fair in sydney
             </EachText>
           </EachPost>
         </HashLink>
       </RecentPostsContainer>
-      <NewsContainer>
-        <EachText fontF fontSize="25px" fontWeight="700">
-          COMMENTS
+      <NewsContainer mh="65vh">
+        <EachText fontF fontSize="25px" fontWeight="500">
+          Comments
         </EachText>
         <HorizontalLine mb="50px" />
         {/* <InputContainer>

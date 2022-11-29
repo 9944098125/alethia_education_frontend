@@ -6,6 +6,7 @@ export const NewsRoomImageContainer = styled.div`
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg/v1/fill/w_1304,h_572,al_c,q_85,enc_auto/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg");
   background-size: cover;
+  background-position: center;
   margin-top: -70px;
   display: flex;
   align-items: flex-end;
@@ -38,6 +39,9 @@ export const TextInsideImage = styled.span`
   font-weight: ${(props) => props.fontWeight};
   font-family: "PT Sans Narrow", sans-serif;
   font-size: ${(props) => props.fontSize};
+  transform: ${(props) => props.scale && "scale(1.1, 1.3)"};
+  margin-left: ${(props) => props.ml};
+  letter-spacing: ${(props) => props.ls};
 `;
 export const SeniorContainer = styled.div`
   display: flex;
@@ -63,8 +67,8 @@ export const EachRowInSeniorContainer = styled.div`
 `;
 export const EachImage = styled.img`
   @media screen and (min-width: 1024px) {
-    height: 100%;
-    width: 50%;
+    height: 300px;
+    width: 700px;
     margin-right: 3%;
   }
   @media screen and (max-width: 768px) {
@@ -73,15 +77,13 @@ export const EachImage = styled.img`
     margin-right: 0%;
   }
 `;
-export const EachTextContainer = styled.div`
-  padding-top: 2%;
-  cursor: pointer;
-`;
+
 export const EachText = styled.p`
   font-size: ${(props) => props.fontSize};
   font-weight: ${(props) => props.fontWeight};
   margin-left: ${(props) => props.mllg};
   font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
+  margin-right: ${(props) => props.mr};
   color: ${(props) => props.color};
   margin-bottom: ${(props) => props.mb};
   @media screen and (min-width: 1024px) {
@@ -92,11 +94,16 @@ export const EachText = styled.p`
     margin-left: ${(props) => props.mlsm};
     margin-top: ${(props) => props.mtsm};
   }
-
-  &:hover {
+`;
+export const EachTextContainer = styled.div`
+  padding-top: 2%;
+  cursor: pointer;
+  height: 100%;
+  &:hover ${EachText} {
     color: black;
   }
 `;
+
 export const NewsContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -106,9 +113,10 @@ export const NewsContainer = styled.div`
   shadow: 1px, 1px, 1px, 1px;
   width: 80vw;
   margin-left: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   margin-top: ${(props) => props.mt};
   box-shadow: 0 0 4px -2px #444444;
+  max-height: ${(props) => props.mh};
 `;
 export const ImagesContainer = styled.div`
   height: 80%;
@@ -162,8 +170,11 @@ export const EachPost = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 5%;
-  padding: 5%;
+  margin-right: 29px;
+  padding: 10%;
+  width: 310px;
+  height: 280px;
+  box-shadow: 0 0 4px -2px #444444;
   @media screen and (max-width: 425px) {
     padding: 15%;
   }
@@ -172,9 +183,8 @@ export const PostImage = styled.img`
   margin-top: ${(props) => props.mt};
   text-align: center;
   @media screen and (min-width: 1024px) {
-    height: 200px;
-    width: 280px;
-    margin-right: ${(props) => props.mr};
+    height: 170px;
+    width: 310px;
   }
   @media screen and (max-width: 768px) {
     height: 120px;
@@ -216,6 +226,7 @@ export const IconsAndButtonsContainer = styled.div`
   padding: 5%;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 12px;
   @media screen and (max-width: 425px) {
     display: flex;
     flex-direction: column;
@@ -242,10 +253,13 @@ export const UniversitiesTextContainer = styled.div`
 `;
 export const CommentButton = styled.button`
   padding: 5%;
+  display: flex;
+  align-items: center;
   background-color: ${(props) => props.bg};
   margin-right: 15px;
   color: ${(props) => props.color};
-  border: ${(props) => (props.border ? "2px solid grey" : "none")};
+  height: 30px;
+  border: 0px;
   @media screen and (max-width: 425px) {
     font-size: 10px;
   }

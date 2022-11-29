@@ -8,10 +8,11 @@ export const HomeContainer = styled.div`
 export const HomeImageContainer = styled.div`
   height: 160vh;
   max-width: 100%;
-  background: url("https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_980,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg");
+  background: url("https://res.cloudinary.com/dakda5ni3/image/upload/v1669635291/edruccmuoz72sotn7joj.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: center top 10%;
+  filter: contrast(-2.75);
+  background-position: top center;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -24,13 +25,13 @@ export const HomeImageContainer = styled.div`
   }
   @media screen and (min-width: 1024px) {
     padding-left: 50px;
-    margin-top: -70px;
+    margin-top: -75px;
   }
 `;
 export const TextContainer = styled.div`
   width: 85%;
   padding-left: 10%;
-  padding-top: 33%;
+  padding-top: 31%;
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 768px) {
@@ -54,15 +55,17 @@ export const TextInsideImage = styled.span`
 export const PathwayButton = styled.button`
   background-color: #e49b0f;
   color: #ffffff;
-  font-weight: 580;
+  font-weight: 500;
   border: none;
   display: flex;
   font-size: 16px;
+  margin-left: 1%;
   justify-content: center;
   align-items: center;
   width: 200px;
   height: 55px;
   margin-top: 2%;
+  transform: scale(1.1, 1);
   font-family: "Oswald", sans-serif;
   &:hover {
     background-color: #cd7f32;
@@ -99,8 +102,8 @@ export const VisionButton = styled.button`
   align-items: center;
   justify-content: center;
   @media screen and (min-width: 800px) {
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 550;
+    font-size: 16px;
   }
   @media screen and (max-width: 768px) {
     font-weight: 400;
@@ -134,6 +137,7 @@ export const StudyAbroadOptions = styled.div`
 export const SingleOption = styled.div`
   @media screen and (min-width: 800px) {
     margin: 20px;
+    margin-bottom: 100px;
     height: 600px;
     width: 500px;
   }

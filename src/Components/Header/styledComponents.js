@@ -17,10 +17,11 @@ export const HeaderContainer = styled.div`
   }
 `;
 export const ImageIcon = styled.img`
-  height: 50px;
+  height: 60px;
   width: 250px;
   margin-top: -15px;
   margin-right: 80px !important;
+  filter: contrast(1.75);
   @media screen and (max-width: 768px) {
     margin-left: 20px;
     margin-bottom: 25px;
@@ -55,9 +56,9 @@ export const HeadLink = styled.h3`
   font-weight: 600;
   font-size: 14px;
   margin-right: 15px;
-  transform: scale(1.05, 1.1);
-  width: 100% !important;
   transform: scale(0.9, 1.1);
+  width: 100% !important;
+  transform: scale(0.95, 1.15);
   letter-spacing: 1.2px;
   @media screen and (max-width: 768px) {
     margin-right: 0px;
@@ -70,11 +71,12 @@ export const HeadLink = styled.h3`
 
 export const HoveredBlock = styled.div`
   background-color: #ffffff;
-  margin-left: -25px;
+  margin-left: -15px;
   margin-right: -85px;
   padding: 10px;
+  padding-left: 20px;
   position: relative;
-  width: 195px;
+  width: 185px;
   max-height: 200px;
   display: none;
 `;
@@ -84,7 +86,7 @@ export const CompanyLink = styled(Link)`
   font-weight: 900;
 `;
 export const LinksInHoveredBlock = styled.p`
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Oswald", sans-serif;
   text-decoration: none;
   color: #080808;

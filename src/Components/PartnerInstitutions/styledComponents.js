@@ -53,6 +53,7 @@ export const CountryName = styled.p`
   font-family: "Oswald", sans-serif;
   font-weight: 500;
   margin-left: 5%;
+  color: #36454f;
   @media screen and (min-width: 1024px) {
     font-size: ${(props) => props.fontSizeL};
   }

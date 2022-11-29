@@ -174,7 +174,7 @@ function OurCompany() {
             <AlignEndTextContainer>
               <p
                 style={{
-                  marginRight: "-100px",
+                  marginRight: "-50px",
                   fontSize: "14px",
                   color: "#343434",
                   fontWeight: "400",

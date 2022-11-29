@@ -11,7 +11,7 @@ export const StudyAbroadImageContainer = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
-  margin-bottom: 10%;
+  margin-bottom: 9%;
   @media screen and (max-width: 768px) {
     margin-top: -550px;
     height: 100%;
@@ -50,6 +50,7 @@ export const JourneyTextContainer = styled.div`
   align-items: center;
   padding-right: 20%;
   padding-left: 20%;
+  padding-top: 0px;
 `;
 export const JourneyText = styled.p`
   font-size: ${(props) => props.fontSize};
@@ -125,15 +126,17 @@ export const EachCountryButton = styled.button`
     width: 100px;
   }
   display: flex;
+  font-size: 15px;
   justify-content: center;
   align-items: center;
   border: 2px solid #080808;
-  height: 45px !important;
-  padding: 2% !important;
+  height: 40px !important;
   margin-right: 5%;
+  transform: scale(0.9, 1.1);
+  letter-spacing: 1px;
   background: transparent;
-  font-weight: 700;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
   &:hover {
     background-color: black;
     color: white;

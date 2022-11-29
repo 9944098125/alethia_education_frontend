@@ -88,3 +88,9 @@
 #affiliates {
   margin-bottom:25px;
 }
+.showDropdown {
+  width: 300px;
+  box-shadow: 0 0 10px -2px #444444;
+  margin-top: -25px;
+  background-color: #ffffff;
+}

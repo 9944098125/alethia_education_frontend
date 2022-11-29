@@ -98,7 +98,7 @@ function Sitemap() {
               to="/study-abroad#australia"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <SubLinkedItems fontSize="18px">- Australia</SubLinkedItems>
+              <SubLinkedItems fontSize="18px">- AUSTRALIA</SubLinkedItems>
             </HashLink>
             <HashLink
               to="/study-abroad#canada"

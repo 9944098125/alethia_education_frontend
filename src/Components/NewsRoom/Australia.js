@@ -412,16 +412,28 @@ function Australia() {
           </IconsContainer>
         </ImagesContainer>
       </NewsContainer>
-      <EachText mlsm="50px" mllg="150px" fontSize="20px">
-        Recent Posts
-      </EachText>
+      <div className="d-flex align-items-center justify-content-between">
+        <EachText mlsm="50px" mllg="150px" fontSize="20px">
+          Recent Posts
+        </EachText>
+        <HashLink
+          to="/news-room#news"
+          style={{
+            marginRight: "12%",
+            textDecoration: "none",
+            color: "inherit",
+          }}
+        >
+          <EachText fontSize="15px">see all</EachText>
+        </HashLink>
+      </div>
       <RecentPostsContainer>
         <HashLink
           to="/news-room/education#news"
           style={{ textDecoration: "none" }}
         >
-          <EachPost>
-            <PostImage mr="10px" src={eachImage2} alt="post1" />
+          <EachPost style={{ paddingTop: "0px" }}>
+            <PostImage src={eachImage2} alt="post1" />
             <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
               Education, Career & Migration Fair in study
             </EachText>
@@ -447,9 +459,9 @@ function Australia() {
           </EachPost>
         </HashLink>
       </RecentPostsContainer>
-      <NewsContainer>
-        <EachText fontF fontSize="20px" fontWeight="700">
-          COMMENTS
+      <NewsContainer mh="65vh">
+        <EachText fontF fontSize="20px" fontWeight="500">
+          Comments
         </EachText>
         <HorizontalLine mb="50px" />
         <Comment />
