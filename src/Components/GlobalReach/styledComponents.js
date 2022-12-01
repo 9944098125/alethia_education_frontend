@@ -71,7 +71,7 @@ export const TextPara = styled.p`
 `;
 
 export const PartnersButton = styled.button`
-  border: 2px solid grey;
+  border: 2px solid #28282b;
   font-family: "Oswald", sans-serif;
   background-color: transparent;
   display: flex;
@@ -96,9 +96,11 @@ export const PartnersButton = styled.button`
 `;
 
 export const Label = styled.label`
-  font-weight: 500;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
   font-size: 18px;
+  color: #36454f;
+  letter-spacing: -0.2px;
 `;
 
 export const SubmitButton = styled.button`

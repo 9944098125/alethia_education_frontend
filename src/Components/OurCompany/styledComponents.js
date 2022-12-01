@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const CompanyContainer = styled.div`
   height: 100%;
   width: 100%;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 `;
 
 export const CompanyImageContainer = styled.div`
@@ -205,7 +205,7 @@ export const VisionContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 `;
 
 export const BeliefContainer = styled.div`
@@ -226,9 +226,12 @@ export const BeliefTextContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding-left: 7%;
+  margin-top: 0px;
+  margin-bottom: 0px;
 `;
 
 export const DosContainer = styled.div`
+  margin-top: 0px;
   @media screen and (min-width: 1440px) {
     height: 80vh !important;
     display: flex;
@@ -340,7 +343,7 @@ export const LeadershipTeamImageContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 `;
 export const SmallTextContainer = styled.div`
   display: flex;
@@ -349,7 +352,8 @@ export const SmallTextContainer = styled.div`
   padding: 2%;
   padding-left: 20%;
   padding-right: 20%;
-  margin-bottom: 2%;
+  margin-bottom: 0px;
+  margin-top: 0px;
 `;
 export const LeadersContainer = styled.div`
   display: flex;
@@ -365,8 +369,8 @@ export const EachLeaderBlock = styled.div`
   margin-bottom: 3%;
 `;
 export const LeaderImage = styled.img`
-  height: 100%;
-  width: 30%;
+  height: 90%;
+  width: 36%;
   margin-right: 1%;
 `;
 export const LeaderTextContainer = styled.div`
@@ -379,8 +383,9 @@ export const LeaderTextContainer = styled.div`
   }
 `;
 export const LeaderName = styled.p`
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
+  transform: scale(1, 1.15);
   font-family: "Oswald", sans-serif;
   @media screen and (max-width: 768px) {
     font-size: 15px;
@@ -435,7 +440,7 @@ export const AffiliatedImage = styled.img`
   margin-right: 2%;
 `;
 export const ThinHorizontalLine = styled.hr`
-  border: 1px solid grey;
+  background: 2px solid grey;
   margin: 2%;
   width: 70%;
   margin-left: 15%;

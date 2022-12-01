@@ -51,7 +51,7 @@ function NewsRoom() {
               <EachText color="#080808" fontSize="12px" fontWeight="400">
                 Jan 8, 2020
               </EachText>
-              <EachText fontF color="orange" fontSize="25px" fontWeight="700">
+              <EachText fontF color="orange" fontSize="25px" fontWeight="500">
                 The University of Newcastle - Australia
               </EachText>
               <EachText color="#080808" fontSize="14px" fontWeight="400">
@@ -72,7 +72,7 @@ function NewsRoom() {
               <EachText color="#080808" fontSize="12px" fontWeight="400">
                 Aug 19, 2019
               </EachText>
-              <EachText fontF color="orange" fontSize="25px" fontWeight="700">
+              <EachText fontF color="orange" fontSize="25px" fontWeight="500">
                 Education, Career and Migration Fair in sydney
               </EachText>
               <EachText color="#080808" fontSize="14px" fontWeight="400">
@@ -94,7 +94,7 @@ function NewsRoom() {
               <EachText color="#080808" fontSize="12px" fontWeight="400">
                 Feb 12, 2019
               </EachText>
-              <EachText fontF color="orange" fontSize="25px" fontWeight="700">
+              <EachText fontF color="orange" fontSize="25px" fontWeight="500">
                 Canada's Top 10 universities
               </EachText>
               <EachText color="#080808" fontSize="14px" fontWeight="400">
@@ -116,7 +116,7 @@ function NewsRoom() {
               <EachText color="#080808" fontSize="12px" fontWeight="400">
                 Feb 2, 2019
               </EachText>
-              <EachText fontF color="orange" fontSize="25px" fontWeight="700">
+              <EachText fontF color="orange" fontSize="25px" fontWeight="500">
                 Facts about Australia
               </EachText>
               <EachText color="#080808" fontSize="14px" fontWeight="400">

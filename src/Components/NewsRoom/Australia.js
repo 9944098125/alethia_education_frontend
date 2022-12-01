@@ -30,7 +30,7 @@ function Australia() {
   // useEffect(() => {
   //   document.title = "University Of Newcastle - iae Global";
   // }, []);
-  DocumentTitle("University of Newcastle - iae Global");
+  DocumentTitle("The University of Newcastle - iae Global");
   const embedId = "pGt_oapFdzg";
 
   return (
@@ -46,7 +46,7 @@ function Australia() {
         <EachText fontSize="12px" fontWeight="400">
           8th August, 2019
         </EachText>
-        <EachText color="#343434" fontF fontSize="40px" fontWeight="550">
+        <EachText ls color="#343434" fontF fontSize="40px" fontWeight="500">
           The University of New Castle - Australia
         </EachText>
         <EachText fontSize="14px" fontWeight="400">
@@ -397,7 +397,8 @@ function Australia() {
           <EachText mllg="28%" fontSize="14px">
             New castle is perfect place to live and study
           </EachText>
-          <EachText fontSize="14px">
+          <HorizontalLine th />
+          <EachText mb="5%" fontSize="14px">
             For top graduate employment, a fantastic student lifestyle and
             priority migration opportunities, The University of Newcastle has
             the answers.

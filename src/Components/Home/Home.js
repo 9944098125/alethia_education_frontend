@@ -75,7 +75,7 @@ function Home() {
               color="#ffffff"
               fontWeight="600"
               fontSize="45px"
-              scale
+              sc
               ml="4%"
             >
               Creating a better future
@@ -379,7 +379,7 @@ function Home() {
         <PhilosophyContainer>
           <TextContainer>
             <TextInsideImage
-              scale
+              sc
               color="#ffffff"
               fontWeight="500"
               fontSize="50px"
@@ -388,7 +388,7 @@ function Home() {
               Our Philosophy is simple -
             </TextInsideImage>
             <TextInsideImage
-              scale
+              sc
               color="#ffffff"
               fontSize="50px"
               fontWeight="500"

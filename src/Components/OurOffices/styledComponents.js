@@ -22,7 +22,7 @@ export const OfficesImageContainer = styled.div`
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 120px;
+    padding-left: 150px;
     padding-bottom: 5%;
     margin-top: -70px;
   }
@@ -44,14 +44,14 @@ export const TextInsideImage = styled.span`
   font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
   margin-bottom: ${(props) => props.mb};
-  text-shadow: 0 0 4px #080808;
+  transform: scale(1, 1.1);
 `;
 export const SmallTextContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 6%;
-  width: 70%;
+  width: 65%;
   margin-left: 16%;
 `;
 export const SmallText = styled.p`
@@ -65,6 +65,8 @@ export const SmallBoldText = styled.p`
   text-align: center;
   margin-bottom: 7%;
   font-family: "Oswald", sans-serif;
+  color: #36454f;
+  transform: scale(1, 1.1);
 `;
 export const MapContainer = styled.div`
   height: 100vh;

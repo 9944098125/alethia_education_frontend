@@ -17,7 +17,7 @@ export const PrivacyImageContainer = styled.div`
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 50px;
+    padding-left: 120px;
     margin-top: -70px;
   }
 `;

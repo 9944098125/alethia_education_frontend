@@ -36,7 +36,9 @@ export const HoldingsButton = styled.button`
   padding-bottom: 8px;
   border: none;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transform: scale(1, 1.1);
   font-family: "Oswald", sans-serif;
   width: 120px;
   height: 40px;
@@ -57,11 +59,11 @@ export const HeadLink = styled.h3`
   font-family: "Oswald", sans-serif;
   letter-spacing: 0.03em;
   line-height: unset;
-  transform: scale(1.1, 1.1);
-  font-size: 14px;
+  transform: scale(0.95, 1.1);
+  font-size: 15px;
   color: #ffffff;
-  margin-right: 21px;
-  font-weight: 420;
+  margin-right: 16px;
+  font-weight: 410;
   @media screen and (max-width: 768px) {
     margin-right: 0px;
     margin-bottom: 15px;
@@ -92,6 +94,9 @@ export const LinksInHoveredBlock = styled.p`
   font-family: "Oswald", sans-serif;
   text-decoration: none;
   color: #080808;
+  letter-spacing: 0.03em;
+  transform: scale(0.95, 1.1);
+  font-size: 15px;
   &:hover {
     color: grey;
   }

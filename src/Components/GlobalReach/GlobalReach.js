@@ -73,7 +73,7 @@ function GlobalReach() {
             <Form>
               <div className="mt-4">
                 <div className="d-lg-flex align-items-center">
-                  <div className="d-flex flex-column me-lg-5 mb-sm-3">
+                  <div className="d-flex flex-column me-lg-2 mb-sm-3">
                     <Label htmlFor="firstname">
                       <strong>First Name</strong>
                     </Label>
@@ -84,7 +84,7 @@ function GlobalReach() {
                       className="first-last-name"
                     />
                   </div>
-                  <div className="d-flex flex-column me-lg-5 mb-sm-3">
+                  <div className="d-flex flex-column me-lg-2 mb-sm-3">
                     <Label htmlFor="lastname">
                       <strong>Last Name</strong>
                     </Label>

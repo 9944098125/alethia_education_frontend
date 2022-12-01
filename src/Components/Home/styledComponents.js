@@ -45,7 +45,7 @@ export const TextInsideImage = styled.span`
   font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
   margin-bottom: ${(props) => props.mb};
-  transform: ${(props) => props.scale && "scale(1.1, 1.3)"};
+  transform: ${(props) => props.sc && "scale(1.1, 1.3)"};
   margin-left: ${(props) => props.ml};
   @media screen and (max-width: 768px) {
     margin-left: 0px;
@@ -92,7 +92,7 @@ export const SupportText = styled.h3`
   }
 `;
 export const VisionButton = styled.button`
-  border: 2px solid grey;
+  border: 2px solid #28282b;
   background-color: transparent;
   font-family: "Oswald", sans-serif;
   height: 45px;
@@ -198,10 +198,11 @@ export const Gap = styled.div`
 `;
 
 export const Links = styled.button`
-  color: rgb(176, 76, 4);
+  color: rgb(255, 142, 13);
   font-weight: 600;
-  padding-bottom: -12px;
+  padding-bottom: -10px;
   border: none;
+  height: 25px;
   border-bottom: 0.3px dotted #cc5500;
   background: transparent;
   display: flex;
@@ -215,7 +216,7 @@ export const Links = styled.button`
     width: 120px;
   }
   &:hover {
-    color: rgb(255, 142, 13);
+    color: rgb(254, 198, 133);
   }
 `;
 
@@ -338,7 +339,7 @@ export const MeetingTextContainer = styled.div`
 
 export const MeetingButton = styled.button`
   background-color: transparent;
-  border: 2px solid grey;
+  border: 2px solid #28282b;
   font-family: "Oswald", sans-serif;
   display: flex;
   justify-content: space-between;

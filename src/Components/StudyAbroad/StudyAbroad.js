@@ -35,8 +35,9 @@ function StudyAbroad() {
           <TextInsideImage
             mb="-15%"
             color="#ffffff"
-            fontWeight="500"
+            fontWeight="450"
             fontSize="50px"
+            transform
           >
             Study Abroad
           </TextInsideImage>
@@ -46,10 +47,12 @@ function StudyAbroad() {
         <JourneyText fontF fontSize="30px" fontWeight="500">
           "A journey of a thousand miles begins with a single step"
         </JourneyText>
-        <JourneyText fontSize="16px" fontWeight="400">
-          Choose a country of your interest and start your adventure! Study
-          destinations are: Australia, New Zealand, Canada, United States and
-          the United Kingdom.
+        <JourneyText fontSize="16px" fontWeight="500" mb="0px">
+          Choose a country of your interest and start your adventure!
+        </JourneyText>
+        <JourneyText fontSize="16px" fontWeight="500">
+          Study destinations are: Australia, New Zealand, Canada, United States
+          and the United Kingdom.
         </JourneyText>
         <HorizontalLine w="70%" />
       </JourneyTextContainer>
@@ -59,23 +62,24 @@ function StudyAbroad() {
           <EachCountryTextContainer>
             <EachCountryDescription
               fontF
-              fontWeight="600"
+              fontWeight="500"
               fontSizeL="35px"
-              fontSizeS="20px"
+              fontSizeS="16px"
+              head
             >
               Australia
             </EachCountryDescription>
             <EachCountryDescription
               fontF
-              fontWeight="600"
-              fontSizeL="20px"
+              fontWeight="500"
+              fontSizeL="16px"
               fontSizeS="15px"
               mb="10%"
             >
-              Why Australia ?
+              WHY AUSTRALIA ?
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
@@ -86,7 +90,7 @@ function StudyAbroad() {
               lifestyle.
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
@@ -97,7 +101,7 @@ function StudyAbroad() {
               graduation.
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="15%"
@@ -132,23 +136,24 @@ function StudyAbroad() {
           <EachCountryTextContainer>
             <EachCountryDescription
               fontF
-              fontWeight="600"
+              fontWeight="500"
               fontSizeL="35px"
-              fontSizeS="20px"
+              fontSizeS="16px"
+              head
             >
               New Zealand
             </EachCountryDescription>
             <EachCountryDescription
               fontF
-              fontWeight="600"
-              fontSizeL="20px"
+              fontWeight="500"
+              fontSizeL="16px"
               fontSizeS="15px"
               mb="10%"
             >
-              Why New Zealand ?
+              WHY NEWZEALAND ?
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
@@ -161,7 +166,7 @@ function StudyAbroad() {
               graduate and set yourself up for a successful future.
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
@@ -169,7 +174,7 @@ function StudyAbroad() {
               What more do you need to pick New Zealand over the others?
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="15%"
@@ -204,23 +209,24 @@ function StudyAbroad() {
           <EachCountryTextContainer>
             <EachCountryDescription
               fontF
-              fontWeight="600"
+              fontWeight="500"
               fontSizeL="35px"
-              fontSizeS="20px"
+              fontSizeS="16px"
+              head
             >
               Canada
             </EachCountryDescription>
             <EachCountryDescription
               fontF
-              fontWeight="600"
-              fontSizeL="20px"
+              fontWeight="500"
+              fontSizeL="16px"
               fontSizeS="15px"
               mb="10%"
             >
-              Why Canada ?
+              WHY CANADA ?
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="8%"
@@ -230,7 +236,7 @@ function StudyAbroad() {
               the best in the world to live in Check.
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
@@ -241,7 +247,7 @@ function StudyAbroad() {
             </EachCountryDescription>
             <EachCountryDescription
               fontF
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
@@ -249,7 +255,7 @@ function StudyAbroad() {
               Why wait?
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="8%"
@@ -281,23 +287,24 @@ function StudyAbroad() {
           <EachCountryTextContainer>
             <EachCountryDescription
               fontF
-              fontWeight="600"
+              fontWeight="500"
               fontSizeL="35px"
-              fontSizeS="20px"
+              fontSizeS="16px"
+              head
             >
               United States
             </EachCountryDescription>
             <EachCountryDescription
               fontF
-              fontWeight="600"
-              fontSizeL="20px"
+              fontWeight="500"
+              fontSizeL="16px"
               fontSizeS="15px"
               mb="10%"
             >
-              Why The United States ?
+              WHY THE UNITED STATES ?
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
@@ -308,7 +315,7 @@ function StudyAbroad() {
               renowned, highly-ranked and reputable colleges and institutions.
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
@@ -320,7 +327,7 @@ function StudyAbroad() {
               is here to help you navigate through this challenge.
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="15%"
@@ -352,23 +359,24 @@ function StudyAbroad() {
           <EachCountryTextContainer>
             <EachCountryDescription
               fontF
-              fontWeight="600"
+              fontWeight="500"
               fontSizeL="35px"
-              fontSizeS="20px"
+              fontSizeS="16px"
+              head
             >
               United Kingdom
             </EachCountryDescription>
             <EachCountryDescription
               fontF
-              fontWeight="600"
-              fontSizeL="20px"
+              fontWeight="500"
+              fontSizeL="16px"
               fontSizeS="15px"
               mb="10%"
             >
-              Why United Kingdom ?
+              WHY UNITED KINGDOM ?
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
@@ -381,7 +389,7 @@ function StudyAbroad() {
               world.
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="10%"
@@ -393,7 +401,7 @@ function StudyAbroad() {
               Soros.
             </EachCountryDescription>
             <EachCountryDescription
-              fontWeight="400"
+              fontWeight="500"
               fontSizeL="13px"
               fontSizeS="10px"
               mb="15%"

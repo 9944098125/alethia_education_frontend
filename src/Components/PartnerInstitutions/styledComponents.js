@@ -52,8 +52,10 @@ export const UniversitiesInSingleCountry = styled.div`
 export const CountryName = styled.p`
   font-family: "Oswald", sans-serif;
   font-weight: 500;
-  margin-left: 5%;
+  margin-left: 12%;
   color: #36454f;
+  letter-spacing: 0.3px;
+  transform: scale(1.1, 1.2);
   @media screen and (min-width: 1024px) {
     font-size: ${(props) => props.fontSizeL};
   }
@@ -65,7 +67,8 @@ export const WrappedUniversities = styled.div`
   display: flex;
   flex-wrap: wrap;
   padding: 7%;
-  padding-top: none;
+  padding-top: 40px;
+  margin-top: 0px;
 `;
 export const UniversityNameContainer = styled.div`
   display: flex;

@@ -20,7 +20,7 @@ export const StudyAbroadImageContainer = styled.div`
   }
   @media screen and (min-width: 1024px) {
     padding-left: 180px;
-    padding-bottom: 150px;
+    padding-bottom: 130px;
     margin-top: -70px;
   }
 `;
@@ -40,6 +40,7 @@ export const TextInsideImage = styled.span`
   font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
   margin-bottom: ${(props) => props.mb};
+  transform: ${(props) => props.transform && "scale(1.1, 1.2)"};
 `;
 
 export const JourneyTextContainer = styled.div`
@@ -58,11 +59,12 @@ export const JourneyText = styled.p`
   font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
   text-align: center;
   color: #343434;
+  margin-bottom: ${(props) => props.mb};
 `;
 export const HorizontalLine = styled.hr`
-  background: 2.2px solid grey;
+  background: 2px solid grey;
   width: ${(props) => props.w};
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   margin-left: ${(props) => props.ml};
   margin-top: ${(props) => props.mt};
 `;
@@ -104,8 +106,10 @@ export const EachCountryDescription = styled.p`
   font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
   font-weight: ${(props) => props.fontWeight};
   line-height: 1.7em;
+  transform: ${(props) => props.head && "scale(1, 1.25)"};
+  letter-spacing: ${(props) => props.head && "0.8px"};
   margin-bottom: ${(props) => props.mb};
-  color: #343434;
+  color: #36454f;
   @media screen and (min-width: 1024px) {
     font-size: ${(props) => props.fontSizeL};
   }
@@ -129,13 +133,13 @@ export const EachCountryButton = styled.button`
   font-size: 15px;
   justify-content: center;
   align-items: center;
-  border: 2px solid #080808;
+  border: 2px solid #36454f;
   height: 40px !important;
   margin-right: 5%;
   transform: scale(0.9, 1.1);
   letter-spacing: 1px;
   background: transparent;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Oswald", sans-serif;
   &:hover {
     background-color: black;

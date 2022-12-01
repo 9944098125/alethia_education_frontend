@@ -19,7 +19,7 @@ export const NewsRoomImageContainer = styled.div`
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 50px;
+    padding-left: 70px;
     margin-top: -70px;
   }
 `;
@@ -69,7 +69,7 @@ export const EachImage = styled.img`
   @media screen and (min-width: 1024px) {
     height: 300px;
     width: 700px;
-    margin-right: 3%;
+    margin-right: 1%;
   }
   @media screen and (max-width: 768px) {
     height: 60%;
@@ -84,8 +84,9 @@ export const EachText = styled.p`
   margin-left: ${(props) => props.mllg};
   font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
   margin-right: ${(props) => props.mr};
-  color: ${(props) => props.color};
+  color: #494f55;
   margin-bottom: ${(props) => props.mb};
+  letter-spacing: ${(props) => props.ls && "0.3px"};
   @media screen and (min-width: 1024px) {
     margin-left: ${(props) => props.mllg};
     margin-top: ${(props) => props.mtlg};
@@ -99,6 +100,12 @@ export const EachTextContainer = styled.div`
   padding-top: 2%;
   cursor: pointer;
   height: 100%;
+  box-shadow: 0 0 4px -2px #444444;
+  margin-left: -1%;
+  padding-left: 5%;
+  @media screen and (min-width: 1024px) {
+    height: 300px;
+  }
   &:hover ${EachText} {
     color: black;
   }
@@ -141,7 +148,7 @@ export const ReactPlayerContainer = styled.div`
 `;
 export const HorizontalLine = styled.hr`
   width: 100%;
-  border: 2px solid grey;
+  border-top: ${(props) => (props.th ? "3px solid black" : "2px solid black")};
   margin-bottom: ${(props) => props.mb};
 `;
 export const IconsContainer = styled.div`

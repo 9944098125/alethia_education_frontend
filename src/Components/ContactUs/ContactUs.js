@@ -28,10 +28,11 @@ function ContactUs() {
           <ContactUsText
             id="contact-us"
             fontSize="30px"
-            fontWeight="600"
+            fontWeight="500"
             mb="20px"
             fontF
-            color
+            b
+            transfo
           >
             Contact Us
           </ContactUsText>
@@ -65,13 +66,13 @@ function ContactUs() {
             <Form>
               <div className="p-3 ps-lg-5 pt-0 mt-4">
                 <div className="d-lg-flex align-items-center">
-                  <div className="d-flex flex-column me-lg-5 mb-sm-3">
+                  <div className="d-flex flex-column me-lg-2 mb-sm-3">
                     <Label htmlFor="firstname">First Name</Label>
                     <Field
                       type="text"
                       name="firstname"
                       id="firstname"
-                      className="first-last-name"
+                      className="primary-input-field2"
                     />
                   </div>
                   <div className="d-flex flex-column me-lg-5 mb-sm-3">
@@ -80,7 +81,7 @@ function ContactUs() {
                       type="text"
                       name="lastname"
                       id="lastname"
-                      className="first-last-name"
+                      className="primary-input-field2"
                     />
                   </div>
                 </div>

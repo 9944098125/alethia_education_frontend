@@ -19,7 +19,7 @@ export const SitemapImageContainer = styled.div`
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 50px;
+    padding-left: 120px;
     margin-top: -70px;
   }
 `;
@@ -67,12 +67,13 @@ export const LinkedItemsColumns = styled.div`
 export const LinkedItems = styled(Link)`
   font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
   color: #343434;
   cursor: pointer;
   margin-bottom: 7%;
-  transform: scale(0.9, 1);
+  transform: scale(0.9, 1.1);
+  color: #36454f;
   &:hover {
     text-decoration: none;
     color: black;
@@ -84,8 +85,9 @@ export const SubLinksContainer = styled.div`
 export const SubLinkedItems = styled.p`
   font-size: ${(props) => props.fontSize};
   font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-weight: 420;
   cursor: pointer;
   margin-top: -9%;
   transform: scale(0.9, 1.1);
+  color: #36454f;
 `;

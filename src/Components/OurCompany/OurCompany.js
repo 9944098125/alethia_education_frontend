@@ -71,7 +71,7 @@ function OurCompany() {
       <CompanyContainer>
         <CompanyImageContainer id="companyImage">
           <TextContainer>
-            <TextInsideImage color="#ffffff" fontWeight="700" fontSize="50px">
+            <TextInsideImage color="#ffffff" fontWeight="500" fontSize="50px">
               Our Company
             </TextInsideImage>
           </TextContainer>
@@ -288,7 +288,7 @@ function OurCompany() {
         <EachLeaderBlock>
           <LeaderImage src={leader1} alt="leader1" />
           <LeaderTextContainer>
-            <LeaderName>OG KIM</LeaderName>
+            <LeaderName>OJ KIM</LeaderName>
             <LeaderDescription>
               OJ Kim has been involved in the international education industry
               since 1986 and started iae Edu Net in Korea in October 1992.
@@ -312,7 +312,7 @@ function OurCompany() {
         <EachLeaderBlock>
           <LeaderImage src={leader2} alt="leader2" />
           <LeaderTextContainer>
-            <LeaderName>MARK Lucas</LeaderName>
+            <LeaderName>MARK LUCAS</LeaderName>
             <LeaderDescription>
               Mark Lucas has a career in education spanning 30 years. He
               co-founded iae GLOBAL with OJ Kim in 2006. Mark began his career
