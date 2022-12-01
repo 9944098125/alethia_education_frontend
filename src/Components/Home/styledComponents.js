@@ -8,11 +8,10 @@ export const HomeContainer = styled.div`
 export const HomeImageContainer = styled.div`
   height: 160vh;
   max-width: 100%;
-  background: url("https://res.cloudinary.com/dakda5ni3/image/upload/v1669635291/edruccmuoz72sotn7joj.jpg");
+  background: url("https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_980,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg");
   background-size: cover;
   background-attachment: fixed;
-  filter: contrast(-2.75);
-  background-position: top center;
+  background-position: center top 10%;
   display: flex;
   align-items: center;
   justify-content: flex-start;

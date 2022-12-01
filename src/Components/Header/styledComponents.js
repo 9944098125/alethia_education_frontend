@@ -39,7 +39,9 @@ export const HoldingsButton = styled.button`
   font-weight: 600;
   font-family: "Oswald", sans-serif;
   width: 120px;
+  height: 40px;
   color: #ffffff;
+  margin-right: -45px;
   @media screen and (max-width: 768px) {
     margin-left: 0px;
     margin-top: 15px;
@@ -51,15 +53,15 @@ export const HoldingsButton = styled.button`
 `;
 
 export const HeadLink = styled.h3`
-  font-family: Oswald, sans-serif;
-  color: #ffffff;
-  font-weight: 600;
+  font-style: normal;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.03em;
+  line-height: unset;
+  transform: scale(1.1, 1.1);
   font-size: 14px;
-  margin-right: 15px;
-  transform: scale(0.9, 1.1);
-  width: 100% !important;
-  transform: scale(0.95, 1.15);
-  letter-spacing: 1.2px;
+  color: #ffffff;
+  margin-right: 21px;
+  font-weight: 420;
   @media screen and (max-width: 768px) {
     margin-right: 0px;
     margin-bottom: 15px;

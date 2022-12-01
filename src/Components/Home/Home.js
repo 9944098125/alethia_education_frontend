@@ -83,13 +83,16 @@ function Home() {
             <TextInsideImage
               mb="3%"
               color="#ffffff"
-              fontWeight="550"
+              fontWeight="600"
               fontSize="15px"
             >
               CONNECTING INTERNATIONAL STUDENTS WITH STUDY AND CAREER
               OPPORTUNITIES ABROAD
             </TextInsideImage>
-            <p className="text-white" style={{ fontSize: "14px" }}>
+            <p
+              className="text-white"
+              style={{ fontSize: "14px", fontWeight: "500" }}
+            >
               We advise and assist students seeking realistic solutions and
               achievable pathways to leading universities, colleges, vocational
               and training institutes, primary and high schools, and language
