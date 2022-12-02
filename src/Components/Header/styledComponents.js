@@ -17,7 +17,7 @@ export const HeaderContainer = styled.div`
   }
 `;
 export const ImageIcon = styled.img`
-  height: 60px;
+  height: 50px;
   width: 250px;
   margin-top: -15px;
   margin-right: 80px !important;

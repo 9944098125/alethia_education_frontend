@@ -37,27 +37,36 @@ function Facts() {
           </TextInsideImage>
         </TextContainer>
       </NewsRoomImageContainer>
-      <NewsContainer>
+      <NewsContainer mt="2%">
         <EachText fontSize="12px" fontWeight="400">
-          8th August, 2019
+          Feb 6, 2019
         </EachText>
-        <EachText color="#343434" fontF fontSize="40px" fontWeight="500">
+        <EachText ls color="#343434" fontF fontSize="40px" fontWeight="500">
           Facts about Australia
         </EachText>
         <EachText
           fontF
           style={{ textAlign: "center" }}
           fontSize="30px"
-          fontWeight="400"
+          fontWeight="500"
         >
-          Are you planning of studying in Australia? Here are some useful facts
-          that will help you to decide!
+          Are you planning of studying in Australia? Here are some useful
+        </EachText>
+        <EachText
+          fontF
+          fontSize="30px"
+          style={{ textAlign: "center" }}
+          fontWeight="500"
+          mtlg="-4%"
+        >
+          facts that will help you to decide!
         </EachText>
         <EachRoomImages
           src="https://static.wixstatic.com/media/e4c206_53a5325bf6434eb3ac0266531d539c42~mv2.jpg/v1/fill/w_998,h_425,al_c,q_85,enc_auto/e4c206_53a5325bf6434eb3ac0266531d539c42~mv2.jpg"
           alt="facts1"
+          forty
         />
-        <EachText fontF fontSize="30px" fontWeight="600">
+        <EachText fontF fontSize="30px" fontWeight="400">
           1. The Economy is Strong
         </EachText>
         <EachText fontSize="14px">
@@ -65,10 +74,11 @@ function Facts() {
           world record, and the unemployment rate is only around five per cent.
         </EachText>
         <EachRoomImages
+          forty
           src="https://static.wixstatic.com/media/e4c206_428975d8e80e40ac85fcc1330ce200bf~mv2.jpg/v1/fill/w_1000,h_468,al_c,q_85,enc_auto/e4c206_428975d8e80e40ac85fcc1330ce200bf~mv2.jpg"
           alt="facts2"
         />
-        <EachText fontF fontSize="30px" fontWeight="600">
+        <EachText fontF fontSize="30px" fontWeight="400">
           2. Unspoilt Beauty
         </EachText>
         <EachText fontSize="14px">
@@ -79,10 +89,11 @@ function Facts() {
           Heritage sites.
         </EachText>
         <EachRoomImages
+          forty
           src="https://static.wixstatic.com/media/e4c206_d04613d0fe08426cb93fb55ab572f2c9~mv2.jpg/v1/fill/w_999,h_413,al_c,q_85,enc_auto/e4c206_d04613d0fe08426cb93fb55ab572f2c9~mv2.jpg"
           alt="facts2"
         />
-        <EachText fontF fontSize="30px" fontWeight="600">
+        <EachText fontF fontSize="30px" fontWeight="400">
           3. The HealthCare system is Fantastic
         </EachText>
         <EachText fontSize="14px">
@@ -91,10 +102,11 @@ function Facts() {
           Australians.
         </EachText>
         <EachRoomImages
+          forty
           src="https://static.wixstatic.com/media/e4c206_e76f548e49a849b4a3ee27d1a9df7d74~mv2.jpg/v1/fill/w_1000,h_422,al_c,q_85,enc_auto/e4c206_e76f548e49a849b4a3ee27d1a9df7d74~mv2.jpg"
           alt="facts3"
         />
-        <EachText fontF fontSize="30px" fontWeight="600">
+        <EachText fontF fontSize="30px" fontWeight="400">
           4. It's A Truly Multi-cultural society
         </EachText>
         <EachText fontSize="14px">
@@ -107,7 +119,7 @@ function Facts() {
           src="https://static.wixstatic.com/media/e4c206_d4b230c720a047a7bf05fe68f354cbfc~mv2.png/v1/fill/w_999,h_667,al_c,q_90,enc_auto/e4c206_d4b230c720a047a7bf05fe68f354cbfc~mv2.png"
           alt="facts4"
         />
-        <EachText fontF fontSize="30px" fontWeight="600">
+        <EachText fontF fontSize="30px" fontWeight="400">
           5. There's plenty of space
         </EachText>
         <EachText fontSize="14px">
@@ -116,10 +128,11 @@ function Facts() {
           Antarctica.
         </EachText>
         <EachRoomImages
+          forty
           src="https://static.wixstatic.com/media/e4c206_87ee2ca7c8f54f2fb432b385b2e4a57f~mv2.jpg/v1/fill/w_997,h_497,al_c,q_85,enc_auto/e4c206_87ee2ca7c8f54f2fb432b385b2e4a57f~mv2.jpg"
           alt="facts5"
         />
-        <EachText fontF fontSize="30px" fontWeight="600">
+        <EachText fontF fontSize="30px" fontWeight="400">
           6. It's Hot
         </EachText>
         <EachText fontSize="14px">
@@ -129,10 +142,11 @@ function Facts() {
           hours of sunshine a year.
         </EachText>
         <EachRoomImages
+          forty
           src="https://static.wixstatic.com/media/e4c206_48e267957bf54d309034c9cccbdca147~mv2.jpg/v1/fill/w_1000,h_442,al_c,q_85,enc_auto/e4c206_48e267957bf54d309034c9cccbdca147~mv2.jpg"
           alt="facts6"
         />
-        <EachText fontF fontSize="30px" fontWeight="600">
+        <EachText fontF fontSize="30px" fontWeight="400">
           7. Life's a beach
         </EachText>
         <EachText fontSize="14px">
@@ -141,10 +155,11 @@ function Facts() {
           them all!
         </EachText>
         <EachRoomImages
+          forty
           src="https://static.wixstatic.com/media/e4c206_df8d53bb534549bb970a17ca712465a2~mv2.png/v1/fill/w_999,h_667,al_c,q_90,enc_auto/e4c206_df8d53bb534549bb970a17ca712465a2~mv2.png"
           alt="facts7"
         />
-        <EachText fontF fontSize="30px" fontWeight="600">
+        <EachText fontF fontSize="30px" fontWeight="400">
           8. Currency ?
         </EachText>
         <EachText fontSize="14px">
@@ -155,6 +170,7 @@ function Facts() {
           American Express, Master Card and Visa.
         </EachText>
         <EachRoomImages
+          forty
           src="https://static.wixstatic.com/media/e4c206_5b51993a50364c58a77b947566fbac9f~mv2.jpg/v1/fill/w_1000,h_407,al_c,q_85,enc_auto/e4c206_5b51993a50364c58a77b947566fbac9f~mv2.jpg"
           alt="facts8"
         />
@@ -179,7 +195,7 @@ function Facts() {
             color: "inherit",
           }}
         >
-          <EachText fontSize="15px">see all</EachText>
+          <EachText fontSize="15px">See all</EachText>
         </HashLink>
       </div>
       <RecentPostsContainer>
@@ -189,7 +205,7 @@ function Facts() {
         >
           <EachPost>
             <PostImage mr="60px" src={eachImage1} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="600">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
               The University of New Castle
             </EachText>
           </EachPost>
@@ -200,7 +216,7 @@ function Facts() {
         >
           <EachPost>
             <PostImage mt="0px" mr="25px" src={eachImage3} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="600">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
               Canada's top 10 universities
             </EachText>
           </EachPost>
@@ -211,14 +227,14 @@ function Facts() {
         >
           <EachPost>
             <PostImage src={eachImage2} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="600">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
               Education, Career & Migration Fair in sydney
             </EachText>
           </EachPost>
         </HashLink>
       </RecentPostsContainer>
       <NewsContainer mh="65vh">
-        <EachText fontF fontSize="25px" fontWeight="500">
+        <EachText fontF fontSize="23px" fontWeight="400">
           Comments
         </EachText>
         <HorizontalLine mb="50px" />

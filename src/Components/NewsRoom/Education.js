@@ -48,7 +48,7 @@ function Education() {
         <EachText fontSize="12px" fontWeight="400">
           8th August, 2019
         </EachText>
-        <EachText color="#343434" fontF fontSize="38px" fontWeight="600">
+        <EachText ls color="#343434" fontF fontSize="38px" fontWeight="400">
           Education, career and Migration Fair in sydney
         </EachText>
         <EachRoomImages
@@ -175,7 +175,7 @@ function Education() {
             color: "inherit",
           }}
         >
-          <EachText fontSize="15px">see all</EachText>
+          <EachText fontSize="15px">See all</EachText>
         </HashLink>
       </div>
       <RecentPostsContainer>
@@ -211,7 +211,7 @@ function Education() {
         </HashLink>
       </RecentPostsContainer>
       <NewsContainer mh="65vh">
-        <EachText fontF fontSize="20px" fontWeight="500">
+        <EachText fontF fontSize="23px" fontWeight="400">
           Comments
         </EachText>
         <HorizontalLine mb="50px" />

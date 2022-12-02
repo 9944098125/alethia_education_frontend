@@ -27,7 +27,7 @@ function PrivacyPolicy() {
         </TextContainer>
       </PrivacyImageContainer>
       <PrivacyTextContainer>
-        <PrivacyText fontF mb="0px" fontSize="22px" fontWeight="600">
+        <PrivacyText fontF mb="0px" fontSize="22px" fontWeight="400">
           Website Privacy Policy
         </PrivacyText>
         <PrivacyText mb="50px" fontSize="15px" fontWeight="500">
@@ -36,7 +36,7 @@ function PrivacyPolicy() {
         <PrivacyText fontF fontSize="16px" fontWeight="800">
           INTRODUCTION
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="400">
           iae GLOBAL ("Company" or "We") respect your privacy and are committed
           to protecting it through our compliance with this policy. This policy
           describes the types of information we may collect from you or that you
@@ -79,7 +79,7 @@ function PrivacyPolicy() {
           make changes is deemed to be acceptance of those changes, so please
           check the policy periodically for updates.
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           Children Under the age of 16
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="450">
@@ -103,7 +103,7 @@ function PrivacyPolicy() {
           obligation to provide any services and may accept or reject any
           request for services in our sole discretion.
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           INFORMATION WE COLLECT ABOUT YOU AND HOW WE COLLECT IT
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="15px" fontWeight="500">
@@ -139,19 +139,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="14px" fontWeight="450">
-          You also may provide information to be published or displayed
-          (hereinafter, "posted") on public areas of the Website, or transmitted
-          to other users of the Website or third parties (collectively, "User
-          Contributions"). Your User Contributions are posted on and transmitted
-          to others at your own risk. Although we limit access to certain pages,
-          please be aware that no security measures are perfect or impenetrable.
-          Additionally, we cannot control the actions of other users of the
-          Website with whom you may choose to share your User Contributions.
-          Therefore, we cannot and do not guarantee that your User Contributions
-          will not be viewed by unauthorized persons.
-        </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           INFORMATION YOU PROVIDE TO Us
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="500">
@@ -199,7 +187,7 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           INFORMATION WE COLLECT THROUGH AUTOMATION DATA TRANSFER TECHNOLOGY
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="450">
@@ -236,18 +224,30 @@ function PrivacyPolicy() {
           </ListItem>
         </ListContainer>
         <PrivacyText fontSize="15px" fontWeight="500">
-          You also may provide information to be published or displayed
-          (hereinafter, "posted") on public areas of the Website, or transmitted
-          to other users of the Website or third parties (collectively, "User
-          Contributions"). Your User Contributions are posted on and transmitted
-          to others at your own risk. Although we limit access to certain pages,
-          please be aware that no security measures are perfect or impenetrable.
-          Additionally, we cannot control the actions of other users of the
-          Website with whom you may choose to share your User Contributions.
-          Therefore, we cannot and do not guarantee that your User Contributions
-          will not be viewed by unauthorized persons.
+          The technologies we use for this automatic data collection may
+          include:
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <ListContainer>
+          <ListItem>
+            Cookies (or browser cookies). A cookie is a small file placed on the
+            hard drive of your computer. You may refuse to accept browser
+            cookies by activating the appropriate setting on your browser.
+            However, if you select this setting, you may be unable to access
+            certain parts of our Website. Unless you have adjusted your browser
+            setting so that it will refuse cookies, our system will issue
+            cookies when you direct your browser to our Website.
+          </ListItem>
+          <ListItem>
+            Web Beacons. Pages of our Website and our emails may contain small
+            electronic files known as web beacons (also referred to as clear
+            gifs, pixel tags, and single-pixel gifs) that permit the Company,
+            for example, to count users who have visited those pages or opened
+            an email and for other related website statistics (for example,
+            recording the popularity of certain website content and verifying
+            system and server integrity).
+          </ListItem>
+        </ListContainer>
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           HOW WE USE YOUR INFORMATION
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="450">
@@ -283,19 +283,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="14px" fontWeight="450">
-          You also may provide information to be published or displayed
-          (hereinafter, "posted") on public areas of the Website, or transmitted
-          to other users of the Website or third parties (collectively, "User
-          Contributions"). Your User Contributions are posted on and transmitted
-          to others at your own risk. Although we limit access to certain pages,
-          please be aware that no security measures are perfect or impenetrable.
-          Additionally, we cannot control the actions of other users of the
-          Website with whom you may choose to share your User Contributions.
-          Therefore, we cannot and do not guarantee that your User Contributions
-          will not be viewed by unauthorized persons.
-        </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           DISCLOSURE OF YOUR INFORMATION
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="450">
@@ -331,67 +319,36 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="14px" fontWeight="450">
-          You also may provide information to be published or displayed
-          (hereinafter, "posted") on public areas of the Website, or transmitted
-          to other users of the Website or third parties (collectively, "User
-          Contributions"). Your User Contributions are posted on and transmitted
-          to others at your own risk. Although we limit access to certain pages,
-          please be aware that no security measures are perfect or impenetrable.
-          Additionally, we cannot control the actions of other users of the
-          Website with whom you may choose to share your User Contributions.
-          Therefore, we cannot and do not guarantee that your User Contributions
-          will not be viewed by unauthorized persons.
-        </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           CHOICES ABOUT HOW WE USE AND DISCLOSE YOUR INFORMATION
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="450">
-          We collect several types of information from and about users of our
-          Website, including information:
+          We strive to provide you with choices regarding the personal
+          information you provide to us. We have created mechanisms to provide
+          you with the following control over your information:
         </PrivacyText>
         <ListContainer mb="-30px">
           <ListItem>
-            By which you may be personally identified, such as name, postal
-            address, email address, telephone number, WhatsApp or other
-            messaging application contact information, and any other identifier
-            by which you may be contacted online or offline ("personal
-            information");
+            Tracking Technologies and Advertising. You can set your browser to
+            refuse all or some browser cookies, or to alert you when cookies are
+            being sent.
           </ListItem>
           <ListItem>
-            That is about you but individually does not identify you, such as
-            your year of birth and nationality; and/or
-          </ListItem>
-          <ListItem>
-            About your internet connection, the equipment you use to access our
-            Website, and usage details.
-          </ListItem>
-          <ListItem>Directly from you when you provide it to us.</ListItem>
-          <ListItem>
-            Automatically as you navigate through the site. Information
-            collected automatically may include usage details, IP addresses, and
-            information collected through cookies and other tracking
-            technologies.
+            Promotional Offers from the Company. If you do not wish to have your
+            email address used by the Company to promote our own or third
+            parties' products or services, you can opt-out by sending us an
+            email stating your request to info@iaeglobal.net. If we have sent
+            you a promotional email, you may send us a return email asking to be
+            omitted from future email distributions.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="15px" fontWeight="450">
-          You also may provide information to be published or displayed
-          (hereinafter, "posted") on public areas of the Website, or transmitted
-          to other users of the Website or third parties (collectively, "User
-          Contributions"). Your User Contributions are posted on and transmitted
-          to others at your own risk. Although we limit access to certain pages,
-          please be aware that no security measures are perfect or impenetrable.
-          Additionally, we cannot control the actions of other users of the
-          Website with whom you may choose to share your User Contributions.
-          Therefore, we cannot and do not guarantee that your User Contributions
-          will not be viewed by unauthorized persons.
-        </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           YOUR COUNTRY'S PRIVACY RIGHTS
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="450">
-          We collect several types of information from and about users of our
-          Website, including information:
+          Depending on your country of residence or the country from which you
+          access our Website, you may have certain rights in connection with the
+          information we collect from you.
         </PrivacyText>
         <ListContainer mb="-30px">
           <ListItem>
@@ -417,67 +374,32 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="14px" fontWeight="450">
-          You also may provide information to be published or displayed
-          (hereinafter, "posted") on public areas of the Website, or transmitted
-          to other users of the Website or third parties (collectively, "User
-          Contributions"). Your User Contributions are posted on and transmitted
-          to others at your own risk. Although we limit access to certain pages,
-          please be aware that no security measures are perfect or impenetrable.
-          Additionally, we cannot control the actions of other users of the
-          Website with whom you may choose to share your User Contributions.
-          Therefore, we cannot and do not guarantee that your User Contributions
-          will not be viewed by unauthorized persons.
+        <PrivacyText fontSize="14px">
+          To request to exercise any of these rights please email
+          info@iaeglobal.net. All requests will be responded to in writing
+          within a reasonable period of time. As part of this process, we will
+          verify the identity of the individual requesting the information prior
+          to providing access or making any changes. If we cannot fulfill your
+          request, we will respond and provide you with an explanation.
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           DATA SECURITY
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="450">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
-        <ListContainer mb="-30px">
-          <ListItem>
-            By which you may be personally identified, such as name, postal
-            address, email address, telephone number, WhatsApp or other
-            messaging application contact information, and any other identifier
-            by which you may be contacted online or offline ("personal
-            information");
-          </ListItem>
-          <ListItem>
-            That is about you but individually does not identify you, such as
-            your year of birth and nationality; and/or
-          </ListItem>
-          <ListItem>
-            About your internet connection, the equipment you use to access our
-            Website, and usage details.
-          </ListItem>
-        </ListContainer>
-        <PrivacyText mb="-30px" fontSize="15px" fontWeight="500">
-          We collect this information
+        <PrivacyText fontSize="14px">
+          Unfortunately, the transmission of information via the internet is not
+          completely secure. Although we do our best to protect your personal
+          information, we cannot guarantee the security of your personal
+          information transmitted to our Website. Any transmission of personal
+          information is at your own risk. We are not responsible for
+          circumvention of any privacy settings or security measures contained
+          on the Website.
         </PrivacyText>
-        <ListContainer mb="-20px">
-          <ListItem>Directly from you when you provide it to us.</ListItem>
-          <ListItem>
-            Automatically as you navigate through the site. Information
-            collected automatically may include usage details, IP addresses, and
-            information collected through cookies and other tracking
-            technologies.
-          </ListItem>
-        </ListContainer>
-        <PrivacyText fontSize="14px" fontWeight="450">
-          You also may provide information to be published or displayed
-          (hereinafter, "posted") on public areas of the Website, or transmitted
-          to other users of the Website or third parties (collectively, "User
-          Contributions"). Your User Contributions are posted on and transmitted
-          to others at your own risk. Although we limit access to certain pages,
-          please be aware that no security measures are perfect or impenetrable.
-          Additionally, we cannot control the actions of other users of the
-          Website with whom you may choose to share your User Contributions.
-          Therefore, we cannot and do not guarantee that your User Contributions
-          will not be viewed by unauthorized persons.
-        </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           CHANGES TO OUR PRIVACY POLICY
         </PrivacyText>
         <PrivacyText fontSize="14px">
@@ -491,7 +413,7 @@ function PrivacyPolicy() {
           periodically visiting our Website and this privacy policy to check for
           any changes.
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="16px" fontWeight="500">
           CONTACT Us
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="450">

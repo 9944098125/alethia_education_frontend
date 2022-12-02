@@ -10,8 +10,10 @@ export const HomeImageContainer = styled.div`
   max-width: 100%;
   background: url("https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_980,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg");
   background-size: cover;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center top 10%;
+  background-position: center 10%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -24,7 +26,7 @@ export const HomeImageContainer = styled.div`
   }
   @media screen and (min-width: 1024px) {
     padding-left: 50px;
-    margin-top: -75px;
+    margin-top: -70px;
   }
 `;
 export const TextContainer = styled.div`

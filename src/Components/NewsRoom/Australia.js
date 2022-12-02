@@ -46,7 +46,7 @@ function Australia() {
         <EachText fontSize="12px" fontWeight="400">
           8th August, 2019
         </EachText>
-        <EachText ls color="#343434" fontF fontSize="40px" fontWeight="500">
+        <EachText ls color="#343434" fontF fontSize="40px" fontWeight="400">
           The University of New Castle - Australia
         </EachText>
         <EachText fontSize="14px" fontWeight="400">
@@ -425,7 +425,7 @@ function Australia() {
             color: "inherit",
           }}
         >
-          <EachText fontSize="15px">see all</EachText>
+          <EachText fontSize="15px">See all</EachText>
         </HashLink>
       </div>
       <RecentPostsContainer>
@@ -433,7 +433,7 @@ function Australia() {
           to="/news-room/education#news"
           style={{ textDecoration: "none" }}
         >
-          <EachPost style={{ paddingTop: "0px" }}>
+          <EachPost>
             <PostImage src={eachImage2} alt="post1" />
             <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
               Education, Career & Migration Fair in study
@@ -445,7 +445,7 @@ function Australia() {
           style={{ textDecoration: "none" }}
         >
           <EachPost>
-            <PostImage mt="-30px" mr="25px" src={eachImage3} alt="post1" />
+            <PostImage mr="25px" src={eachImage3} alt="post1" />
             <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
               Canada's top 10 universities
             </EachText>
@@ -453,7 +453,7 @@ function Australia() {
         </HashLink>
         <HashLink to="/news-room/facts#news" style={{ textDecoration: "none" }}>
           <EachPost>
-            <PostImage mt="-30px" src={eachImage4} alt="post1" />
+            <PostImage src={eachImage4} alt="post1" />
             <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
               Facts about Australia
             </EachText>
@@ -461,7 +461,7 @@ function Australia() {
         </HashLink>
       </RecentPostsContainer>
       <NewsContainer mh="65vh">
-        <EachText fontF fontSize="20px" fontWeight="500">
+        <EachText fontF fontSize="23px" fontWeight="400">
           Comments
         </EachText>
         <HorizontalLine mb="50px" />

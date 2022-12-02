@@ -14,6 +14,7 @@ import tile from "../../Assets/Images/tile1.webp";
 import { Formik, Form, Field } from "formik";
 import { HashLink } from "react-router-hash-link";
 import { HiOutlineArrowRight } from "react-icons/hi";
+import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 
 function GlobalReach() {
   const initialValues = {
@@ -53,20 +54,7 @@ function GlobalReach() {
           >
             <PartnersButton>
               OUR PARTNERSHIP INSTITUTIONS{" "}
-              <p
-                style={{
-                  marginRight: "-2px",
-                  marginTop: "14px",
-                  marginLeft: "15px",
-                }}
-              >
-                -
-              </p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>{">"}</p>
+              <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
             </PartnersButton>
           </HashLink>
           <Formik initialValues={initialValues}>

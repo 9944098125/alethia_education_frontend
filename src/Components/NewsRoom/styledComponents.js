@@ -84,7 +84,7 @@ export const EachText = styled.p`
   margin-left: ${(props) => props.mllg};
   font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
   margin-right: ${(props) => props.mr};
-  color: #494f55;
+  color: #4c4c4c;
   margin-bottom: ${(props) => props.mb};
   letter-spacing: ${(props) => props.ls && "0.3px"};
   @media screen and (min-width: 1024px) {
@@ -132,7 +132,7 @@ export const ImagesContainer = styled.div`
   flex-direction: column;
 `;
 export const EachRoomImages = styled.img`
-  height: 80vh;
+  height: ${(props) => (props.forty ? "50vh" : "80vh")};
   width: 100%;
   margin-top: 25px;
   margin-bottom: 15px;
@@ -177,10 +177,12 @@ export const EachPost = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 29px;
+  margin-right: 40px;
   padding: 10%;
+  padding-top: 0px;
   width: 310px;
   height: 280px;
+  margin-left: 5%;
   box-shadow: 0 0 4px -2px #444444;
   @media screen and (max-width: 425px) {
     padding: 15%;
@@ -245,8 +247,9 @@ export const Avatar = styled(IoMdPerson)`
   background-color: lightgrey;
   color: block;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
+  color: grey;
 `;
 export const UnoList = styled.ul`
   list-style-type: dash;

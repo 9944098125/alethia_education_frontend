@@ -21,19 +21,19 @@ function TermsOfUse() {
     <Fragment>
       <PrivacyImageContainer id="terms">
         <TextContainer>
-          <TextInsideImage color="#ffffff" fontSize="55px" fontWeight="600">
+          <TextInsideImage color="#ffffff" fontSize="55px" fontWeight="500">
             Terms Of Use
           </TextInsideImage>
         </TextContainer>
       </PrivacyImageContainer>
       <PrivacyTextContainer>
-        <PrivacyText fontF mb="0px" fontSize="16px" fontWeight="700">
+        <PrivacyText fontF mb="0px" fontSize="18px" fontWeight="700">
           Terms of Use
         </PrivacyText>
         <PrivacyText mb="50px" fontSize="15px" fontWeight="400">
           Last Modified: 12 of august, 2021
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           ACCEPTANCE OF TERMS OF USE
         </PrivacyText>
         <PrivacyText mb="14px" fontSize="14px" fontWeight="400">
@@ -59,7 +59,7 @@ function TermsOfUse() {
           all of the foregoing eligibility requirements. If you do not meet all
           of these requirements, you must not access or use the Website.
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           CHANGES TO TERMS OF USE
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="400">
@@ -73,7 +73,7 @@ function TermsOfUse() {
           expected to check this page from time to time so you are aware of any
           changes, as they are binding on you.
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           ACCESSING THE WEBSITE AND ACCOUNT SECURITY
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="400">
@@ -129,7 +129,7 @@ function TermsOfUse() {
           identifier, whether chosen by you or provided by us, at any time if,
           in our opinion, you have violated any provision of these Terms of Use.
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           INTELLECTUAL PROPERTY RIGHTS
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="400">
@@ -170,7 +170,7 @@ function TermsOfUse() {
         <PrivacyText mb="-30px" fontSize="14px" fontWeight="400">
           You must not
         </PrivacyText>
-        <ListContainer mb="-16px">
+        <ListContainer mb="-18px">
           <ListItem>Modify copies of any materials from this site.</ListItem>
           <ListItem>
             Use any illustrations, photographs, video or audio sequences, or any
@@ -192,7 +192,7 @@ function TermsOfUse() {
           not expressly permitted by these Terms of Use is a breach of these
           Terms of Use and may violate copyright, trademark, and other laws.
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           TRADEMARK
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="400">
@@ -204,10 +204,10 @@ function TermsOfUse() {
           designs, and slogans on this Website are the trademarks of their
           respective owners.
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           PROHIBITED USES
         </PrivacyText>
-        <PrivacyText mb="-16px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-18px" fontSize="14px" fontWeight="400">
           You may use the Website only for lawful purposes and in accordance
           with these Terms of Use. You agree not to use the Website:
         </PrivacyText>
@@ -246,7 +246,7 @@ function TermsOfUse() {
         <PrivacyText mb="-30px" fontSize="14px" fontWeight="400">
           Additionally you agree not to
         </PrivacyText>
-        <ListContainer mb="-16px">
+        <ListContainer mb="-18px">
           <ListItem>
             Use the Website in any manner that could disable, overburden,
             damage, or impair the site or interfere with any other party's use
@@ -280,7 +280,7 @@ function TermsOfUse() {
             Website.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           USER CONTRIBUTION
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="400">
@@ -328,10 +328,10 @@ function TermsOfUse() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           MONITORING AND ENFORCEMENT; TERMINATION
         </PrivacyText>
-        <PrivacyText mb="-16px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-18px" fontSize="14px" fontWeight="400">
           We have the right to:
         </PrivacyText>
         <ListContainer mb="-30px">
@@ -367,7 +367,7 @@ function TermsOfUse() {
           directing us to disclose the identity or other information of anyone
           posting any materials on or through the Website.
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="600">
+        <PrivacyText fontSize="14px" fontWeight="500">
           You waive and hold harmless the Company and its affiliates, licensees,
           and service providers from any claims resulting from any action taken
           by any of the foregoing parties during, or taken as a consequence of,
@@ -382,10 +382,10 @@ function TermsOfUse() {
           responsibility to anyone for performance or nonperformance of the
           activities described in this section.
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           CONTENT STANDARDS
         </PrivacyText>
-        <PrivacyText mb="-16px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-18px" fontSize="14px" fontWeight="400">
           These content standards apply to any and all User Contributions and
           use of Interactive Services. User Contributions must in their entirety
           comply with all applicable federal, state, local, and international
@@ -426,15 +426,15 @@ function TermsOfUse() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontF fontSize="17px" fontWeight="600">
+        <PrivacyText fontF fontSize="17px" fontWeight="500">
           COPYRIGHT INFRINGEMENT
         </PrivacyText>
-        {/* <PrivacyText mb="-16px" fontSize="14px" fontWeight="400">
+        {/* <PrivacyText mb="-18px" fontSize="14px" fontWeight="400">
           If you believe that any User Contributions violate your copyright,
           please contact info@iaeglobal.net.
         </PrivacyText> */}
 
-        <PrivacyText fontF fontSize="17px" fontWeight="600">
+        <PrivacyText fontF fontSize="17px" fontWeight="500">
           RELIANCE ON INFORMATION POSTED
         </PrivacyText>
         <PrivacyText fontSize="14px">
@@ -459,7 +459,7 @@ function TermsOfUse() {
           content or accuracy of any materials provided by any third parties.
         </PrivacyText>
 
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           WAIVER AND SEVERIBILITY
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="400">
@@ -476,7 +476,7 @@ function TermsOfUse() {
           limited to the minimum extent such that the remaining provisions of
           the Terms of Use will continue in full force and effect.
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           ENTIRE AGREEMENT
         </PrivacyText>
         <PrivacyText fontSize="14px">
@@ -485,13 +485,13 @@ function TermsOfUse() {
           prior and contemporaneous understandings, agreements, representations,
           and warranties, both written and oral, regarding the Website.
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="600">
+        <PrivacyText fontF fontSize="18px" fontWeight="500">
           YOUR COMMENTS AND CONCERNS
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-5px" fontSize="14px" fontWeight="400">
           This website is operated by:
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-5px" fontSize="14px" fontWeight="400">
           iae GLOBAL
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="400">

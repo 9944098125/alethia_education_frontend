@@ -40,6 +40,7 @@ import Footer from "../Footer/Footer";
 import GlobalReach from "../GlobalReach/GlobalReach";
 import DocumentTitle from "../DocumentTitle";
 // import { useParallax } from "react-scroll-parallax";
+import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 
 function Home() {
   // const [offset, setOffset] = useState(0);
@@ -106,32 +107,7 @@ function Home() {
             >
               <PathwayButton>
                 YOUR PATHWAY
-                <p
-                  style={{
-                    marginRight: "-2px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>{">"}</p>
-                {/* <BsArrowRight
-                  style={{
-                    marginBottom: "-5px",
-                    marginLeft: "5px",
-                    width: "35px",
-                  }}
-                /> */}
-                {/* <img
-                  src="https://www.nicepng.com/png/detail/9-97633_right-arrow-white-png-right-arrow-png-white.png"
-                  className="arrow"
-                  alt="arrow"
-                /> */}
+                <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
               </PathwayButton>
             </HashLink>
           </TextContainer>
@@ -140,21 +116,7 @@ function Home() {
           <SupportText>Supporting education abroad</SupportText>
           <HashLink to="/our-story#vision" style={{ textDecoration: "none" }}>
             <VisionButton>
-              OUR VISION{" "}
-              <p
-                style={{
-                  marginRight: "-2px",
-                  marginTop: "14px",
-                  marginLeft: "15px",
-                }}
-              >
-                -
-              </p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>{">"}</p>
+              OUR VISION <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
             </VisionButton>
           </HashLink>
         </SupportContainer>
@@ -178,21 +140,7 @@ function Home() {
               to="/study-abroad#australia"
             >
               <Links>
-                Read more{" "}
-                <p
-                  style={{
-                    marginRight: "-3px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
+                Read more <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
               </Links>{" "}
             </HashLink>
           </SingleOption>
@@ -213,21 +161,7 @@ function Home() {
               to="/study-abroad#new-zealand"
             >
               <Links>
-                Read more{" "}
-                <p
-                  style={{
-                    marginRight: "-3px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
+                Read more <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
               </Links>{" "}
             </HashLink>
           </SingleOption>
@@ -249,20 +183,7 @@ function Home() {
             >
               <Links>
                 Read more
-                <p
-                  style={{
-                    marginRight: "-3px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
+                <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
               </Links>{" "}
             </HashLink>
           </SingleOption>
@@ -283,21 +204,7 @@ function Home() {
               to="/study-abroad#unitedStates"
             >
               <Links>
-                Read more{" "}
-                <p
-                  style={{
-                    marginRight: "-3px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
+                Read more <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
               </Links>{" "}
             </HashLink>
           </SingleOption>
@@ -318,21 +225,7 @@ function Home() {
               to="/study-abroad#unitedKingdom"
             >
               <Links>
-                Read more{" "}
-                <p
-                  style={{
-                    marginRight: "-3px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
+                Read more <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
               </Links>
             </HashLink>
           </SingleOption>
@@ -352,21 +245,7 @@ function Home() {
               to="/offices#offices"
             >
               <Links>
-                Read more{" "}
-                <p
-                  style={{
-                    marginRight: "-3px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
+                Read more <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
               </Links>
             </HashLink>
           </SingleOption>
@@ -420,20 +299,7 @@ function Home() {
             >
               <PathwayButton>
                 LEARN MORE
-                <p
-                  style={{
-                    marginRight: "-2px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>{">"}</p>
+                <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
               </PathwayButton>
             </HashLink>
           </TextContainer>
@@ -466,37 +332,7 @@ function Home() {
               style={{ textDecoration: "none" }}
             >
               <MeetingButton>
-                LEARN MORE{" "}
-                <div className="d-flex align-items-center">
-                  <p
-                    style={{
-                      marginRight: "-2px",
-                      marginTop: "14px",
-                      marginLeft: "15px",
-                    }}
-                  >
-                    -
-                  </p>
-                  <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                  <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                  <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                  <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                  <p style={{ marginRight: "-2px", marginTop: "14px" }}>
-                    {">"}
-                  </p>
-                </div>
-                {/* <HiOutlineArrowRight
-                  style={{
-                    marginBottom: "3px",
-                    marginLeft: "10px",
-                    fontWeight: "300",
-                  }}
-                /> */}
-                {/* <img
-                  src="https://spng.pngfind.com/pngs/s/33-330448_right-arrow-icon-svg-long-arrow-right-hd.png"
-                  alt="arrow2"
-                  className="arrow"
-                /> */}
+                LEARN MORE <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
               </MeetingButton>
             </HashLink>
           </MeetingTextContainer>

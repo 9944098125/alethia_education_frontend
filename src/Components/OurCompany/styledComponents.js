@@ -26,7 +26,7 @@ export const CompanyImageContainer = styled.div`
   @media screen and (min-width: 1024px) {
     padding-left: 150px;
     padding-bottom: 50px;
-    margin-top: -75px;
+    margin-top: -70px;
   }
 `;
 export const TextContainer = styled.div`
