@@ -13,7 +13,7 @@ export const HomeImageContainer = styled.div`
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center 10%;
+  background-position: top;
   display: flex;
   align-items: center;
   justify-content: flex-start;
