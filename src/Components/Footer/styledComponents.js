@@ -15,7 +15,7 @@ export const TextContainer = styled.div`
   padding-left: 5%;
   @media screen and (min-width: 875px) {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
   @media screen and (max-width: 768px) {
     display: flex;
@@ -30,7 +30,6 @@ export const EachColumn = styled.div`
   @media screen and (min-width: 875px) {
     padding: 30px;
     margin-right: 9%;
-    margin-left: 6%;
   }
   @media screen and (max-width: 768px) {
     padding: 20px;
