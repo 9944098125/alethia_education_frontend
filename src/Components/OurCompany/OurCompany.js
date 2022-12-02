@@ -81,7 +81,7 @@ function OurCompany() {
             <TextInsideImage color="#080808" fontSize="45px" fontWeight="500">
               "It all began in 1992..."
             </TextInsideImage>
-            <SmallText color="#080808">
+            <SmallText color="#4c4c4c">
               We started as a single office in Gangnam, Seoul, South Korea. Over
               the decades, iae GLOBAL has become one of the largest and most
               diverse student recruitment organisations in the world.
@@ -159,12 +159,12 @@ function OurCompany() {
         </VisionContainer>
         <BeliefContainer>
           <BeliefTextContainer>
-            <TextInsideImage color="#080808" fontSize="45px" fontWeight="500">
+            <TextInsideImage color="#4c4c4c" fontSize="40px" fontWeight="500">
               "We believe in World Class Education, Worldwide"
             </TextInsideImage>
             <TextInsideImage
               mb="100px"
-              color="#080808"
+              color="#4c4c4c"
               fontSize="15px"
               fontWeight="400"
               fs="italic"
@@ -261,6 +261,7 @@ function OurCompany() {
               Offer a second-to-none business management and student recruitment
               model. ​
             </ListItem>
+            <ListItem>Always put the students’ needs first.</ListItem>
           </UnorderedList>
         </ListContainer>
         <DosImage src={mission} alt="woman" />

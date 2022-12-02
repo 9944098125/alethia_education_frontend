@@ -21,7 +21,7 @@ function PrivacyPolicy() {
     <Fragment>
       <PrivacyImageContainer id="privacy">
         <TextContainer>
-          <TextInsideImage color="#ffffff" fontSize="55px" fontWeight="800">
+          <TextInsideImage color="#ffffff" fontSize="55px" fontWeight="500">
             Privacy Policy
           </TextInsideImage>
         </TextContainer>
@@ -140,7 +140,7 @@ function PrivacyPolicy() {
           </ListItem>
         </ListContainer>
         <PrivacyText fontF fontSize="18px" fontWeight="500">
-          INFORMATION YOU PROVIDE TO Us
+          INFORMATION YOU PROVIDE TO US
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="500">
           We collect several types of information from and about users of our
@@ -188,7 +188,7 @@ function PrivacyPolicy() {
           will not be viewed by unauthorized persons.
         </PrivacyText>
         <PrivacyText fontF fontSize="18px" fontWeight="500">
-          INFORMATION WE COLLECT THROUGH AUTOMATION DATA TRANSFER TECHNOLOGY
+          INFORMATION WE COLLECT THROUGH AUTOMATION DATA TRANSFER TECHNOLOGIES
         </PrivacyText>
         <PrivacyText mb="-20px" fontSize="14px" fontWeight="450">
           We collect several types of information from and about users of our
@@ -414,7 +414,7 @@ function PrivacyPolicy() {
           any changes.
         </PrivacyText>
         <PrivacyText fontF fontSize="16px" fontWeight="500">
-          CONTACT Us
+          CONTACT INFORMATION
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="450">
           To ask questions or comment about this privacy policy and our privacy

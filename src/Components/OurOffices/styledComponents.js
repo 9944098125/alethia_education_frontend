@@ -22,9 +22,9 @@ export const OfficesImageContainer = styled.div`
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 150px;
+    padding-left: 160px;
     padding-bottom: 5%;
-    margin-top: -70px;
+    margin-top: -68px;
   }
 `;
 export const TextContainer = styled.div`
@@ -66,7 +66,7 @@ export const SmallBoldText = styled.p`
   margin-bottom: 7%;
   font-family: "Oswald", sans-serif;
   color: #36454f;
-  transform: scale(1, 1.1);
+  transform: scale(1.02, 1.15);
 `;
 export const MapContainer = styled.div`
   height: 100vh;

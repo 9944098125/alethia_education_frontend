@@ -26,7 +26,7 @@ export const HomeImageContainer = styled.div`
   }
   @media screen and (min-width: 1024px) {
     padding-left: 50px;
-    margin-top: -70px;
+    margin-top: -68px;
   }
 `;
 export const TextContainer = styled.div`
@@ -47,7 +47,7 @@ export const TextInsideImage = styled.span`
   font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
   margin-bottom: ${(props) => props.mb};
-  transform: ${(props) => props.sc && "scale(1.1, 1.3)"};
+  transform: ${(props) => props.sc && "scale(1.2, 1.2)"};
   margin-left: ${(props) => props.ml};
   @media screen and (max-width: 768px) {
     margin-left: 0px;
@@ -59,14 +59,14 @@ export const PathwayButton = styled.button`
   font-weight: 500;
   border: none;
   display: flex;
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 1%;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 55px;
+  width: 180px;
+  height: 50px;
   margin-top: 2%;
-  transform: scale(1.1, 1);
+  transform: scale(1, 1.05);
   font-family: "Oswald", sans-serif;
   &:hover {
     background-color: #cd7f32;
@@ -86,8 +86,9 @@ export const SupportText = styled.h3`
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   margin-bottom: 2%;
+  transform: scale(1, 1.1);
   @media screen and (min-width: 800px) {
-    font-size: 40px;
+    font-size: 35px;
   }
   @media screen and (max-width: 768px) {
     font-size: 20px;
@@ -138,7 +139,7 @@ export const StudyAbroadOptions = styled.div`
 export const SingleOption = styled.div`
   @media screen and (min-width: 800px) {
     margin: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     height: 600px;
     width: 500px;
   }

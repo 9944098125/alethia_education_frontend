@@ -20,7 +20,7 @@ export const SitemapImageContainer = styled.div`
   }
   @media screen and (min-width: 1024px) {
     padding-left: 120px;
-    margin-top: -70px;
+    margin-top: -68px;
   }
 `;
 export const TextContainer = styled.div`

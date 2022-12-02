@@ -44,7 +44,7 @@ function GlobalReach() {
             ​ We value long-term relationships and continue to work to enhance
             business opportunities for all our partners.
           </TextPara>
-          <TextPara>
+          <TextPara style={{ marginBottom: "45px" }}>
             why an increasing number of established agencies have trusted us as
             partners, and utilised our business model and strategies.
           </TextPara>

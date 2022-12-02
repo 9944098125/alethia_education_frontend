@@ -4,7 +4,7 @@ export const ContactUsContainer = styled.div`
   margin-bottom: 5%;
   @media screen and (min-width: 1024px) {
     display: flex;
-    padding: 2%;
+    padding: 5%;
   }
   @media screen and (max-width: 768px) {
     display: flex;
@@ -13,13 +13,13 @@ export const ContactUsContainer = styled.div`
   }
 `;
 export const ContactUsTextContainer = styled.div`
-  margin-right: 3%;
+  margin-right: 1%;
   padding: 0px;
   padding-top: 0px;
   padding-left: 10%;
   padding-right: 0px;
   @media screen and (min-width: 1024px) {
-    width: 50%;
+    width: 45%;
   }
   @media screen and (max-width: 768px) {
     width: 90%;
@@ -37,8 +37,10 @@ export const ContactUsText = styled.p`
   transform: ${(props) => props.transfo && "scale(1, 1.2)"};
 `;
 export const ContactUsFormContainer = styled.div`
+  padding-top: 0px;
   @media screen and (min-width: 1024px) {
     width: 60%;
+    margin-top: -30px;
   }
   @media screen and (max-width: 768px) {
     width: 90%;

@@ -32,7 +32,7 @@ export const ImageContainer = styled.div`
 
 export const Image = styled.img`
   height: 105%;
-  width: 110%;
+  width: 120%;
 `;
 
 export const TextContainer = styled.div`
@@ -40,6 +40,7 @@ export const TextContainer = styled.div`
     height: 100%;
     width: 60%;
     padding: 1%;
+    padding-left: 3%;
     padding-right: 10%;
     padding-top: 10%;
   }
@@ -62,6 +63,8 @@ export const TextHead = styled.h2`
 `;
 
 export const TextPara = styled.p`
+  color: #4c4c4c;
+  font-weight: 450;
   @media screen and (min-width: 875px) {
     font-size: 14px;
   }

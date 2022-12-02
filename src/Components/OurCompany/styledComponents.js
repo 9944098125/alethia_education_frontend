@@ -26,7 +26,7 @@ export const CompanyImageContainer = styled.div`
   @media screen and (min-width: 1024px) {
     padding-left: 150px;
     padding-bottom: 50px;
-    margin-top: -70px;
+    margin-top: -68px;
   }
 `;
 export const TextContainer = styled.div`
@@ -83,6 +83,7 @@ export const SmallText = styled.p`
   color: ${(props) => props.color};
   font-size: 16px;
   text-align: center;
+  font-weight: 450;
   @media screen and (max-width: 768px) {
     font-size: 12px;
   }
@@ -189,6 +190,7 @@ export const TextInGrid = styled.p`
   text-align: center;
   font-weight: ${(props) => props.fontW};
   font-family: "Oswald", sans-serif;
+  color: #4c4c4c;
   @media screen and (min-width: 1024px) {
     font-size: ${(props) => props.fontSizeInLg};
   }
@@ -288,6 +290,8 @@ export const ListHead = styled.p`
   font-weight: 500;
   font-family: "Oswald", sans-serif;
   margin-bottom: 12%;
+  transform: scale(1, 1.15);
+  color: #4c4c4c;
 `;
 
 export const UnorderedList = styled.ul`

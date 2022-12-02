@@ -17,10 +17,11 @@ export const HeaderContainer = styled.div`
   }
 `;
 export const ImageIcon = styled.img`
-  height: 50px;
-  width: 250px;
+  height: 55px;
+  width: 270px;
   margin-top: -15px;
-  margin-right: 80px !important;
+  margin-right: 70px !important;
+  margin-left: -10px;
   filter: contrast(1.75);
   @media screen and (max-width: 768px) {
     margin-left: 20px;
@@ -35,15 +36,17 @@ export const HoldingsButton = styled.button`
   padding-top: 8px;
   padding-bottom: 8px;
   border: none;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.5px;
   transform: scale(1, 1.1);
   font-family: "Oswald", sans-serif;
   width: 120px;
-  height: 40px;
+  height: 35px;
   color: #ffffff;
   margin-right: -45px;
+  display: flex;
+  align-items: center;
   @media screen and (max-width: 768px) {
     margin-left: 0px;
     margin-top: 15px;
@@ -57,10 +60,10 @@ export const HoldingsButton = styled.button`
 export const HeadLink = styled.h3`
   font-style: normal;
   font-family: "Oswald", sans-serif;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.5px;
   line-height: unset;
-  transform: scale(0.95, 1.1);
-  font-size: 15px;
+  transform: scale(1.02, 1.15);
+  font-size: 14px;
   color: #ffffff;
   margin-right: 16px;
   font-weight: 410;

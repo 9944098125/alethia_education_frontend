@@ -29,36 +29,42 @@ function ContactUs() {
             id="contact-us"
             fontSize="30px"
             fontWeight="500"
-            mb="20px"
+            mb="30px"
             fontF
             b
             transfo
           >
             Contact Us
           </ContactUsText>
-          <ContactUsText fontSize="16px" fontWeight="400" mb="20px">
+          <ContactUsText fontSize="14px" fontWeight="400" mb="20px">
             If you share the same thoughts and values as iae, we sincerely look
             forward to supporting you as a student or growing our business with
             you as a partner.
           </ContactUsText>
-          <ContactUsText fontF fontSize="16px" fontWeight="500" mb="25px">
-            CORPORATION ADDRESS
+          <ContactUsText
+            transfo
+            fontF
+            fontSize="14px"
+            fontWeight="500"
+            mb="25px"
+          >
+            CORPORATE ADDRESS
           </ContactUsText>
           <ContactUsText fontSize="15px" fontWeight="400" mb="10px">
             iae HOLDINGS, Inc. trading as iae GLOBAL
           </ContactUsText>
-          <ContactUsText fontSize="14px" fontWeight="400" mb="15px">
+          <ContactUsText fontSize="14px" fontWeight="400" mb="25px">
             7F/726 Humax Ebisu Building, Ebisu minami 1-1-1, Shibuya-ku, Tokyo,
             150-0022, Japan
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="400">
-            Tel: +102 345 3453 345
+          <ContactUsText fontSize="15px" fontWeight="400" mb="0px">
+            Tel: +81 (0)3 6871 9422
+          </ContactUsText>
+          <ContactUsText fontSize="15px" fontWeight="400" mb="0px">
+            Fax: +81 (0)3 6871 9311
           </ContactUsText>
           <ContactUsText fontSize="15px" fontWeight="400">
-            Fax: +81 (0)345 34 3453
-          </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="400">
-            Email: sri@gmail.com
+            Email: info@iaeglobal.net
           </ContactUsText>
         </ContactUsTextContainer>
         <ContactUsFormContainer>

@@ -16,12 +16,12 @@ export const StudyAbroadImageContainer = styled.div`
     margin-top: -550px;
     height: 100%;
     max-width: 100%;
-    padding-left: 0px;
+    padding-left: 40px;
   }
   @media screen and (min-width: 1024px) {
     padding-left: 180px;
     padding-bottom: 130px;
-    margin-top: -70px;
+    margin-top: -68px;
   }
 `;
 export const TextContainer = styled.div`
@@ -60,6 +60,8 @@ export const JourneyText = styled.p`
   text-align: center;
   color: #343434;
   margin-bottom: ${(props) => props.mb};
+  letter-spacing: 0.5px;
+  transform: scale(1, 1.2);
 `;
 export const HorizontalLine = styled.hr`
   background: 2px solid grey;
@@ -107,7 +109,7 @@ export const EachCountryDescription = styled.p`
   font-weight: ${(props) => props.fontWeight};
   line-height: 1.7em;
   transform: ${(props) => props.head && "scale(1, 1.25)"};
-  letter-spacing: ${(props) => props.head && "0.8px"};
+  letter-spacing: ${(props) => props.head && "1px"};
   margin-bottom: ${(props) => props.mb};
   color: #36454f;
   @media screen and (min-width: 1024px) {

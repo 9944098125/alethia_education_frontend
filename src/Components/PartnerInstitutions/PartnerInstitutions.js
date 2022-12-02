@@ -38,7 +38,7 @@ function PartnerInstitutions() {
           <TextInsideImage
             color="#ffffff"
             fontSize="55px"
-            fontWeight="500"
+            fontWeight="400"
             style={{ marginLeft: "10%" }}
           >
             Partner Institutions

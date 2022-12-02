@@ -21,8 +21,8 @@ function TermsOfUse() {
     <Fragment>
       <PrivacyImageContainer id="terms">
         <TextContainer>
-          <TextInsideImage color="#ffffff" fontSize="55px" fontWeight="500">
-            Terms Of Use
+          <TextInsideImage color="#ffffff" fontSize="50px" fontWeight="450">
+            Terms of Use
           </TextInsideImage>
         </TextContainer>
       </PrivacyImageContainer>
@@ -30,13 +30,13 @@ function TermsOfUse() {
         <PrivacyText fontF mb="0px" fontSize="18px" fontWeight="700">
           Terms of Use
         </PrivacyText>
-        <PrivacyText mb="50px" fontSize="15px" fontWeight="400">
-          Last Modified: 12 of august, 2021
+        <PrivacyText mb="50px" fontSize="15px" fontWeight="500">
+          Last Modified: 31st of august, 2021
         </PrivacyText>
         <PrivacyText fontF fontSize="18px" fontWeight="500">
           ACCEPTANCE OF TERMS OF USE
         </PrivacyText>
-        <PrivacyText mb="14px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="14px" fontSize="14px" fontWeight="500">
           These terms of use are entered into by and between You and iae GLOBAL
           <b>("Company," "we," or "us")</b>. The following terms and conditions{" "}
           <b>(the "Terms of Use")</b> govern your access to and use of
@@ -44,7 +44,7 @@ function TermsOfUse() {
           offered on or through www.iaeglobal.co (the "Website"), whether as a
           guest or a registered user.
         </PrivacyText>
-        <PrivacyText mb="17px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="17px" fontSize="14px" fontWeight="500">
           Please read the Terms of Use carefully before you start to use the
           Website. By using the Website, you accept and agree to be bound and
           abide by these Terms of Use and our Privacy Policy, found at Privacy
@@ -52,7 +52,7 @@ function TermsOfUse() {
           to these Terms of Use or the Privacy Policy, you must not access or
           use the Website.
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           This Website is offered and available to users who are 16 years of age
           or older. By using this Website, you represent and warrant that you
           are of legal age to form a binding contract with the Company and meet
@@ -62,12 +62,12 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="18px" fontWeight="500">
           CHANGES TO TERMS OF USE
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           We may revise and update these Terms of Use from time to time in our
           sole discretion. All changes are effective immediately when we post
           them, and apply to all access to and use of the Website thereafter.
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           Your continued use of the Website following the posting of revised
           Terms of Use means that you accept and agree to the changes. You are
           expected to check this page from time to time so you are aware of any
@@ -76,7 +76,7 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="18px" fontWeight="500">
           ACCESSING THE WEBSITE AND ACCOUNT SECURITY
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           We reserve the right to withdraw or amend this Website, and any
           service or material we provide on the Website, in our sole discretion
           without notice. We will not be liable if for any reason all or any
@@ -84,7 +84,7 @@ function TermsOfUse() {
           time to time, we may restrict access to some parts of the Website, or
           the entire Website, to users, including registered users.
         </PrivacyText>
-        <PrivacyText mb="-3%" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-3%" fontSize="14px" fontWeight="500">
           You are responsible for both:
         </PrivacyText>
         <ListContainer>
@@ -98,7 +98,7 @@ function TermsOfUse() {
             them.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           To access the Website or some of the resources it offers, you may be
           asked to provide certain registration details or other information. It
           is a condition of your use of the Website that all the information you
@@ -109,7 +109,7 @@ function TermsOfUse() {
           Policy, and you consent to all actions we take with respect to your
           information, consistent with our Privacy Policy.{" "}
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           If you choose, or are provided with, a user name, password, or any
           other piece of information as part of our security procedures, you
           must treat such information as confidential, and you must not disclose
@@ -124,7 +124,7 @@ function TermsOfUse() {
           shared computer so that others are not able to view or record your
           password or other personal information.
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           We have the right to disable any user name, password, or other
           identifier, whether chosen by you or provided by us, at any time if,
           in our opinion, you have violated any provision of these Terms of Use.
@@ -132,7 +132,7 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="18px" fontWeight="500">
           INTELLECTUAL PROPERTY RIGHTS
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           The Website and its entire contents, features, and functionality
           (including but not limited to all information, software, text,
           displays, images, video, and audio, and the design, selection, and
@@ -141,7 +141,7 @@ function TermsOfUse() {
           international copyright, trademark, patent, trade secret, and other
           intellectual property or proprietary rights laws.
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           These Terms of Use permit you to use the Website for your personal,
           non-commercial use only. You must not reproduce, distribute, modify,
           create derivative works of, publicly display, publicly perform,
@@ -167,7 +167,7 @@ function TermsOfUse() {
             reproduction, publication, or distribution.
           </ListItem>
         </ListContainer>
-        <PrivacyText mb="-30px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-30px" fontSize="14px" fontWeight="500">
           You must not
         </PrivacyText>
         <ListContainer mb="-18px">
@@ -181,7 +181,7 @@ function TermsOfUse() {
             rights notices from copies of materials from this site.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           If you print, copy, modify, download, or otherwise use or provide any
           other person with access to any part of the Website in breach of the
           Terms of Use, your right to use the Website will stop immediately and
@@ -195,7 +195,7 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="18px" fontWeight="500">
           TRADEMARK
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           The Company name, the terms “iae” and “iae GLOBAL,” the Company logo,
           and all related names, logos, product and service names, designs, and
           slogans are trademarks of the Company or its affiliates or licensors.
@@ -207,7 +207,7 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="18px" fontWeight="500">
           PROHIBITED USES
         </PrivacyText>
-        <PrivacyText mb="-18px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-18px" fontSize="14px" fontWeight="500">
           You may use the Website only for lawful purposes and in accordance
           with these Terms of Use. You agree not to use the Website:
         </PrivacyText>
@@ -243,7 +243,7 @@ function TermsOfUse() {
             liability.
           </ListItem>
         </ListContainer>
-        <PrivacyText mb="-30px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-30px" fontSize="14px" fontWeight="500">
           Additionally you agree not to
         </PrivacyText>
         <ListContainer mb="-18px">
@@ -283,7 +283,7 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="18px" fontWeight="500">
           USER CONTRIBUTION
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           The Website may contain message boards and other interactive features
           (collectively, "Interactive Services") that allow users to post,
           submit, publish, display, or transmit to other users or other persons
@@ -316,7 +316,7 @@ function TermsOfUse() {
           </ListItem>
         </ListContainer>
 
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -331,7 +331,7 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="18px" fontWeight="500">
           MONITORING AND ENFORCEMENT; TERMINATION
         </PrivacyText>
-        <PrivacyText mb="-18px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-18px" fontSize="14px" fontWeight="500">
           We have the right to:
         </PrivacyText>
         <ListContainer mb="-30px">
@@ -385,7 +385,7 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="18px" fontWeight="500">
           CONTENT STANDARDS
         </PrivacyText>
-        <PrivacyText mb="-18px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-18px" fontSize="14px" fontWeight="500">
           These content standards apply to any and all User Contributions and
           use of Interactive Services. User Contributions must in their entirety
           comply with all applicable federal, state, local, and international
@@ -414,7 +414,7 @@ function TermsOfUse() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -429,7 +429,7 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="17px" fontWeight="500">
           COPYRIGHT INFRINGEMENT
         </PrivacyText>
-        {/* <PrivacyText mb="-18px" fontSize="14px" fontWeight="400">
+        {/* <PrivacyText mb="-18px" fontSize="14px" fontWeight="500">
           If you believe that any User Contributions violate your copyright,
           please contact info@iaeglobal.net.
         </PrivacyText> */}
@@ -458,18 +458,136 @@ function TermsOfUse() {
           We are not responsible, or liable to you or any third party, for the
           content or accuracy of any materials provided by any third parties.
         </PrivacyText>
-
+        <PrivacyText fontF fontSize="17px" fontWeight="500">
+          CHANGES TO THE WEBSITE
+        </PrivacyText>
+        <PrivacyText fontSize="14px">
+          We may update the content on this Website from time to time, but its
+          content is not necessarily complete or up-to-date. Any of the material
+          on the Website may be out of date at any given time, and we are under
+          no obligation to update such material.
+        </PrivacyText>
+        <PrivacyText fontF fontSize="17px" fontWeight="500">
+          INFORMATION ABOUT YOU AND YOUR VISITS TO WEBSITE
+        </PrivacyText>
+        <PrivacyText fontSize="14px">
+          All information we collect on this Website is subject to our Privacy
+          Policy info@iaeglobal.net. By using the Website, you consent to all
+          actions taken by us with respect to your information in compliance
+          with the Privacy Policy.
+        </PrivacyText>
+        <PrivacyText fontF fontSize="17px" fontWeight="500">
+          LINKS FROM THE WEBSITE
+        </PrivacyText>
+        <PrivacyText fontSize="14px">
+          If the Website contains links to other sites and resources provided by
+          third parties, these links are provided for your convenience only.
+          This includes links contained in advertisements, including banner
+          advertisements and sponsored links. We have no control over the
+          contents of those sites or resources, and accept no responsibility for
+          them or for any loss or damage that may arise from your use of them.
+          If you decide to access any of the third-party websites linked to this
+          Website, you do so entirely at your own risk and subject to the terms
+          and conditions of use for such websites.
+        </PrivacyText>
+        <PrivacyText fontF fontSize="16px" fontWeight="500">
+          GEOGRAPHIC RESTRICTIONS
+        </PrivacyText>
+        <PrivacyText fontSize="14px">
+          Access to the Website may not be legal by certain persons or in
+          certain countries. If you access the Website, you do so on your own
+          initiative and are responsible for compliance with local laws.
+        </PrivacyText>
+        <PrivacyText fonF fontSize="16px" fontWeight="500">
+          DISCLAIMER TO THE WARRANTIES
+        </PrivacyText>
+        <PrivacyText fontSize="14px">
+          You understand that we cannot and do not guarantee or warrant that
+          files available for downloading from the internet or the Website will
+          be free of viruses or other destructive code. You are responsible for
+          implementing sufficient procedures and checkpoints to satisfy your
+          particular requirements for anti-virus protection and accuracy of data
+          input and output, and for maintaining a means external to our site for
+          any reconstruction of any lost data. To the fullest extent provided by
+          law, we will not be liable for any loss or damage caused by a
+          distributed denial-of-service attack, viruses, or other
+          technologically harmful material that may infect your computer
+          equipment, computer programs, data, or other proprietary material due
+          to your use of the Website or any services or items obtained through
+          the Website or to your downloading of any material posted on it, or on
+          any Website linked to it.
+        </PrivacyText>
+        <PrivacyText fontSize="14px">
+          Your use of the Website, its content, and any services or items
+          obtained through the Website is at your own risk. The Website, its
+          content, and any services or items obtained through the Website are
+          provided on an "as is" and "as available" basis, without any
+          warranties of any kind, either express or implied. Neither the Company
+          nor any person associated with the Company makes any warranty or
+          representation with respect to the completeness, security,
+          reliability, quality, accuracy, or availability of the Website.
+          Without limiting the foregoing, neither the Company nor anyone
+          associated with the Company represents or warrants that the Website,
+          its content, or any services or items obtained through the Website
+          will be accurate, reliable, error-free, or uninterrupted, that defects
+          will be corrected, that our site or the server that makes it available
+          are free of viruses or other harmful components, or that the Website
+          or any services or items obtained through the Website will otherwise
+          meet your needs or expectations.
+        </PrivacyText>
+        <PrivacyText fontF fontSize="16px" fontWeight="500">
+          LIMITATION ON LIABILITY
+        </PrivacyText>
+        <PrivacyText fontSize="14px">
+          To the fullest extent provided by law, in no event will the Company,
+          its affiliates, or their licensors, service providers, employees,
+          agents, officers, or directors be liable for damages of any kind,
+          under any legal theory, arising out of or in connection with your use,
+          or inability to use, the Website, any websites linked to it, any
+          content on the Website or such other websites, including any direct,
+          indirect, special, incidental, consequential, or punitive damages,
+          including but not limited to, personal injury, pain and suffering,
+          emotional distress, loss of revenue, loss of profits, loss of
+          business, or anticipated savings, loss of use, loss of goodwill, loss
+          of data, and whether caused by tort (including negligence) breach of
+          contract, or otherwise, even if foreseeable.
+        </PrivacyText>
+        <PrivacyText fontF fontSize="16px" fontWeight="500">
+          IDENTIFICATION
+        </PrivacyText>
+        <PrivacyText fontSize="14px">
+          You agree to defend, indemnify, and hold harmless the Company, its
+          affiliates, licensors, and service providers, and its and their
+          respective officers, directors, employees, contractors, agents,
+          licensors, suppliers, successors, and assigns from and against any
+          claims, liabilities, damages, judgments, awards, losses, costs,
+          expenses, or fees (including reasonable attorneys' fees) arising out
+          of or relating to your violation of these Terms of Use or your use of
+          the Website, including, but not limited to, your User Contributions,
+          any use of the Website's content, services, and products other than as
+          expressly authorized in these Terms of Use, or your use of any
+          information obtained from the Website.
+        </PrivacyText>
+        <PrivacyText fontF fontSize="17px" fontWeight="500">
+          NO WAIVER OF RIGHTS OR REMEDIES
+        </PrivacyText>
+        <PrivacyText fontSize="14px">
+          No failure or delay by us in exercising any right, power or remedy
+          under these Terms of Use will operate as a waiver of any such right,
+          power or remedy. The election of any remedy by us will not constitute
+          a waiver of our right to pursue other remedies.
+        </PrivacyText>
         <PrivacyText fontF fontSize="18px" fontWeight="500">
           WAIVER AND SEVERIBILITY
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           No waiver by the Company of any term or condition set out in these
           Terms of Use shall be deemed a further or continuing waiver of such
           term or condition or a waiver of any other term or condition, and any
           failure of the Company to assert a right or provision under these
           Terms of Use shall not constitute a waiver of such right or provision.
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           If any provision of these Terms of Use is held by a court or other
           tribunal of competent jurisdiction to be invalid, illegal, or
           unenforceable for any reason, such provision shall be eliminated or
@@ -488,17 +606,17 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="18px" fontWeight="500">
           YOUR COMMENTS AND CONCERNS
         </PrivacyText>
-        <PrivacyText mb="-5px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-5px" fontSize="14px" fontWeight="500">
           This website is operated by:
         </PrivacyText>
-        <PrivacyText mb="-5px" fontSize="14px" fontWeight="400">
+        <PrivacyText mb="-5px" fontSize="14px" fontWeight="500">
           iae GLOBAL
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           8F Humax Ebisu Building Ebisu Minami 1-1-1, Shibuya-ku Tokyo,
           150-0022, Japan
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="500">
           All other feedback, comments, requests for technical support, and
           other communications relating to the Website should be directed to:
           info@iaeglobal.net.

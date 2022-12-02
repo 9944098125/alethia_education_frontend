@@ -68,9 +68,11 @@ function Footer() {
               <TextInColumn>CONTACT US</TextInColumn>
             </HashLink>
           </EachColumn>
-          <EachColumn>
+          <EachColumn style={{ letterSpacing: "-1px" }}>
             <TextInColumn grey>© 2018 IAE GLOBAL. ALL RIGHTS</TextInColumn>
-            <TextInColumn grey>RESERVED</TextInColumn>
+            <TextInColumn grey style={{ marginTop: "-15px" }}>
+              RESERVED
+            </TextInColumn>
           </EachColumn>
         </TextContainer>
       </FooterContainer>
