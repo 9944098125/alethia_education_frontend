@@ -8,8 +8,7 @@ import uk from "../../Assets/Images/uk.webp";
 import trophy from "../../Assets/Images/trophy.webp";
 import meet from "../../Assets/Images/meet.webp";
 import { HashLink } from "react-router-hash-link";
-import { HiOutlineArrowRight } from "react-icons/hi";
-import { BsArrowRight } from "react-icons/bs";
+import { AiOutlineExclamation } from "react-icons/ai";
 import {
   AwardsContainer,
   CountryName,
@@ -274,7 +273,10 @@ function Home() {
               ml="9%"
               mb="4%"
             >
-              Students First !
+              Students First
+              <AiOutlineExclamation
+                style={{ fontSize: "60px", marginLeft: "-15px" }}
+              />
             </TextInsideImage>
             <div className="philosophy-text-container">
               <p

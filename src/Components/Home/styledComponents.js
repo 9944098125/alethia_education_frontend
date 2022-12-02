@@ -212,7 +212,7 @@ export const Links = styled.button`
   align-items: center;
   @media screen and (min-width: 800px) {
     font-size: 18px;
-    width: 160px;
+    width: 135px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;

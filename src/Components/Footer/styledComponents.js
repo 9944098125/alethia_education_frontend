@@ -29,8 +29,8 @@ export const EachColumn = styled.div`
   flex-direction: column;
   @media screen and (min-width: 875px) {
     padding: 30px;
-    margin-right: 11%;
-    margin-left: 4%;
+    margin-right: 9%;
+    margin-left: 6%;
   }
   @media screen and (max-width: 768px) {
     padding: 20px;
@@ -43,7 +43,7 @@ export const EachColumn = styled.div`
 export const TextInColumn = styled.p`
   color: ${(props) => (props.grey ? "#D3D3D3" : "white")};
   cursor: pointer;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
   font-family: "Oswald", sans-serif;
   font-weight: 450;
   margin-top: -5px;
