@@ -275,7 +275,11 @@ function Home() {
             >
               Students First
               <AiOutlineExclamation
-                style={{ fontSize: "60px", marginLeft: "-15px" }}
+                style={{
+                  fontSize: "60px",
+                  marginLeft: "-15px",
+                  marginTop: "-10px",
+                }}
               />
             </TextInsideImage>
             <div className="philosophy-text-container">
