@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PartnersImageContainer = styled.div`
-  height: 68vh;
+  height: 71vh;
   max-width: 100%;
   background-position: center;
   background-image: url("https://static.wixstatic.com/media/e4c206_a96f95faf46442d2a6c7383fd7e48f49~mv2.jpg/v1/fill/w_980,h_894,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_a96f95faf46442d2a6c7383fd7e48f49~mv2.jpg");

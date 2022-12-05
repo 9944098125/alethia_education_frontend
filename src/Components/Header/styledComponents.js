@@ -21,7 +21,7 @@ export const ImageIcon = styled.img`
   width: 270px;
   margin-top: -15px;
   margin-right: 70px !important;
-  margin-left: -10px;
+  margin-left: -25px;
   filter: contrast(1.75);
   @media screen and (max-width: 768px) {
     margin-left: 20px;

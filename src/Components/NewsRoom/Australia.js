@@ -288,20 +288,20 @@ function Australia() {
             include:
           </EachText>
           <UnorderedList>
-            <ListItem style={{ marginBottom: "0%" }}>
+            <ListItem style={{ marginBottom: "2%" }}>
               Hunter Medical Research Institute (HMRI)
             </ListItem>
-            <ListItem style={{ marginBottom: "0%" }}>
+            <ListItem style={{ marginBottom: "2%" }}>
               Newcastle Institute for Energy and Resources (NIER)
             </ListItem>
-            <ListItem style={{ marginBottom: "0%" }}>
+            <ListItem style={{ marginBottom: "2%" }}>
               Newcastle Innovation – the university’s technology transfer
               company
             </ListItem>
-            <ListItem style={{ marginBottom: "0%" }}>
+            <ListItem style={{ marginBottom: "2%" }}>
               Defence Industries Research Cluster
             </ListItem>
-            <ListItem style={{ marginBottom: "0%" }}>
+            <ListItem style={{ marginBottom: "2%" }}>
               21 Priority Research Centres across 5 faculties: 1) Engineering &
               Built Environment ; 2) Health & Medicine ; 3) Science ; 4)
               Business & Law ; 5) Education & Arts{" "}

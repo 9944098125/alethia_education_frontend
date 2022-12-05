@@ -46,7 +46,7 @@ function Education() {
       </NewsRoomImageContainer>
       <NewsContainer mt="1%">
         <EachText fontSize="12px" fontWeight="400">
-          8th August, 2019
+          August 15, 2019
         </EachText>
         <EachText ls color="#343434" fontF fontSize="38px" fontWeight="400">
           Education, career and Migration Fair in sydney
@@ -69,7 +69,7 @@ function Education() {
         <EachText fontF fontSize="20px" fontWeight="600">
           What are the benefits of attending this event?
         </EachText>
-        <UnoList>
+        <UnoList style={{ margin: "0px" }}>
           <EachText fontSize="14px">
             - Extend your stay in Australia on a Student Visa or a Graduate Visa
           </EachText>

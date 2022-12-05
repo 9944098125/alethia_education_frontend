@@ -58,10 +58,10 @@ export const JourneyText = styled.p`
   font-weight: ${(props) => props.fontWeight};
   font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
   text-align: center;
-  color: #343434;
+  color: #4c4c4c;
   margin-bottom: ${(props) => props.mb};
   letter-spacing: 0.5px;
-  transform: scale(1, 1.2);
+  transform: ${(props) => props.sc && "scale(1, 1.2)"};
 `;
 export const HorizontalLine = styled.hr`
   background: 2px solid grey;
@@ -135,10 +135,10 @@ export const EachCountryButton = styled.button`
   font-size: 15px;
   justify-content: center;
   align-items: center;
-  border: 2px solid #36454f;
+  border: 2px solid #4c4c4c;
   height: 40px !important;
   margin-right: 5%;
-  transform: scale(0.9, 1.1);
+  transform: scale(1, 1.2);
   letter-spacing: 1px;
   background: transparent;
   font-weight: 500;

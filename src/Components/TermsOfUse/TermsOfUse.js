@@ -31,7 +31,7 @@ function TermsOfUse() {
           Terms of Use
         </PrivacyText>
         <PrivacyText mb="50px" fontSize="15px" fontWeight="500">
-          Last Modified: 31st of august, 2021
+          Last Modified: 31st of August, 2021
         </PrivacyText>
         <PrivacyText fontF fontSize="18px" fontWeight="500">
           ACCEPTANCE OF TERMS OF USE

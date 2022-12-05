@@ -113,7 +113,7 @@ function OurCompany() {
             </TextWithGridContainer>
             <GridContainer>
               <GridItem>
-                <TextInGrid fontW="900" fontSizeInLg="30px" fontSizeInSm="20px">
+                <TextInGrid fontW="500" fontSizeInLg="30px" fontSizeInSm="20px">
                   350,000
                 </TextInGrid>
                 <TextInGrid fontW="400" fontSizeInLg="18px" fontSizeInSm="10px">
@@ -121,7 +121,7 @@ function OurCompany() {
                 </TextInGrid>
               </GridItem>
               <GridItem>
-                <TextInGrid fontW="900" fontSizeInLg="30px" fontSizeInSm="20px">
+                <TextInGrid fontW="500" fontSizeInLg="30px" fontSizeInSm="20px">
                   60+
                 </TextInGrid>
                 <TextInGrid fontW="400" fontSizeInLg="18px" fontSizeInSm="10px">
@@ -129,7 +129,7 @@ function OurCompany() {
                 </TextInGrid>
               </GridItem>
               <GridItem>
-                <TextInGrid fontW="900" fontSizeInLg="30px" fontSizeInSm="20px">
+                <TextInGrid fontW="500" fontSizeInLg="30px" fontSizeInSm="20px">
                   1000s
                 </TextInGrid>
                 <TextInGrid fontW="400" fontSizeInLg="18px" fontSizeInSm="10px">
@@ -137,7 +137,7 @@ function OurCompany() {
                 </TextInGrid>
               </GridItem>
               <GridItem>
-                <TextInGrid fontW="900" fontSizeInLg="30px" fontSizeInSm="20px">
+                <TextInGrid fontW="500" fontSizeInLg="30px" fontSizeInSm="20px">
                   350
                 </TextInGrid>
                 <TextInGrid fontW="400" fontSizeInLg="18px" fontSizeInSm="10px">

@@ -43,7 +43,7 @@ function Canada() {
           Feb 7, 2019
         </EachText>
         <EachText ls color="#343434" fontF fontSize="40px" fontWeight="500">
-          Top 10 Universities of Canada
+          Canada's Top 10 Universities
         </EachText>
         <EachRoomImages
           src="https://static.wixstatic.com/media/e4c206_9f5758e43eb94abca04630e42815606b~mv2.png/v1/fill/w_999,h_667,al_c,q_90,enc_auto/e4c206_9f5758e43eb94abca04630e42815606b~mv2.png"

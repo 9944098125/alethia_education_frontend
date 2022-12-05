@@ -70,7 +70,7 @@ function NewsRoom() {
             <EachImage src={eachImage2} alt="education" />
             <EachTextContainer>
               <EachText color="#080808" fontSize="12px" fontWeight="400">
-                Aug 19, 2019
+                Aug 15, 2019
               </EachText>
               <EachText fontF color="orange" fontSize="25px" fontWeight="500">
                 Education, Career and Migration Fair in sydney
@@ -92,7 +92,7 @@ function NewsRoom() {
             <EachImage src={eachImage3} alt="canada" />
             <EachTextContainer>
               <EachText color="#080808" fontSize="12px" fontWeight="400">
-                Feb 12, 2019
+                Feb 07, 2019
               </EachText>
               <EachText fontF color="orange" fontSize="25px" fontWeight="500">
                 Canada's Top 10 universities
@@ -114,7 +114,7 @@ function NewsRoom() {
             <EachImage src={eachImage4} alt="australia" />
             <EachTextContainer>
               <EachText color="#080808" fontSize="12px" fontWeight="400">
-                Feb 2, 2019
+                Feb 06, 2019
               </EachText>
               <EachText fontF color="orange" fontSize="25px" fontWeight="500">
                 Facts about Australia

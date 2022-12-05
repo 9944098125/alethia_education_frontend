@@ -60,11 +60,10 @@ export const PathwayButton = styled.button`
   border: none;
   display: flex;
   font-size: 14px;
-  margin-left: 1%;
   justify-content: center;
   align-items: center;
   width: 180px;
-  height: 50px;
+  height: 53px;
   margin-top: 2%;
   transform: scale(1, 1.05);
   font-family: "Oswald", sans-serif;
@@ -98,13 +97,14 @@ export const VisionButton = styled.button`
   border: 2px solid #28282b;
   background-color: transparent;
   font-family: "Oswald", sans-serif;
-  height: 45px;
+  transform: scale(1, 1.05);
+  height: 43px;
   width: 160px;
   display: flex;
   align-items: center;
   justify-content: center;
   @media screen and (min-width: 800px) {
-    font-weight: 550;
+    font-weight: 400;
     font-size: 16px;
   }
   @media screen and (max-width: 768px) {
@@ -139,7 +139,7 @@ export const StudyAbroadOptions = styled.div`
 export const SingleOption = styled.div`
   @media screen and (min-width: 800px) {
     margin: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     height: 600px;
     width: 500px;
   }
@@ -211,8 +211,8 @@ export const Links = styled.button`
   display: flex;
   align-items: center;
   @media screen and (min-width: 800px) {
-    font-size: 18px;
-    width: 135px;
+    font-size: 15px;
+    width: 120px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PrivacyImageContainer = styled.div`
-  height: 70vh;
+  height: 71vh;
   max-width: 100vw;
   background-image: url("https://static.wixstatic.com/media/11062b_0f146956a54d4bb0a1806cff4154f448~mv2.jpg/v1/fill/w_1895,h_645,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_0f146956a54d4bb0a1806cff4154f448~mv2.jpg");
   background-size: cover;
@@ -24,7 +24,7 @@ export const PrivacyImageContainer = styled.div`
 `;
 export const TextContainer = styled.div`
   width: 70%;
-  padding-left: 20px;
+  padding-left: 25px;
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 768px) {
