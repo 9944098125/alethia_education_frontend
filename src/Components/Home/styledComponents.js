@@ -1,19 +1,15 @@
 import styled from "styled-components";
+import { Parallax } from "react-parallax";
 
 export const HomeContainer = styled.div`
   height: 100%;
   width: 100%;
 `;
 
-export const HomeImageContainer = styled.div`
+export const HomeImageContainer = styled(Parallax)`
   height: 160vh;
   max-width: 100%;
-  background: url("https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_1284,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg");
   background-size: cover;
-  background-blend-mode: overlay;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -32,7 +28,7 @@ export const HomeImageContainer = styled.div`
 export const TextContainer = styled.div`
   width: 85%;
   padding-left: 10%;
-  padding-top: 31%;
+  padding-top: 40%;
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 768px) {

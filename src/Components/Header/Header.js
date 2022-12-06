@@ -11,10 +11,16 @@ import logo from "../../Assets/Images/logo2.webp";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
-function Header() {
+function Header(props) {
   return (
     <Fragment>
-      <HeaderContainer>
+      <HeaderContainer
+        style={{
+          marginTop: `${props.mt}`,
+          paddingLeft: `${props.pl}`,
+          paddingRight: `${props.pr}`,
+        }}
+      >
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <ImageIcon src={logo} alt="logo" />
         </Link>

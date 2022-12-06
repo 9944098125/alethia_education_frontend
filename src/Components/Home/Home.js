@@ -40,7 +40,8 @@ import GlobalReach from "../GlobalReach/GlobalReach";
 import DocumentTitle from "../DocumentTitle";
 // import { useParallax } from "react-scroll-parallax";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
-import Icon from "@mui/material/Icon";
+import { Parallax } from "react-parallax";
+import Header from "../Header/Header";
 
 function Home() {
   // const [offset, setOffset] = useState(0);
@@ -65,8 +66,22 @@ function Home() {
   return (
     <Fragment>
       <HomeContainer>
-        <HomeImageContainer>
-          <TextContainer>
+        <Parallax
+          style={{
+            height: "150vh",
+            display: "flex",
+            alignItems: "center",
+            marginTop: "-68px",
+            paddingBottom: "1%",
+            paddingLeft: "50px",
+            backgroundPosition: "center",
+          }}
+          strength={500}
+          bgImage="https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_1284,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg"
+        >
+          <Header mt="-8%" pr="12%" pl="6%" />
+          <div className="mb-3"></div>
+          <TextContainer style={{ marginTop: "-6.5%" }}>
             <TextInsideImage
               mb="1%"
               color="#ffffff"
@@ -107,7 +122,7 @@ function Home() {
               </PathwayButton>
             </HashLink>
           </TextContainer>
-        </HomeImageContainer>
+        </Parallax>
         <SupportContainer>
           <SupportText>Supporting education abroad</SupportText>
           <HashLink to="/our-story#vision" style={{ textDecoration: "none" }}>
