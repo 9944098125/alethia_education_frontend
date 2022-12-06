@@ -33,33 +33,34 @@ function TermsOfUse() {
         <PrivacyText mb="50px" fontSize="15px" fontWeight="500">
           Last Modified: 31st of August, 2021
         </PrivacyText>
-        <PrivacyText fontF fontSize="18px" fontWeight="500">
+        <PrivacyText fontF fontSize="18px" fontWeight="550">
           ACCEPTANCE OF TERMS OF USE
         </PrivacyText>
         <PrivacyText mb="14px" fontSize="14px" fontWeight="500">
           These terms of use are entered into by and between You and iae GLOBAL
           <b>("Company," "we," or "us")</b>. The following terms and conditions{" "}
           <b>(the "Terms of Use")</b> govern your access to and use of
-          www.iaeglobal.co, including any content, functionality, and services
-          offered on or through www.iaeglobal.co (the "Website"), whether as a
-          guest or a registered user.
+          <b> www.iaeglobal.co</b>, including any content, functionality, and
+          services offered on or through www.iaeglobal.co (the "Website"),
+          whether as a guest or a registered user.
         </PrivacyText>
         <PrivacyText mb="17px" fontSize="14px" fontWeight="500">
-          Please read the Terms of Use carefully before you start to use the
-          Website. By using the Website, you accept and agree to be bound and
-          abide by these Terms of Use and our Privacy Policy, found at Privacy
-          Policy, incorporated herein by reference. If you do not want to agree
-          to these Terms of Use or the Privacy Policy, you must not access or
-          use the Website.
+          Please read the <b>Terms of Use</b> carefully before you start to use
+          the Website. By using the Website, you accept and agree to be bound
+          and abide by these Terms of Use and our Privacy Policy, found at
+          <b>Privacy Policy</b>, incorporated herein by reference. If you do not
+          want to agree to these Terms of Use or the Privacy Policy, you must
+          not access or use the Website.
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="500">
-          This Website is offered and available to users who are 16 years of age
+        <PrivacyText fontSize="14px" fontWeight="400">
+          This Website is offered and available to users who are{" "}
+          <b>16 years of age</b>
           or older. By using this Website, you represent and warrant that you
           are of legal age to form a binding contract with the Company and meet
           all of the foregoing eligibility requirements. If you do not meet all
           of these requirements, you must not access or use the Website.
         </PrivacyText>
-        <PrivacyText fontF fontSize="18px" fontWeight="500">
+        <PrivacyText fontF fontSize="18px" fontWeight="550">
           CHANGES TO TERMS OF USE
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="500">

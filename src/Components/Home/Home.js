@@ -40,6 +40,7 @@ import GlobalReach from "../GlobalReach/GlobalReach";
 import DocumentTitle from "../DocumentTitle";
 // import { useParallax } from "react-scroll-parallax";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import Icon from "@mui/material/Icon";
 
 function Home() {
   // const [offset, setOffset] = useState(0);
@@ -64,11 +65,7 @@ function Home() {
   return (
     <Fragment>
       <HomeContainer>
-        <HomeImageContainer
-        // style={{ backgroundPosition: offset }}
-        // style={{ transform: `translateY(${offsetY * 0.1})` }}
-        // style={{ filter: "brightness(50%)" }}
-        >
+        <HomeImageContainer>
           <TextContainer>
             <TextInsideImage
               mb="1%"

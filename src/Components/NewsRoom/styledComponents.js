@@ -68,7 +68,7 @@ export const EachRowInSeniorContainer = styled.div`
 export const EachImage = styled.img`
   @media screen and (min-width: 1024px) {
     height: 300px;
-    width: 700px;
+    width: 730px;
     margin-right: 1%;
   }
   @media screen and (max-width: 768px) {
@@ -133,7 +133,7 @@ export const ImagesContainer = styled.div`
 `;
 export const EachRoomImages = styled.img`
   height: ${(props) => (props.forty ? "50vh" : "80vh")};
-  width: 100%;
+  width: 95%;
   margin-top: 25px;
   margin-bottom: 15px;
 `;

@@ -37,12 +37,13 @@ function PrivacyPolicy() {
           INTRODUCTION
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="400">
-          iae GLOBAL ("Company" or "We") respect your privacy and are committed
-          to protecting it through our compliance with this policy. This policy
-          describes the types of information we may collect from you or that you
-          may provide when you visit the website www.iaeglobal.co (our
-          "Website") and our practices for collecting, using, maintaining,
-          protecting, and disclosing that information.
+          iae GLOBAL <b>("Company" or "We")</b> respect your privacy and are
+          committed to protecting it through our compliance with this policy.
+          This policy describes the types of information we may collect from you
+          or that you may provide when you visit the website{" "}
+          <b>www.iaeglobal.co</b>
+          <b>(our "Website")</b> and our practices for collecting, using,
+          maintaining, protecting, and disclosing that information.
         </PrivacyText>
         <PrivacyText mb="-30px" fontSize="15px" fontWeight="450">
           This Policy applies to information we collect:

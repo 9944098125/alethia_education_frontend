@@ -183,7 +183,7 @@ export const CountryName = styled.h2`
 `;
 
 export const Description = styled.p`
-  font-weight: 400;
+  font-weight: 450;
   @media screen and (min-width: 800px) {
     font-size: 15px;
   }

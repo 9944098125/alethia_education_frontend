@@ -327,7 +327,7 @@ export const CommittedTextContainer = styled.div`
 `;
 export const CommittedText = styled.p`
   width: 80%;
-  font-weight: 500;
+  font-weight: 400;
   font-family: "Oswald", sans-serif;
   margin-bottom: 7%;
   text-align: center;

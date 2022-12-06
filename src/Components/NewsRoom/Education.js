@@ -131,10 +131,23 @@ function Education() {
         >
           Are You In Sydney ?
         </EachText>
-        <EachText fontSize="14px">
-          SIGN UP FOR THE EVENT NOW IT'S FREE.
+        <EachText
+          style={{ display: "flex", fontStyle: "italic", marginBottom: "-5px" }}
+          fontSize="14px"
+        >
+          <p className="text-primary me-2">SIGN UP</p> FOR THE EVENT NOW IT'S
+          FREE.
         </EachText>
-        <EachText fontSize="14px">20 September | Friday | 1 pm - 6 pm</EachText>
+        <EachText
+          style={{
+            fontStyle: "italic",
+            marginBottom: "-5px",
+            marginTop: "-10px",
+          }}
+          fontSize="14px"
+        >
+          20 September | Friday | 1 pm - 6 pm
+        </EachText>
         <EachText fontSize="14px">66 Goulburn st. Sydney, Australia</EachText>
         {/* <ReactPlayerContainer> */}
         {/* <ReactPlayer

@@ -62,7 +62,7 @@ export const HeadLink = styled.h3`
   font-family: "Oswald", sans-serif;
   letter-spacing: 0.5px;
   line-height: unset;
-  transform: scale(1.02, 1.15);
+  transform: scale(1.02, 1.2);
   font-size: 14px;
   color: #ffffff;
   margin-right: 16px;

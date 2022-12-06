@@ -37,7 +37,7 @@
 }
 @media screen and (min-width: 1024px) {
   .first-last-name {
-    width: 292px;
+    width: 278px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -106,3 +106,4 @@
   margin-top: -25px;
   background-color: #ffffff;
 }
+

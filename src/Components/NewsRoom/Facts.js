@@ -155,7 +155,6 @@ function Facts() {
           them all!
         </EachText>
         <EachRoomImages
-          forty
           src="https://static.wixstatic.com/media/e4c206_df8d53bb534549bb970a17ca712465a2~mv2.png/v1/fill/w_999,h_667,al_c,q_90,enc_auto/e4c206_df8d53bb534549bb970a17ca712465a2~mv2.png"
           alt="facts7"
         />

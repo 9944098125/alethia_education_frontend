@@ -332,7 +332,7 @@ function Australia() {
             opportunities for graduates. It has some of the highest employment
             rates and starting salaries for graduates in Australia.
           </EachText>
-          <EachText fontSize="20px" fontWeight="600">
+          <EachText sc fontF fontSize="25px" fontWeight="500">
             The Future
           </EachText>
           <EachText fontSize="14px">
@@ -340,18 +340,24 @@ function Australia() {
             prospects for local alumnae. Key projects include:
           </EachText>
           <UnorderedList>
-            <ListItem>Newcastle airport expansion and development</ListItem>
-            <ListItem>Newcastle airport expansion and development</ListItem>
-            <ListItem>Newcastle airport expansion and development</ListItem>
-            <ListItem>
+            <ListItem style={{ marginBottom: "0px" }}>
+              Newcastle airport expansion and development
+            </ListItem>
+            <ListItem style={{ marginBottom: "0px" }}>
+              Newcastle airport expansion and development
+            </ListItem>
+            <ListItem style={{ marginBottom: "0px" }}>
+              Newcastle airport expansion and development
+            </ListItem>
+            <ListItem style={{ marginBottom: "0px" }}>
               Newcastle City’s Urban Renewal Strategy requires 6,000 new homes
               and 10,000 jobs in the city centre over the next 16 years
             </ListItem>
-            <ListItem>
+            <ListItem style={{ marginBottom: "0px" }}>
               Newcastle Local Government Special Event sponsorship and grants
               program to expand tourism in the city and region
             </ListItem>
-            <ListItem>
+            <ListItem style={{ marginBottom: "0px" }}>
               Newcastle Local Government Economic Development Sponsorship Grant
               Program funds new business growth and employment
             </ListItem>
@@ -371,7 +377,7 @@ function Australia() {
             src="https://static.wixstatic.com/media/e4c206_950d8cb89f4a457eb49af40a9075c851~mv2.png/v1/fill/w_999,h_667,al_c,q_90,enc_auto/e4c206_950d8cb89f4a457eb49af40a9075c851~mv2.png"
             alt="newcastle11"
           />
-          <EachText fontSize="20px" fontWeight="600">
+          <EachText sc fontF fontSize="25px" fontWeight="500">
             Migration opportunities
           </EachText>
           <EachText fontSize="14px">
