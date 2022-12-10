@@ -12,7 +12,7 @@ export const FooterContainer = styled.div`
 
 export const TextContainer = styled.div`
   width: 100%;
-  padding-left: 5%;
+  padding-left: 10%;
   @media screen and (min-width: 875px) {
     display: flex;
     justify-content: space-around;
@@ -28,8 +28,12 @@ export const EachColumn = styled.div`
   display: flex;
   flex-direction: column;
   @media screen and (min-width: 875px) {
-    padding: 30px;
-    margin-right: 9%;
+    padding: 0px;
+    padding-left: ${(props) => props.pl};
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-right: 15%;
+    width: 100%;
   }
   @media screen and (max-width: 768px) {
     padding: 20px;
@@ -42,13 +46,13 @@ export const EachColumn = styled.div`
 export const TextInColumn = styled.p`
   color: ${(props) => (props.grey ? "#D3D3D3" : "white")};
   cursor: pointer;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
   font-family: "Oswald", sans-serif;
-  font-weight: 450;
+  font-weight: 420;
   margin-top: -5px;
-  transform: scale(1.1, 1.2);
+  transform: scale(1, 1.2);
   @media screen and (min-width: 875px) {
-    font-size: 13px;
+    font-size: 13.5px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;

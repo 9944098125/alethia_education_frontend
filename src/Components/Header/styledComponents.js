@@ -20,7 +20,7 @@ export const ImageIcon = styled.img`
   height: 55px;
   width: 270px;
   margin-top: -15px;
-  margin-right: 70px !important;
+  margin-right: 90px !important;
   margin-left: -25px;
   filter: contrast(1.75);
   @media screen and (max-width: 768px) {
@@ -46,6 +46,7 @@ export const HoldingsButton = styled.button`
   color: #ffffff;
   margin-right: -45px;
   display: flex;
+  justify-content: center;
   align-items: center;
   @media screen and (max-width: 768px) {
     margin-left: 0px;
@@ -60,12 +61,12 @@ export const HoldingsButton = styled.button`
 export const HeadLink = styled.h3`
   font-style: normal;
   font-family: "Oswald", sans-serif;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
   line-height: unset;
-  transform: scale(1.02, 1.2);
-  font-size: 14px;
+  transform: scale(1.05, 1.2);
+  font-size: 13px;
   color: #ffffff;
-  margin-right: 16px;
+  margin-right: 18px;
   font-weight: 410;
   opacity: 1;
   @media screen and (max-width: 768px) {

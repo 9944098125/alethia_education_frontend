@@ -74,7 +74,7 @@ export const UniversityNameContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 12%;
+  height: 19%;
   width: 19%;
   margin: 3%;
   margin-top: 0.5%;

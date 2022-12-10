@@ -21,7 +21,7 @@ function PrivacyPolicy() {
     <Fragment>
       <PrivacyImageContainer id="privacy">
         <TextContainer>
-          <TextInsideImage color="#ffffff" fontSize="55px" fontWeight="500">
+          <TextInsideImage color="#ffffff" fontSize="55px" fontWeight="400">
             Privacy Policy
           </TextInsideImage>
         </TextContainer>
@@ -31,7 +31,7 @@ function PrivacyPolicy() {
           Website Privacy Policy
         </PrivacyText>
         <PrivacyText mb="50px" fontSize="15px" fontWeight="500">
-          Last Modified: 12 of august, 2021
+          Last Modified: 31st of august, 2021
         </PrivacyText>
         <PrivacyText fontF fontSize="16px" fontWeight="800">
           INTRODUCTION

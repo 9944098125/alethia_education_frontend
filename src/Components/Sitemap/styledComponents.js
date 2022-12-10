@@ -19,7 +19,7 @@ export const SitemapImageContainer = styled.div`
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 120px;
+    padding-left: 90px;
     margin-top: -68px;
   }
 `;
@@ -47,6 +47,7 @@ export const LinkedItemsColumnsContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    height: 85vh;
   }
   @media screen and (max-width: 425px) {
     display: flex;
@@ -73,7 +74,7 @@ export const LinkedItems = styled(Link)`
   cursor: pointer;
   margin-bottom: 7%;
   transform: scale(0.9, 1.1);
-  color: #36454f;
+  color: #4c4c4c;
   &:hover {
     text-decoration: none;
     color: black;
@@ -89,5 +90,5 @@ export const SubLinkedItems = styled.p`
   cursor: pointer;
   margin-top: -9%;
   transform: scale(0.9, 1.1);
-  color: #36454f;
+  color: #4c4c4c;
 `;

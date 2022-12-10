@@ -38,10 +38,10 @@ function Facts() {
         </TextContainer>
       </NewsRoomImageContainer>
       <NewsContainer mt="2%">
-        <EachText fontSize="12px" fontWeight="400">
+        <EachText fontSize="12px" fontWeight="300">
           Feb 6, 2019
         </EachText>
-        <EachText ls color="#343434" fontF fontSize="40px" fontWeight="500">
+        <EachText ls color="#343434" fontF fontSize="30px" fontWeight="500">
           Facts about Australia
         </EachText>
         <EachText
@@ -66,8 +66,13 @@ function Facts() {
           alt="facts1"
           forty
         />
-        <EachText fontF fontSize="30px" fontWeight="400">
-          1. The Economy is Strong
+        <EachText
+          fontF
+          fontSize="30px"
+          fontWeight="300"
+          style={{ letterSpacing: "-1px" }}
+        >
+          1. THE ECONOMY IS STRONG
         </EachText>
         <EachText fontSize="14px">
           Australia has gone more than 26 years without a recession, which is a
@@ -78,8 +83,13 @@ function Facts() {
           src="https://static.wixstatic.com/media/e4c206_428975d8e80e40ac85fcc1330ce200bf~mv2.jpg/v1/fill/w_1000,h_468,al_c,q_85,enc_auto/e4c206_428975d8e80e40ac85fcc1330ce200bf~mv2.jpg"
           alt="facts2"
         />
-        <EachText fontF fontSize="30px" fontWeight="400">
-          2. Unspoilt Beauty
+        <EachText
+          fontF
+          fontSize="30px"
+          fontWeight="300"
+          style={{ letterSpacing: "-1px" }}
+        >
+          2. UNSPOILT BEAUTY
         </EachText>
         <EachText fontSize="14px">
           Australia has a great variety of natural ecosystems. You can find
@@ -93,8 +103,13 @@ function Facts() {
           src="https://static.wixstatic.com/media/e4c206_d04613d0fe08426cb93fb55ab572f2c9~mv2.jpg/v1/fill/w_999,h_413,al_c,q_85,enc_auto/e4c206_d04613d0fe08426cb93fb55ab572f2c9~mv2.jpg"
           alt="facts2"
         />
-        <EachText fontF fontSize="30px" fontWeight="400">
-          3. The HealthCare system is Fantastic
+        <EachText
+          fontF
+          fontSize="30px"
+          fontWeight="300"
+          style={{ letterSpacing: "-1px" }}
+        >
+          3. THE HEALTH CARE SYSTEM IS FANTASTIC
         </EachText>
         <EachText fontSize="14px">
           The Australian healthcare system has been ranked among the best in the
@@ -106,8 +121,13 @@ function Facts() {
           src="https://static.wixstatic.com/media/e4c206_e76f548e49a849b4a3ee27d1a9df7d74~mv2.jpg/v1/fill/w_1000,h_422,al_c,q_85,enc_auto/e4c206_e76f548e49a849b4a3ee27d1a9df7d74~mv2.jpg"
           alt="facts3"
         />
-        <EachText fontF fontSize="30px" fontWeight="400">
-          4. It's A Truly Multi-cultural society
+        <EachText
+          fontF
+          fontSize="30px"
+          fontWeight="300"
+          style={{ letterSpacing: "-1px" }}
+        >
+          4. IT'S A TRULY MULTI-CULTURAL SOCIETY
         </EachText>
         <EachText fontSize="14px">
           Australia has a greater proportion of its population born overseas
@@ -119,8 +139,13 @@ function Facts() {
           src="https://static.wixstatic.com/media/e4c206_d4b230c720a047a7bf05fe68f354cbfc~mv2.png/v1/fill/w_999,h_667,al_c,q_90,enc_auto/e4c206_d4b230c720a047a7bf05fe68f354cbfc~mv2.png"
           alt="facts4"
         />
-        <EachText fontF fontSize="30px" fontWeight="400">
-          5. There's plenty of space
+        <EachText
+          fontF
+          fontSize="30px"
+          fontWeight="300"
+          style={{ letterSpacing: "-1px" }}
+        >
+          5. THERE'S PLENTY OF SPACE
         </EachText>
         <EachText fontSize="14px">
           With only 3.1 people per square kilometer, Australia has the lowest
@@ -132,8 +157,13 @@ function Facts() {
           src="https://static.wixstatic.com/media/e4c206_87ee2ca7c8f54f2fb432b385b2e4a57f~mv2.jpg/v1/fill/w_997,h_497,al_c,q_85,enc_auto/e4c206_87ee2ca7c8f54f2fb432b385b2e4a57f~mv2.jpg"
           alt="facts5"
         />
-        <EachText fontF fontSize="30px" fontWeight="400">
-          6. It's Hot
+        <EachText
+          fontF
+          fontSize="30px"
+          fontWeight="300"
+          style={{ letterSpacing: "-1px" }}
+        >
+          6. IT'S HOT
         </EachText>
         <EachText fontSize="14px">
           Due to its huge size, Australia has several different climate zones
@@ -146,8 +176,13 @@ function Facts() {
           src="https://static.wixstatic.com/media/e4c206_48e267957bf54d309034c9cccbdca147~mv2.jpg/v1/fill/w_1000,h_442,al_c,q_85,enc_auto/e4c206_48e267957bf54d309034c9cccbdca147~mv2.jpg"
           alt="facts6"
         />
-        <EachText fontF fontSize="30px" fontWeight="400">
-          7. Life's a beach
+        <EachText
+          fontF
+          fontSize="30px"
+          fontWeight="300"
+          style={{ letterSpacing: "-1px" }}
+        >
+          7. LIFE'S A BEACH
         </EachText>
         <EachText fontSize="14px">
           There are so many beaches in Australia (10,685 to be exact) if you
@@ -158,8 +193,13 @@ function Facts() {
           src="https://static.wixstatic.com/media/e4c206_df8d53bb534549bb970a17ca712465a2~mv2.png/v1/fill/w_999,h_667,al_c,q_90,enc_auto/e4c206_df8d53bb534549bb970a17ca712465a2~mv2.png"
           alt="facts7"
         />
-        <EachText fontF fontSize="30px" fontWeight="400">
-          8. Currency ?
+        <EachText
+          fontF
+          fontSize="30px"
+          fontWeight="300"
+          style={{ letterSpacing: "-1px" }}
+        >
+          8. CURRENCY ?
         </EachText>
         <EachText fontSize="14px">
           The main unit of currency in Australia is the Australian dollar (AU$
@@ -170,7 +210,7 @@ function Facts() {
         </EachText>
         <EachRoomImages
           forty
-          src="https://static.wixstatic.com/media/e4c206_5b51993a50364c58a77b947566fbac9f~mv2.jpg/v1/fill/w_1000,h_407,al_c,q_85,enc_auto/e4c206_5b51993a50364c58a77b947566fbac9f~mv2.jpg"
+          src="https://static.wixstatic.com/media/e4c206_5b51993a50364c58a77b947566fbac9f~mv2.jpg/v1/fill/w_1000,h_307,al_c,q_85,enc_auto/e4c206_5b51993a50364c58a77b947566fbac9f~mv2.jpg"
           alt="facts8"
         />
         <HorizontalLine />
@@ -204,7 +244,7 @@ function Facts() {
         >
           <EachPost>
             <PostImage mr="60px" src={eachImage1} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="300">
               The University of New Castle
             </EachText>
           </EachPost>
@@ -215,7 +255,7 @@ function Facts() {
         >
           <EachPost>
             <PostImage mt="0px" mr="25px" src={eachImage3} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="300">
               Canada's top 10 universities
             </EachText>
           </EachPost>
@@ -226,14 +266,14 @@ function Facts() {
         >
           <EachPost>
             <PostImage src={eachImage2} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="300">
               Education, Career & Migration Fair in sydney
             </EachText>
           </EachPost>
         </HashLink>
       </RecentPostsContainer>
       <NewsContainer mh="65vh">
-        <EachText fontF fontSize="23px" fontWeight="400">
+        <EachText fontF fontSize="23px" fontWeight="300">
           Comments
         </EachText>
         <HorizontalLine mb="50px" />

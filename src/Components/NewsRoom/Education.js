@@ -66,10 +66,10 @@ function Education() {
           Australia under one roof to offer valuable advice and help
           international students to chart their study and career paths.
         </EachText>
-        <EachText fontF fontSize="20px" fontWeight="600">
+        <EachText sc fontF fontSize="28px" fontWeight="400">
           What are the benefits of attending this event?
         </EachText>
-        <UnoList style={{ margin: "0px" }}>
+        <UnoList style={{ margin: "0px", padding: "0px" }}>
           <EachText fontSize="14px">
             - Extend your stay in Australia on a Student Visa or a Graduate Visa
           </EachText>
@@ -101,7 +101,7 @@ function Education() {
             - Get up to $15,000 scholarship for your studies
           </EachText>
         </UnoList>
-        <EachText fontF fontSize="20px" fontWeight="600">
+        <EachText fontF fontSize="28px" fontWeight="400">
           Instant Experience
         </EachText>
         <EachText fontSize="14px">
@@ -114,7 +114,7 @@ function Education() {
           Registered migration agents will help our students to ensure all their
           visas, permits and papers are in order.
         </EachText>
-        <EachText fontF fontSize="20px" fontWeight="600">
+        <EachText fontF fontSize="28px" fontWeight="400">
           It's your lucky day
         </EachText>
         <EachText fontSize="14px">
@@ -123,12 +123,7 @@ function Education() {
           iPad mini, laptop, Australian attractions vouchers, Movie tickets and
           more.
         </EachText>
-        <EachText
-          fontF
-          fontSize="20px"
-          fontWeight="600"
-          style={{ fontStyle: "italic" }}
-        >
+        <EachText sc fontF fontSize="23px" fontWeight="400">
           Are You In Sydney ?
         </EachText>
         <EachText

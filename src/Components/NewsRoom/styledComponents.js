@@ -39,7 +39,7 @@ export const TextInsideImage = styled.span`
   font-weight: ${(props) => props.fontWeight};
   font-family: "PT Sans Narrow", sans-serif;
   font-size: ${(props) => props.fontSize};
-  transform: ${(props) => props.scale && "scale(1.1, 1.3)"};
+  transform: ${(props) => props.sc && "scale(1.1, 1.3)"};
   margin-left: ${(props) => props.ml};
   letter-spacing: ${(props) => props.ls};
 `;
@@ -67,8 +67,8 @@ export const EachRowInSeniorContainer = styled.div`
 `;
 export const EachImage = styled.img`
   @media screen and (min-width: 1024px) {
-    height: 300px;
-    width: 730px;
+    height: 350px;
+    width: 760px;
     margin-right: 1%;
   }
   @media screen and (max-width: 768px) {
@@ -84,9 +84,9 @@ export const EachText = styled.p`
   margin-left: ${(props) => props.mllg};
   font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
   margin-right: ${(props) => props.mr};
-  color: #4c4c4c;
   margin-bottom: ${(props) => props.mb};
-  letter-spacing: ${(props) => props.ls && "0.3px"};
+  letter-spacing: ${(props) => props.ls && "0.1px"};
+  color: ${(props) => props.color};
   @media screen and (min-width: 1024px) {
     margin-left: ${(props) => props.mllg};
     margin-top: ${(props) => props.mtlg};
@@ -104,10 +104,10 @@ export const EachTextContainer = styled.div`
   margin-left: -1%;
   padding-left: 5%;
   @media screen and (min-width: 1024px) {
-    height: 300px;
+    height: 350px;
   }
   &:hover ${EachText} {
-    color: black;
+    color: #4c4c4c;
   }
 `;
 

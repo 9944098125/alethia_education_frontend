@@ -33,7 +33,7 @@ function StudyAbroad() {
       <StudyAbroadImageContainer id="abroadImage">
         <TextContainer>
           <TextInsideImage
-            mb="-15%"
+            mb="-10%"
             color="#ffffff"
             fontWeight="400"
             fontSize="50px"
@@ -44,7 +44,7 @@ function StudyAbroad() {
         </TextContainer>
       </StudyAbroadImageContainer>
       <JourneyTextContainer>
-        <JourneyText sc fontF fontSize="30px" fontWeight="500">
+        <JourneyText sc fontF fontSize="27px" fontWeight="500">
           "A journey of a thousand miles begins with a single step"
         </JourneyText>
         <JourneyText fontSize="14px" fontWeight="500" mb="0px">
@@ -74,23 +74,23 @@ function StudyAbroad() {
               fontWeight="500"
               fontSizeL="16px"
               fontSizeS="14px"
-              mb="10%"
+              mb="7%"
             >
               WHY AUSTRALIA ?
             </EachCountryDescription>
-            <EachCountryDescription fontSizeL="14px" fontSizeS="10px" mb="10%">
+            <EachCountryDescription fontSizeL="14px" fontSizeS="7px" mb="8%">
               This rich and dynamic country not only offers some of the world’s
               best universities, facilities and educators, but also among the
               most liveable, safe and student friendly cities with an amazing
               lifestyle.
             </EachCountryDescription>
-            <EachCountryDescription fontSizeL="14px" fontSizeS="10px" mb="10%">
+            <EachCountryDescription fontSizeL="14px" fontSizeS="7px" mb="8%">
               ​ Given Australia’s established reputation for excellence in
               education and research and strong economy, there are options and
               opportunities aplenty for students, while studying and after
               graduation.
             </EachCountryDescription>
-            <EachCountryDescription fontSizeL="14px" fontSizeS="10px" mb="15%">
+            <EachCountryDescription fontSizeL="14px" fontSizeS="7px" mb="7%">
               Talk to us and get the information, advice and support you need to
               make your dream of living and studying in Australia come true.
             </EachCountryDescription>
@@ -133,11 +133,11 @@ function StudyAbroad() {
               fontWeight="500"
               fontSizeL="16px"
               fontSizeS="14px"
-              mb="10%"
+              mb="7%"
             >
               WHY NEWZEALAND ?
             </EachCountryDescription>
-            <EachCountryDescription fontSizeL="14px" fontSizeS="10px" mb="10%">
+            <EachCountryDescription fontSizeL="14px" fontSizeS="7px" mb="7%">
               Study in one of the most beautiful, safest and friendliest
               countries in the world. Live with warm and welcoming locals who
               respect other cultures. Be treated as a local, pay the same
@@ -145,10 +145,10 @@ function StudyAbroad() {
               student. Gain a globally recognised and respected degree when you
               graduate and set yourself up for a successful future.
             </EachCountryDescription>
-            <EachCountryDescription fontSizeL="14px" fontSizeS="10px" mb="10%">
+            <EachCountryDescription fontSizeL="14px" fontSizeS="7px" mb="7%">
               What more do you need to pick New Zealand over the others?
             </EachCountryDescription>
-            <EachCountryDescription fontSizeL="14px" fontSizeS="10px" mb="15%">
+            <EachCountryDescription fontSizeL="14px" fontSizeS="7px" mb="7%">
               Talk to us and get the information, advice and support you need to
               make your dream of living and studying in New Zealand come true.
             </EachCountryDescription>
@@ -191,16 +191,16 @@ function StudyAbroad() {
               fontWeight="500"
               fontSizeL="16px"
               fontSizeS="14px"
-              mb="10%"
+              mb="7%"
             >
               WHY CANADA ?
             </EachCountryDescription>
-            <EachCountryDescription fontSizeL="14px" fontSizeS="10px" mb="8%">
+            <EachCountryDescription fontSizeL="14px" fontSizeS="7px" mb="0%">
               First-rate education system with globally ranked universities.
               Check. Student-friendly cities that are consistently rated amongst
               the best in the world to live in Check.
             </EachCountryDescription>
-            <EachCountryDescription fontSizeL="14px" fontSizeS="10px" mb="10%">
+            <EachCountryDescription fontSizeL="14px" fontSizeS="7px" mb="0%">
               Stunning, postcard-perfect outdoors with spectacular scenery.
               Check. High standard, but affordable living. Check. Value for
               money and a great future investment. Check and check. Why wait?
@@ -208,12 +208,12 @@ function StudyAbroad() {
             <EachCountryDescription
               fontF
               fontSizeL="14px"
-              fontSizeS="10px"
-              mb="10%"
+              fontSizeS="7px"
+              mb="0%"
             >
               Why wait?
             </EachCountryDescription>
-            <EachCountryDescription fontSizeL="14px" fontSizeS="10px" mb="8%">
+            <EachCountryDescription fontSizeL="14px" fontSizeS="7px" mb="8%">
               Talk to us and get the information, advice and support you need to
               make your dream of living and studying in Canada come true.
             </EachCountryDescription>
@@ -251,24 +251,24 @@ function StudyAbroad() {
               fontF
               fontSizeL="16px"
               fontSizeS="14px"
-              mb="10%"
+              mb="7%"
             >
               WHY THE UNITED STATES ?
             </EachCountryDescription>
-            <EachCountryDescription fontSizeL="14px" fontSizeS="10px" mb="10%">
+            <EachCountryDescription fontSizeL="14px" fontSizeS="7px" mb="7%">
               The number one destination for international students seeking
               better education, career and life opportunities abroad, the US is
-              home to half of the world’s top 10 universities and hundreds more
+              home to half of the world’s top 7 universities and hundreds more
               renowned, highly-ranked and reputable colleges and institutions.
             </EachCountryDescription>
-            <EachCountryDescription fontSizeL="14px" fontSizeS="10px" mb="10%">
+            <EachCountryDescription fontSizeL="14px" fontSizeS="7px" mb="7%">
               Students looking to study in the US have such a vast array of
               choices when it comes to courses, study level, location, budget,
               environment and lifestyle that deciding on the right institution
               or course can be a confusing and complicated process. iae GLOBAL
               is here to help you navigate through this challenge.
             </EachCountryDescription>
-            <EachCountryDescription fontSizeL="14px" fontSizeS="10px" mb="15%">
+            <EachCountryDescription fontSizeL="14px" fontSizeS="7px" mb="10%">
               Talk to us and get the information, advice and support you need to
               make your dream of living and studying in Australia come true.
             </EachCountryDescription>
@@ -308,11 +308,11 @@ function StudyAbroad() {
               fontWeight="500"
               fontSizeL="16px"
               fontSizeS="14px"
-              mb="10%"
+              mb="7%"
             >
               WHY UNITED KINGDOM ?
             </EachCountryDescription>
-            <EachCountryDescription fontSizeL="14px" fontSizeS="10px" mb="10%">
+            <EachCountryDescription fontSizeL="14px" fontSizeS="7px" mb="7%">
               A very long history of providing excellence in education from the
               home of the English language and many of the world’s most
               prestigious universities ensures the UK’s place as the second
@@ -320,14 +320,14 @@ function StudyAbroad() {
               oldest and second oldest universities in the English-speaking
               world.
             </EachCountryDescription>
-            <EachCountryDescription fontSizeL="14px" fontSizeS="10px" mb="10%">
-              British universities have taught and educated over 100 Nobel Prize
+            <EachCountryDescription fontSizeL="14px" fontSizeS="7px" mb="7%">
+              British universities have taught and educated over 70 Nobel Prize
               winners as well as many of the world's respected thinkers, talents
               and leaders, including Stephen Hawking, Mahatma Gandhi, Lee Kuan
               Yew, Desmond Tutu, Bill Clinton, Bob Hawk, Malcom Turnbull, George
               Soros.
             </EachCountryDescription>
-            <EachCountryDescription fontSizeL="14px" fontSizeS="10px" mb="15%">
+            <EachCountryDescription fontSizeL="14px" fontSizeS="7px" mb="10%">
               Talk to us and get the information, advice and support you need to
               make your dream of living and studying in Australia come true.
             </EachCountryDescription>

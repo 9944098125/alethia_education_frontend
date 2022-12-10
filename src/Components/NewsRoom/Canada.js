@@ -42,7 +42,7 @@ function Canada() {
         <EachText fontSize="13px" fontWeight="400">
           Feb 7, 2019
         </EachText>
-        <EachText ls color="#343434" fontF fontSize="40px" fontWeight="500">
+        <EachText color="#4c4c4c" sc ls fontF fontSize="40px" fontWeight="450">
           Canada's Top 10 Universities
         </EachText>
         <EachRoomImages

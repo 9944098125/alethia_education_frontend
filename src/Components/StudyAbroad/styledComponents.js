@@ -80,7 +80,7 @@ export const EachCountryContainer = styled.div`
   width: 80%;
   padding: 3%;
   @media screen and (min-width: 1024px) {
-    height: 60vw;
+    height: 120vh;
     display: flex;
   }
   @media screen and (max-width: 768px) {
@@ -94,7 +94,7 @@ export const EachCountryImage = styled.img`
   @media screen and (min-width: 1024px) {
     height: 100%;
     width: 50%;
-    margin-right: 2%;
+    margin-right: 1.5%;
   }
   @media screen and (mnax-width: 768px) {
     height: 50%;
@@ -103,6 +103,7 @@ export const EachCountryImage = styled.img`
 `;
 export const EachCountryTextContainer = styled.div`
   padding: 2%;
+  padding-right: 0px;
 `;
 export const EachCountryDescription = styled.p`
   font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
@@ -135,7 +136,7 @@ export const EachCountryButton = styled.button`
   font-size: 15px;
   justify-content: center;
   align-items: center;
-  border: 2px solid #4c4c4c;
+  border: 2px solid grey;
   height: 40px !important;
   margin-right: 5%;
   transform: scale(1, 1.2);

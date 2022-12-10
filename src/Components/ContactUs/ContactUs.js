@@ -50,17 +50,17 @@ function ContactUs() {
           >
             CORPORATE ADDRESS
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="400" mb="10px">
+          <ContactUsText fontSize="18px" fontWeight="400" mb="10px">
             iae HOLDINGS, Inc. trading as iae GLOBAL
           </ContactUsText>
-          <ContactUsText fontSize="14px" fontWeight="400" mb="25px">
+          <ContactUsText fontSize="16px" fontWeight="400" mb="25px">
             7F/726 Humax Ebisu Building, Ebisu minami 1-1-1, Shibuya-ku, Tokyo,
             150-0022, Japan
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="400" mb="0px">
+          <ContactUsText fontSize="15px" fontWeight="400" mb="5px">
             Tel: +81 (0)3 6871 9422
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="400" mb="0px">
+          <ContactUsText fontSize="15px" fontWeight="400" mb="5px">
             Fax: +81 (0)3 6871 9311
           </ContactUsText>
           <ContactUsText fontSize="15px" fontWeight="400">

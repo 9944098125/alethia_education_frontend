@@ -130,7 +130,7 @@ function Australia() {
             Australia
           </EachText>
           <EachText fontF fontSize="30px" fontWeight="500">
-            University And Student Life
+            University & Student Life
           </EachText>
           <EachText fontSize="14px">
             Established in 1965, the University of Newcastle has modern local
@@ -217,7 +217,7 @@ function Australia() {
             The University of Newcastle with practical experience, paid
             employment and research.
           </EachText>
-          <EachText fontSize="17px" fontWeight="600">
+          <EachText ls fontF fontSize="17px" fontWeight="400" color="#4c4c4c">
             "Incredibly hands on experience, great practical knowledge balanced
             with broad theoretical underpinnings. Many Seniors in the Profession
             whom I’ve so far had the chance to meet continuously comment on the

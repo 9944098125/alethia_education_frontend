@@ -42,7 +42,7 @@ function Footer() {
               <TextInColumn>NEWS ROOM</TextInColumn>
             </HashLink>
           </EachColumn>
-          <EachColumn style={{ marginRight: "18%" }}>
+          <EachColumn style={{ marginRight: "15%" }}>
             <HashLink
               to="/sitemap#sitemap"
               style={{ textDecoration: "none", color: "inherit" }}
@@ -68,7 +68,7 @@ function Footer() {
               <TextInColumn>CONTACT US</TextInColumn>
             </HashLink>
           </EachColumn>
-          <EachColumn style={{ letterSpacing: "0px", width: "250px" }}>
+          <EachColumn style={{ letterSpacing: "0px", width: "100%" }}>
             <TextInColumn grey>© 2018 IAE GLOBAL. ALL RIGHTS</TextInColumn>
             <TextInColumn grey style={{ marginTop: "-15px" }}>
               RESERVED

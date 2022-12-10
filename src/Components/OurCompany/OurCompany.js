@@ -108,40 +108,44 @@ function OurCompany() {
                 offer recruitment expertise in, and a balanced, diverse
                 portfolio and nationality mix of students from, a variety of
                 countries. It also means that we have closer relationships with
-                and better knowledge of the institutions our students attend.
+                and better knowledge of the institutions our students
+                attend.This enables us to connect students from China, India,
+                Japan, Korea and other key markets around the world with
+                top-tier educational institutions in the US, UK, Australia, New
+                Zealand, Canada and other major destination countries.
               </TextWithGrid>
             </TextWithGridContainer>
             <GridContainer>
               <GridItem>
-                <TextInGrid fontW="500" fontSizeInLg="30px" fontSizeInSm="20px">
+                <TextInGrid fontW="500" fontSizeInLg="35px" fontSizeInSm="20px">
                   350,000
                 </TextInGrid>
-                <TextInGrid fontW="400" fontSizeInLg="18px" fontSizeInSm="10px">
-                  Satisfied and successful students
+                <TextInGrid fontW="450" fontSizeInLg="16px" fontSizeInSm="10px">
+                  SATISFIED AND SUCCESSFUL STUDENTS
                 </TextInGrid>
               </GridItem>
               <GridItem>
-                <TextInGrid fontW="500" fontSizeInLg="30px" fontSizeInSm="20px">
+                <TextInGrid fontW="500" fontSizeInLg="35px" fontSizeInSm="20px">
                   60+
                 </TextInGrid>
-                <TextInGrid fontW="400" fontSizeInLg="18px" fontSizeInSm="10px">
-                  Service and Support offices
+                <TextInGrid fontW="450" fontSizeInLg="16px" fontSizeInSm="10px">
+                  SERVICE AND SUPPORT OFFICES
                 </TextInGrid>
               </GridItem>
               <GridItem>
-                <TextInGrid fontW="500" fontSizeInLg="30px" fontSizeInSm="20px">
+                <TextInGrid fontW="500" fontSizeInLg="35px" fontSizeInSm="20px">
                   1000s
                 </TextInGrid>
-                <TextInGrid fontW="400" fontSizeInLg="18px" fontSizeInSm="10px">
-                  Top University campus choices
+                <TextInGrid fontW="450" fontSizeInLg="16px" fontSizeInSm="10px">
+                  TOP UNIVERSITY CAMPUS CHOICES
                 </TextInGrid>
               </GridItem>
               <GridItem>
-                <TextInGrid fontW="500" fontSizeInLg="30px" fontSizeInSm="20px">
+                <TextInGrid fontW="500" fontSizeInLg="35px" fontSizeInSm="20px">
                   350
                 </TextInGrid>
-                <TextInGrid fontW="400" fontSizeInLg="18px" fontSizeInSm="10px">
-                  Experienced and caring Experts
+                <TextInGrid fontW="450" fontSizeInLg="16px" fontSizeInSm="10px">
+                  EXPERIENCED AND CARING EXPERTS
                 </TextInGrid>
               </GridItem>
             </GridContainer>
@@ -381,7 +385,7 @@ function OurCompany() {
       </SmallTextContainer>
       <ThinHorizontalLine />
       <AffiliatesContainer>
-        <ListHead style={{ marginBottom: "10px", marginTop: "-20px" }}>
+        <ListHead aff style={{ marginBottom: "10px", marginTop: "-20px" }}>
           Affiliates
         </ListHead>
         <SmallText>

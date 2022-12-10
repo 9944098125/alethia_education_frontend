@@ -430,10 +430,10 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="17px" fontWeight="500">
           COPYRIGHT INFRINGEMENT
         </PrivacyText>
-        {/* <PrivacyText mb="-18px" fontSize="14px" fontWeight="500">
+        <PrivacyText fontSize="14px">
           If you believe that any User Contributions violate your copyright,
           please contact info@iaeglobal.net.
-        </PrivacyText> */}
+        </PrivacyText>
 
         <PrivacyText fontF fontSize="17px" fontWeight="500">
           RELIANCE ON INFORMATION POSTED
@@ -478,6 +478,33 @@ function TermsOfUse() {
           with the Privacy Policy.
         </PrivacyText>
         <PrivacyText fontF fontSize="17px" fontWeight="500">
+          LINKING TO THE WEBSITE AND SOCIAL MEDIA FEATURES
+        </PrivacyText>
+        <PrivacyText fontSize="15px">
+          You may link to our homepage, provided you do so in a way that is fair
+          and legal and does not damage our reputation or take advantage of it,
+          but you must not establish a link in such a way as to suggest any form
+          of association, approval, or endorsement on our part.
+        </PrivacyText>
+        <PrivacyText fontSize="14px">
+          This Website may provide certain social media features that enable you
+          to:
+        </PrivacyText>
+        <ListContainer style={{ padding: "0px", paddingLeft: "40px" }}>
+          <ListItem>
+            Link from your own or certain third-party websites to certain
+            content on this Website.
+          </ListItem>
+          <ListItem>
+            Send emails or other communications with certain content, or links
+            to certain content, on this Website.
+          </ListItem>
+          <ListItem>
+            Cause limited portions of content on this Website to be displayed or
+            appear to be displayed on your own or certain third-party websites.
+          </ListItem>
+        </ListContainer>
+        <PrivacyText fontF fontSize="17px" fontWeight="500">
           LINKS FROM THE WEBSITE
         </PrivacyText>
         <PrivacyText fontSize="14px">
@@ -499,7 +526,7 @@ function TermsOfUse() {
           certain countries. If you access the Website, you do so on your own
           initiative and are responsible for compliance with local laws.
         </PrivacyText>
-        <PrivacyText fonF fontSize="16px" fontWeight="500">
+        <PrivacyText fontF fontSize="16px" fontWeight="500">
           DISCLAIMER TO THE WARRANTIES
         </PrivacyText>
         <PrivacyText fontSize="14px">
@@ -554,7 +581,7 @@ function TermsOfUse() {
           contract, or otherwise, even if foreseeable.
         </PrivacyText>
         <PrivacyText fontF fontSize="16px" fontWeight="500">
-          IDENTIFICATION
+          INDEMNIFICATION
         </PrivacyText>
         <PrivacyText fontSize="14px">
           You agree to defend, indemnify, and hold harmless the Company, its

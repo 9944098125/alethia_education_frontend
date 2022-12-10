@@ -126,6 +126,7 @@ export const TextAndGridContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 0px;
   }
   @media screen and (max-width: 768px) {
     display: flex;
@@ -136,8 +137,10 @@ export const TextAndGridContainer = styled.div`
 
 export const TextWithGridContainer = styled.div`
   @media screen and (min-width: 768px) {
-    width: 50%;
-    padding: 15px;
+    width: 60%;
+    padding: 10px;
+    margin-right: 0px;
+    padding-right: 0px;
   }
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -160,6 +163,7 @@ export const GridContainer = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     width: 50%;
+    padding: 0px;
   }
   @media screen and (max-width: 768px) {
     display: flex;
@@ -173,16 +177,19 @@ export const GridItem = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0px;
   @media screen and (min-width: 768px) {
-    width: 130px;
-    margin: 25px;
+    width: 150px;
+    margin: 5px;
   }
   @media screen and (max-width: 768px) {
     width: 100px;
     margin: 15px;
   }
   @media screen and (min-width: 1030px) {
-    width: 190px;
+    width: 200px;
+    margin-bottom: 25px;
+    padding: 0px;
   }
 `;
 
@@ -190,6 +197,7 @@ export const TextInGrid = styled.p`
   text-align: center;
   font-weight: ${(props) => props.fontW};
   font-family: "Oswald", sans-serif;
+  transform: scale(0.8, 1);
   color: #4c4c4c;
   @media screen and (min-width: 1024px) {
     font-size: ${(props) => props.fontSizeInLg};
@@ -286,9 +294,10 @@ export const ListContainer = styled.div`
   }
 `;
 export const ListHead = styled.p`
-  font-size: 40px;
-  font-weight: 500;
+  font-size: ${(props) => (props.aff ? "30px" : "40px")};
+  font-weight: ${(props) => (props.aff ? "420" : "500")};
   font-family: "Oswald", sans-serif;
+  letter-spacing: 0.5px;
   margin-bottom: 12%;
   transform: scale(1, 1.15);
   color: #4c4c4c;
@@ -387,9 +396,10 @@ export const LeaderTextContainer = styled.div`
   }
 `;
 export const LeaderName = styled.p`
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
   transform: scale(1, 1.15);
+  color: #4c4c4c;
   font-family: "Oswald", sans-serif;
   @media screen and (max-width: 768px) {
     font-size: 15px;
@@ -398,7 +408,7 @@ export const LeaderName = styled.p`
 export const LeaderDescription = styled.p`
   font-size: 14px;
   font-weight: 400;
-  color: #343434;
+  color: #4c4c4c;
   @media screen and (max-width: 768px) {
     font-size: 10px;
   }
@@ -457,6 +467,7 @@ export const AlignEndTextContainer = styled.div`
   @media screen and (min-width: 1024px) {
     justify-content: flex-end;
     padding-left: 7%;
-    width: 80%;
+    width: 72%;
+    margin-right: -150px;
   }
 `;

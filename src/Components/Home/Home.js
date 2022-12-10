@@ -46,22 +46,112 @@ import Header from "../Header/Header";
 function Home() {
   // const [offset, setOffset] = useState(0);
   DocumentTitle("Home");
+  const HomeContent = () => {
+    return (
+      <>
+        <Header mt="-8%" pr="12%" pl="6%" />
+        <div className="mb-3"></div>
+        <TextContainer style={{ marginTop: "-6.5%" }}>
+          <TextInsideImage
+            mb="1%"
+            color="#ffffff"
+            fontWeight="400"
+            fontSize="45px"
+            sc
+            ml="9%"
+          >
+            Creating a better future
+          </TextInsideImage>
+          <TextInsideImage
+            mb="3%"
+            color="#ffffff"
+            fontWeight="600"
+            fontSize="15px"
+          >
+            CONNECTING INTERNATIONAL STUDENTS WITH STUDY AND CAREER
+            OPPORTUNITIES ABROAD
+          </TextInsideImage>
+          <p
+            className="text-white"
+            style={{ fontSize: "14px", fontWeight: "500" }}
+          >
+            We advise and assist students seeking realistic solutions and
+            achievable pathways to leading universities, colleges, vocational
+            and training institutes, primary and high schools, and language
+            schools in Australia, Canada, New Zealand, the UK, USA and other
+            study destinations. iae GLOBAL has guided over 350,000 students to
+            achieve their dreams since 1992.
+          </p>
+          <HashLink
+            to="/study-abroad#abroadImage"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <PathwayButton>
+              YOUR PATHWAY
+              <ArrowRightAltIcon sx={{ ml: 1 }} />
+            </PathwayButton>
+          </HashLink>
+        </TextContainer>
+      </>
+    );
+  };
 
-  // const parallaxShift = () => {
-  //   setOffset(window.pageYOffset);
-  // };
-
-  // useEffect(() => {
-  //   return () => {
-  //     window.addEventListener("scroll", parallaxShift);
-  //   };
-  // }, []);
-
-  // useEffect(() => {
-  //   return () => {
-  //     window.removeEventListener("scroll", parallaxShift);
-  //   };
-  // }, []);
+  const PhilosophyContent = () => {
+    return (
+      <>
+        <TextContainer>
+          <TextInsideImage
+            sc
+            color="#ffffff"
+            fontWeight="400"
+            fontSize="50px"
+            ml="9%"
+          >
+            Our Philosophy is simple -
+          </TextInsideImage>
+          <TextInsideImage
+            sc
+            color="#ffffff"
+            fontSize="50px"
+            fontWeight="400"
+            ml="9%"
+            mb="4%"
+          >
+            Students First
+            <AiOutlineExclamation
+              style={{
+                fontSize: "60px",
+                marginLeft: "-15px",
+                marginTop: "-10px",
+              }}
+            />
+          </TextInsideImage>
+          <div className="philosophy-text-container">
+            <p style={{ color: "white", fontWeight: "500", fontSize: "14px" }}>
+              We are proud of our reputation for quality counselling,
+              personalised services and dedicated support. We can help you plan
+              your pathway to the best course, career and choice for your
+              future.
+            </p>
+            <p style={{ color: "white", fontWeight: "500", fontSize: "14px" }}>
+              We know this can be a life-changing decision. We take it very
+              seriously. ​ Talk to us and find out why hundreds of thousands of
+              students have trusted us with their future.
+            </p>
+          </div>
+          <HashLink
+            to="/study-abroad#abroadImage"
+            style={{ textDecoration: "none" }}
+          >
+            <PathwayButton>
+              LEARN MORE
+              <ArrowRightAltIcon sx={{ ml: 1 }} />
+            </PathwayButton>
+          </HashLink>
+        </TextContainer>
+      </>
+    );
+  };
 
   return (
     <Fragment>
@@ -74,55 +164,11 @@ function Home() {
             marginTop: "-68px",
             paddingBottom: "1%",
             paddingLeft: "50px",
-            backgroundPosition: "center",
           }}
-          strength={500}
+          strength={400}
+          children={<HomeContent />}
           bgImage="https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_1284,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg"
-        >
-          <Header mt="-8%" pr="12%" pl="6%" />
-          <div className="mb-3"></div>
-          <TextContainer style={{ marginTop: "-6.5%" }}>
-            <TextInsideImage
-              mb="1%"
-              color="#ffffff"
-              fontWeight="400"
-              fontSize="45px"
-              sc
-              ml="9%"
-            >
-              Creating a better future
-            </TextInsideImage>
-            <TextInsideImage
-              mb="3%"
-              color="#ffffff"
-              fontWeight="600"
-              fontSize="15px"
-            >
-              CONNECTING INTERNATIONAL STUDENTS WITH STUDY AND CAREER
-              OPPORTUNITIES ABROAD
-            </TextInsideImage>
-            <p
-              className="text-white"
-              style={{ fontSize: "14px", fontWeight: "500" }}
-            >
-              We advise and assist students seeking realistic solutions and
-              achievable pathways to leading universities, colleges, vocational
-              and training institutes, primary and high schools, and language
-              schools in Australia, Canada, New Zealand, the UK, USA and other
-              study destinations. iae GLOBAL has guided over 350,000 students to
-              achieve their dreams since 1992.
-            </p>
-            <HashLink
-              to="/study-abroad#abroadImage"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <PathwayButton>
-                YOUR PATHWAY
-                <ArrowRightAltIcon sx={{ ml: 1 }} />
-              </PathwayButton>
-            </HashLink>
-          </TextContainer>
-        </Parallax>
+        ></Parallax>
         <SupportContainer>
           <SupportText>Supporting education abroad</SupportText>
           <HashLink to="/our-story#vision" style={{ textDecoration: "none" }}>
@@ -266,62 +312,21 @@ function Home() {
             <ItemImage src={trophy} alt="trophy" />
           </EachItem>
         </AwardsContainer>
-        <PhilosophyContainer>
-          <TextContainer>
-            <TextInsideImage
-              sc
-              color="#ffffff"
-              fontWeight="400"
-              fontSize="50px"
-              ml="9%"
-            >
-              Our Philosophy is simple -
-            </TextInsideImage>
-            <TextInsideImage
-              sc
-              color="#ffffff"
-              fontSize="50px"
-              fontWeight="400"
-              ml="9%"
-              mb="4%"
-            >
-              Students First
-              <AiOutlineExclamation
-                style={{
-                  fontSize: "60px",
-                  marginLeft: "-15px",
-                  marginTop: "-10px",
-                }}
-              />
-            </TextInsideImage>
-            <div className="philosophy-text-container">
-              <p
-                style={{ color: "white", fontWeight: "500", fontSize: "14px" }}
-              >
-                We are proud of our reputation for quality counselling,
-                personalised services and dedicated support. We can help you
-                plan your pathway to the best course, career and choice for your
-                future.
-              </p>
-              <p
-                style={{ color: "white", fontWeight: "500", fontSize: "14px" }}
-              >
-                We know this can be a life-changing decision. We take it very
-                seriously. ​ Talk to us and find out why hundreds of thousands
-                of students have trusted us with their future.
-              </p>
-            </div>
-            <HashLink
-              to="/study-abroad#abroadImage"
-              style={{ textDecoration: "none" }}
-            >
-              <PathwayButton>
-                LEARN MORE
-                <ArrowRightAltIcon sx={{ ml: 1 }} />
-              </PathwayButton>
-            </HashLink>
-          </TextContainer>
-        </PhilosophyContainer>
+        {/* <PhilosophyContainer></PhilosophyContainer> */}
+        <Parallax
+          style={{
+            height: "170vh",
+            width: "100vw",
+            display: "flex",
+            justifyContent: "flex-start",
+            alignItems: "center",
+            paddingBottom: "100px",
+            marginBottom: "10%",
+          }}
+          children={<PhilosophyContent />}
+          strength={350}
+          bgImage="https://static.wixstatic.com/media/e4c206_95f2a9037e1a4cb7a8b401711f05ad83~mv2.jpg/v1/fill/w_1440,h_1157,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_95f2a9037e1a4cb7a8b401711f05ad83~mv2.jpg"
+        ></Parallax>
         <MeetingContainer>
           <MeetingTextContainer>
             <TextInsideImage

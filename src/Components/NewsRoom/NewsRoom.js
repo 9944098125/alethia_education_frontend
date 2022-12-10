@@ -29,7 +29,7 @@ function NewsRoom() {
       <NewsRoomImageContainer id="news">
         <TextContainer>
           <TextInsideImage
-            scale
+            sc
             fontSize="45px"
             fontWeight="600"
             color="#ffffff"
