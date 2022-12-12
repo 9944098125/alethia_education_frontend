@@ -159,11 +159,13 @@ function Home() {
         <Parallax
           style={{
             height: "150vh",
+            maxWidth: "100%",
             display: "flex",
             alignItems: "center",
             marginTop: "-68px",
             paddingBottom: "1%",
             paddingLeft: "50px",
+            backgroundPosition: "center,",
           }}
           strength={400}
           children={<HomeContent />}
@@ -316,7 +318,7 @@ function Home() {
         <Parallax
           style={{
             height: "170vh",
-            width: "100vw",
+            maxWidth: "100%",
             display: "flex",
             justifyContent: "flex-start",
             alignItems: "center",
