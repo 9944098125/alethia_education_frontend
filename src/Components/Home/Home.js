@@ -49,7 +49,7 @@ function Home() {
   const HomeContent = () => {
     return (
       <>
-        <Header mt="-8%" pr="12%" pl="6%" />
+        <Header mt="-8%" pr="5%" pl="6%" />
         <div className="mb-3"></div>
         <TextContainer style={{ marginTop: "-6.5%" }}>
           <TextInsideImage

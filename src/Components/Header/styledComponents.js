@@ -6,7 +6,7 @@ export const HeaderContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 68px;
-  padding-right: 12%;
+  padding-right: 5%;
   padding-left: 10%;
   padding-bottom: 0px;
   @media screen and (max-width: 875px) {
@@ -60,14 +60,14 @@ export const HoldingsButton = styled.button`
 
 export const HeadLink = styled.h3`
   font-style: normal;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald";
   letter-spacing: 1px;
   line-height: unset;
-  transform: scale(1.1, 1.3);
-  font-size: 13px;
+  transform: scale(1.2, 1.3);
+  font-size: 12.6px;
   color: #ffffff;
-  margin-right: 18px;
-  font-weight: 410;
+  margin-right: 23px;
+  font-weight: 400;
   opacity: 1;
   @media screen and (max-width: 768px) {
     margin-right: 0px;

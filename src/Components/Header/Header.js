@@ -83,7 +83,9 @@ function Header(props) {
           to="/study-abroad"
           style={{ textDecoration: "none", color: "inherit" }}
         >
-          <HeadLink id="study-abroad">STUDY ABROAD</HeadLink>
+          <HeadLink style={{ marginRight: "30px" }} id="study-abroad">
+            STUDY ABROAD
+          </HeadLink>
         </Link>
         <Link
           to="/partners"
