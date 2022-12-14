@@ -19,6 +19,8 @@ function Header(props) {
           marginTop: `${props.mt}`,
           paddingLeft: `${props.pl}`,
           paddingRight: `${props.pr}`,
+          marginLeft: `${props.ml}`,
+          paddingTop: `${props.pt}`,
         }}
       >
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>

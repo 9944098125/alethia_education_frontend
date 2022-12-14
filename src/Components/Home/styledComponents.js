@@ -43,7 +43,7 @@ export const TextInsideImage = styled.span`
   font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
   margin-bottom: ${(props) => props.mb};
-  transform: ${(props) => props.sc && "scale(1.2, 1.2)"};
+  transform: ${(props) => props.sc && "scale(1.2, 1.3)"};
   margin-left: ${(props) => props.ml};
   @media screen and (max-width: 768px) {
     margin-left: 0px;
@@ -81,9 +81,9 @@ export const SupportText = styled.h3`
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   margin-bottom: 2%;
-  transform: scale(1, 1.1);
+  transform: scale(1, 1.2);
   @media screen and (min-width: 800px) {
-    font-size: 35px;
+    font-size: 32px;
   }
   @media screen and (max-width: 768px) {
     font-size: 20px;
@@ -136,6 +136,7 @@ export const SingleOption = styled.div`
   @media screen and (min-width: 800px) {
     margin: 20px;
     margin-bottom: 15px;
+    margin-right: 10px;
     height: 600px;
     width: 500px;
   }

@@ -64,7 +64,7 @@ export const JourneyText = styled.p`
   transform: ${(props) => props.sc && "scale(1, 1.2)"};
 `;
 export const HorizontalLine = styled.hr`
-  background: 2px solid grey;
+  border-bottom: 2px solid black;
   width: ${(props) => props.w};
   margin-bottom: 2%;
   margin-left: ${(props) => props.ml};
@@ -92,7 +92,7 @@ export const EachCountryContainer = styled.div`
 `;
 export const EachCountryImage = styled.img`
   @media screen and (min-width: 1024px) {
-    height: 100%;
+    height: 95%;
     width: 50%;
     margin-right: 1.5%;
   }

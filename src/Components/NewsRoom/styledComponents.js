@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { IoMdPerson } from "react-icons/io";
 
 export const NewsRoomImageContainer = styled.div`
-  height: 70vh;
+  height: 72vh;
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg/v1/fill/w_1304,h_572,al_c,q_85,enc_auto/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg");
   background-size: cover;
@@ -25,7 +25,7 @@ export const NewsRoomImageContainer = styled.div`
 `;
 export const TextContainer = styled.div`
   width: 70%;
-  padding-left: 50px;
+  padding-left: 30px;
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 768px) {
@@ -55,7 +55,7 @@ export const EachRowInSeniorContainer = styled.div`
   @media screen and (min-width: 1024px) {
     display: flex;
     align-items: flex-start;
-    padding: 10%;
+    padding: 10.3%;
     padding-top: 0px;
     padding-bottom: 0px;
   }
@@ -67,9 +67,8 @@ export const EachRowInSeniorContainer = styled.div`
 `;
 export const EachImage = styled.img`
   @media screen and (min-width: 1024px) {
-    height: 350px;
-    width: 760px;
-    margin-right: 1%;
+    height: 340px;
+    max-width: 650px;
   }
   @media screen and (max-width: 768px) {
     height: 60%;
@@ -87,7 +86,7 @@ export const EachText = styled.p`
   margin-bottom: ${(props) => props.mb};
   letter-spacing: ${(props) => props.ls && "0.1px"};
   color: ${(props) => props.color};
-  @media screen and (min-width: 1024px) {
+  (min-width: 1024px) {
     margin-left: ${(props) => props.mllg};
     margin-top: ${(props) => props.mtlg};
   }

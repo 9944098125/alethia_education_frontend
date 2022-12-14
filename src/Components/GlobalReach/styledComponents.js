@@ -4,6 +4,7 @@ export const Container = styled.div`
   padding: 25px;
   @media screen and (min-width: 875px) {
     display: flex;
+    margin-bottom: 4%;
   }
   @media screen and (max-width: 768px) {
     display: flex;
@@ -82,9 +83,10 @@ export const PartnersButton = styled.button`
   max-height: 45px;
   @media screen and (min-width: 875px) {
     padding: 7px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     font-size: 16px;
+    font-weight: 450;
   }
   @media screen and (max-width: 768px) {
     padding: 5px;

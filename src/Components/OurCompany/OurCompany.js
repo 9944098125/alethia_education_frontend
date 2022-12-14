@@ -81,7 +81,7 @@ function OurCompany() {
             <TextInsideImage color="#080808" fontSize="45px" fontWeight="500">
               "It all began in 1992..."
             </TextInsideImage>
-            <SmallText color="#4c4c4c">
+            <SmallText color="#5a5a5a">
               We started as a single office in Gangnam, Seoul, South Korea. Over
               the decades, iae GLOBAL has become one of the largest and most
               diverse student recruitment organisations in the world.
@@ -101,18 +101,18 @@ function OurCompany() {
                 This enables us to connect students from China, India, Japan,
                 Korea and other key markets around the world with top-tier
                 educational institutions in the US, UK, Australia, New Zealand,
-                Canada and other major destination countries.
+                Canada and other major destination countries. This enables us to
+                connect students from China, India, Japan, Korea and other key
+                markets around the world with top-tier educational institutions
+                in the US, UK, Australia, New Zealand, Canada and other major
+                destination countries.
               </TextWithGrid>
               <TextWithGrid>
                 The scale and international reach of our network means we can
                 offer recruitment expertise in, and a balanced, diverse
                 portfolio and nationality mix of students from, a variety of
                 countries. It also means that we have closer relationships with
-                and better knowledge of the institutions our students
-                attend.This enables us to connect students from China, India,
-                Japan, Korea and other key markets around the world with
-                top-tier educational institutions in the US, UK, Australia, New
-                Zealand, Canada and other major destination countries.
+                and better knowledge of the institutions our students attend.
               </TextWithGrid>
             </TextWithGridContainer>
             <GridContainer>
@@ -178,7 +178,7 @@ function OurCompany() {
             <AlignEndTextContainer>
               <p
                 style={{
-                  marginRight: "-50px",
+                  marginRight: "-150px",
                   fontSize: "14px",
                   color: "#343434",
                   fontWeight: "400",
@@ -277,7 +277,12 @@ function OurCompany() {
         </CommittedText>
       </CommittedTextContainer>
       <LeadershipTeamImageContainer id="leaders" vh="60vh" src={leadership}>
-        <LeaderShipText color="#ffffff" fontSize="70px" fontWeight="800">
+        <LeaderShipText
+          style={{ transform: "scale(1.1, 1.2)", letterSpacing: "1px" }}
+          color="#ffffff"
+          fontSize="50px"
+          fontWeight="500"
+        >
           Leadership Team
         </LeaderShipText>
       </LeadershipTeamImageContainer>
@@ -372,7 +377,12 @@ function OurCompany() {
         vh="65vh"
         src={certificates}
       >
-        <AffiliatesText color="#ffffff" fontSize="60px" fontWeight="800">
+        <AffiliatesText
+          style={{ transform: "scale(1.1, 1.2)", letterSpacing: "1px" }}
+          color="#ffffff"
+          fontSize="50px"
+          fontWeight="500"
+        >
           Certifications, Affiliates and Awards
         </AffiliatesText>
       </LeadershipTeamImageContainer>
@@ -395,7 +405,7 @@ function OurCompany() {
         <SmallText>
           Comments about us for the American International Recruitment Council
         </SmallText>
-        <AffiliatesButton>COMMENT ABOUT US</AffiliatesButton>
+        <AffiliatesButton>COMMENTS ABOUT US</AffiliatesButton>
         <ThinHorizontalLine />
         <SmallText>
           iae GLOBAL or its directors are affiliated with or a member of:
@@ -404,7 +414,16 @@ function OurCompany() {
           <AffiliatedImage src={affiliated1} alt="affiliated1" width="90%" />
         </ImagesRow>
         <ThinHorizontalLine />
-        <ListHead>Awards</ListHead>
+        <ListHead
+          style={{
+            marginBottom: "15px",
+            fontSize: "25px",
+            fontWeight: "500",
+            transform: "scale(1.1,1.3)",
+          }}
+        >
+          Awards
+        </ListHead>
         <SmallText>
           iae GLOBAL has been awarded the following industry accolades.
         </SmallText>

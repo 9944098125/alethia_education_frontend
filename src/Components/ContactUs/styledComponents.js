@@ -15,7 +15,6 @@ export const ContactUsContainer = styled.div`
 export const ContactUsTextContainer = styled.div`
   margin-right: 1%;
   padding: 0px;
-  padding-top: 0px;
   padding-left: 10%;
   padding-right: 0px;
   @media screen and (min-width: 1024px) {

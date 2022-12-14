@@ -73,30 +73,23 @@ function Education() {
           <EachText fontSize="14px">
             - Extend your stay in Australia on a Student Visa or a Graduate Visa
           </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
             - Find out about job opportunities on a Graduate Visa
           </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
             {" "}
             - Get up to $15,000 scholarship for your studies
           </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
             - Extend your stay in Australia on a Student Visa or a Graduate Visa
           </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
             - Find out about job opportunities on a Graduate Visa
           </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
-            {" "}
-            - Get up to $15,000 scholarship for your studies
-          </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
             - Extend your stay in Australia on a Student Visa or a Graduate Visa
           </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
-            - Find out about job opportunities on a Graduate Visa
-          </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
             {" "}
             - Get up to $15,000 scholarship for your studies
           </EachText>
@@ -104,7 +97,7 @@ function Education() {
         <EachText fontF fontSize="28px" fontWeight="400">
           Instant Experience
         </EachText>
-        <EachText fontSize="14px">
+        <EachText fontSize="13px">
           Students can receive one-on-one counselling with experienced experts
           from more than 50 Australian institutions, recruitment specialists
           with placement services and get their questions answered about the
@@ -123,7 +116,7 @@ function Education() {
           iPad mini, laptop, Australian attractions vouchers, Movie tickets and
           more.
         </EachText>
-        <EachText sc fontF fontSize="23px" fontWeight="400">
+        <EachText sc fontF fontSize="16px" fontWeight="400">
           Are You In Sydney ?
         </EachText>
         <EachText

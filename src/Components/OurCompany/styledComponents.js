@@ -84,6 +84,7 @@ export const SmallText = styled.p`
   font-size: 16px;
   text-align: center;
   font-weight: 450;
+  width: 90%;
   @media screen and (max-width: 768px) {
     font-size: 12px;
   }
@@ -98,10 +99,11 @@ export const ValuesButton = styled.button`
   display: flex;
   justify-content: center;
   padding: 10px;
-  width: 250px;
+  width: 230px;
   font-family: "Oswald", sans-serif;
   font-weight: 500;
   background-color: transparent;
+  font-size: 15px;
   border: 2px solid grey;
   @media screen and (max-width: 768px) {
     padding: 5px;
@@ -127,6 +129,7 @@ export const TextAndGridContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding-right: 0px;
+    padding: 0px;
   }
   @media screen and (max-width: 768px) {
     display: flex;
@@ -137,10 +140,11 @@ export const TextAndGridContainer = styled.div`
 
 export const TextWithGridContainer = styled.div`
   @media screen and (min-width: 768px) {
-    width: 60%;
-    padding: 10px;
+    width: 50%;
+    padding: 5px;
     margin-right: 0px;
     padding-right: 0px;
+    margin-left: -30px;
   }
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -150,7 +154,7 @@ export const TextWithGridContainer = styled.div`
 
 export const TextWithGrid = styled.p`
   @media screen and (min-width: 768px) {
-    font-size: 15px;
+    font-size: 14px;
   }
   @media screen and (max-width: 768px) {
     font-size: 10px;
@@ -162,8 +166,9 @@ export const GridContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 50%;
+    width: 60%;
     padding: 0px;
+    margin-right: -30px;
   }
   @media screen and (max-width: 768px) {
     display: flex;
@@ -187,7 +192,7 @@ export const GridItem = styled.div`
     margin: 15px;
   }
   @media screen and (min-width: 1030px) {
-    width: 200px;
+    width: 250px;
     margin-bottom: 25px;
     padding: 0px;
   }
@@ -235,7 +240,7 @@ export const BeliefContainer = styled.div`
 export const BeliefTextContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding-left: 7%;
+  padding-left: 8.5%;
   margin-top: 0px;
   margin-bottom: 0px;
 `;
@@ -339,7 +344,6 @@ export const CommittedText = styled.p`
   font-weight: 400;
   font-family: "Oswald", sans-serif;
   margin-bottom: 7%;
-  text-align: center;
   @media screen and (min-width: 768px) {
     font-size: 38px;
     margin-top: -8%;
@@ -430,11 +434,14 @@ export const AffiliatesImage = styled.img`
 export const AffiliatesButton = styled.button`
   background-color: black;
   color: white;
-  width: 200px;
+  width: 230px;
   margin-top: 2%;
   margin-bottom: 2%;
   font-family: "Oswald", sans-serif;
   font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 1px;
+  transform: scale(1.1, 1.3);
   border: none;
   padding: 1%;
   border: 2px solid grey;

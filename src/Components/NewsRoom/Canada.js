@@ -153,52 +153,52 @@ function Canada() {
           The other 16 top universities in Canada are:
         </EachText>
         <UniversitiesTextContainer>
-          <EachText fontSize="13px">
+          <EachText fontSize="13.5px">
             Simon Fraser University – ranked joint 264th in the world
           </EachText>
-          <EachText fontSize="13px" mtlg="-4%" mtsm="-2%">
+          <EachText fontSize="13.5px" mtlg="-4%" mtsm="-2%">
             Dalhousie University – ranked joint 279th
           </EachText>
-          <EachText fontSize="13px" mtlg="-4%" mtsm="-2%">
+          <EachText fontSize="13.5px" mtlg="-4%" mtsm="-2%">
             University of Ottawa – ranked joint 289th
           </EachText>
-          <EachText fontSize="13px" mtlg="-4%" mtsm="-2%">
+          <EachText fontSize="13.5px" mtlg="-4%" mtsm="-2%">
             University of Victoria – ranked joint 359th
           </EachText>
-          <EachText fontSize="13px" mtlg="-4%" mtsm="-2%">
+          <EachText fontSize="13.5px" mtlg="-4%" mtsm="-2%">
             Laval University – ranked joint 402nd
           </EachText>
-          <EachText fontSize="13px" mtlg="-4%" mtsm="-2%">
+          <EachText fontSize="13.5px" mtlg="-4%" mtsm="-2%">
             University of Saskatchewan – ranked joint 461st
           </EachText>
-          <EachText fontSize="13px" mtlg="-4%" mtsm="-2%">
+          <EachText fontSize="13.5px" mtlg="-4%" mtsm="-2%">
             Concordia University – ranked joint 464th
           </EachText>
-          <EachText fontSize="13px" mtlg="-4%" mtsm="-2%">
+          <EachText fontSize="13.5px" mtlg="-4%" mtsm="-2%">
             York University – ranked joint 481st
           </EachText>
-          <EachText fontSize="13px" mtlg="-4%" mtsm="-2%">
+          <EachText fontSize="13.5px" mtlg="-4%" mtsm="-2%">
             Université du Québec – ranked 541-550
           </EachText>
-          <EachText fontSize="13px" mtlg="-4%" mtsm="-2%">
+          <EachText fontSize="13.5px" mtlg="-4%" mtsm="-2%">
             University of Guelph – ranked 581-590
           </EachText>
-          <EachText fontSize="13px" mtlg="-4%" mtsm="-2%">
+          <EachText fontSize="13.5px" mtlg="-4%" mtsm="-2%">
             University of Manitoba – ranked 601-650
           </EachText>
-          <EachText fontSize="13px" mtlg="-4%" mtsm="-2%">
+          <EachText fontSize="13.5px" mtlg="-4%" mtsm="-2%">
             Carleton University – ranked 651-700
           </EachText>
-          <EachText fontSize="13px" mtlg="-4%" mtsm="-2%">
+          <EachText fontSize="13.5px" mtlg="-4%" mtsm="-2%">
             Memorial University of Newfoundland – ranked 651-700
           </EachText>
-          <EachText fontSize="13px" mtlg="-4%" mtsm="-2%">
+          <EachText fontSize="13.5px" mtlg="-4%" mtsm="-2%">
             Université de Sherbrooke – ranked 651-700
           </EachText>
-          <EachText fontSize="13px" mtlg="-4%" mtsm="-2%">
+          <EachText fontSize="13.5px" mtlg="-4%" mtsm="-2%">
             University of Windsor – ranked 651-700
           </EachText>
-          <EachText fontSize="13px" mtlg="-4%" mtsm="-2%">
+          <EachText fontSize="13.5px" mtlg="-4%" mtsm="-2%">
             Ryerson University – ranked 801-1000
           </EachText>
         </UniversitiesTextContainer>

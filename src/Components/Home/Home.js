@@ -49,14 +49,14 @@ function Home() {
   const HomeContent = () => {
     return (
       <>
-        <Header mt="-8%" pr="5%" pl="6%" />
+        <Header mt="2.3%" pr="4%" pl="4%" ml="-2%" />
         <div className="mb-3"></div>
         <TextContainer style={{ marginTop: "-6.5%" }}>
           <TextInsideImage
             mb="1%"
             color="#ffffff"
             fontWeight="400"
-            fontSize="45px"
+            fontSize="43px"
             sc
             ml="9%"
           >
@@ -99,12 +99,12 @@ function Home() {
   const PhilosophyContent = () => {
     return (
       <>
-        <TextContainer>
+        <TextContainer style={{ paddingLeft: "150px" }}>
           <TextInsideImage
             sc
             color="#ffffff"
             fontWeight="400"
-            fontSize="50px"
+            fontSize="40px"
             ml="9%"
           >
             Our Philosophy is simple -
@@ -112,7 +112,7 @@ function Home() {
           <TextInsideImage
             sc
             color="#ffffff"
-            fontSize="50px"
+            fontSize="40px"
             fontWeight="400"
             ml="9%"
             mb="4%"
@@ -134,9 +134,8 @@ function Home() {
               future.
             </p>
             <p style={{ color: "white", fontWeight: "500", fontSize: "14px" }}>
-              We know this can be a life-changing decision. We take it very
-              seriously. ​ Talk to us and find out why hundreds of thousands of
-              students have trusted us with their future.
+              ​ Talk to us and find out why hundreds of thousands of students
+              have trusted us with their future.
             </p>
           </div>
           <HashLink
@@ -158,21 +157,16 @@ function Home() {
       <HomeContainer>
         <Parallax
           style={{
-            height: "150vh",
+            height: "160vh",
             maxWidth: "100%",
-            display: "flex",
-            alignItems: "center",
             marginTop: "-68px",
-            paddingBottom: "1%",
-            paddingLeft: "50px",
-            backgroundPosition: "center,",
           }}
-          strength={400}
+          strength={320}
           children={<HomeContent />}
           bgImage="https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_1284,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg"
         ></Parallax>
         <SupportContainer>
-          <SupportText>Supporting education abroad</SupportText>
+          <SupportText>supporting education abroad</SupportText>
           <HashLink to="/our-story#vision" style={{ textDecoration: "none" }}>
             <VisionButton>
               OUR VISION <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
@@ -335,8 +329,9 @@ function Home() {
               sc
               color="#080808"
               fontWeight="500"
-              fontSize="40px"
+              fontSize="36px"
               ml="8%"
+              style={{ transform: "scale(1.2, 1.4)", letterSpacing: "1px" }}
             >
               The iae
             </TextInsideImage>
@@ -344,9 +339,10 @@ function Home() {
               sc
               color="#080808"
               fontWeight="500"
-              fontSize="40px"
+              fontSize="36px"
               ml="8%"
               mb="8%"
+              style={{ transform: "scale(1.2, 1.4)", letterSpacing: "1px" }}
             >
               GLOBAL Group
             </TextInsideImage>

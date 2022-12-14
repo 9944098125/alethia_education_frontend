@@ -60,8 +60,8 @@ export const SmallText = styled.p`
   margin-bottom: 5%;
 `;
 export const SmallBoldText = styled.p`
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 500;
   text-align: center;
   margin-bottom: 7%;
   font-family: "Oswald", sans-serif;

@@ -46,7 +46,7 @@ function ContactUs() {
             fontF
             fontSize="14px"
             fontWeight="500"
-            mb="25px"
+            mb="35px"
           >
             CORPORATE ADDRESS
           </ContactUsText>
@@ -92,7 +92,7 @@ function ContactUs() {
                   </div>
                 </div>
                 <div className="col pe-lg-5 mb-3">
-                  <Label htmlFor="email">Email*</Label>
+                  <Label htmlFor="email">Email Address*</Label>
                   <Field
                     type="text"
                     name="email"

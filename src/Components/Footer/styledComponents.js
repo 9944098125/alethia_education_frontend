@@ -8,6 +8,7 @@ export const FooterContainer = styled.div`
   justify-content: center;
   padding: 1%;
   padding-top: 3%;
+  padding-left: 1.6%;
 `;
 
 export const TextContainer = styled.div`
@@ -32,7 +33,7 @@ export const EachColumn = styled.div`
     padding-left: ${(props) => props.pl};
     padding-top: 25px;
     padding-bottom: 25px;
-    margin-right: 15%;
+    margin-right: ${(props) => (props.nomr ? "5%" : "15%")};
     width: 100%;
   }
   @media screen and (max-width: 768px) {
@@ -46,9 +47,9 @@ export const EachColumn = styled.div`
 export const TextInColumn = styled.p`
   color: ${(props) => (props.grey ? "#D3D3D3" : "white")};
   cursor: pointer;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   font-family: "Oswald", sans-serif;
-  font-weight: 420;
+  font-weight: 500;
   margin-top: -5px;
   transform: scale(1, 1.2);
   @media screen and (min-width: 875px) {

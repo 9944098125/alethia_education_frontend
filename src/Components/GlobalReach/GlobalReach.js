@@ -53,7 +53,7 @@ function GlobalReach() {
             style={{ textDecoration: "none" }}
           >
             <PartnersButton>
-              OUR PARTNERSHIP INSTITUTIONS{" "}
+              OUR PARTNER INSTITUTIONS{" "}
               <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
             </PartnersButton>
           </HashLink>

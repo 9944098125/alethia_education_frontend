@@ -57,7 +57,7 @@ function PartnerInstitutions() {
       </JourneyTextContainer>
       <UniversitiesInCountryContainer>
         <UniversitiesInSingleCountry>
-          <CountryName fontSizeL="45px" fontSizeS="25px">
+          <CountryName fontSizeL="40px" fontSizeS="25px">
             Australia
           </CountryName>
           <WrappedUniversities>
@@ -70,7 +70,7 @@ function PartnerInstitutions() {
         </UniversitiesInSingleCountry>
         <HorizontalLine width="80%" />
         <UniversitiesInSingleCountry>
-          <CountryName fontSizeL="45px" fontSizeS="25px">
+          <CountryName fontSizeL="40px" fontSizeS="25px">
             New Zealand
           </CountryName>
           <WrappedUniversities>
@@ -83,7 +83,7 @@ function PartnerInstitutions() {
         </UniversitiesInSingleCountry>
         <HorizontalLine width="80%" />
         <UniversitiesInSingleCountry>
-          <CountryName fontSizeL="45px" fontSizeS="25px">
+          <CountryName fontSizeL="40px" fontSizeS="25px">
             Canada
           </CountryName>
           <WrappedUniversities>
@@ -96,7 +96,7 @@ function PartnerInstitutions() {
         </UniversitiesInSingleCountry>
         <HorizontalLine width="80%" />
         <UniversitiesInSingleCountry>
-          <CountryName fontSizeL="45px" fontSizeS="25px">
+          <CountryName fontSizeL="40px" fontSizeS="25px">
             United States
           </CountryName>
           <WrappedUniversities>
@@ -109,7 +109,7 @@ function PartnerInstitutions() {
         </UniversitiesInSingleCountry>
         <HorizontalLine width="80%" />
         <UniversitiesInSingleCountry>
-          <CountryName fontSizeL="45px" fontSizeS="25px">
+          <CountryName fontSizeL="40px" fontSizeS="25px">
             United Kingdom
           </CountryName>
           <WrappedUniversities>

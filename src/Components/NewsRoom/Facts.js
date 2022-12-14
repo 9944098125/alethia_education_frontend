@@ -38,7 +38,7 @@ function Facts() {
         </TextContainer>
       </NewsRoomImageContainer>
       <NewsContainer mt="2%">
-        <EachText fontSize="12px" fontWeight="300">
+        <EachText fontSize="12px" fontWeight="400">
           Feb 6, 2019
         </EachText>
         <EachText ls color="#343434" fontF fontSize="30px" fontWeight="500">
@@ -69,8 +69,12 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="300"
-          style={{ letterSpacing: "-1px" }}
+          fontWeight="400"
+          style={{
+            transform: "scale(0.9, 1.08)",
+            marginLeft: "-5.5%",
+            color: "#4c4c4c",
+          }}
         >
           1. THE ECONOMY IS STRONG
         </EachText>
@@ -86,8 +90,12 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="300"
-          style={{ letterSpacing: "-1px" }}
+          fontWeight="400"
+          style={{
+            transform: "scale(0.9, 1.08)",
+            marginLeft: "-5.5%",
+            color: "#4c4c4c",
+          }}
         >
           2. UNSPOILT BEAUTY
         </EachText>
@@ -106,8 +114,12 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="300"
-          style={{ letterSpacing: "-1px" }}
+          fontWeight="400"
+          style={{
+            transform: "scale(0.9, 1.08)",
+            marginLeft: "-5.5%",
+            color: "#4c4c4c",
+          }}
         >
           3. THE HEALTH CARE SYSTEM IS FANTASTIC
         </EachText>
@@ -124,8 +136,12 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="300"
-          style={{ letterSpacing: "-1px" }}
+          fontWeight="400"
+          style={{
+            transform: "scale(0.9, 1.08)",
+            marginLeft: "-5.5%",
+            color: "#4c4c4c",
+          }}
         >
           4. IT'S A TRULY MULTI-CULTURAL SOCIETY
         </EachText>
@@ -142,8 +158,12 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="300"
-          style={{ letterSpacing: "-1px" }}
+          fontWeight="400"
+          style={{
+            transform: "scale(0.9, 1.08)",
+            marginLeft: "-5.5%",
+            color: "#4c4c4c",
+          }}
         >
           5. THERE'S PLENTY OF SPACE
         </EachText>
@@ -160,15 +180,19 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="300"
-          style={{ letterSpacing: "-1px" }}
+          fontWeight="400"
+          style={{
+            transform: "scale(0.9, 1.08)",
+            marginLeft: "-5.5%",
+            color: "#4c4c4c",
+          }}
         >
           6. IT'S HOT
         </EachText>
         <EachText fontSize="14px">
           Due to its huge size, Australia has several different climate zones
           across its eight states and territories, but if you like basking in
-          the sun, you’re in luck – most of the country receives more than 3000
+          the sun, you’re in luck – most of the country receives more than 4000
           hours of sunshine a year.
         </EachText>
         <EachRoomImages
@@ -179,8 +203,12 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="300"
-          style={{ letterSpacing: "-1px" }}
+          fontWeight="400"
+          style={{
+            transform: "scale(0.9, 1.08)",
+            marginLeft: "-5.5%",
+            color: "#4c4c4c",
+          }}
         >
           7. LIFE'S A BEACH
         </EachText>
@@ -196,8 +224,12 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="300"
-          style={{ letterSpacing: "-1px" }}
+          fontWeight="400"
+          style={{
+            transform: "scale(0.9, 1.08)",
+            marginLeft: "-5.5%",
+            color: "#4c4c4c",
+          }}
         >
           8. CURRENCY ?
         </EachText>
@@ -244,7 +276,7 @@ function Facts() {
         >
           <EachPost>
             <PostImage mr="60px" src={eachImage1} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="300">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
               The University of New Castle
             </EachText>
           </EachPost>
@@ -255,7 +287,7 @@ function Facts() {
         >
           <EachPost>
             <PostImage mt="0px" mr="25px" src={eachImage3} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="300">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
               Canada's top 10 universities
             </EachText>
           </EachPost>
@@ -266,14 +298,14 @@ function Facts() {
         >
           <EachPost>
             <PostImage src={eachImage2} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="300">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
               Education, Career & Migration Fair in sydney
             </EachText>
           </EachPost>
         </HashLink>
       </RecentPostsContainer>
       <NewsContainer mh="65vh">
-        <EachText fontF fontSize="23px" fontWeight="300">
+        <EachText fontF fontSize="23px" fontWeight="400">
           Comments
         </EachText>
         <HorizontalLine mb="50px" />
