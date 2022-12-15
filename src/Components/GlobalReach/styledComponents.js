@@ -43,7 +43,7 @@ export const TextContainer = styled.div`
     padding: 1%;
     padding-left: 3%;
     padding-right: 10%;
-    padding-top: 10%;
+    padding-top: 7%;
   }
   @media screen and (max-width: 768px) {
     height: 70%;
@@ -53,10 +53,12 @@ export const TextContainer = styled.div`
 `;
 
 export const TextHead = styled.h2`
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 800;
+  font-family: "Oswald", sans-serif;
+  transform: scale(1, 1.2);
+  font-weight: 500;
+  letter-spacing: 1px;
   @media screen and (min-width: 875px) {
-    font-size: 50px;
+    font-size: 45px;
   }
   @media screen and (max-width: 768px) {
     font-size: 30px;

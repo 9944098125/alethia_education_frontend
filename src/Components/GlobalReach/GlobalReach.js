@@ -129,7 +129,7 @@ function GlobalReach() {
                   <Field
                     type="text"
                     as="textarea"
-                    rows="5"
+                    rows="6"
                     id="message"
                     name="message"
                     className="textarea"
