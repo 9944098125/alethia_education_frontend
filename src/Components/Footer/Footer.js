@@ -42,7 +42,7 @@ function Footer() {
               <TextInColumn>NEWS ROOM</TextInColumn>
             </HashLink>
           </EachColumn>
-          <EachColumn style={{ marginRight: "15%" }}>
+          <EachColumn style={{ marginRight: "18%" }}>
             <HashLink
               to="/sitemap#sitemap"
               style={{ textDecoration: "none", color: "inherit" }}

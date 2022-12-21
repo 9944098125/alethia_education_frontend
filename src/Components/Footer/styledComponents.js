@@ -47,13 +47,13 @@ export const EachColumn = styled.div`
 export const TextInColumn = styled.p`
   color: ${(props) => (props.grey ? "#D3D3D3" : "white")};
   cursor: pointer;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-weight: 520;
   margin-top: -5px;
-  transform: scale(1, 1.2);
+  transform: scale(1, 1.15);
   @media screen and (min-width: 875px) {
-    font-size: 13.5px;
+    font-size: 13px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;

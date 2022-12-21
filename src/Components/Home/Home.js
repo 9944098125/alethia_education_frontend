@@ -49,7 +49,7 @@ function Home() {
   const HomeContent = () => {
     return (
       <>
-        <Header mt="2.3%" pr="4%" pl="4%" ml="-2%" />
+        <Header mt="2.3%" pr="4%" pl="4%" ml="-2.4%" />
         <div className="mb-3"></div>
         <TextContainer style={{ marginTop: "-6.5%" }}>
           <TextInsideImage
@@ -157,11 +157,12 @@ function Home() {
       <HomeContainer>
         <Parallax
           style={{
-            height: "160vh",
+            height: "165vh",
             maxWidth: "100%",
             marginTop: "-68px",
+            paddingBottom: "150px",
           }}
-          strength={320}
+          strength={300}
           children={<HomeContent />}
           bgImage="https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_1284,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg"
         ></Parallax>
