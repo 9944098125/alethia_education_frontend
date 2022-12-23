@@ -49,7 +49,7 @@ function Home() {
   const HomeContent = () => {
     return (
       <>
-        <Header mt="2.3%" pr="4%" pl="4%" ml="-2.4%" />
+        <Header mt="2.3%" pr="4%" pl="4.3%" ml="-2.4%" />
         <div className="mb-3"></div>
         <TextContainer style={{ marginTop: "-6.5%" }}>
           <TextInsideImage
@@ -157,17 +157,18 @@ function Home() {
       <HomeContainer>
         <Parallax
           style={{
-            height: "165vh",
+            height: "160vh",
             maxWidth: "100%",
             marginTop: "-68px",
-            paddingBottom: "150px",
+            paddingBottom: "200px",
+            paddingTop: "-25px",
           }}
-          strength={300}
+          strength={310}
           children={<HomeContent />}
           bgImage="https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_1284,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg"
         ></Parallax>
         <SupportContainer>
-          <SupportText>supporting education abroad</SupportText>
+          <SupportText>Supporting education abroad</SupportText>
           <HashLink to="/our-story#vision" style={{ textDecoration: "none" }}>
             <VisionButton>
               OUR VISION <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
@@ -290,9 +291,6 @@ function Home() {
               There is always an iae office nearby with highly-trained,
               professional Education Planners waiting to help you achieve your
               academic, career and life goals.
-            </Description>
-            <Description>
-              More than 60 service and support offices worldwide!
             </Description>
             <HashLink
               style={{ textDecoration: "none", color: "inherit" }}

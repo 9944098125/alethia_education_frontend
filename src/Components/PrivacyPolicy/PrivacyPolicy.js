@@ -30,13 +30,13 @@ function PrivacyPolicy() {
         <PrivacyText fontF mb="0px" fontSize="22px" fontWeight="400">
           Website Privacy Policy
         </PrivacyText>
-        <PrivacyText mb="50px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="50px" fontSize="14px" fontWeight="500">
           Last Modified: 31st of August, 2022
         </PrivacyText>
         <PrivacyText fontF fontSize="16px" fontWeight="800">
           INTRODUCTION
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="400">
+        <PrivacyText fontSize="14px" fontWeight="400">
           iae GLOBAL <b>("Company" or "We")</b> respect your privacy and are
           committed to protecting it through our compliance with this policy.
           This policy describes the types of information we may collect from you
@@ -45,7 +45,7 @@ function PrivacyPolicy() {
           <b>(our "Website")</b> and our practices for collecting, using,
           maintaining, protecting, and disclosing that information.
         </PrivacyText>
-        <PrivacyText mb="-30px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-30px" fontSize="14px" fontWeight="500">
           This Policy applies to information we collect:
         </PrivacyText>
         <ListContainer mb="-20px">
@@ -55,7 +55,7 @@ function PrivacyPolicy() {
             Website.
           </ListItem>
         </ListContainer>
-        <PrivacyText mb="-30px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-30px" fontSize="14px" fontWeight="500">
           It does not apply to the information collected by:
         </PrivacyText>
         <ListContainer>
@@ -70,7 +70,7 @@ function PrivacyPolicy() {
             that may link to or be accessible from or through the Website.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="500">
           Please read this policy carefully to understand our policies and
           practices regarding your information and how we will treat it. If you
           do not agree with our policies and practices, your choice is not to
@@ -80,10 +80,10 @@ function PrivacyPolicy() {
           make changes is deemed to be acceptance of those changes, so please
           check the policy periodically for updates.
         </PrivacyText>
-        <PrivacyText fontF fontSize="18px" fontWeight="500">
+        <PrivacyText fontF fontSize="16px" fontWeight="500">
           Children Under the age of 16
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="500">
           Our Website is not intended for children under 16 years of age. No one
           under age 16 may provide any information to or on the Website. We do
           not knowingly collect personal information from children under 16. If
@@ -96,7 +96,7 @@ function PrivacyPolicy() {
           information. If you believe we might have any information from or
           about a child under 16, please contact us at info@iaeglobal.net.
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="500">
           If you are under 16 years of age and wish to use our services, your
           parents or legal guardian must provide their agreement on your behalf
           to our privacy policy and the other terms and conditions applicable to
@@ -104,10 +104,10 @@ function PrivacyPolicy() {
           obligation to provide any services and may accept or reject any
           request for services in our sole discretion.
         </PrivacyText>
-        <PrivacyText fontF fontSize="18px" fontWeight="500">
+        <PrivacyText fontF fontSize="16px" fontWeight="500">
           INFORMATION WE COLLECT ABOUT YOU AND HOW WE COLLECT IT
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="500">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -140,10 +140,10 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontF fontSize="18px" fontWeight="500">
+        <PrivacyText fontF fontSize="16px" fontWeight="500">
           INFORMATION YOU PROVIDE TO US
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="500">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -164,7 +164,7 @@ function PrivacyPolicy() {
             Website, and usage details.
           </ListItem>
         </ListContainer>
-        <PrivacyText mb="-30px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-30px" fontSize="14px" fontWeight="500">
           We collect this information
         </PrivacyText>
         <ListContainer mb="-20px">
@@ -176,7 +176,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="500">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -188,10 +188,10 @@ function PrivacyPolicy() {
           Therefore, we cannot and do not guarantee that your User Contributions
           will not be viewed by unauthorized persons.
         </PrivacyText>
-        <PrivacyText fontF fontSize="18px" fontWeight="500">
+        <PrivacyText fontF fontSize="16px" fontWeight="500">
           INFORMATION WE COLLECT THROUGH AUTOMATION DATA TRANSFER TECHNOLOGIES
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="500">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -224,14 +224,18 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText
+          style={{ marginBottom: "-30px" }}
+          fontSize="14px"
+          fontWeight="500"
+        >
           The technologies we use for this automatic data collection may
           include:
         </PrivacyText>
         <ListContainer>
           <ListItem>
-            Cookies (or browser cookies). A cookie is a small file placed on the
-            hard drive of your computer. You may refuse to accept browser
+            <b>Cookies (or browser cookies).</b> A cookie is a small file placed
+            on the hard drive of your computer. You may refuse to accept browser
             cookies by activating the appropriate setting on your browser.
             However, if you select this setting, you may be unable to access
             certain parts of our Website. Unless you have adjusted your browser
@@ -239,19 +243,19 @@ function PrivacyPolicy() {
             cookies when you direct your browser to our Website.
           </ListItem>
           <ListItem>
-            Web Beacons. Pages of our Website and our emails may contain small
-            electronic files known as web beacons (also referred to as clear
-            gifs, pixel tags, and single-pixel gifs) that permit the Company,
-            for example, to count users who have visited those pages or opened
-            an email and for other related website statistics (for example,
-            recording the popularity of certain website content and verifying
-            system and server integrity).
+            <b>Web Beacons.</b> Pages of our Website and our emails may contain
+            small electronic files known as web beacons (also referred to as
+            clear gifs, pixel tags, and single-pixel gifs) that permit the
+            Company, for example, to count users who have visited those pages or
+            opened an email and for other related website statistics (for
+            example, recording the popularity of certain website content and
+            verifying system and server integrity).
           </ListItem>
         </ListContainer>
-        <PrivacyText fontF fontSize="18px" fontWeight="500">
+        <PrivacyText fontF fontSize="16px" fontWeight="500">
           HOW WE USE YOUR INFORMATION
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="500">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -272,7 +276,7 @@ function PrivacyPolicy() {
             Website, and usage details.
           </ListItem>
         </ListContainer>
-        <PrivacyText mb="-30px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-30px" fontSize="14px" fontWeight="500">
           We collect this information
         </PrivacyText>
         <ListContainer mb="-20px">
@@ -284,10 +288,10 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontF fontSize="18px" fontWeight="500">
+        <PrivacyText fontF fontSize="16px" fontWeight="500">
           DISCLOSURE OF YOUR INFORMATION
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="500">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
@@ -308,7 +312,7 @@ function PrivacyPolicy() {
             Website, and usage details.
           </ListItem>
         </ListContainer>
-        <PrivacyText mb="-30px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-30px" fontSize="14px" fontWeight="500">
           We collect this information
         </PrivacyText>
         <ListContainer mb="-20px">
@@ -320,10 +324,10 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontF fontSize="18px" fontWeight="500">
+        <PrivacyText fontF fontSize="16px" fontWeight="500">
           CHOICES ABOUT HOW WE USE AND DISCLOSE YOUR INFORMATION
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="500">
           We strive to provide you with choices regarding the personal
           information you provide to us. We have created mechanisms to provide
           you with the following control over your information:
@@ -343,10 +347,10 @@ function PrivacyPolicy() {
             omitted from future email distributions.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontF fontSize="18px" fontWeight="500">
+        <PrivacyText fontF fontSize="16px" fontWeight="500">
           YOUR COUNTRY'S PRIVACY RIGHTS
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-20px" fontSize="14px" fontWeight="500">
           Depending on your country of residence or the country from which you
           access our Website, you may have certain rights in connection with the
           information we collect from you.
@@ -375,7 +379,7 @@ function PrivacyPolicy() {
             technologies.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="15px">
+        <PrivacyText fontSize="14px">
           To request to exercise any of these rights please email
           info@iaeglobal.net. All requests will be responded to in writing
           within a reasonable period of time. As part of this process, we will
@@ -383,14 +387,14 @@ function PrivacyPolicy() {
           to providing access or making any changes. If we cannot fulfill your
           request, we will respond and provide you with an explanation.
         </PrivacyText>
-        <PrivacyText fontF fontSize="18px" fontWeight="500">
+        <PrivacyText fontF fontSize="16px" fontWeight="500">
           DATA SECURITY
         </PrivacyText>
-        <PrivacyText mb="-20px" fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="500">
           We collect several types of information from and about users of our
           Website, including information:
         </PrivacyText>
-        <PrivacyText fontSize="15px">
+        <PrivacyText fontSize="14px">
           Unfortunately, the transmission of information via the internet is not
           completely secure. Although we do our best to protect your personal
           information, we cannot guarantee the security of your personal
@@ -400,10 +404,10 @@ function PrivacyPolicy() {
           on the Website.
         </PrivacyText>
 
-        <PrivacyText fontF fontSize="18px" fontWeight="500">
+        <PrivacyText fontF fontSize="16px" fontWeight="500">
           CHANGES TO OUR PRIVACY POLICY
         </PrivacyText>
-        <PrivacyText fontSize="15px">
+        <PrivacyText fontSize="14px">
           It is our policy to post any changes we make to our privacy policy on
           this page. If we make material changes to how we treat our users'
           personal information, we will notify you by email to the email address
@@ -417,12 +421,12 @@ function PrivacyPolicy() {
         <PrivacyText fontF fontSize="16px" fontWeight="500">
           CONTACT INFORMATION
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="500">
           To ask questions or comment about this privacy policy and our privacy
           practices, or to register a concern, contact us at: 8F Humax Ebisu
           Building Ebisu Minami 1-1-1, Shibuya-ku Tokyo, 150-0022, Japan
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="500">
           info@iaeglobal.net
         </PrivacyText>
       </PrivacyTextContainer>

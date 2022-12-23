@@ -7,7 +7,7 @@ export const CompanyContainer = styled.div`
 `;
 
 export const CompanyImageContainer = styled.div`
-  height: 75vh;
+  height: 71.5vh;
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_eb767afbe0b740b9ae383863f0b402b9~mv2.jpg/v1/fill/w_980,h_601,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_eb767afbe0b740b9ae383863f0b402b9~mv2.jpg");
   background-size: cover;
@@ -99,12 +99,12 @@ export const ValuesButton = styled.button`
   display: flex;
   justify-content: center;
   padding: 10px;
-  width: 230px;
+  width: 260px;
   font-family: "Oswald", sans-serif;
   font-weight: 500;
   background-color: transparent;
   font-size: 15px;
-  border: 2px solid grey;
+  border: 2px solid #4c4c4c;
   @media screen and (max-width: 768px) {
     padding: 5px;
     width: 150px;
@@ -254,7 +254,7 @@ export const DosContainer = styled.div`
   @media screen and (min-width: 1024px) {
     display: flex;
     height: 140vh;
-    margin-bottom: -6.5%;
+    margin-bottom: -3.2%;
   }
   @media screen and (max-width: 768px) {
     margin-bottom: 1%;
@@ -276,7 +276,7 @@ export const DosImage = styled.img`
     width: 50%;
   }
   @media screen and (min-width: 1024px) {
-    height: 90%;
+    height: 95%;
     width: 50%;
   }
   @media screen and (max-width: 768px) {
@@ -332,6 +332,7 @@ export const CommittedTextContainer = styled.div`
   flex-direction: column;
   align-items: center;
   padding-top: 5%;
+  padding-left: 1%;
   @media screen and (min-width: 768px) {
     margin-top: 100px;
   }
@@ -426,15 +427,15 @@ export const AffiliatesContainer = styled.div`
   margin-top: -5%;
 `;
 export const AffiliatesImage = styled.img`
-  width: 20%;
-  height: 15%;
+  width: 25%;
+  height: 20%;
   margin-bottom: 2%;
   margin-top: 2%;
 `;
 export const AffiliatesButton = styled.button`
   background-color: black;
   color: white;
-  width: 230px;
+  width: 210px;
   margin-top: 2%;
   margin-bottom: 2%;
   font-family: "Oswald", sans-serif;
@@ -443,7 +444,7 @@ export const AffiliatesButton = styled.button`
   letter-spacing: 1px;
   transform: scale(1.1, 1.3);
   border: none;
-  padding: 1%;
+  padding: 8.5px;
   border: 2px solid grey;
   &:hover {
     background-color: rgb(91, 90, 90);

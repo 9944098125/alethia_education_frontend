@@ -44,7 +44,7 @@ function Australia() {
       </NewsRoomImageContainer>
       <NewsContainer mt="1%">
         <EachText fontSize="12px" fontWeight="400">
-          8th August, 2019
+          Jan 8, 2020
         </EachText>
         <EachText ls color="#343434" fontF fontSize="40px" fontWeight="400">
           The University of New Castle - Australia
@@ -132,21 +132,21 @@ function Australia() {
           <EachText fontF fontSize="30px" fontWeight="500">
             University & Student Life
           </EachText>
-          <EachText fontSize="12.5px">
+          <EachText fontSize="14px">
             Established in 1965, the University of Newcastle has modern local
             and international campuses in Newcastle, the Central Coast, Sydney,
             Singapore and Port Macquarie.
           </EachText>
-          <EachText fontSize="12.5px">
+          <EachText fontSize="14px">
             The university has been consistently ranked in the top ten
             universities in the country and is in the top 3% of universities
             worldwide.
           </EachText>
-          <EachText fontSize="12.5px">
+          <EachText fontSize="14px">
             The University of Newcastle is also recognised by global university
             ratings service QS Rankings with a maximum score of 5 stars.
           </EachText>
-          <EachText fontSize="12.5px">
+          <EachText fontSize="14px">
             The University of Newcastle was awarded the highest possible '5'
             rating across 22 research fields, by Australian Government's
             Excellence in Research assessment.
@@ -283,7 +283,11 @@ function Australia() {
           <EachText mllg="28%" fontSize="12.5px">
             The University of Newcastle hosts 40,000 students
           </EachText>
-          <EachText fontSize="16px" fontWeight="600">
+          <EachText fontSize="12.5px">
+            The university is placed it in the top eight Australian universities
+            for research quality 'well above world standard.
+          </EachText>
+          <EachText fontSize="14px" fontWeight="600">
             Leading research facilities centres of University of Newcastle
             include:
           </EachText>

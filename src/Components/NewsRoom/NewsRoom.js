@@ -55,9 +55,9 @@ function NewsRoom() {
                 The University of Newcastle - Australia
               </EachText>
               <EachText color="#080808" fontSize="14px" fontWeight="400">
-                The university of Newcastle is just 2 hours north of sydney, but
-                offers an experience of another world. The university is set in
-                vibrant.
+                The University of Newcastle is just 2 hours north of Sydney, but
+                offers another world of experience. The university is set in the
+                vibrant...
               </EachText>
             </EachTextContainer>
           </EachRowInSeniorContainer>
@@ -67,7 +67,11 @@ function NewsRoom() {
           style={{ textDecoration: "none", color: "inherit" }}
         >
           <EachRowInSeniorContainer>
-            <EachImage src={eachImage2} alt="education" />
+            <EachImage
+              style={{ marginLeft: "0px", width: "652px" }}
+              src={eachImage2}
+              alt="education"
+            />
             <EachTextContainer>
               <EachText color="#080808" fontSize="12px" fontWeight="400">
                 Aug 15, 2019
@@ -76,9 +80,8 @@ function NewsRoom() {
                 Education, Career and Migration Fair in sydney
               </EachText>
               <EachText color="#080808" fontSize="14px" fontWeight="400">
-                The university of Newcastle is just 2 hours north of sydney, but
-                offers an experience of another world. The university is set in
-                vibrant.
+                Every year iae Global australia hosts the biggest study, career
+                and migration events for the australian students and...
               </EachText>
             </EachTextContainer>
           </EachRowInSeniorContainer>
@@ -98,9 +101,9 @@ function NewsRoom() {
                 Canada's Top 10 universities
               </EachText>
               <EachText color="#080808" fontSize="14px" fontWeight="400">
-                The university of Newcastle is just 2 hours north of sydney, but
-                offers an experience of another world. The university is set in
-                vibrant.
+                There are 26 Canadian universities in the QS World University
+                Rankings® 2019, ranked based on six indicators, including
+                employer and...
               </EachText>
             </EachTextContainer>
           </EachRowInSeniorContainer>
@@ -120,9 +123,9 @@ function NewsRoom() {
                 Facts about Australia
               </EachText>
               <EachText color="#080808" fontSize="14px" fontWeight="400">
-                The university of Newcastle is just 2 hours north of sydney, but
-                offers an experience of another world. The university is set in
-                vibrant.
+                Are you planning of studying in Australia? Here are some useful
+                facts that will help you to decide! 1. THE ECONOMY IS STRONG
+                Australia...
               </EachText>
             </EachTextContainer>
           </EachRowInSeniorContainer>

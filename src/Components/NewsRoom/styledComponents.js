@@ -51,7 +51,7 @@ export const SeniorContainer = styled.div`
   padding: 3%;
 `;
 export const EachRowInSeniorContainer = styled.div`
-  margin-bottom: 2%;
+  margin-bottom: 2.5%;
   @media screen and (min-width: 1024px) {
     display: flex;
     align-items: flex-start;
@@ -98,12 +98,11 @@ export const EachText = styled.p`
 export const EachTextContainer = styled.div`
   padding-top: 2%;
   cursor: pointer;
-  height: 100%;
+  padding-right: 2%;
   box-shadow: 0 0 4px -2px #444444;
-  margin-left: -1%;
   padding-left: 5%;
   @media screen and (min-width: 1024px) {
-    height: 350px;
+    height: 340px;
   }
   &:hover ${EachText} {
     color: #4c4c4c;
@@ -131,8 +130,8 @@ export const ImagesContainer = styled.div`
   flex-direction: column;
 `;
 export const EachRoomImages = styled.img`
-  height: ${(props) => (props.forty ? "50vh" : "80vh")};
-  width: 95%;
+  height: ${(props) => (props.forty ? "50vh" : "82vh")};
+  width: 96%;
   margin-top: 25px;
   margin-bottom: 15px;
 `;

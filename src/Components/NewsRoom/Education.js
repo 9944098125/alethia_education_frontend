@@ -94,7 +94,7 @@ function Education() {
             - Get up to $15,000 scholarship for your studies
           </EachText>
         </UnoList>
-        <EachText fontF fontSize="28px" fontWeight="400">
+        <EachText fontF fontSize="30px" fontWeight="400">
           Instant Experience
         </EachText>
         <EachText fontSize="13px">
@@ -107,7 +107,7 @@ function Education() {
           Registered migration agents will help our students to ensure all their
           visas, permits and papers are in order.
         </EachText>
-        <EachText fontF fontSize="28px" fontWeight="400">
+        <EachText fontF fontSize="30px" fontWeight="400">
           It's your lucky day
         </EachText>
         <EachText fontSize="14px">
@@ -116,8 +116,8 @@ function Education() {
           iPad mini, laptop, Australian attractions vouchers, Movie tickets and
           more.
         </EachText>
-        <EachText sc fontF fontSize="16px" fontWeight="400">
-          Are You In Sydney ?
+        <EachText sc fontF fontSize="17px" fontWeight="500">
+          ARE YOU IN SYDNEY ?
         </EachText>
         <EachText
           style={{ display: "flex", fontStyle: "italic", marginBottom: "-5px" }}

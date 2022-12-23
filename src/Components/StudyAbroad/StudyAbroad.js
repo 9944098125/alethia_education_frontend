@@ -251,6 +251,7 @@ function StudyAbroad() {
               fontF
               fontSizeL="16px"
               fontSizeS="14px"
+              fontWeight="500"
               mb="7%"
             >
               WHY THE UNITED STATES ?

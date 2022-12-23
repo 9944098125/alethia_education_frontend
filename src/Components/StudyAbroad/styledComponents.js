@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StudyAbroadImageContainer = styled.div`
-  height: 70vh;
+  height: 71vh;
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_807aa5e00d304159a136cf7ae381bb62~mv2.jpeg/v1/fill/w_980,h_601,al_b,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_807aa5e00d304159a136cf7ae381bb62~mv2.jpeg");
   background-size: cover;
@@ -64,7 +64,7 @@ export const JourneyText = styled.p`
   transform: ${(props) => props.sc && "scale(1, 1.2)"};
 `;
 export const HorizontalLine = styled.hr`
-  border-bottom: 2px solid black;
+  background: 1px solid black;
   width: ${(props) => props.w};
   margin-bottom: 2%;
   margin-left: ${(props) => props.ml};
@@ -92,7 +92,7 @@ export const EachCountryContainer = styled.div`
 `;
 export const EachCountryImage = styled.img`
   @media screen and (min-width: 1024px) {
-    height: 95%;
+    height: 94%;
     width: 50%;
     margin-right: 1.5%;
   }
@@ -123,11 +123,12 @@ export const EachCountryDescription = styled.p`
 export const EachCountryButtonsContainer = styled.div`
   display: flex;
   align-items: center;
+  justify-content: space-around;
   padding: 5%;
 `;
 export const EachCountryButton = styled.button`
   @media screen and (min-width: 1024px) {
-    width: 170px;
+    width: 150px;
   }
   @media screen and (max-width: 768px) {
     width: 100px;
@@ -136,14 +137,16 @@ export const EachCountryButton = styled.button`
   font-size: 15px;
   justify-content: center;
   align-items: center;
-  border: 2px solid grey;
-  height: 40px !important;
+  border: 2px solid #4c4c4c;
+  height: 38px !important;
   margin-right: 5%;
   transform: scale(1, 1.2);
   letter-spacing: 1px;
   background: transparent;
   font-weight: 500;
   font-family: "Oswald", sans-serif;
+  font-size: 13px;
+  color: #4c4c4c;
   &:hover {
     background-color: black;
     color: white;

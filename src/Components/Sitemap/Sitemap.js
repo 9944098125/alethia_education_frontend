@@ -30,12 +30,16 @@ function Sitemap() {
         </TextContainer>
       </SitemapImageContainer>
       <LinkedItemsColumnsContainer>
-        <LinkedItemsColumns>
+        <LinkedItemsColumns style={{ paddingTop: "0px", marginTop: "-30px" }}>
           <LinkedItems fontSize="20px" to="/">
             <BiChevronRight />
             HOME
           </LinkedItems>
-          <LinkedItems fontSize="20px" to="/our-story">
+          <LinkedItems
+            style={{ marginTop: "-15px" }}
+            fontSize="20px"
+            to="/our-story"
+          >
             <BiChevronRight />
             OUR COMPANY
           </LinkedItems>
@@ -88,7 +92,7 @@ function Sitemap() {
             </HashLink>
           </SubLinksContainer>
         </LinkedItemsColumns>
-        <LinkedItemsColumns>
+        <LinkedItemsColumns style={{ paddingTop: "12px" }}>
           <LinkedItems fontSize="20px" to="/study-abroad">
             <BiChevronRight />
             STUDY ABROAD

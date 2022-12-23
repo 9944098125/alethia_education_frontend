@@ -65,9 +65,9 @@ export const HeadLink = styled.h3`
   letter-spacing: 1px;
   line-height: unset;
   transform: scale(1.1, 1.3);
-  font-size: 12.6px;
+  font-size: 12.3px;
   color: #ffffff;
-  margin-right: 18px;
+  margin-right: 21px;
   font-weight: 450;
   opacity: 1;
   @media screen and (max-width: 768px) {

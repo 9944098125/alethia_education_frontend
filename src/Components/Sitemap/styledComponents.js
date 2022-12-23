@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const SitemapImageContainer = styled.div`
-  height: 70vh;
+  height: 71.5vh;
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/11062b_76ddcbe319b547ca8b77a377e9bec206~mv2.jpg/v1/fill/w_1895,h_645,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_76ddcbe319b547ca8b77a377e9bec206~mv2.jpg");
   background-size: cover;

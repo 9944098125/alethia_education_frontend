@@ -78,7 +78,12 @@ function OurCompany() {
         </CompanyImageContainer>
         <StoryContainer id="story">
           <SmallContainer>
-            <TextInsideImage color="#080808" fontSize="45px" fontWeight="500">
+            <TextInsideImage
+              style={{ transform: "scale(1.1, 1.2)", marginBottom: "15px" }}
+              color="#080808"
+              fontSize="35px"
+              fontWeight="500"
+            >
               "It all began in 1992..."
             </TextInsideImage>
             <SmallText color="#5a5a5a">
@@ -198,7 +203,9 @@ function OurCompany() {
       <DosContainer>
         <DosImage src={woman} alt="woman" />
         <ListContainer>
-          <ListHead>What We do differently:</ListHead>
+          <ListHead style={{ color: "black" }}>
+            What We do differently:
+          </ListHead>
           <UnorderedList>
             <ListItem>We put our student clients before profit</ListItem>
             <ListItem>
@@ -251,7 +258,8 @@ function OurCompany() {
             </ListItem>
             <ListItem>
               Deliver quality expertise in major international student
-              recruitment locations
+              recruitment locations. of long-term institutional relationships
+              based on mutual benefit.
             </ListItem>
             <ListItem>
               Guarantee an ongoing commitment to provide comprehensive training
@@ -416,7 +424,7 @@ function OurCompany() {
         <ThinHorizontalLine />
         <ListHead
           style={{
-            marginBottom: "15px",
+            marginBottom: "25px",
             fontSize: "25px",
             fontWeight: "500",
             transform: "scale(1.1,1.3)",

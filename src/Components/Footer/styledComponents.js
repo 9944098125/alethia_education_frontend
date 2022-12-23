@@ -30,10 +30,9 @@ export const EachColumn = styled.div`
   flex-direction: column;
   @media screen and (min-width: 875px) {
     padding: 0px;
-    padding-left: ${(props) => props.pl};
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-right: ${(props) => (props.nomr ? "5%" : "15%")};
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: ${(props) => (props.nomr ? "8%" : "16%")};
     width: 100%;
   }
   @media screen and (max-width: 768px) {
@@ -47,13 +46,13 @@ export const EachColumn = styled.div`
 export const TextInColumn = styled.p`
   color: ${(props) => (props.grey ? "#D3D3D3" : "white")};
   cursor: pointer;
-  letter-spacing: 2px;
+  letter-spacing: 1.8px;
   font-family: "Oswald", sans-serif;
   font-weight: 520;
   margin-top: -5px;
   transform: scale(1, 1.15);
   @media screen and (min-width: 875px) {
-    font-size: 13px;
+    font-size: 13.5px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;

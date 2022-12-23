@@ -533,7 +533,7 @@ function TermsOfUse() {
           initiative and are responsible for compliance with local laws.
         </PrivacyText>
         <PrivacyText fontF fontSize="16px" fontWeight="550">
-          DISCLAIMER TO THE WARRANTS
+          DISCLAIMER OF WARRANTS
         </PrivacyText>
         <PrivacyText fontSize="15px">
           You understand that we cannot and do not guarantee or warrant that
@@ -551,7 +551,7 @@ function TermsOfUse() {
           the Website or to your downloading of any material posted on it, or on
           any Website linked to it.
         </PrivacyText>
-        <PrivacyText fontSize="15px">
+        <PrivacyText style={{ fontWeight: "500" }} fontSize="15px">
           Your use of the Website, its content, and any services or items
           obtained through the Website is at your own risk. The Website, its
           content, and any services or items obtained through the Website are
@@ -572,7 +572,7 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="16px" fontWeight="550">
           LIMITATION ON LIABILITY
         </PrivacyText>
-        <PrivacyText fontSize="15px">
+        <PrivacyText style={{ fontWeight: "500" }} fontSize="15px">
           To the fullest extent provided by law, in no event will the Company,
           its affiliates, or their licensors, service providers, employees,
           agents, officers, or directors be liable for damages of any kind,
@@ -640,17 +640,17 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="16px" fontWeight="550">
           YOUR COMMENTS AND CONCERNS
         </PrivacyText>
-        <PrivacyText mb="-5px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-5px" fontSize="15px" fontWeight="400">
           This website is operated by:
         </PrivacyText>
-        <PrivacyText mb="-5px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-5px" fontSize="15px" fontWeight="400">
           iae GLOBAL
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           8F Humax Ebisu Building Ebisu Minami 1-1-1, Shibuya-ku Tokyo,
           150-0022, Japan
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           All other feedback, comments, requests for technical support, and
           other communications relating to the Website should be directed to:
           info@iaeglobal.net.

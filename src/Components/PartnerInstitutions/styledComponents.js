@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PartnersImageContainer = styled.div`
-  height: 71vh;
+  height: 71.5vh;
   max-width: 100%;
   background-position: center;
   background-image: url("https://static.wixstatic.com/media/e4c206_a96f95faf46442d2a6c7383fd7e48f49~mv2.jpg/v1/fill/w_980,h_894,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_a96f95faf46442d2a6c7383fd7e48f49~mv2.jpg");
@@ -19,7 +19,7 @@ export const PartnersImageContainer = styled.div`
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 80px;
+    padding-left: 50px;
     padding-bottom: 50px;
     margin-top: -68px;
   }
@@ -55,7 +55,7 @@ export const CountryName = styled.p`
   margin-left: 12%;
   color: #4c4c4c;
   letter-spacing: 0.3px;
-  transform: scale(1.1, 1.2);
+  transform: scale(1.15, 1.2);
   @media screen and (min-width: 1024px) {
     font-size: ${(props) => props.fontSizeL};
   }
@@ -66,7 +66,7 @@ export const CountryName = styled.p`
 export const WrappedUniversities = styled.div`
   display: flex;
   flex-wrap: wrap;
-  padding: 7%;
+  padding: 5%;
   padding-top: 40px;
   margin-top: 0px;
 `;
@@ -74,9 +74,9 @@ export const UniversityNameContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 19%;
-  width: 19%;
-  margin: 3%;
+  height: 21%;
+  width: 21%;
+  margin: 2%;
   margin-top: 0.5%;
 `;
 export const UniversityImage = styled.img`
