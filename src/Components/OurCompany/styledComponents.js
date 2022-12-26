@@ -117,7 +117,7 @@ export const ValuesButton = styled.button`
 `;
 
 export const StatisticsImage = styled.img`
-  width: 100%;
+  width: 105%;
   height: 40%;
   margin-top: 50px;
   margin-bottom: 5%;
@@ -475,7 +475,7 @@ export const AlignEndTextContainer = styled.div`
   @media screen and (min-width: 1024px) {
     justify-content: flex-end;
     padding-left: 7%;
-    width: 72%;
+    width: 62%;
     margin-right: -150px;
   }
 `;

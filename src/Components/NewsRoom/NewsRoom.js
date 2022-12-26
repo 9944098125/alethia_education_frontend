@@ -26,7 +26,7 @@ function NewsRoom() {
   DocumentTitle("News Room - iae Global");
   return (
     <Fragment>
-      <NewsRoomImageContainer id="news">
+      <NewsRoomImageContainer style={{ marginBottom: "2%" }} id="news">
         <TextContainer>
           <TextInsideImage
             sc
@@ -51,7 +51,7 @@ function NewsRoom() {
               <EachText color="#080808" fontSize="12px" fontWeight="400">
                 Jan 8, 2020
               </EachText>
-              <EachText fontF color="orange" fontSize="25px" fontWeight="500">
+              <EachText fontF color="orange" fontSize="25px" fontWeight="400">
                 The University of Newcastle - Australia
               </EachText>
               <EachText color="#080808" fontSize="14px" fontWeight="400">
@@ -76,7 +76,7 @@ function NewsRoom() {
               <EachText color="#080808" fontSize="12px" fontWeight="400">
                 Aug 15, 2019
               </EachText>
-              <EachText fontF color="orange" fontSize="25px" fontWeight="500">
+              <EachText fontF color="orange" fontSize="25px" fontWeight="400">
                 Education, Career and Migration Fair in sydney
               </EachText>
               <EachText color="#080808" fontSize="14px" fontWeight="400">
@@ -97,7 +97,7 @@ function NewsRoom() {
               <EachText color="#080808" fontSize="12px" fontWeight="400">
                 Feb 07, 2019
               </EachText>
-              <EachText fontF color="orange" fontSize="25px" fontWeight="500">
+              <EachText fontF color="orange" fontSize="25px" fontWeight="400">
                 Canada's Top 10 universities
               </EachText>
               <EachText color="#080808" fontSize="14px" fontWeight="400">
@@ -119,7 +119,7 @@ function NewsRoom() {
               <EachText color="#080808" fontSize="12px" fontWeight="400">
                 Feb 06, 2019
               </EachText>
-              <EachText fontF color="orange" fontSize="25px" fontWeight="500">
+              <EachText fontF color="orange" fontSize="25px" fontWeight="400">
                 Facts about Australia
               </EachText>
               <EachText color="#080808" fontSize="14px" fontWeight="400">

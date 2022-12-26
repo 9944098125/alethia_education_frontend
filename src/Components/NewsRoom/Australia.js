@@ -236,7 +236,7 @@ function Australia() {
             Migration Scheme, with dedicated 25,000 regional places available
             each year.
           </EachText>
-          <EachText fontF fontSize="17px" fontWeight="700">
+          <EachText fontF fontSize="14px" fontWeight="500">
             University of Newcastle applicants have:
           </EachText>
           <UnorderedList>
@@ -336,7 +336,13 @@ function Australia() {
             opportunities for graduates. It has some of the highest employment
             rates and starting salaries for graduates in Australia.
           </EachText>
-          <EachText sc fontF fontSize="25px" fontWeight="500">
+          <EachText
+            style={{ transform: "scale(1, 1.25)" }}
+            sc
+            fontF
+            fontSize="25px"
+            fontWeight="500"
+          >
             The Future
           </EachText>
           <EachText fontSize="12.5px">
@@ -366,12 +372,12 @@ function Australia() {
               Program funds new business growth and employment
             </ListItem>
           </UnorderedList>
-          <EachText fontSize="12.5px">
+          <EachText fontSize="13px">
             These major capital projects and the funding committed by business
             and government mean jobs for skilled university graduates in
             Newcastle.
           </EachText>
-          <EachText fontSize="12.5px">
+          <EachText fontSize="14px">
             The University of Newcastle provides the education and training in
             all the fields that are required for Newcastle’s future: health,
             business, built environment, engineering, skilled trades and is
@@ -381,16 +387,22 @@ function Australia() {
             src="https://static.wixstatic.com/media/e4c206_950d8cb89f4a457eb49af40a9075c851~mv2.png/v1/fill/w_999,h_667,al_c,q_90,enc_auto/e4c206_950d8cb89f4a457eb49af40a9075c851~mv2.png"
             alt="newcastle11"
           />
-          <EachText sc fontF fontSize="25px" fontWeight="500">
+          <EachText
+            style={{ transform: "scale(1, 1.25)" }}
+            sc
+            fontF
+            fontSize="25px"
+            fontWeight="500"
+          >
             Migration opportunities
           </EachText>
-          <EachText fontSize="12.5px">
+          <EachText fontSize="13.5px">
             University of Newcastle graduates have unique opportunities for
             skilled work and migration to Australia. University of Newcastle
             graduates are prioritised over Sydney-based students in migration
             pathways.
           </EachText>
-          <EachText fontSize="12.5px">
+          <EachText fontSize="14px">
             There is a new Skilled Work Regional visa known as the “Provisional
             subclass 491 Visa”. This visa is granted on the basis of points
             awarded to applicants. It is designed to help regional Australia
@@ -398,7 +410,8 @@ function Australia() {
             potential migrants looking to settle in regional Australia. To be
             eligible, applicants must have a skilled occupation and
             qualification that is nominated by a state or territory government
-            agency
+            agency. applicants must have a skilled occupation and qualification
+            that is nominated by a state or territory government agency
           </EachText>
           <EachRoomImages
             src="https://static.wixstatic.com/media/e4c206_5b13c333bee74c6684b5790fb56cc70d~mv2.png/v1/fill/w_740,h_494,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/e4c206_5b13c333bee74c6684b5790fb56cc70d~mv2.png"
@@ -408,7 +421,7 @@ function Australia() {
             New castle is perfect place to live and study
           </EachText>
           <HorizontalLine th />
-          <EachText mb="5%" fontSize="12.5px">
+          <EachText mb="5%" fontSize="14px">
             For top graduate employment, a fantastic student lifestyle and
             priority migration opportunities, The University of Newcastle has
             the answers.
@@ -435,7 +448,7 @@ function Australia() {
             color: "inherit",
           }}
         >
-          <EachText fontSize="15px">See all</EachText>
+          <EachText fontSize="15px">See All</EachText>
         </HashLink>
       </div>
       <RecentPostsContainer>
@@ -471,7 +484,7 @@ function Australia() {
         </HashLink>
       </RecentPostsContainer>
       <NewsContainer mh="65vh">
-        <EachText fontF fontSize="23px" fontWeight="400">
+        <EachText fontF fontSize="20px" fontWeight="400">
           Comments
         </EachText>
         <HorizontalLine mb="50px" />

@@ -369,7 +369,7 @@ export const MeetingButton = styled.button`
 
 export const MeetingImage = styled.img`
   @media screen and (min-width: 1024px) {
-    height: 120%;
+    height: 130%;
     width: 50%;
   }
   @media screen and (max-width: 768px) {

@@ -38,15 +38,22 @@ function Facts() {
         </TextContainer>
       </NewsRoomImageContainer>
       <NewsContainer mt="2%">
-        <EachText fontSize="12px" fontWeight="400">
+        <EachText fontSize="12px" fontWeight="420">
           Feb 6, 2019
         </EachText>
-        <EachText ls color="#343434" fontF fontSize="30px" fontWeight="500">
+        <EachText
+          style={{ transform: "scale(1, 1.4)", letterSpacing: "1px" }}
+          ls
+          color="#343434"
+          fontF
+          fontSize="35px"
+          fontWeight="500"
+        >
           Facts about Australia
         </EachText>
         <EachText
           fontF
-          style={{ textAlign: "center" }}
+          style={{ textAlign: "center", transform: "scale(1, 1.3)" }}
           fontSize="30px"
           fontWeight="500"
         >
@@ -55,7 +62,7 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          style={{ textAlign: "center" }}
+          style={{ textAlign: "center", transform: "scale(1, 1.3)" }}
           fontWeight="500"
           mtlg="-4%"
         >
@@ -69,7 +76,7 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="400"
+          fontWeight="420"
           style={{
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
@@ -90,7 +97,7 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="400"
+          fontWeight="420"
           style={{
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
@@ -114,7 +121,7 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="400"
+          fontWeight="420"
           style={{
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
@@ -136,7 +143,7 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="400"
+          fontWeight="420"
           style={{
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
@@ -158,7 +165,7 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="400"
+          fontWeight="420"
           style={{
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
@@ -180,7 +187,7 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="400"
+          fontWeight="420"
           style={{
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
@@ -192,7 +199,7 @@ function Facts() {
         <EachText fontSize="14px">
           Due to its huge size, Australia has several different climate zones
           across its eight states and territories, but if you like basking in
-          the sun, you’re in luck – most of the country receives more than 4000
+          the sun, you’re in luck – most of the country receives more than 4200
           hours of sunshine a year.
         </EachText>
         <EachRoomImages
@@ -203,7 +210,7 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="400"
+          fontWeight="420"
           style={{
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
@@ -224,7 +231,7 @@ function Facts() {
         <EachText
           fontF
           fontSize="30px"
-          fontWeight="400"
+          fontWeight="420"
           style={{
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
@@ -266,7 +273,7 @@ function Facts() {
             color: "inherit",
           }}
         >
-          <EachText fontSize="15px">See all</EachText>
+          <EachText fontSize="15px">See All</EachText>
         </HashLink>
       </div>
       <RecentPostsContainer>
@@ -276,7 +283,7 @@ function Facts() {
         >
           <EachPost>
             <PostImage mr="60px" src={eachImage1} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="420">
               The University of New Castle
             </EachText>
           </EachPost>
@@ -287,7 +294,7 @@ function Facts() {
         >
           <EachPost>
             <PostImage mt="0px" mr="25px" src={eachImage3} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="420">
               Canada's top 10 universities
             </EachText>
           </EachPost>
@@ -298,14 +305,14 @@ function Facts() {
         >
           <EachPost>
             <PostImage src={eachImage2} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="420">
               Education, Career & Migration Fair in sydney
             </EachText>
           </EachPost>
         </HashLink>
       </RecentPostsContainer>
       <NewsContainer mh="65vh">
-        <EachText fontF fontSize="23px" fontWeight="400">
+        <EachText fontF fontSize="20px" fontWeight="420">
           Comments
         </EachText>
         <HorizontalLine mb="50px" />

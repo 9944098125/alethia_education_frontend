@@ -38,7 +38,7 @@ function Canada() {
           </TextInsideImage>
         </TextContainer>
       </NewsRoomImageContainer>
-      <NewsContainer mt="1%">
+      <NewsContainer style={{ padding: "10.3%" }} mt="1%">
         <EachText fontSize="13px" fontWeight="400">
           Feb 7, 2019
         </EachText>
@@ -228,7 +228,7 @@ function Canada() {
             color: "inherit",
           }}
         >
-          <EachText fontSize="15px">See all</EachText>
+          <EachText fontSize="15px">See All</EachText>
         </HashLink>
       </div>
       <RecentPostsContainer>
@@ -264,7 +264,7 @@ function Canada() {
         </HashLink>
       </RecentPostsContainer>
       <NewsContainer mh="65vh">
-        <EachText fontF fontSize="23px" fontWeight="400">
+        <EachText fontF fontSize="20px" fontWeight="400">
           Comments
         </EachText>
         <HorizontalLine mb="50px" />

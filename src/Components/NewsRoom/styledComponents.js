@@ -116,7 +116,7 @@ export const NewsContainer = styled.div`
   padding-top: 5%;
   padding-bottom: 5%;
   shadow: 1px, 1px, 1px, 1px;
-  width: 80vw;
+  width: 81vw;
   margin-left: 10%;
   margin-bottom: 1%;
   margin-top: ${(props) => props.mt};

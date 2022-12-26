@@ -27,7 +27,13 @@ function TermsOfUse() {
         </TextContainer>
       </PrivacyImageContainer>
       <PrivacyTextContainer>
-        <PrivacyText fontF mb="0px" fontSize="16px" fontWeight="650">
+        <PrivacyText
+          fontF
+          mb="0px"
+          fontSize="20px"
+          fontWeight="600"
+          style={{ transform: "scale(1, 1.3)" }}
+        >
           Terms of Use
         </PrivacyText>
         <PrivacyText mb="50px" fontSize="15px" fontWeight="500">
@@ -149,7 +155,7 @@ function TermsOfUse() {
           republish, download, store, or transmit any of the material on our
           Website, except as follows:
         </PrivacyText>
-        <ListContainer mb="-30px">
+        <ListContainer style={{ paddingTop: "10px" }} mb="-30px">
           <ListItem style={{ fontWeight: "500" }}>
             Your computer may temporarily store copies of such materials in RAM
             incidental to your accessing and viewing those materials.
@@ -196,7 +202,7 @@ function TermsOfUse() {
           Terms of Use and may violate copyright, trademark, and other laws.
         </PrivacyText>
         <PrivacyText fontF fontSize="16px" fontWeight="550">
-          TRADEMARK
+          TRADEMARKS
         </PrivacyText>
         <PrivacyText fontSize="15px" fontWeight="500">
           The Company name, the terms “iae” and “iae GLOBAL,” the Company logo,
@@ -372,14 +378,14 @@ function TermsOfUse() {
           directing us to disclose the identity or other information of anyone
           posting any materials on or through the Website.
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="600">
           You waive and hold harmless the Company and its affiliates, licensees,
           and service providers from any claims resulting from any action taken
           by any of the foregoing parties during, or taken as a consequence of,
           investigations by such parties or law enforcement authorities.
         </PrivacyText>
         <PrivacyText fontSize="15px">
-          owever, we cannot review all material before it is posted on the
+          However, we cannot review all material before it is posted on the
           Website, and cannot ensure prompt removal of objectionable material
           after it has been posted. Accordingly, we assume no liability for any
           action or inaction regarding transmissions, communications, or content
@@ -415,24 +421,20 @@ function TermsOfUse() {
             Directly from you when you provide it to us.
           </ListItem>
           <ListItem style={{ fontWeight: "500" }}>
+            About your internet connection, the equipment you use to access our
+            Website, and usage details.
+          </ListItem>
+          <ListItem style={{ fontWeight: "500" }}>
             Automatically as you navigate through the site. Information
             collected automatically may include usage details, IP addresses, and
             information collected through cookies and other tracking
             technologies.
           </ListItem>
+          <ListItem style={{ fontWeight: "500" }}>
+            Give the impression that they emanate from or are endorsed by us or
+            any other person or entity, if this is not the case.
+          </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="15px" fontWeight="500">
-          You also may provide information to be published or displayed
-          (hereinafter, "posted") on public areas of the Website, or transmitted
-          to other users of the Website or third parties (collectively, "User
-          Contributions"). Your User Contributions are posted on and transmitted
-          to others at your own risk. Although we limit access to certain pages,
-          please be aware that no security measures are perfect or impenetrable.
-          Additionally, we cannot control the actions of other users of the
-          Website with whom you may choose to share your User Contributions.
-          Therefore, we cannot and do not guarantee that your User Contributions
-          will not be viewed by unauthorized persons.
-        </PrivacyText>
         <PrivacyText fontF fontSize="16px" fontWeight="550">
           COPYRIGHT INFRINGEMENT
         </PrivacyText>
@@ -542,32 +544,36 @@ function TermsOfUse() {
           implementing sufficient procedures and checkpoints to satisfy your
           particular requirements for anti-virus protection and accuracy of data
           input and output, and for maintaining a means external to our site for
-          any reconstruction of any lost data. To the fullest extent provided by
-          law, we will not be liable for any loss or damage caused by a
-          distributed denial-of-service attack, viruses, or other
-          technologically harmful material that may infect your computer
-          equipment, computer programs, data, or other proprietary material due
-          to your use of the Website or any services or items obtained through
-          the Website or to your downloading of any material posted on it, or on
-          any Website linked to it.
+          any reconstruction of any lost data.{" "}
+          <b>
+            To the fullest extent provided by law, we will not be liable for any
+            loss or damage caused by a distributed denial-of-service attack,
+            viruses, or other technologically harmful material that may infect
+            your computer equipment, computer programs, data, or other
+            proprietary material due to your use of the Website or any services
+            or items obtained through the Website or to your downloading of any
+            material posted on it, or on any Website linked to it.
+          </b>
         </PrivacyText>
         <PrivacyText style={{ fontWeight: "500" }} fontSize="15px">
-          Your use of the Website, its content, and any services or items
-          obtained through the Website is at your own risk. The Website, its
-          content, and any services or items obtained through the Website are
-          provided on an "as is" and "as available" basis, without any
-          warranties of any kind, either express or implied. Neither the Company
-          nor any person associated with the Company makes any warranty or
-          representation with respect to the completeness, security,
-          reliability, quality, accuracy, or availability of the Website.
-          Without limiting the foregoing, neither the Company nor anyone
-          associated with the Company represents or warrants that the Website,
-          its content, or any services or items obtained through the Website
-          will be accurate, reliable, error-free, or uninterrupted, that defects
-          will be corrected, that our site or the server that makes it available
-          are free of viruses or other harmful components, or that the Website
-          or any services or items obtained through the Website will otherwise
-          meet your needs or expectations.
+          <b>
+            Your use of the Website, its content, and any services or items
+            obtained through the Website is at your own risk. The Website, its
+            content, and any services or items obtained through the Website are
+            provided on an "as is" and "as available" basis, without any
+            warranties of any kind, either express or implied. Neither the
+            Company nor any person associated with the Company makes any
+            warranty or representation with respect to the completeness,
+            security, reliability, quality, accuracy, or availability of the
+            Website. Without limiting the foregoing, neither the Company nor
+            anyone associated with the Company represents or warrants that the
+            Website, its content, or any services or items obtained through the
+            Website will be accurate, reliable, error-free, or uninterrupted,
+            that defects will be corrected, that our site or the server that
+            makes it available are free of viruses or other harmful components,
+            or that the Website or any services or items obtained through the
+            Website will otherwise meet your needs or expectations.
+          </b>
         </PrivacyText>
         <PrivacyText fontF fontSize="16px" fontWeight="550">
           LIMITATION ON LIABILITY

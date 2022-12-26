@@ -50,7 +50,7 @@ function StudyAbroad() {
         <JourneyText fontSize="15px" fontWeight="400" mb="0px">
           Choose a country of your interest and start your adventure!
         </JourneyText>
-        <JourneyText fontSize="14px" fontWeight="500">
+        <JourneyText fontSize="14px" fontWeight="400">
           Study destinations are: Australia, New Zealand, Canada, United States
           and the United Kingdom.
         </JourneyText>

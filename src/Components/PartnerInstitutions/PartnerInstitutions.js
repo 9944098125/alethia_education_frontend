@@ -45,7 +45,7 @@ function PartnerInstitutions() {
           </TextInsideImage>
         </TextContainer>
       </PartnersImageContainer>
-      <JourneyTextContainer>
+      <JourneyTextContainer style={{ width: "100%" }}>
         <JourneyText fontSize="14px" fontWeight="400">
           We have strong and long-term partnerships with education institutions
           from all sectors, including privately owned language schools,

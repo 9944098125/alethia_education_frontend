@@ -86,7 +86,7 @@ function OurCompany() {
             >
               "It all began in 1992..."
             </TextInsideImage>
-            <SmallText color="#5a5a5a">
+            <SmallText color="#080808">
               We started as a single office in Gangnam, Seoul, South Korea. Over
               the decades, iae GLOBAL has become one of the largest and most
               diverse student recruitment organisations in the world.
@@ -175,7 +175,7 @@ function OurCompany() {
               mb="100px"
               color="#4c4c4c"
               fontSize="15px"
-              fontWeight="400"
+              fontWeight="500"
               fs="italic"
             >
               - Mark Lucas, Director of iae Global
@@ -295,7 +295,7 @@ function OurCompany() {
         </LeaderShipText>
       </LeadershipTeamImageContainer>
       <SmallTextContainer>
-        <SmallText color="#080808">
+        <SmallText style={{ fontSize: "14px" }} color="#080808">
           iae GLOBAL is steered by a highly complementary management team, who
           bring unmatched levels of breadth and depth in experience, expertise
           and business savvy in international education and related fields.
@@ -395,7 +395,7 @@ function OurCompany() {
         </AffiliatesText>
       </LeadershipTeamImageContainer>
       <SmallTextContainer>
-        <SmallText color="#080808">
+        <SmallText style={{ fontSize: "14px" }} color="#080808">
           iae GLOBAL is steered by a highly complementary management team, who
           bring unmatched levels of breadth and depth in experience, expertise
           and business savvy in international education and related fields.
@@ -419,7 +419,7 @@ function OurCompany() {
           iae GLOBAL or its directors are affiliated with or a member of:
         </SmallText>
         <ImagesRow>
-          <AffiliatedImage src={affiliated1} alt="affiliated1" width="90%" />
+          <AffiliatedImage src={affiliated1} alt="affiliated1" width="100%" />
         </ImagesRow>
         <ThinHorizontalLine />
         <ListHead

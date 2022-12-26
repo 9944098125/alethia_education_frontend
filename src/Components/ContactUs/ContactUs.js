@@ -28,11 +28,12 @@ function ContactUs() {
           <ContactUsText
             id="contact-us"
             fontSize="30px"
-            fontWeight="500"
+            fontWeight="400"
             mb="30px"
             fontF
             b
             transfo
+            style={{ color: "#080808" }}
           >
             Contact Us
           </ContactUsText>

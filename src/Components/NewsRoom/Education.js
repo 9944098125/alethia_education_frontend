@@ -97,7 +97,7 @@ function Education() {
         <EachText fontF fontSize="30px" fontWeight="400">
           Instant Experience
         </EachText>
-        <EachText fontSize="13px">
+        <EachText fontSize="14px">
           Students can receive one-on-one counselling with experienced experts
           from more than 50 Australian institutions, recruitment specialists
           with placement services and get their questions answered about the
@@ -176,7 +176,7 @@ function Education() {
             color: "inherit",
           }}
         >
-          <EachText fontSize="15px">See all</EachText>
+          <EachText fontSize="15px">See All</EachText>
         </HashLink>
       </div>
       <RecentPostsContainer>
@@ -212,7 +212,7 @@ function Education() {
         </HashLink>
       </RecentPostsContainer>
       <NewsContainer mh="65vh">
-        <EachText fontF fontSize="23px" fontWeight="400">
+        <EachText fontF fontSize="20px" fontWeight="400">
           Comments
         </EachText>
         <HorizontalLine mb="50px" />

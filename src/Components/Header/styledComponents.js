@@ -19,7 +19,7 @@ export const HeaderContainer = styled.div`
 `;
 export const ImageIcon = styled.img`
   height: 55px;
-  width: 270px;
+  width: 280px;
   margin-top: -15px;
   margin-right: 70px !important;
   margin-left: -25px;
@@ -64,7 +64,7 @@ export const HeadLink = styled.h3`
   font-family: "Oswald", sans-serif;
   letter-spacing: 1px;
   line-height: unset;
-  transform: scale(1.1, 1.3);
+  transform: scale(1.1, 1.36);
   font-size: 12.3px;
   color: #ffffff;
   margin-right: 21px;

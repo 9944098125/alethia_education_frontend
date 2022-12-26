@@ -127,13 +127,14 @@ function Home() {
             />
           </TextInsideImage>
           <div className="philosophy-text-container">
-            <p style={{ color: "white", fontWeight: "500", fontSize: "14px" }}>
+            <p style={{ color: "white", fontWeight: "400", fontSize: "14px" }}>
               We are proud of our reputation for quality counselling,
               personalised services and dedicated support. We can help you plan
               your pathway to the best course, career and choice for your
-              future.
+              future.We can help you plan your pathway to the best course,
+              career and choice for your future.
             </p>
-            <p style={{ color: "white", fontWeight: "500", fontSize: "14px" }}>
+            <p style={{ color: "white", fontWeight: "400", fontSize: "14px" }}>
               ​ Talk to us and find out why hundreds of thousands of students
               have trusted us with their future.
             </p>
@@ -163,7 +164,7 @@ function Home() {
             paddingBottom: "200px",
             paddingTop: "-25px",
           }}
-          strength={310}
+          strength={300}
           children={<HomeContent />}
           bgImage="https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_1284,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg"
         ></Parallax>
