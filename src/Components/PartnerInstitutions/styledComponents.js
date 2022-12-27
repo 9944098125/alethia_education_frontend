@@ -56,6 +56,7 @@ export const CountryName = styled.p`
   margin-left: 12%;
   color: #4c4c4c;
   letter-spacing: 0.3px;
+  display: inline;
   transform: scale(1.15, 1.25);
   @media screen and (min-width: 1024px) {
     font-size: ${(props) => props.fontSizeL};
@@ -67,7 +68,7 @@ export const CountryName = styled.p`
 export const WrappedUniversities = styled.div`
   display: flex;
   flex-wrap: wrap;
-  padding: 5%;
+  padding: 3%;
   padding-top: 40px;
   margin-top: 0px;
 `;
