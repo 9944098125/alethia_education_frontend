@@ -93,7 +93,7 @@ export const EachCountryContainer = styled.div`
 export const EachCountryImage = styled.img`
   @media screen and (min-width: 1024px) {
     height: 94%;
-    width: 50%;
+    width: 49%;
     margin-right: 1.5%;
   }
   @media screen and (mnax-width: 768px) {

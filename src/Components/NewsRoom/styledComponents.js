@@ -100,7 +100,7 @@ export const EachTextContainer = styled.div`
   cursor: pointer;
   padding-right: 2%;
   box-shadow: 0 0 4px -2px #444444;
-  padding-left: 5%;
+  padding-left: 3.5%;
   @media screen and (min-width: 1024px) {
     height: 340px;
   }
@@ -130,7 +130,7 @@ export const ImagesContainer = styled.div`
   flex-direction: column;
 `;
 export const EachRoomImages = styled.img`
-  height: ${(props) => (props.forty ? "50vh" : "82vh")};
+  height: ${(props) => (props.forty ? "50vh" : "81vh")};
   width: 96%;
   margin-top: 25px;
   margin-bottom: 15px;

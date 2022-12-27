@@ -31,7 +31,7 @@ function PrivacyPolicy() {
           Website Privacy Policy
         </PrivacyText>
         <PrivacyText mb="50px" fontSize="14px" fontWeight="500">
-          Last Modified: 31st of August, 2022
+          Last Modified: 31st of Aug, 2022
         </PrivacyText>
         <PrivacyText fontF fontSize="16px" fontWeight="800">
           INTRODUCTION

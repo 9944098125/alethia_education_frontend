@@ -21,7 +21,6 @@ export const CompanyImageContainer = styled.div`
     margin-top: -550px;
     height: 100%;
     max-width: 100%;
-    padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
     padding-left: 150px;
@@ -33,9 +32,11 @@ export const TextContainer = styled.div`
   width: 70%;
   display: flex;
   flex-direction: column;
-  padding-bottom: -10%;
+  padding-bottom: 1%;
+  padding-left: 3%;
   @media screen and (max-width: 768px) {
     margin-top: 600px;
+    padding-left: 20px;
     padding: 30px;
     width: 100%;
   }
@@ -57,7 +58,8 @@ export const LeaderShipText = styled.p`
   font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
   margin-bottom: ${(props) => props.mb};
-  text-shadow: 1px 1px black;
+  text-shadow: rgb(255 255 255 / 60%) 1px 1px 1px,
+    rgb(0 0 0 / 60%) -1px -1px 1px;
 `;
 export const AffiliatesText = styled.p`
   color: ${(props) => props.color};
@@ -154,7 +156,7 @@ export const TextWithGridContainer = styled.div`
 
 export const TextWithGrid = styled.p`
   @media screen and (min-width: 768px) {
-    font-size: 14px;
+    font-size: 14.5px;
   }
   @media screen and (max-width: 768px) {
     font-size: 10px;
@@ -241,6 +243,7 @@ export const BeliefTextContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding-left: 8.5%;
+  padding-right: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
 `;
@@ -299,12 +302,12 @@ export const ListContainer = styled.div`
   }
 `;
 export const ListHead = styled.p`
-  font-size: ${(props) => (props.aff ? "30px" : "40px")};
+  font-size: ${(props) => (props.aff ? "30px" : "35px")};
   font-weight: ${(props) => (props.aff ? "420" : "500")};
   font-family: "Oswald", sans-serif;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   margin-bottom: 12%;
-  transform: scale(1, 1.15);
+  transform: scale(1, 1.2);
   color: #4c4c4c;
 `;
 
@@ -334,7 +337,7 @@ export const CommittedTextContainer = styled.div`
   padding-top: 5%;
   padding-left: 1%;
   @media screen and (min-width: 768px) {
-    margin-top: 100px;
+    margin-bottom: 7%;
   }
   @media screen and (max-width: 768px) {
     margin-top: 60px;
@@ -344,10 +347,9 @@ export const CommittedText = styled.p`
   width: 80%;
   font-weight: 400;
   font-family: "Oswald", sans-serif;
-  margin-bottom: 7%;
+  transform: scale(1, 1.1);
   @media screen and (min-width: 768px) {
     font-size: 38px;
-    margin-top: -8%;
   }
 
   @media screen and (max-width: 768px) {
@@ -424,6 +426,7 @@ export const AffiliatesContainer = styled.div`
   align-items: center;
   width: 100%;
   padding: 10%;
+  padding-bottom: 4%;
   margin-top: -5%;
 `;
 export const AffiliatesImage = styled.img`

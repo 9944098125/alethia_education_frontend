@@ -236,7 +236,7 @@ function Australia() {
             Migration Scheme, with dedicated 25,000 regional places available
             each year.
           </EachText>
-          <EachText fontF fontSize="14px" fontWeight="500">
+          <EachText fontSize="14px" fontWeight="500">
             University of Newcastle applicants have:
           </EachText>
           <UnorderedList>

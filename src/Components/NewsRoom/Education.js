@@ -116,7 +116,13 @@ function Education() {
           iPad mini, laptop, Australian attractions vouchers, Movie tickets and
           more.
         </EachText>
-        <EachText sc fontF fontSize="17px" fontWeight="500">
+        <EachText
+          style={{ marginBottom: "-2px" }}
+          sc
+          fontF
+          fontSize="17px"
+          fontWeight="500"
+        >
           ARE YOU IN SYDNEY ?
         </EachText>
         <EachText

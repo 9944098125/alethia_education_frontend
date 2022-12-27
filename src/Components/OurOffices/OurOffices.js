@@ -23,7 +23,7 @@ function OurOffices() {
       <OfficesContainer id="offices">
         <OfficesImageContainer>
           <TextContainer>
-            <TextInsideImage color="#ffffff" fontSize="50px" fontWeight="500">
+            <TextInsideImage color="#ffffff" fontSize="50px" fontWeight="400">
               Our Offices
             </TextInsideImage>
           </TextContainer>

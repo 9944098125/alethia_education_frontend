@@ -81,9 +81,9 @@ export const SupportText = styled.h3`
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   margin-bottom: 2%;
-  transform: scale(1, 1.2);
+  transform: scale(1, 1.3);
   @media screen and (min-width: 800px) {
-    font-size: 32px;
+    font-size: 30px;
   }
   @media screen and (max-width: 768px) {
     font-size: 20px;
@@ -201,6 +201,7 @@ export const Links = styled.button`
   color: rgb(255, 142, 13);
   font-weight: 600;
   padding-bottom: -10px;
+  padding: 0px;
   border: none;
   height: 25px;
   border-bottom: 0.3px dotted #cc5500;
@@ -328,7 +329,7 @@ export const MeetingTextContainer = styled.div`
     height: 100%;
     width: 50%;
     padding-left: 60px;
-    margin-right: 150px;
+    margin-right: 50px;
   }
   @media screen and (max-width: 768px) {
     width: 80%;

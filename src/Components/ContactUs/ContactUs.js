@@ -29,7 +29,7 @@ function ContactUs() {
             id="contact-us"
             fontSize="30px"
             fontWeight="400"
-            mb="30px"
+            mb="40px"
             fontF
             b
             transfo
@@ -37,7 +37,12 @@ function ContactUs() {
           >
             Contact Us
           </ContactUsText>
-          <ContactUsText fontSize="14px" fontWeight="400" mb="20px">
+          <ContactUsText
+            style={{ letterSpacing: "0.6px" }}
+            fontSize="15px"
+            fontWeight="400"
+            mb="45px"
+          >
             If you share the same thoughts and values as iae, we sincerely look
             forward to supporting you as a student or growing our business with
             you as a partner.
@@ -47,28 +52,28 @@ function ContactUs() {
             fontF
             fontSize="14px"
             fontWeight="500"
-            mb="35px"
+            mb="38px"
           >
             CORPORATE ADDRESS
           </ContactUsText>
           <ContactUsText fontSize="18px" fontWeight="400" mb="10px">
             iae HOLDINGS, Inc. trading as iae GLOBAL
           </ContactUsText>
-          <ContactUsText fontSize="16px" fontWeight="400" mb="25px">
+          <ContactUsText fontSize="16px" fontWeight="400" mb="45px">
             7F/726 Humax Ebisu Building, Ebisu minami 1-1-1, Shibuya-ku, Tokyo,
             150-0022, Japan
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="400" mb="5px">
+          <ContactUsText fontSize="15px" fontWeight="400" mb="10px">
             Tel: +81 (0)3 6871 9422
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="400" mb="5px">
+          <ContactUsText fontSize="15px" fontWeight="400" mb="10px">
             Fax: +81 (0)3 6871 9311
           </ContactUsText>
           <ContactUsText fontSize="15px" fontWeight="400">
             Email: info@iaeglobal.net
           </ContactUsText>
         </ContactUsTextContainer>
-        <ContactUsFormContainer>
+        <ContactUsFormContainer style={{ marginLeft: "-5%" }}>
           <Formik initialValues={initialValues}>
             <Form>
               <div className="p-3 ps-lg-5 pt-0 mt-4">
@@ -129,7 +134,7 @@ function ContactUs() {
                   <Field
                     type="text"
                     as="textarea"
-                    rows="5"
+                    rows="7"
                     id="message"
                     name="message"
                     className="textarea"

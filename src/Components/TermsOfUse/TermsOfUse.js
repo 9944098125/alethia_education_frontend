@@ -535,7 +535,7 @@ function TermsOfUse() {
           initiative and are responsible for compliance with local laws.
         </PrivacyText>
         <PrivacyText fontF fontSize="16px" fontWeight="550">
-          DISCLAIMER OF WARRANTS
+          DISCLAIMER OF WARRANTIES
         </PrivacyText>
         <PrivacyText fontSize="15px">
           You understand that we cannot and do not guarantee or warrant that

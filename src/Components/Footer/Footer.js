@@ -27,7 +27,7 @@ function Footer() {
             </HashLink>
             <HashLink to="/our-story#vision" style={{ textDecoration: "none" }}>
               <TextInColumn style={{ marginTop: "-7px" }}>
-                VISION AND VALUES
+                VISION & VALUES
               </TextInColumn>
             </HashLink>
             <HashLink
@@ -86,15 +86,15 @@ function Footer() {
           </EachColumn>
           <EachColumn nomr>
             <TextInColumn
-              style={{ letterSpacing: "-0.2px", transform: "scale(1, 1.3" }}
+              style={{ letterSpacing: "0px", transform: "scale(1.1, 1.3" }}
               grey
             >
               © 2018 IAE GLOBAL. ALL RIGHTS
             </TextInColumn>
             <TextInColumn
               style={{
-                letterSpacing: "-0.2px",
-                transform: "scale(1, 1.3",
+                letterSpacing: "0px",
+                transform: "scale(1.1, 1.3",
                 marginTop: "-15px",
               }}
               grey

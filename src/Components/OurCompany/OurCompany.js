@@ -71,7 +71,12 @@ function OurCompany() {
       <CompanyContainer>
         <CompanyImageContainer id="companyImage">
           <TextContainer>
-            <TextInsideImage color="#ffffff" fontWeight="500" fontSize="50px">
+            <TextInsideImage
+              style={{ transform: "scale(1.1, 1.3)" }}
+              color="#ffffff"
+              fontWeight="500"
+              fontSize="40px"
+            >
               Our Company
             </TextInsideImage>
           </TextContainer>
@@ -95,7 +100,11 @@ function OurCompany() {
               <ValuesButton>LEARN MORE ABOUT OUR VALUES</ValuesButton>
             </HashLink>
           </SmallContainer>
-          <StatisticsImage src={stats} alt="stats" />
+          <StatisticsImage
+            style={{ marginTop: "10%" }}
+            src={stats}
+            alt="stats"
+          />
           <TextAndGridContainer>
             <TextWithGridContainer>
               <TextWithGrid>
@@ -158,10 +167,10 @@ function OurCompany() {
         </StoryContainer>
         <VisionContainer id="vision">
           <TextInsideImage
-            ts="1px 1px 2px black"
+            ts="1px 1px 2px white"
             color="#ffffff"
-            fontSize="55px"
-            fontWeight="900"
+            fontSize="60px"
+            fontWeight="400"
           >
             Vision & Values
           </TextInsideImage>
@@ -183,8 +192,8 @@ function OurCompany() {
             <AlignEndTextContainer>
               <p
                 style={{
-                  marginRight: "-150px",
-                  fontSize: "14px",
+                  marginRight: "-230px",
+                  fontSize: "15px",
                   color: "#343434",
                   fontWeight: "400",
                   textAlign: "center",
@@ -242,7 +251,7 @@ function OurCompany() {
       </DosContainer>
       <DosContainer>
         <ListContainer>
-          <ListHead>Our mission is to:</ListHead>
+          <ListHead style={{ color: "black" }}>Our mission is to:</ListHead>
           <UnorderedList>
             <ListItem>
               Create a global network for international student recruitment that
@@ -279,16 +288,18 @@ function OurCompany() {
         <DosImage src={mission} alt="woman" />
       </DosContainer>
       <CommittedTextContainer>
-        <CommittedText>
+        <CommittedText style={{ marginBottom: "-13px" }}>
           "We are committed to being a leading transnational education marketing
+        </CommittedText>
+        <CommittedText>
           and recruitment corporation based on these values and vision."
         </CommittedText>
       </CommittedTextContainer>
       <LeadershipTeamImageContainer id="leaders" vh="60vh" src={leadership}>
         <LeaderShipText
-          style={{ transform: "scale(1.1, 1.2)", letterSpacing: "1px" }}
+          style={{ transform: "scale(1.1, 1.25)", letterSpacing: "1px" }}
           color="#ffffff"
-          fontSize="50px"
+          fontSize="55px"
           fontWeight="500"
         >
           Leadership Team

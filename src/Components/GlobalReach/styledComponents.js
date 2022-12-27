@@ -82,12 +82,15 @@ export const PartnersButton = styled.button`
   background-color: transparent;
   display: flex;
   align-items: center;
-  max-height: 45px;
+  max-height: 40px;
+  transform: scale(1.1, 1.15);
+  letter-spacing: 0px;
+  margin-left: 20px;
   @media screen and (min-width: 875px) {
-    padding: 7px;
+    padding: 3px;
     padding-right: 30px;
     padding-left: 30px;
-    font-size: 16px;
+    font-size: 13.5px;
     font-weight: 450;
   }
   @media screen and (max-width: 768px) {

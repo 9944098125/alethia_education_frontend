@@ -53,7 +53,7 @@ function Home() {
         <div className="mb-3"></div>
         <TextContainer style={{ marginTop: "-6.5%" }}>
           <TextInsideImage
-            mb="1%"
+            mb="3%"
             color="#ffffff"
             fontWeight="400"
             fontSize="43px"
@@ -65,8 +65,9 @@ function Home() {
           <TextInsideImage
             mb="3%"
             color="#ffffff"
-            fontWeight="600"
-            fontSize="15px"
+            fontWeight="500"
+            fontSize="16px"
+            style={{ transform: "0.9, 1.9", letterSpacing: "-0.5px" }}
           >
             CONNECTING INTERNATIONAL STUDENTS WITH STUDY AND CAREER
             OPPORTUNITIES ABROAD
@@ -103,7 +104,7 @@ function Home() {
           <TextInsideImage
             sc
             color="#ffffff"
-            fontWeight="400"
+            fontWeight="500"
             fontSize="40px"
             ml="9%"
           >
@@ -112,7 +113,7 @@ function Home() {
           <TextInsideImage
             sc
             color="#ffffff"
-            fontSize="40px"
+            fontSize="50px"
             fontWeight="400"
             ml="9%"
             mb="4%"
@@ -123,6 +124,7 @@ function Home() {
                 fontSize: "60px",
                 marginLeft: "-15px",
                 marginTop: "-10px",
+                fontWeight: "500",
               }}
             />
           </TextInsideImage>
@@ -346,20 +348,20 @@ function Home() {
             >
               GLOBAL Group
             </TextInsideImage>
-            <p style={{ fontSize: "14px", color: "#343434" }}>
+            <p style={{ fontSize: "14.5px", color: "#343434" }}>
               We are an award-winning, growing international network that places
               an average of 18,000 students a year into over 700 key partner
               educational institutions worldwide.
             </p>
-            <p style={{ fontSize: "14px", color: "#343434" }}>
-              Explore and discover why hundreds of institutions have trusted us
-              with their recruitment and reputation.
-            </p>
-            <p style={{ fontSize: "14px", color: "#343434" }}>
+            <p style={{ fontSize: "14.5px", color: "#343434" }}>
               ​ We work with some of the most prestigious and recognised
               institutions in the world. We build robust relationships with our
               partners by working together with them to grow their brand and
               enrolments.
+            </p>
+            <p style={{ fontSize: "14.5px", color: "#343434" }}>
+              Explore and discover why hundreds of institutions have trusted us
+              with their recruitment and reputation.
             </p>
             <HashLink
               to="/our-story#companyImage"

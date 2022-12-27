@@ -86,7 +86,7 @@ function GlobalReach() {
                 </div>
                 <div className="col mb-3">
                   <Label htmlFor="email">
-                    <strong>Email*</strong>
+                    <strong>Email Address*</strong>
                   </Label>
                   <Field
                     type="text"
