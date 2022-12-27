@@ -7,7 +7,7 @@ export const HeaderContainer = styled.div`
   justify-content: center;
   margin-top: 68px;
   padding-right: 5%;
-  padding-left: 5%;
+  padding-left: 6%;
   padding-bottom: 0px;
   margin-left: -2%;
   @media screen and (max-width: 875px) {
@@ -19,7 +19,7 @@ export const HeaderContainer = styled.div`
 `;
 export const ImageIcon = styled.img`
   height: 55px;
-  width: 280px;
+  width: 282px;
   margin-top: -15px;
   margin-right: 70px !important;
   margin-left: -25px;
