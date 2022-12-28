@@ -26,7 +26,7 @@ export const HomeImageContainer = styled(Parallax)`
   }
 `;
 export const TextContainer = styled.div`
-  width: 85%;
+  width: 82%;
   padding-left: 10%;
   padding-top: 40%;
   display: flex;
@@ -59,9 +59,10 @@ export const PathwayButton = styled.button`
   justify-content: center;
   align-items: center;
   width: 180px;
-  height: 53px;
+  height: 50px;
+  letter-spacing: 1px;
   margin-top: 2%;
-  transform: scale(1, 1.05);
+  transform: scale(1, 1.1);
   font-family: "Oswald", sans-serif;
   &:hover {
     background-color: #cd7f32;
@@ -69,7 +70,7 @@ export const PathwayButton = styled.button`
 `;
 export const SupportContainer = styled.div`
   @media screen and (min-width: 768px) {
-    padding-left: 9.5%;
+    padding-left: 10.6%;
     padding-top: 50px;
   }
   @media screen and (max-width: 768px) {
@@ -78,12 +79,12 @@ export const SupportContainer = styled.div`
   }
 `;
 export const SupportText = styled.h3`
+  color: #080808;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   margin-bottom: 2%;
-  transform: scale(1, 1.3);
   @media screen and (min-width: 800px) {
-    font-size: 30px;
+    font-size: 32px;
   }
   @media screen and (max-width: 768px) {
     font-size: 20px;
@@ -172,6 +173,7 @@ export const StudyAbroadImage = styled.img`
 export const CountryName = styled.h2`
   font-weight: 500;
   font-family: "Oswald", sans-serif;
+  margin-bottom: 5%;
   @media screen and (min-width: 800px) {
     font-size: 32px;
   }
@@ -327,7 +329,7 @@ export const MeetingContainer = styled.div`
 export const MeetingTextContainer = styled.div`
   display: flex;
   flex-direction: column;
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 1024px) {
     height: 100%;
     width: 50%;
     padding-left: 60px;

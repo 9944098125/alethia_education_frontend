@@ -89,7 +89,7 @@ function Home() {
           >
             <PathwayButton>
               YOUR PATHWAY
-              <ArrowRightAltIcon sx={{ ml: 1 }} />
+              <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
             </PathwayButton>
           </HashLink>
         </TextContainer>
@@ -317,7 +317,7 @@ function Home() {
         {/* <PhilosophyContainer></PhilosophyContainer> */}
         <Parallax
           style={{
-            height: "170vh",
+            height: "1668px",
             maxWidth: "100%",
             display: "flex",
             justifyContent: "flex-start",
@@ -326,7 +326,7 @@ function Home() {
             marginBottom: "10%",
           }}
           children={<PhilosophyContent />}
-          strength={350}
+          strength={250}
           bgImage="https://static.wixstatic.com/media/e4c206_95f2a9037e1a4cb7a8b401711f05ad83~mv2.jpg/v1/fill/w_1440,h_1157,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_95f2a9037e1a4cb7a8b401711f05ad83~mv2.jpg"
         ></Parallax>
         <MeetingContainer>

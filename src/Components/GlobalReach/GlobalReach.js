@@ -40,15 +40,15 @@ function GlobalReach() {
             markets and major study destination countries under a common
             powerful brand, using a standardised model of student counselling
             and recruitment that focuses on quality, honesty and integrity. ​
-            Explore and discover
           </TextPara>
           <TextPara style={{ color: "black" }}>
             ​ We value long-term relationships and continue to work to enhance
             business opportunities for all our partners.
           </TextPara>
           <TextPara style={{ color: "black", marginBottom: "45px" }}>
-            why an increasing number of established agencies have trusted us as
-            partners, and utilised our business model and strategies.
+            Explore and discover why an increasing number of established
+            agencies have trusted us as partners, and utilised our business
+            model and strategies.
           </TextPara>
           <HashLink
             to="/partners#partnersImage"
