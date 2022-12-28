@@ -118,6 +118,7 @@ export const StudyAbroadOptions = styled.div`
     display: flex;
     flex-wrap: wrap;
     padding: 500px;
+    margin-bottom: 50px;
   }
   @media screen and (min-width: 768px) {
     display: flex;
@@ -136,7 +137,7 @@ export const SingleOption = styled.div`
   @media screen and (min-width: 800px) {
     margin: 20px;
     margin-bottom: 15px;
-    margin-right: 10px;
+    margin-right: 0px;
     height: 600px;
     width: 500px;
   }
@@ -198,19 +199,20 @@ export const Gap = styled.div`
 `;
 
 export const Links = styled.button`
-  color: rgb(255, 142, 13);
-  font-weight: 600;
+  color: #eb991e;
+  font-weight: 620;
   padding-bottom: -10px;
   padding: 0px;
   border: none;
   height: 25px;
   border-bottom: 0.3px dotted #cc5500;
+  transform: scale(1.1, 1.1);
   background: transparent;
   display: flex;
   align-items: center;
   @media screen and (min-width: 800px) {
-    font-size: 15px;
-    width: 120px;
+    font-size: 15.5px;
+    width: 108px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;
@@ -251,7 +253,7 @@ export const EachItem = styled.div`
 
 export const ItemImage = styled.img`
   @media screen and (min-width: 800px) {
-    height: 100%;
+    height: 110%;
     width: 100%;
   }
   @media screen and (max-width: 768px) {

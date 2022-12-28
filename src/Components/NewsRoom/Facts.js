@@ -37,7 +37,7 @@ function Facts() {
           </TextInsideImage>
         </TextContainer>
       </NewsRoomImageContainer>
-      <NewsContainer mt="2%">
+      <NewsContainer mt="2%" style={{ width: "82vw" }}>
         <EachText fontSize="12px" fontWeight="420">
           Feb 6, 2019
         </EachText>
@@ -56,6 +56,7 @@ function Facts() {
           style={{ textAlign: "center", transform: "scale(1, 1.3)" }}
           fontSize="30px"
           fontWeight="500"
+          color="#4c4c4c"
         >
           Are you planning of studying in Australia? Here are some useful
         </EachText>
@@ -64,7 +65,8 @@ function Facts() {
           fontSize="30px"
           style={{ textAlign: "center", transform: "scale(1, 1.3)" }}
           fontWeight="500"
-          mtlg="-4%"
+          color="#4c4c4c"
+          mtlg="-2.5%"
         >
           facts that will help you to decide!
         </EachText>
@@ -81,6 +83,7 @@ function Facts() {
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
             color: "#4c4c4c",
+            marginTop: "20px",
           }}
         >
           1. THE ECONOMY IS STRONG
@@ -102,6 +105,7 @@ function Facts() {
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
             color: "#4c4c4c",
+            marginTop: "20px",
           }}
         >
           2. UNSPOILT BEAUTY
@@ -126,6 +130,7 @@ function Facts() {
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
             color: "#4c4c4c",
+            marginTop: "20px",
           }}
         >
           3. THE HEALTH CARE SYSTEM IS FANTASTIC
@@ -148,6 +153,7 @@ function Facts() {
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
             color: "#4c4c4c",
+            marginTop: "20px",
           }}
         >
           4. IT'S A TRULY MULTI-CULTURAL SOCIETY
@@ -170,6 +176,7 @@ function Facts() {
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
             color: "#4c4c4c",
+            marginTop: "20px",
           }}
         >
           5. THERE'S PLENTY OF SPACE
@@ -192,6 +199,7 @@ function Facts() {
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
             color: "#4c4c4c",
+            marginTop: "20px",
           }}
         >
           6. IT'S HOT
@@ -215,6 +223,7 @@ function Facts() {
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
             color: "#4c4c4c",
+            marginTop: "20px",
           }}
         >
           7. LIFE'S A BEACH
@@ -236,6 +245,7 @@ function Facts() {
             transform: "scale(0.9, 1.08)",
             marginLeft: "-5.5%",
             color: "#4c4c4c",
+            marginTop: "20px",
           }}
         >
           8. CURRENCY ?

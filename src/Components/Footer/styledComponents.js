@@ -32,7 +32,7 @@ export const EachColumn = styled.div`
     padding: 0px;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-right: ${(props) => (props.nomr ? "8%" : "16%")};
+    margin-right: ${(props) => (props.nomr ? "8%" : "16.5%")};
     width: 100%;
   }
   @media screen and (max-width: 768px) {
@@ -50,7 +50,7 @@ export const TextInColumn = styled.p`
   font-family: "Oswald", sans-serif;
   font-weight: 520;
   margin-top: -5px;
-  transform: scale(1, 1.15);
+  transform: scale(1, 1.25);
   @media screen and (min-width: 875px) {
     font-size: 13.5px;
   }

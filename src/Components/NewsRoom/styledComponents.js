@@ -86,7 +86,7 @@ export const EachText = styled.p`
   margin-bottom: ${(props) => props.mb};
   letter-spacing: ${(props) => props.ls && "0.1px"};
   color: ${(props) => props.color};
-  (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     margin-left: ${(props) => props.mllg};
     margin-top: ${(props) => props.mtlg};
   }
@@ -99,7 +99,7 @@ export const EachTextContainer = styled.div`
   padding-top: 2%;
   cursor: pointer;
   padding-right: 2%;
-  box-shadow: 0 0 4px -2px #444444;
+  box-shadow: 0 0 2px -1px #444444;
   padding-left: 3.5%;
   @media screen and (min-width: 1024px) {
     height: 340px;
@@ -113,6 +113,7 @@ export const NewsContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 10%;
+  padding-left: 12%;
   padding-top: 5%;
   padding-bottom: 5%;
   shadow: 1px, 1px, 1px, 1px;
@@ -130,7 +131,7 @@ export const ImagesContainer = styled.div`
   flex-direction: column;
 `;
 export const EachRoomImages = styled.img`
-  height: ${(props) => (props.forty ? "50vh" : "81vh")};
+  height: ${(props) => (props.forty ? "50vh" : "82vh")};
   width: 96%;
   margin-top: 25px;
   margin-bottom: 15px;

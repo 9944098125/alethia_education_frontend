@@ -12,6 +12,7 @@ export const CompanyImageContainer = styled.div`
   background-image: url("https://static.wixstatic.com/media/e4c206_eb767afbe0b740b9ae383863f0b402b9~mv2.jpg/v1/fill/w_980,h_601,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_eb767afbe0b740b9ae383863f0b402b9~mv2.jpg");
   background-size: cover;
   background-attachment: fixed;
+  background-position: top;
   margin-top: -70px;
   margin-bottom: 5%;
   display: flex;
@@ -100,13 +101,14 @@ export const SmallContainer = styled.div`
 export const ValuesButton = styled.button`
   display: flex;
   justify-content: center;
-  padding: 10px;
-  width: 260px;
+  padding: 6.5px;
+  width: 240px;
   font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-weight: 430;
   background-color: transparent;
   font-size: 15px;
   border: 2px solid #4c4c4c;
+  transform: scale(1.1, 1.1);
   @media screen and (max-width: 768px) {
     padding: 5px;
     width: 150px;
@@ -307,7 +309,7 @@ export const ListHead = styled.p`
   font-family: "Oswald", sans-serif;
   letter-spacing: 1px;
   margin-bottom: 12%;
-  transform: scale(1, 1.2);
+  transform: scale(1.1, 1.2);
   color: #4c4c4c;
 `;
 
@@ -367,6 +369,7 @@ export const LeadershipTeamImageContainer = styled.div`
 `;
 export const SmallTextContainer = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 2%;

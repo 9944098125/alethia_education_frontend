@@ -32,19 +32,21 @@ function GlobalReach() {
           <Image src={tile} alt="contact us" />
         </ImageContainer>
         <TextContainer>
-          <TextHead>Global Reach And Access</TextHead>
-          <TextPara>
+          <TextHead style={{ marginBottom: "45px" }}>
+            Global Reach And Access
+          </TextHead>
+          <TextPara style={{ color: "black" }}>
             We are committed to expanding our network in both key student
             markets and major study destination countries under a common
             powerful brand, using a standardised model of student counselling
             and recruitment that focuses on quality, honesty and integrity. ​
             Explore and discover
           </TextPara>
-          <TextPara>
+          <TextPara style={{ color: "black" }}>
             ​ We value long-term relationships and continue to work to enhance
             business opportunities for all our partners.
           </TextPara>
-          <TextPara style={{ marginBottom: "45px" }}>
+          <TextPara style={{ color: "black", marginBottom: "45px" }}>
             why an increasing number of established agencies have trusted us as
             partners, and utilised our business model and strategies.
           </TextPara>
@@ -129,7 +131,7 @@ function GlobalReach() {
                   <Field
                     type="text"
                     as="textarea"
-                    rows="6"
+                    rows="4"
                     id="message"
                     name="message"
                     className="textarea"

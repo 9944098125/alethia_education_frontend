@@ -65,7 +65,7 @@
 
 #parent:hover #child {
   display: block;
-  margin-bottom: -200px;
+  margin-bottom: -206px;
 }
 .player-wrapper {
   position: relative;

@@ -45,10 +45,21 @@ function Education() {
         </TextContainer>
       </NewsRoomImageContainer>
       <NewsContainer mt="1%">
-        <EachText fontSize="12px" fontWeight="400">
-          August 15, 2019
+        <EachText fontSize="14px" fontWeight="400">
+          Aug 15, 2019
         </EachText>
-        <EachText ls color="#343434" fontF fontSize="38px" fontWeight="400">
+        <EachText
+          style={{
+            transform: "scale(1.1, 1.2)",
+            marginLeft: "4.5%",
+            marginBottom: "3%",
+          }}
+          ls
+          color="#4c4c4c"
+          fontF
+          fontSize="35px"
+          fontWeight="500"
+        >
           Education, career and Migration Fair in sydney
         </EachText>
         <EachRoomImages
@@ -122,6 +133,7 @@ function Education() {
           fontF
           fontSize="17px"
           fontWeight="500"
+          color="#4c4c4c"
         >
           ARE YOU IN SYDNEY ?
         </EachText>

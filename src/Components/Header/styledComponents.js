@@ -7,7 +7,7 @@ export const HeaderContainer = styled.div`
   justify-content: center;
   margin-top: 68px;
   padding-right: 5%;
-  padding-left: 6%;
+  padding-left: 5%;
   padding-bottom: 0px;
   margin-left: -2%;
   @media screen and (max-width: 875px) {
@@ -18,8 +18,8 @@ export const HeaderContainer = styled.div`
   }
 `;
 export const ImageIcon = styled.img`
-  height: 55px;
-  width: 282px;
+  height: 58px;
+  width: 280px;
   margin-top: -15px;
   margin-right: 70px !important;
   margin-left: -25px;
@@ -49,6 +49,7 @@ export const HoldingsButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -6px;
   @media screen and (max-width: 768px) {
     margin-left: 0px;
     margin-top: 15px;
@@ -64,12 +65,13 @@ export const HeadLink = styled.h3`
   font-family: "Oswald", sans-serif;
   letter-spacing: 1px;
   line-height: unset;
-  transform: scale(1.1, 1.36);
+  transform: scale(1.1, 1.3);
   font-size: 12.3px;
   color: #ffffff;
   margin-right: 21px;
   font-weight: 450;
   opacity: 1;
+  margin-bottom: -2.7px;
   @media screen and (max-width: 768px) {
     margin-right: 0px;
     margin-bottom: 15px;
@@ -89,6 +91,7 @@ export const HoveredBlock = styled.div`
   width: 185px;
   max-height: 200px;
   display: none;
+  margin-top: 7px;
 `;
 export const CompanyLink = styled(Link)`
   color: #ffffff;

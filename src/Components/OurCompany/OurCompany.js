@@ -175,9 +175,14 @@ function OurCompany() {
             Vision & Values
           </TextInsideImage>
         </VisionContainer>
-        <BeliefContainer>
+        <BeliefContainer style={{ paddingTop: "30px" }}>
           <BeliefTextContainer>
-            <TextInsideImage color="#4c4c4c" fontSize="40px" fontWeight="500">
+            <TextInsideImage
+              style={{ transform: "scale(1.02, 1.2)" }}
+              color="#080808"
+              fontSize="35px"
+              fontWeight="500"
+            >
               "We believe in World Class Education, Worldwide"
             </TextInsideImage>
             <TextInsideImage
@@ -192,7 +197,7 @@ function OurCompany() {
             <AlignEndTextContainer>
               <p
                 style={{
-                  marginRight: "-230px",
+                  marginRight: "-250px",
                   fontSize: "15px",
                   color: "#343434",
                   fontWeight: "400",
@@ -405,8 +410,15 @@ function OurCompany() {
           Certifications, Affiliates and Awards
         </AffiliatesText>
       </LeadershipTeamImageContainer>
-      <SmallTextContainer>
-        <SmallText style={{ fontSize: "14px" }} color="#080808">
+      <SmallTextContainer style={{ width: "100%" }}>
+        <SmallText
+          style={{
+            fontSize: "15px",
+            transform: "scale(1, 0.95)",
+            width: "99%",
+          }}
+          color="#080808"
+        >
           iae GLOBAL is steered by a highly complementary management team, who
           bring unmatched levels of breadth and depth in experience, expertise
           and business savvy in international education and related fields.

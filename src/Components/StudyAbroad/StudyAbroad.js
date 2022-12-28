@@ -37,20 +37,26 @@ function StudyAbroad() {
             color="#ffffff"
             fontWeight="400"
             fontSize="50px"
-            transform
+            style={{ transform: "scale(1, 1.1)" }}
           >
             Study Abroad
           </TextInsideImage>
         </TextContainer>
       </StudyAbroadImageContainer>
       <JourneyTextContainer>
-        <JourneyText sc fontF fontSize="27px" fontWeight="500">
+        <JourneyText
+          sc
+          fontF
+          fontSize="27px"
+          fontWeight="500"
+          style={{ marginBottom: "40px" }}
+        >
           "A journey of a thousand miles begins with a single step"
         </JourneyText>
-        <JourneyText fontSize="15px" fontWeight="400" mb="0px">
+        <JourneyText fontSize="15px" fontWeight="500" mb="0px">
           Choose a country of your interest and start your adventure!
         </JourneyText>
-        <JourneyText fontSize="14px" fontWeight="400">
+        <JourneyText fontSize="14px" fontWeight="500">
           Study destinations are: Australia, New Zealand, Canada, United States
           and the United Kingdom.
         </JourneyText>

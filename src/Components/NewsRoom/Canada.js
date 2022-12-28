@@ -49,7 +49,7 @@ function Canada() {
           src="https://static.wixstatic.com/media/e4c206_9f5758e43eb94abca04630e42815606b~mv2.png/v1/fill/w_999,h_667,al_c,q_90,enc_auto/e4c206_9f5758e43eb94abca04630e42815606b~mv2.png"
           alt="education1"
         />
-        <EachText fontSize="13px">
+        <EachText style={{ marginBottom: "30px" }} fontSize="13px">
           There are 26 Canadian universities in the QS World University
           Rankings® 2019, ranked based on six indicators, including employer and
           academic reputations and citations per faculty member, a measure of
@@ -149,7 +149,10 @@ function Canada() {
           src="https://static.wixstatic.com/media/e4c206_99dcf7ad3e00497b9cd1c7b721c39235~mv2.png/v1/fill/w_1000,h_685,al_c,q_90,enc_auto/e4c206_99dcf7ad3e00497b9cd1c7b721c39235~mv2.png"
           alt="canada1"
         />
-        <EachText fontSize="13px">
+        <EachText
+          style={{ marginTop: "25px", marginBottom: "33px" }}
+          fontSize="13px"
+        >
           The other 16 top universities in Canada are:
         </EachText>
         <UniversitiesTextContainer>
@@ -202,7 +205,7 @@ function Canada() {
             Ryerson University – ranked 801-1000
           </EachText>
         </UniversitiesTextContainer>
-        <EachText fontSize="13px">
+        <EachText fontSize="13px" style={{ marginBottom: "30px" }}>
           Are you interested to start you study adventure in Canada? Contact our
           professional counsellors and they will make sure to give you best
           advice on your study path.

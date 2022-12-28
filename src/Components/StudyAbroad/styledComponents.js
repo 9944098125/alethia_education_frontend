@@ -19,8 +19,8 @@ export const StudyAbroadImageContainer = styled.div`
     padding-left: 40px;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 180px;
-    padding-bottom: 130px;
+    padding-left: 140px;
+    padding-bottom: 140px;
     margin-top: -68px;
   }
 `;
@@ -79,6 +79,7 @@ export const CountriesContainer = styled.div`
 export const EachCountryContainer = styled.div`
   width: 80%;
   padding: 3%;
+  padding-left: 15px;
   @media screen and (min-width: 1024px) {
     height: 120vh;
     display: flex;
@@ -94,7 +95,6 @@ export const EachCountryImage = styled.img`
   @media screen and (min-width: 1024px) {
     height: 94%;
     width: 49%;
-    margin-right: 1.5%;
   }
   @media screen and (mnax-width: 768px) {
     height: 50%;
@@ -102,7 +102,7 @@ export const EachCountryImage = styled.img`
   }
 `;
 export const EachCountryTextContainer = styled.div`
-  padding: 2%;
+  padding-left: 3.5%;
   padding-right: 0px;
 `;
 export const EachCountryDescription = styled.p`

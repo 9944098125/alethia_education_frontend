@@ -53,11 +53,9 @@ export const UniversitiesInSingleCountry = styled.div`
 export const CountryName = styled.p`
   font-family: "Oswald", sans-serif;
   font-weight: 500;
-  margin-left: 12%;
+  margin-left: 10%;
   color: #4c4c4c;
   letter-spacing: 0.3px;
-  display: inline;
-  transform: scale(1.15, 1.25);
   @media screen and (min-width: 1024px) {
     font-size: ${(props) => props.fontSizeL};
   }

@@ -5,6 +5,7 @@ export const ContactUsContainer = styled.div`
   @media screen and (min-width: 1024px) {
     display: flex;
     padding: 5%;
+    padding-top: 2%;
   }
   @media screen and (max-width: 768px) {
     display: flex;
