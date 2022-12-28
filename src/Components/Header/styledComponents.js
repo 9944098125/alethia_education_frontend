@@ -52,10 +52,10 @@ export const HoldingsButton = styled.button`
 export const HeadLink = styled.h3`
   font-family: Oswald, sans-serif;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 550;
   font-size: 14px;
-  margin-right: 15px;
-  transform: scale(1.05, 1.1);
+  margin-right: 21px;
+  transform: scale(1.09, 1.1);
   width: 100% !important;
   @media screen and (max-width: 768px) {
     margin-right: 0px;
