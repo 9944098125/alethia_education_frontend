@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PartnersImageContainer = styled.div`
-  height: 70vh;
+  height: 71vh;
   max-width: 100%;
   background-position: center;
   background-image: url("https://static.wixstatic.com/media/e4c206_a96f95faf46442d2a6c7383fd7e48f49~mv2.jpg/v1/fill/w_980,h_894,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_a96f95faf46442d2a6c7383fd7e48f49~mv2.jpg");
@@ -19,9 +19,9 @@ export const PartnersImageContainer = styled.div`
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 80px;
+    padding-left: 60px;
     padding-bottom: 50px;
-    margin-top: -70px;
+    margin-top: -68px;
   }
 `;
 export const TextContainer = styled.div`
@@ -30,7 +30,8 @@ export const TextContainer = styled.div`
   flex-direction: column;
   @media screen and (max-width: 768px) {
     margin-top: 600px;
-    padding: 30px;
+    padding: 20px;
+    padding-left: 15px;
     width: 100%;
   }
 `;
@@ -52,7 +53,9 @@ export const UniversitiesInSingleCountry = styled.div`
 export const CountryName = styled.p`
   font-family: "Oswald", sans-serif;
   font-weight: 500;
-  margin-left: 5%;
+  margin-left: 10%;
+  color: #4c4c4c;
+  letter-spacing: 0.3px;
   @media screen and (min-width: 1024px) {
     font-size: ${(props) => props.fontSizeL};
   }
@@ -63,16 +66,17 @@ export const CountryName = styled.p`
 export const WrappedUniversities = styled.div`
   display: flex;
   flex-wrap: wrap;
-  padding: 7%;
-  padding-top: none;
+  padding: 3%;
+  padding-top: 40px;
+  margin-top: 0px;
 `;
 export const UniversityNameContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 10%;
-  width: 18%;
-  margin: 3%;
+  height: 21%;
+  width: 21%;
+  margin: 2%;
   margin-top: 0.5%;
 `;
 export const UniversityImage = styled.img`

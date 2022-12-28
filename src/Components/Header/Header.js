@@ -1,4 +1,3 @@
-// export default Header;
 import React, { Fragment } from "react";
 import {
   HeaderContainer,
@@ -12,10 +11,18 @@ import logo from "../../Assets/Images/logo2.webp";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
-function Header() {
+function Header(props) {
   return (
     <Fragment>
-      <HeaderContainer>
+      <HeaderContainer
+        style={{
+          marginTop: `${props.mt}`,
+          paddingLeft: `${props.pl}`,
+          paddingRight: `${props.pr}`,
+          marginLeft: `${props.ml}`,
+          paddingTop: `${props.pt}`,
+        }}
+      >
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <ImageIcon src={logo} alt="logo" />
         </Link>
@@ -78,7 +85,9 @@ function Header() {
           to="/study-abroad"
           style={{ textDecoration: "none", color: "inherit" }}
         >
-          <HeadLink id="study-abroad">STUDY ABROAD</HeadLink>
+          <HeadLink style={{ marginRight: "30px" }} id="study-abroad">
+            STUDY ABROAD
+          </HeadLink>
         </Link>
         <Link
           to="/partners"

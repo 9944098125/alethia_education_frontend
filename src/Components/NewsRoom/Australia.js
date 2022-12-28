@@ -30,7 +30,7 @@ function Australia() {
   // useEffect(() => {
   //   document.title = "University Of Newcastle - iae Global";
   // }, []);
-  DocumentTitle("University of Newcastle - iae Global");
+  DocumentTitle("The University of Newcastle - iae Global");
   const embedId = "pGt_oapFdzg";
 
   return (
@@ -42,18 +42,18 @@ function Australia() {
           </TextInsideImage>
         </TextContainer>
       </NewsRoomImageContainer>
-      <NewsContainer mt="1%">
-        <EachText fontSize="12px" fontWeight="400">
-          8th August, 2019
+      <NewsContainer mt="1%" style={{ width: "78vw" }}>
+        <EachText fontSize="13px" fontWeight="400">
+          Jan 8, 2020
         </EachText>
-        <EachText color="#343434" fontF fontSize="40px" fontWeight="550">
+        <EachText ls color="#4c4c4c" fontF fontSize="40px" fontWeight="500">
           The University of New Castle - Australia
         </EachText>
-        <EachText fontSize="14px" fontWeight="400">
+        <EachText color="#4c4c4c" fontSize="15px" fontWeight="400">
           The University of New Castle is just 200M from sydney, but offers a
           great world of experience.
         </EachText>
-        <EachText fontSize="14px" fontWeight="400">
+        <EachText color="#4c4c4c" fontSize="14.2px" fontWeight="400">
           The university is set in the vibrant coastal city of Newcastle,
           renowned for its lifestyle, with stunning beaches, eclectic arts
           scene, and relaxed pace. With a warm, sunny climate and surrounded by
@@ -129,24 +129,24 @@ function Australia() {
             Panorama of Fingal Bay Beach and Nelson bay in Port Stephens,
             Australia
           </EachText>
-          <EachText fontF fontSize="30px" fontWeight="500">
-            University And Student Life
+          <EachText fontF fontSize="30px" fontWeight="400" color="#4c4c4c">
+            University & Student Life
           </EachText>
-          <EachText fontSize="14px">
+          <EachText style={{ marginBottom: "15px" }} fontSize="14px">
             Established in 1965, the University of Newcastle has modern local
             and international campuses in Newcastle, the Central Coast, Sydney,
             Singapore and Port Macquarie.
           </EachText>
-          <EachText fontSize="14px">
+          <EachText style={{ marginBottom: "15px" }} fontSize="14px">
             The university has been consistently ranked in the top ten
             universities in the country and is in the top 3% of universities
             worldwide.
           </EachText>
-          <EachText fontSize="14px">
+          <EachText style={{ marginBottom: "15px" }} fontSize="14px">
             The University of Newcastle is also recognised by global university
             ratings service QS Rankings with a maximum score of 5 stars.
           </EachText>
-          <EachText fontSize="14px">
+          <EachText style={{ marginBottom: "20px" }} fontSize="14px">
             The University of Newcastle was awarded the highest possible '5'
             rating across 22 research fields, by Australian Government's
             Excellence in Research assessment.
@@ -217,7 +217,7 @@ function Australia() {
             The University of Newcastle with practical experience, paid
             employment and research.
           </EachText>
-          <EachText fontSize="17px" fontWeight="600">
+          <EachText ls fontF fontSize="17px" fontWeight="400" color="#4c4c4c">
             "Incredibly hands on experience, great practical knowledge balanced
             with broad theoretical underpinnings. Many Seniors in the Profession
             whom I’ve so far had the chance to meet continuously comment on the
@@ -236,7 +236,7 @@ function Australia() {
             Migration Scheme, with dedicated 25,000 regional places available
             each year.
           </EachText>
-          <EachText fontF fontSize="17px" fontWeight="700">
+          <EachText fontSize="14px" fontWeight="500">
             University of Newcastle applicants have:
           </EachText>
           <UnorderedList>
@@ -283,25 +283,29 @@ function Australia() {
           <EachText mllg="28%" fontSize="14px">
             The University of Newcastle hosts 40,000 students
           </EachText>
-          <EachText fontSize="17px" fontWeight="600">
+          <EachText fontSize="14px">
+            The university is placed it in the top eight Australian universities
+            for research quality 'well above world standard.
+          </EachText>
+          <EachText fontSize="14px" fontWeight="600">
             Leading research facilities centres of University of Newcastle
             include:
           </EachText>
           <UnorderedList>
-            <ListItem style={{ marginBottom: "0%" }}>
+            <ListItem style={{ marginBottom: "1.5%", fontSize: "13px" }}>
               Hunter Medical Research Institute (HMRI)
             </ListItem>
-            <ListItem style={{ marginBottom: "0%" }}>
+            <ListItem style={{ marginBottom: "1.5%", fontSize: "13px" }}>
               Newcastle Institute for Energy and Resources (NIER)
             </ListItem>
-            <ListItem style={{ marginBottom: "0%" }}>
+            <ListItem style={{ marginBottom: "1.5%", fontSize: "13px" }}>
               Newcastle Innovation – the university’s technology transfer
               company
             </ListItem>
-            <ListItem style={{ marginBottom: "0%" }}>
+            <ListItem style={{ marginBottom: "1.5%", fontSize: "13px" }}>
               Defence Industries Research Cluster
             </ListItem>
-            <ListItem style={{ marginBottom: "0%" }}>
+            <ListItem style={{ marginBottom: "1.5%", fontSize: "13px" }}>
               21 Priority Research Centres across 5 faculties: 1) Engineering &
               Built Environment ; 2) Health & Medicine ; 3) Science ; 4)
               Business & Law ; 5) Education & Arts{" "}
@@ -332,7 +336,13 @@ function Australia() {
             opportunities for graduates. It has some of the highest employment
             rates and starting salaries for graduates in Australia.
           </EachText>
-          <EachText fontSize="20px" fontWeight="600">
+          <EachText
+            style={{ transform: "scale(1, 1.25)" }}
+            sc
+            fontF
+            fontSize="25px"
+            fontWeight="500"
+          >
             The Future
           </EachText>
           <EachText fontSize="14px">
@@ -340,23 +350,29 @@ function Australia() {
             prospects for local alumnae. Key projects include:
           </EachText>
           <UnorderedList>
-            <ListItem>Newcastle airport expansion and development</ListItem>
-            <ListItem>Newcastle airport expansion and development</ListItem>
-            <ListItem>Newcastle airport expansion and development</ListItem>
-            <ListItem>
+            <ListItem style={{ marginBottom: "0px" }}>
+              Newcastle airport expansion and development
+            </ListItem>
+            <ListItem style={{ marginBottom: "0px" }}>
+              Newcastle airport expansion and development
+            </ListItem>
+            <ListItem style={{ marginBottom: "0px" }}>
+              Newcastle airport expansion and development
+            </ListItem>
+            <ListItem style={{ marginBottom: "0px" }}>
               Newcastle City’s Urban Renewal Strategy requires 6,000 new homes
               and 10,000 jobs in the city centre over the next 16 years
             </ListItem>
-            <ListItem>
+            <ListItem style={{ marginBottom: "0px" }}>
               Newcastle Local Government Special Event sponsorship and grants
               program to expand tourism in the city and region
             </ListItem>
-            <ListItem>
+            <ListItem style={{ marginBottom: "0px" }}>
               Newcastle Local Government Economic Development Sponsorship Grant
               Program funds new business growth and employment
             </ListItem>
           </UnorderedList>
-          <EachText fontSize="14px">
+          <EachText fontSize="13px">
             These major capital projects and the funding committed by business
             and government mean jobs for skilled university graduates in
             Newcastle.
@@ -371,10 +387,16 @@ function Australia() {
             src="https://static.wixstatic.com/media/e4c206_950d8cb89f4a457eb49af40a9075c851~mv2.png/v1/fill/w_999,h_667,al_c,q_90,enc_auto/e4c206_950d8cb89f4a457eb49af40a9075c851~mv2.png"
             alt="newcastle11"
           />
-          <EachText fontSize="20px" fontWeight="600">
+          <EachText
+            style={{ transform: "scale(1, 1.25)" }}
+            sc
+            fontF
+            fontSize="25px"
+            fontWeight="500"
+          >
             Migration opportunities
           </EachText>
-          <EachText fontSize="14px">
+          <EachText fontSize="13.5px">
             University of Newcastle graduates have unique opportunities for
             skilled work and migration to Australia. University of Newcastle
             graduates are prioritised over Sydney-based students in migration
@@ -388,7 +410,8 @@ function Australia() {
             potential migrants looking to settle in regional Australia. To be
             eligible, applicants must have a skilled occupation and
             qualification that is nominated by a state or territory government
-            agency
+            agency. applicants must have a skilled occupation and qualification
+            that is nominated by a state or territory government agency
           </EachText>
           <EachRoomImages
             src="https://static.wixstatic.com/media/e4c206_5b13c333bee74c6684b5790fb56cc70d~mv2.png/v1/fill/w_740,h_494,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/e4c206_5b13c333bee74c6684b5790fb56cc70d~mv2.png"
@@ -397,7 +420,8 @@ function Australia() {
           <EachText mllg="28%" fontSize="14px">
             New castle is perfect place to live and study
           </EachText>
-          <EachText fontSize="14px">
+          <HorizontalLine th />
+          <EachText mb="5%" fontSize="14px">
             For top graduate employment, a fantastic student lifestyle and
             priority migration opportunities, The University of Newcastle has
             the answers.
@@ -412,16 +436,28 @@ function Australia() {
           </IconsContainer>
         </ImagesContainer>
       </NewsContainer>
-      <EachText mlsm="50px" mllg="150px" fontSize="20px">
-        Recent Posts
-      </EachText>
+      <div className="d-flex align-items-center justify-content-between">
+        <EachText mlsm="50px" mllg="150px" fontSize="20px">
+          Recent Posts
+        </EachText>
+        <HashLink
+          to="/news-room#news"
+          style={{
+            marginRight: "12%",
+            textDecoration: "none",
+            color: "inherit",
+          }}
+        >
+          <EachText fontSize="15px">See All</EachText>
+        </HashLink>
+      </div>
       <RecentPostsContainer>
         <HashLink
           to="/news-room/education#news"
           style={{ textDecoration: "none" }}
         >
           <EachPost>
-            <PostImage mr="10px" src={eachImage2} alt="post1" />
+            <PostImage src={eachImage2} alt="post1" />
             <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
               Education, Career & Migration Fair in study
             </EachText>
@@ -432,7 +468,7 @@ function Australia() {
           style={{ textDecoration: "none" }}
         >
           <EachPost>
-            <PostImage mt="-30px" mr="25px" src={eachImage3} alt="post1" />
+            <PostImage mr="25px" src={eachImage3} alt="post1" />
             <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
               Canada's top 10 universities
             </EachText>
@@ -440,16 +476,16 @@ function Australia() {
         </HashLink>
         <HashLink to="/news-room/facts#news" style={{ textDecoration: "none" }}>
           <EachPost>
-            <PostImage mt="-30px" src={eachImage4} alt="post1" />
+            <PostImage src={eachImage4} alt="post1" />
             <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
               Facts about Australia
             </EachText>
           </EachPost>
         </HashLink>
       </RecentPostsContainer>
-      <NewsContainer>
-        <EachText fontF fontSize="20px" fontWeight="700">
-          COMMENTS
+      <NewsContainer mh="65vh">
+        <EachText fontF fontSize="20px" fontWeight="400">
+          Comments
         </EachText>
         <HorizontalLine mb="50px" />
         <Comment />

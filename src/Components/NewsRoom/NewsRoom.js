@@ -26,9 +26,16 @@ function NewsRoom() {
   DocumentTitle("News Room - iae Global");
   return (
     <Fragment>
-      <NewsRoomImageContainer id="news">
+      <NewsRoomImageContainer style={{ marginBottom: "2%" }} id="news">
         <TextContainer>
-          <TextInsideImage fontSize="55px" fontWeight="800" color="#ffffff">
+          <TextInsideImage
+            sc
+            fontSize="45px"
+            fontWeight="600"
+            color="#ffffff"
+            ml="10%"
+            ls="2px"
+          >
             News Room
           </TextInsideImage>
         </TextContainer>
@@ -40,17 +47,22 @@ function NewsRoom() {
         >
           <EachRowInSeniorContainer>
             <EachImage src={eachImage1} alt="university" />
-            <EachTextContainer>
+            <EachTextContainer style={{ padding: "5%" }}>
               <EachText color="#080808" fontSize="12px" fontWeight="400">
                 Jan 8, 2020
               </EachText>
-              <EachText fontF color="orange" fontSize="25px" fontWeight="700">
+              <EachText
+                fontF
+                color="rgb(235, 153, 30)"
+                fontSize="25px"
+                fontWeight="400"
+              >
                 The University of Newcastle - Australia
               </EachText>
-              <EachText color="#080808" fontSize="14px" fontWeight="400">
-                The university of Newcastle is just 2 hours north of sydney, but
-                offers an experience of another world. The university is set in
-                vibrant.
+              <EachText color="#4c4c4c" fontSize="14px" fontWeight="400">
+                The University of Newcastle is just 2 hours north of Sydney, but
+                offers another world of experience. The university is set in the
+                vibrant...
               </EachText>
             </EachTextContainer>
           </EachRowInSeniorContainer>
@@ -60,18 +72,26 @@ function NewsRoom() {
           style={{ textDecoration: "none", color: "inherit" }}
         >
           <EachRowInSeniorContainer>
-            <EachImage src={eachImage2} alt="education" />
-            <EachTextContainer>
+            <EachImage
+              style={{ marginLeft: "0px", width: "652px" }}
+              src={eachImage2}
+              alt="education"
+            />
+            <EachTextContainer style={{ padding: "5%" }}>
               <EachText color="#080808" fontSize="12px" fontWeight="400">
-                Aug 19, 2019
+                Aug 15, 2019
               </EachText>
-              <EachText fontF color="orange" fontSize="25px" fontWeight="700">
+              <EachText
+                fontF
+                color="rgb(235, 153, 30)"
+                fontSize="25px"
+                fontWeight="400"
+              >
                 Education, Career and Migration Fair in sydney
               </EachText>
-              <EachText color="#080808" fontSize="14px" fontWeight="400">
-                The university of Newcastle is just 2 hours north of sydney, but
-                offers an experience of another world. The university is set in
-                vibrant.
+              <EachText color="#4c4c4c" fontSize="14px" fontWeight="400">
+                Every year iae Global australia hosts the biggest study, career
+                and migration events for the australian students and...
               </EachText>
             </EachTextContainer>
           </EachRowInSeniorContainer>
@@ -83,17 +103,22 @@ function NewsRoom() {
           {" "}
           <EachRowInSeniorContainer>
             <EachImage src={eachImage3} alt="canada" />
-            <EachTextContainer>
+            <EachTextContainer style={{ padding: "5%" }}>
               <EachText color="#080808" fontSize="12px" fontWeight="400">
-                Feb 12, 2019
+                Feb 7, 2019
               </EachText>
-              <EachText fontF color="orange" fontSize="25px" fontWeight="700">
+              <EachText
+                fontF
+                color="rgb(235, 153, 30)"
+                fontSize="25px"
+                fontWeight="400"
+              >
                 Canada's Top 10 universities
               </EachText>
-              <EachText color="#080808" fontSize="14px" fontWeight="400">
-                The university of Newcastle is just 2 hours north of sydney, but
-                offers an experience of another world. The university is set in
-                vibrant.
+              <EachText color="#4c4c4c" fontSize="14px" fontWeight="400">
+                There are 26 Canadian universities in the QS World University
+                Rankings® 2019, ranked based on six indicators, including
+                employer and...
               </EachText>
             </EachTextContainer>
           </EachRowInSeniorContainer>
@@ -105,17 +130,22 @@ function NewsRoom() {
           {" "}
           <EachRowInSeniorContainer>
             <EachImage src={eachImage4} alt="australia" />
-            <EachTextContainer>
+            <EachTextContainer style={{ padding: "5%" }}>
               <EachText color="#080808" fontSize="12px" fontWeight="400">
-                Feb 2, 2019
+                Feb 6, 2019
               </EachText>
-              <EachText fontF color="orange" fontSize="25px" fontWeight="700">
+              <EachText
+                fontF
+                color="rgb(235, 153, 30)"
+                fontSize="25px"
+                fontWeight="400"
+              >
                 Facts about Australia
               </EachText>
-              <EachText color="#080808" fontSize="14px" fontWeight="400">
-                The university of Newcastle is just 2 hours north of sydney, but
-                offers an experience of another world. The university is set in
-                vibrant.
+              <EachText color="#4c4c4c" fontSize="14px" fontWeight="400">
+                Are you planning of studying in Australia? Here are some useful
+                facts that will help you to decide! 1. THE ECONOMY IS STRONG
+                Australia...
               </EachText>
             </EachTextContainer>
           </EachRowInSeniorContainer>

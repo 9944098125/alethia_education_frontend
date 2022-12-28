@@ -8,8 +8,7 @@ import uk from "../../Assets/Images/uk.webp";
 import trophy from "../../Assets/Images/trophy.webp";
 import meet from "../../Assets/Images/meet.webp";
 import { HashLink } from "react-router-hash-link";
-import { HiOutlineArrowRight } from "react-icons/hi";
-import { BsArrowRight } from "react-icons/bs";
+import { AiOutlineExclamation } from "react-icons/ai";
 import {
   AwardsContainer,
   CountryName,
@@ -40,116 +39,146 @@ import Footer from "../Footer/Footer";
 import GlobalReach from "../GlobalReach/GlobalReach";
 import DocumentTitle from "../DocumentTitle";
 // import { useParallax } from "react-scroll-parallax";
+import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import { Parallax } from "react-parallax";
+import Header from "../Header/Header";
 
 function Home() {
   // const [offset, setOffset] = useState(0);
   DocumentTitle("Home");
+  const HomeContent = () => {
+    return (
+      <>
+        <Header mt="2.3%" pr="4%" pl="5%" ml="-2.4%" />
+        <div className="mb-3"></div>
+        <TextContainer style={{ marginTop: "-6.5%", marginLeft: "1.5%" }}>
+          <TextInsideImage
+            mb="3%"
+            color="#ffffff"
+            fontWeight="400"
+            fontSize="40px"
+            sc
+            ml="9%"
+          >
+            Creating a better future
+          </TextInsideImage>
+          <TextInsideImage
+            mb="3%"
+            color="#ffffff"
+            fontWeight="500"
+            fontSize="16px"
+            style={{ transform: "0.9, 1.9", letterSpacing: "-0.5px" }}
+          >
+            CONNECTING INTERNATIONAL STUDENTS WITH STUDY AND CAREER
+            OPPORTUNITIES ABROAD
+          </TextInsideImage>
+          <p
+            className="text-white"
+            style={{ fontSize: "14px", fontWeight: "500" }}
+          >
+            We advise and assist students seeking realistic solutions and
+            achievable pathways to leading universities, colleges, vocational
+            and training institutes, primary and high schools, and language
+            schools in Australia, Canada, New Zealand, the UK, USA and other
+            study destinations. iae GLOBAL has guided over 350,000 students to
+            achieve their dreams since 1992.
+          </p>
+          <HashLink
+            to="/study-abroad#abroadImage"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <PathwayButton>
+              YOUR PATHWAY
+              <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
+            </PathwayButton>
+          </HashLink>
+        </TextContainer>
+      </>
+    );
+  };
 
-  // const parallaxShift = () => {
-  //   setOffset(window.pageYOffset);
-  // };
-
-  // useEffect(() => {
-  //   return () => {
-  //     window.addEventListener("scroll", parallaxShift);
-  //   };
-  // }, []);
-
-  // useEffect(() => {
-  //   return () => {
-  //     window.removeEventListener("scroll", parallaxShift);
-  //   };
-  // }, []);
+  const PhilosophyContent = () => {
+    return (
+      <>
+        <TextContainer style={{ paddingLeft: "150px" }}>
+          <TextInsideImage
+            sc
+            color="#ffffff"
+            fontWeight="500"
+            fontSize="40px"
+            ml="9%"
+          >
+            Our Philosophy is simple -
+          </TextInsideImage>
+          <TextInsideImage
+            sc
+            color="#ffffff"
+            fontSize="50px"
+            fontWeight="400"
+            ml="9%"
+            mb="4%"
+          >
+            Students First
+            <AiOutlineExclamation
+              style={{
+                fontSize: "60px",
+                marginLeft: "-15px",
+                marginTop: "-10px",
+                fontWeight: "500",
+              }}
+            />
+          </TextInsideImage>
+          <div className="philosophy-text-container">
+            <p style={{ color: "white", fontWeight: "400", fontSize: "14px" }}>
+              We are proud of our reputation for quality counselling,
+              personalised services and dedicated support. We can help you plan
+              your pathway to the best course, career and choice for your
+              future.We can help you plan your pathway to the best course,
+              career and choice for your future.
+            </p>
+            <p style={{ color: "white", fontWeight: "400", fontSize: "14px" }}>
+              ​ Talk to us and find out why hundreds of thousands of students
+              have trusted us with their future.
+            </p>
+          </div>
+          <HashLink
+            to="/study-abroad#abroadImage"
+            style={{ textDecoration: "none" }}
+          >
+            <PathwayButton>
+              LEARN MORE
+              <ArrowRightAltIcon sx={{ ml: 1 }} />
+            </PathwayButton>
+          </HashLink>
+        </TextContainer>
+      </>
+    );
+  };
 
   return (
     <Fragment>
       <HomeContainer>
-        <HomeImageContainer
-        // style={{ backgroundPosition: offset }}
-        // style={{ transform: `translateY(${offsetY * 0.1})` }}
-        // style={{ filter: "brightness(50%)" }}
-        >
-          <TextContainer>
-            <TextInsideImage
-              mb="1%"
-              color="#ffffff"
-              fontWeight="550"
-              fontSize="45px"
-            >
-              Creating a better future
-            </TextInsideImage>
-            <TextInsideImage
-              mb="3%"
-              color="#ffffff"
-              fontWeight="550"
-              fontSize="15px"
-            >
-              CONNECTING INTERNATIONAL STUDENTS WITH STUDY AND CAREER
-              OPPORTUNITIES ABROAD
-            </TextInsideImage>
-            <p className="text-white" style={{ fontSize: "14px" }}>
-              We advise and assist students seeking realistic solutions and
-              achievable pathways to leading universities, colleges, vocational
-              and training institutes, primary and high schools, and language
-              schools in Australia, Canada, New Zealand, the UK, USA and other
-              study destinations. iae GLOBAL has guided over 350,000 students to
-              achieve their dreams since 1992.
-            </p>
-            <HashLink
-              to="/study-abroad#abroadImage"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <PathwayButton>
-                YOUR PATHWAY
-                <p
-                  style={{
-                    marginRight: "-2px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>{">"}</p>
-                {/* <BsArrowRight
-                  style={{
-                    marginBottom: "-5px",
-                    marginLeft: "5px",
-                    width: "35px",
-                  }}
-                /> */}
-                {/* <img
-                  src="https://www.nicepng.com/png/detail/9-97633_right-arrow-white-png-right-arrow-png-white.png"
-                  className="arrow"
-                  alt="arrow"
-                /> */}
-              </PathwayButton>
-            </HashLink>
-          </TextContainer>
-        </HomeImageContainer>
-        <SupportContainer>
+        <Parallax
+          style={{
+            height: "160vh",
+            maxWidth: "100%",
+            marginTop: "-68px",
+            paddingBottom: "200px",
+            paddingTop: "-25px",
+          }}
+          bgStyle={{
+            backgroundPosition: "center",
+            zIndex: "2",
+          }}
+          strength={285}
+          children={<HomeContent />}
+          bgImage="https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_1284,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg"
+        ></Parallax>
+        <SupportContainer style={{ paddingLeft: "13%" }}>
           <SupportText>Supporting education abroad</SupportText>
           <HashLink to="/our-story#vision" style={{ textDecoration: "none" }}>
             <VisionButton>
-              Our Vision{" "}
-              <p
-                style={{
-                  marginRight: "-2px",
-                  marginTop: "14px",
-                  marginLeft: "15px",
-                }}
-              >
-                -
-              </p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>{">"}</p>
+              OUR VISION <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
             </VisionButton>
           </HashLink>
         </SupportContainer>
@@ -173,21 +202,7 @@ function Home() {
               to="/study-abroad#australia"
             >
               <Links>
-                Read more{" "}
-                <p
-                  style={{
-                    marginRight: "-3px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
+                Read more <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
               </Links>{" "}
             </HashLink>
           </SingleOption>
@@ -208,21 +223,7 @@ function Home() {
               to="/study-abroad#new-zealand"
             >
               <Links>
-                Read more{" "}
-                <p
-                  style={{
-                    marginRight: "-3px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
+                Read more <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
               </Links>{" "}
             </HashLink>
           </SingleOption>
@@ -235,7 +236,7 @@ function Home() {
               Canada!
             </Description>
             <Description>
-              ​ Let us help you figure out your options and chart the best
+              ​Let us help you figure out your options and chart the best
               pathway to a better future in Canada.
             </Description>
             <HashLink
@@ -244,20 +245,7 @@ function Home() {
             >
               <Links>
                 Read more
-                <p
-                  style={{
-                    marginRight: "-3px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
+                <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
               </Links>{" "}
             </HashLink>
           </SingleOption>
@@ -278,21 +266,7 @@ function Home() {
               to="/study-abroad#unitedStates"
             >
               <Links>
-                Read more{" "}
-                <p
-                  style={{
-                    marginRight: "-3px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
+                Read more <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
               </Links>{" "}
             </HashLink>
           </SingleOption>
@@ -313,21 +287,7 @@ function Home() {
               to="/study-abroad#unitedKingdom"
             >
               <Links>
-                Read more{" "}
-                <p
-                  style={{
-                    marginRight: "-3px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
+                Read more <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
               </Links>
             </HashLink>
           </SingleOption>
@@ -339,29 +299,12 @@ function Home() {
               professional Education Planners waiting to help you achieve your
               academic, career and life goals.
             </Description>
-            <Description>
-              More than 60 service and support offices worldwide!
-            </Description>
             <HashLink
               style={{ textDecoration: "none", color: "inherit" }}
               to="/offices#offices"
             >
               <Links>
-                Read more{" "}
-                <p
-                  style={{
-                    marginRight: "-3px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-3px", marginTop: "14px" }}>{">"}</p>
+                Read more <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
               </Links>
             </HashLink>
           </SingleOption>
@@ -371,114 +314,65 @@ function Home() {
             <ItemImage src={trophy} alt="trophy" />
           </EachItem>
         </AwardsContainer>
-        <PhilosophyContainer>
-          <TextContainer>
-            <TextInsideImage color="#ffffff" fontWeight="700" fontSize="50px">
-              Our Philosophy is simple -
-            </TextInsideImage>
-            <TextInsideImage color="#ffffff" fontSize="50px" fontWeight="700">
-              Students First !
-            </TextInsideImage>
-            <div className="philosophy-text-container">
-              <p
-                style={{ color: "white", fontWeight: "500", fontSize: "14px" }}
-              >
-                We are proud of our reputation for quality counselling,
-                personalised services and dedicated support. We can help you
-                plan your pathway to the best course, career and choice for your
-                future.
-              </p>
-              <p
-                style={{ color: "white", fontWeight: "500", fontSize: "14px" }}
-              >
-                We know this can be a life-changing decision. We take it very
-                seriously. ​ Talk to us and find out why hundreds of thousands
-                of students have trusted us with their future.
-              </p>
-            </div>
-            <HashLink
-              to="/study-abroad#abroadImage"
-              style={{ textDecoration: "none" }}
-            >
-              <PathwayButton>
-                LEARN MORE
-                <p
-                  style={{
-                    marginRight: "-2px",
-                    marginTop: "14px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  -
-                </p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                <p style={{ marginRight: "-2px", marginTop: "14px" }}>{">"}</p>
-              </PathwayButton>
-            </HashLink>
-          </TextContainer>
-        </PhilosophyContainer>
+        {/* <PhilosophyContainer></PhilosophyContainer> */}
+        <Parallax
+          style={{
+            height: "1668px",
+            maxWidth: "100%",
+            display: "flex",
+            justifyContent: "flex-start",
+            alignItems: "center",
+            paddingBottom: "100px",
+            marginBottom: "10%",
+          }}
+          children={<PhilosophyContent />}
+          strength={250}
+          bgImage="https://static.wixstatic.com/media/e4c206_95f2a9037e1a4cb7a8b401711f05ad83~mv2.jpg/v1/fill/w_1440,h_1157,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_95f2a9037e1a4cb7a8b401711f05ad83~mv2.jpg"
+        ></Parallax>
         <MeetingContainer>
           <MeetingTextContainer>
-            <TextInsideImage color="#080808" fontWeight="550" fontSize="50px">
+            <TextInsideImage
+              sc
+              color="#080808"
+              fontWeight="500"
+              fontSize="36px"
+              ml="8%"
+              style={{ transform: "scale(1.2, 1.4)", letterSpacing: "1px" }}
+            >
               The iae
             </TextInsideImage>
-            <TextInsideImage color="#080808" fontWeight="550" fontSize="50px">
+            <TextInsideImage
+              sc
+              color="#080808"
+              fontWeight="500"
+              fontSize="36px"
+              ml="8%"
+              mb="8%"
+              style={{ transform: "scale(1.2, 1.4)", letterSpacing: "1px" }}
+            >
               GLOBAL Group
             </TextInsideImage>
-            <p style={{ fontSize: "13px", color: "#343434" }}>
+            <p style={{ fontSize: "15px", color: "#343434" }}>
               We are an award-winning, growing international network that places
               an average of 18,000 students a year into over 700 key partner
               educational institutions worldwide.
             </p>
-            <p style={{ fontSize: "13px", color: "#343434" }}>
-              Explore and discover why hundreds of institutions have trusted us
-              with their recruitment and reputation.
-            </p>
-            <p style={{ fontSize: "13px", color: "#343434" }}>
+            <p style={{ fontSize: "14.5px", color: "#343434" }}>
               ​ We work with some of the most prestigious and recognised
               institutions in the world. We build robust relationships with our
               partners by working together with them to grow their brand and
               enrolments.
+            </p>
+            <p style={{ fontSize: "14.5px", color: "#343434" }}>
+              Explore and discover why hundreds of institutions have trusted us
+              with their recruitment and reputation.
             </p>
             <HashLink
               to="/our-story#companyImage"
               style={{ textDecoration: "none" }}
             >
               <MeetingButton>
-                LEARN MORE{" "}
-                <div className="d-flex align-items-center">
-                  <p
-                    style={{
-                      marginRight: "-2px",
-                      marginTop: "14px",
-                      marginLeft: "15px",
-                    }}
-                  >
-                    -
-                  </p>
-                  <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                  <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                  <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                  <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-                  <p style={{ marginRight: "-2px", marginTop: "14px" }}>
-                    {">"}
-                  </p>
-                </div>
-                {/* <HiOutlineArrowRight
-                  style={{
-                    marginBottom: "3px",
-                    marginLeft: "10px",
-                    fontWeight: "300",
-                  }}
-                /> */}
-                {/* <img
-                  src="https://spng.pngfind.com/pngs/s/33-330448_right-arrow-icon-svg-long-arrow-right-hd.png"
-                  alt="arrow2"
-                  className="arrow"
-                /> */}
+                LEARN MORE <ArrowRightAltIcon sx={{ ml: 1 }} />
               </MeetingButton>
             </HashLink>
           </MeetingTextContainer>

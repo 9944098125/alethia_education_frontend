@@ -2,10 +2,11 @@ import styled from "styled-components";
 import { IoMdPerson } from "react-icons/io";
 
 export const NewsRoomImageContainer = styled.div`
-  height: 70vh;
+  height: 72vh;
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg/v1/fill/w_1304,h_572,al_c,q_85,enc_auto/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg");
   background-size: cover;
+  background-position: center;
   margin-top: -70px;
   display: flex;
   align-items: flex-end;
@@ -18,13 +19,13 @@ export const NewsRoomImageContainer = styled.div`
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 50px;
-    margin-top: -70px;
+    padding-left: 70px;
+    margin-top: -68px;
   }
 `;
 export const TextContainer = styled.div`
   width: 70%;
-  padding-left: 50px;
+  padding-left: 30px;
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 768px) {
@@ -38,6 +39,9 @@ export const TextInsideImage = styled.span`
   font-weight: ${(props) => props.fontWeight};
   font-family: "PT Sans Narrow", sans-serif;
   font-size: ${(props) => props.fontSize};
+  transform: ${(props) => props.sc && "scale(1.1, 1.3)"};
+  margin-left: ${(props) => props.ml};
+  letter-spacing: ${(props) => props.ls};
 `;
 export const SeniorContainer = styled.div`
   display: flex;
@@ -47,11 +51,11 @@ export const SeniorContainer = styled.div`
   padding: 3%;
 `;
 export const EachRowInSeniorContainer = styled.div`
-  margin-bottom: 2%;
+  margin-bottom: 2.5%;
   @media screen and (min-width: 1024px) {
     display: flex;
     align-items: flex-start;
-    padding: 10%;
+    padding: 10.3%;
     padding-top: 0px;
     padding-bottom: 0px;
   }
@@ -63,9 +67,8 @@ export const EachRowInSeniorContainer = styled.div`
 `;
 export const EachImage = styled.img`
   @media screen and (min-width: 1024px) {
-    height: 100%;
-    width: 50%;
-    margin-right: 3%;
+    height: 340px;
+    max-width: 650px;
   }
   @media screen and (max-width: 768px) {
     height: 60%;
@@ -73,17 +76,16 @@ export const EachImage = styled.img`
     margin-right: 0%;
   }
 `;
-export const EachTextContainer = styled.div`
-  padding-top: 2%;
-  cursor: pointer;
-`;
+
 export const EachText = styled.p`
   font-size: ${(props) => props.fontSize};
   font-weight: ${(props) => props.fontWeight};
   margin-left: ${(props) => props.mllg};
   font-family: ${(props) => props.fontF && "Oswald, sans-serif"};
-  color: ${(props) => props.color};
+  margin-right: ${(props) => props.mr};
   margin-bottom: ${(props) => props.mb};
+  letter-spacing: ${(props) => props.ls && "0.1px"};
+  color: ${(props) => props.color};
   @media screen and (min-width: 1024px) {
     margin-left: ${(props) => props.mllg};
     margin-top: ${(props) => props.mtlg};
@@ -92,23 +94,35 @@ export const EachText = styled.p`
     margin-left: ${(props) => props.mlsm};
     margin-top: ${(props) => props.mtsm};
   }
-
-  &:hover {
-    color: black;
+`;
+export const EachTextContainer = styled.div`
+  padding-top: 2%;
+  cursor: pointer;
+  padding-right: 2%;
+  box-shadow: 0 0 2px -1px #444444;
+  padding-left: 3.5%;
+  @media screen and (min-width: 1024px) {
+    height: 340px;
+  }
+  &:hover ${EachText} {
+    color: #4c4c4c;
   }
 `;
+
 export const NewsContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 10%;
+  padding-left: 12%;
   padding-top: 5%;
   padding-bottom: 5%;
   shadow: 1px, 1px, 1px, 1px;
-  width: 80vw;
+  width: 81vw;
   margin-left: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   margin-top: ${(props) => props.mt};
   box-shadow: 0 0 4px -2px #444444;
+  max-height: ${(props) => props.mh};
 `;
 export const ImagesContainer = styled.div`
   height: 80%;
@@ -117,8 +131,8 @@ export const ImagesContainer = styled.div`
   flex-direction: column;
 `;
 export const EachRoomImages = styled.img`
-  height: 80vh;
-  width: 100%;
+  height: ${(props) => (props.forty ? "50vh" : "82vh")};
+  width: 96%;
   margin-top: 25px;
   margin-bottom: 15px;
 `;
@@ -133,7 +147,7 @@ export const ReactPlayerContainer = styled.div`
 `;
 export const HorizontalLine = styled.hr`
   width: 100%;
-  border: 2px solid grey;
+  border-top: ${(props) => (props.th ? "3px solid black" : "2px solid black")};
   margin-bottom: ${(props) => props.mb};
 `;
 export const IconsContainer = styled.div`
@@ -162,8 +176,13 @@ export const EachPost = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 5%;
-  padding: 5%;
+  margin-right: 40px;
+  padding: 10%;
+  padding-top: 0px;
+  width: 310px;
+  height: 280px;
+  margin-left: 5%;
+  box-shadow: 0 0 4px -2px #444444;
   @media screen and (max-width: 425px) {
     padding: 15%;
   }
@@ -172,9 +191,8 @@ export const PostImage = styled.img`
   margin-top: ${(props) => props.mt};
   text-align: center;
   @media screen and (min-width: 1024px) {
-    height: 200px;
-    width: 280px;
-    margin-right: ${(props) => props.mr};
+    height: 170px;
+    width: 310px;
   }
   @media screen and (max-width: 768px) {
     height: 120px;
@@ -216,6 +234,7 @@ export const IconsAndButtonsContainer = styled.div`
   padding: 5%;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 12px;
   @media screen and (max-width: 425px) {
     display: flex;
     flex-direction: column;
@@ -227,8 +246,9 @@ export const Avatar = styled(IoMdPerson)`
   background-color: lightgrey;
   color: block;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
+  color: grey;
 `;
 export const UnoList = styled.ul`
   list-style-type: dash;
@@ -242,10 +262,13 @@ export const UniversitiesTextContainer = styled.div`
 `;
 export const CommentButton = styled.button`
   padding: 5%;
+  display: flex;
+  align-items: center;
   background-color: ${(props) => props.bg};
   margin-right: 15px;
   color: ${(props) => props.color};
-  border: ${(props) => (props.border ? "2px solid grey" : "none")};
+  height: 30px;
+  border: 0px;
   @media screen and (max-width: 425px) {
     font-size: 10px;
   }

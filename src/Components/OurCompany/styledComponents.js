@@ -3,15 +3,16 @@ import styled from "styled-components";
 export const CompanyContainer = styled.div`
   height: 100%;
   width: 100%;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 `;
 
 export const CompanyImageContainer = styled.div`
-  height: 75vh;
+  height: 71.5vh;
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_eb767afbe0b740b9ae383863f0b402b9~mv2.jpg/v1/fill/w_980,h_601,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_eb767afbe0b740b9ae383863f0b402b9~mv2.jpg");
   background-size: cover;
   background-attachment: fixed;
+  background-position: top;
   margin-top: -70px;
   margin-bottom: 5%;
   display: flex;
@@ -21,21 +22,22 @@ export const CompanyImageContainer = styled.div`
     margin-top: -550px;
     height: 100%;
     max-width: 100%;
-    padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
     padding-left: 150px;
     padding-bottom: 50px;
-    margin-top: -70px;
+    margin-top: -68px;
   }
 `;
 export const TextContainer = styled.div`
   width: 70%;
   display: flex;
   flex-direction: column;
-  padding-bottom: -10%;
+  padding-bottom: 1%;
+  padding-left: 3%;
   @media screen and (max-width: 768px) {
     margin-top: 600px;
+    padding-left: 20px;
     padding: 30px;
     width: 100%;
   }
@@ -57,7 +59,8 @@ export const LeaderShipText = styled.p`
   font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
   margin-bottom: ${(props) => props.mb};
-  text-shadow: 1px 1px black;
+  text-shadow: rgb(255 255 255 / 60%) 1px 1px 1px,
+    rgb(0 0 0 / 60%) -1px -1px 1px;
 `;
 export const AffiliatesText = styled.p`
   color: ${(props) => props.color};
@@ -83,6 +86,8 @@ export const SmallText = styled.p`
   color: ${(props) => props.color};
   font-size: 16px;
   text-align: center;
+  font-weight: 450;
+  width: 90%;
   @media screen and (max-width: 768px) {
     font-size: 12px;
   }
@@ -96,12 +101,14 @@ export const SmallContainer = styled.div`
 export const ValuesButton = styled.button`
   display: flex;
   justify-content: center;
-  padding: 10px;
-  width: 250px;
+  padding: 6.5px;
+  width: 240px;
   font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-weight: 430;
   background-color: transparent;
-  border: 2px solid grey;
+  font-size: 15px;
+  border: 2px solid #4c4c4c;
+  transform: scale(1.1, 1.1);
   @media screen and (max-width: 768px) {
     padding: 5px;
     width: 150px;
@@ -114,7 +121,7 @@ export const ValuesButton = styled.button`
 `;
 
 export const StatisticsImage = styled.img`
-  width: 100%;
+  width: 105%;
   height: 40%;
   margin-top: 50px;
   margin-bottom: 5%;
@@ -125,6 +132,8 @@ export const TextAndGridContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 0px;
+    padding: 0px;
   }
   @media screen and (max-width: 768px) {
     display: flex;
@@ -136,7 +145,10 @@ export const TextAndGridContainer = styled.div`
 export const TextWithGridContainer = styled.div`
   @media screen and (min-width: 768px) {
     width: 50%;
-    padding: 15px;
+    padding: 5px;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-left: -30px;
   }
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -146,7 +158,7 @@ export const TextWithGridContainer = styled.div`
 
 export const TextWithGrid = styled.p`
   @media screen and (min-width: 768px) {
-    font-size: 15px;
+    font-size: 14.5px;
   }
   @media screen and (max-width: 768px) {
     font-size: 10px;
@@ -158,7 +170,9 @@ export const GridContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 50%;
+    width: 60%;
+    padding: 0px;
+    margin-right: -30px;
   }
   @media screen and (max-width: 768px) {
     display: flex;
@@ -172,16 +186,19 @@ export const GridItem = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0px;
   @media screen and (min-width: 768px) {
-    width: 130px;
-    margin: 25px;
+    width: 150px;
+    margin: 5px;
   }
   @media screen and (max-width: 768px) {
     width: 100px;
     margin: 15px;
   }
   @media screen and (min-width: 1030px) {
-    width: 190px;
+    width: 250px;
+    margin-bottom: 25px;
+    padding: 0px;
   }
 `;
 
@@ -189,6 +206,8 @@ export const TextInGrid = styled.p`
   text-align: center;
   font-weight: ${(props) => props.fontW};
   font-family: "Oswald", sans-serif;
+  transform: scale(0.8, 1);
+  color: #4c4c4c;
   @media screen and (min-width: 1024px) {
     font-size: ${(props) => props.fontSizeInLg};
   }
@@ -205,13 +224,13 @@ export const VisionContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 `;
 
 export const BeliefContainer = styled.div`
   display: flex;
   justify-content: center;
-  width: 70%;
+  width: 90%;
   height: 50vh;
   padding-left: 50px;
   @media screen and (min-width: 1440px) {
@@ -225,9 +244,14 @@ export const BeliefContainer = styled.div`
 export const BeliefTextContainer = styled.div`
   display: flex;
   flex-direction: column;
+  padding-left: 8.5%;
+  padding-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 `;
 
 export const DosContainer = styled.div`
+  margin-top: 0px;
   @media screen and (min-width: 1440px) {
     height: 80vh !important;
     display: flex;
@@ -235,7 +259,7 @@ export const DosContainer = styled.div`
   @media screen and (min-width: 1024px) {
     display: flex;
     height: 140vh;
-    margin-bottom: -6.5%;
+    margin-bottom: -3.2%;
   }
   @media screen and (max-width: 768px) {
     margin-bottom: 1%;
@@ -257,7 +281,7 @@ export const DosImage = styled.img`
     width: 50%;
   }
   @media screen and (min-width: 1024px) {
-    height: 90%;
+    height: 95%;
     width: 50%;
   }
   @media screen and (max-width: 768px) {
@@ -280,10 +304,13 @@ export const ListContainer = styled.div`
   }
 `;
 export const ListHead = styled.p`
-  font-size: 40px;
-  font-weight: 500;
+  font-size: ${(props) => (props.aff ? "30px" : "35px")};
+  font-weight: ${(props) => (props.aff ? "420" : "500")};
   font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
   margin-bottom: 12%;
+  transform: scale(1.1, 1.2);
+  color: #4c4c4c;
 `;
 
 export const UnorderedList = styled.ul`
@@ -310,8 +337,9 @@ export const CommittedTextContainer = styled.div`
   flex-direction: column;
   align-items: center;
   padding-top: 5%;
+  padding-left: 1%;
   @media screen and (min-width: 768px) {
-    margin-top: 100px;
+    margin-bottom: 7%;
   }
   @media screen and (max-width: 768px) {
     margin-top: 60px;
@@ -319,13 +347,11 @@ export const CommittedTextContainer = styled.div`
 `;
 export const CommittedText = styled.p`
   width: 80%;
-  font-weight: 500;
+  font-weight: 400;
   font-family: "Oswald", sans-serif;
-  margin-bottom: 7%;
-  text-align: center;
+  transform: scale(1, 1.1);
   @media screen and (min-width: 768px) {
     font-size: 38px;
-    margin-top: -8%;
   }
 
   @media screen and (max-width: 768px) {
@@ -339,16 +365,18 @@ export const LeadershipTeamImageContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 `;
 export const SmallTextContainer = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 2%;
   padding-left: 20%;
   padding-right: 20%;
-  margin-bottom: 2%;
+  margin-bottom: 0px;
+  margin-top: 0px;
 `;
 export const LeadersContainer = styled.div`
   display: flex;
@@ -364,8 +392,8 @@ export const EachLeaderBlock = styled.div`
   margin-bottom: 3%;
 `;
 export const LeaderImage = styled.img`
-  height: 100%;
-  width: 30%;
+  height: 90%;
+  width: 36%;
   margin-right: 1%;
 `;
 export const LeaderTextContainer = styled.div`
@@ -378,8 +406,10 @@ export const LeaderTextContainer = styled.div`
   }
 `;
 export const LeaderName = styled.p`
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 600;
+  transform: scale(1, 1.15);
+  color: #4c4c4c;
   font-family: "Oswald", sans-serif;
   @media screen and (max-width: 768px) {
     font-size: 15px;
@@ -388,7 +418,7 @@ export const LeaderName = styled.p`
 export const LeaderDescription = styled.p`
   font-size: 14px;
   font-weight: 400;
-  color: #343434;
+  color: #4c4c4c;
   @media screen and (max-width: 768px) {
     font-size: 10px;
   }
@@ -399,24 +429,28 @@ export const AffiliatesContainer = styled.div`
   align-items: center;
   width: 100%;
   padding: 10%;
+  padding-bottom: 4%;
   margin-top: -5%;
 `;
 export const AffiliatesImage = styled.img`
-  width: 20%;
-  height: 15%;
+  width: 25%;
+  height: 20%;
   margin-bottom: 2%;
   margin-top: 2%;
 `;
 export const AffiliatesButton = styled.button`
   background-color: black;
   color: white;
-  width: 200px;
+  width: 210px;
   margin-top: 2%;
   margin-bottom: 2%;
   font-family: "Oswald", sans-serif;
   font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 1px;
+  transform: scale(1.1, 1.3);
   border: none;
-  padding: 1%;
+  padding: 8.5px;
   border: 2px solid grey;
   &:hover {
     background-color: rgb(91, 90, 90);
@@ -434,7 +468,7 @@ export const AffiliatedImage = styled.img`
   margin-right: 2%;
 `;
 export const ThinHorizontalLine = styled.hr`
-  border: 1px solid grey;
+  background: 2px solid grey;
   margin: 2%;
   width: 70%;
   margin-left: 15%;
@@ -443,9 +477,11 @@ export const ThinHorizontalLine = styled.hr`
 `;
 export const AlignEndTextContainer = styled.div`
   display: flex;
-  justify-content: flex-end;
-  padding-left: 5%;
+  justify-content: center;
   @media screen and (min-width: 1024px) {
-    padding-left: 25%;
+    justify-content: flex-end;
+    padding-left: 7%;
+    width: 62%;
+    margin-right: -150px;
   }
 `;

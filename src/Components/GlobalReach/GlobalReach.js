@@ -14,6 +14,7 @@ import tile from "../../Assets/Images/tile1.webp";
 import { Formik, Form, Field } from "formik";
 import { HashLink } from "react-router-hash-link";
 import { HiOutlineArrowRight } from "react-icons/hi";
+import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 
 function GlobalReach() {
   const initialValues = {
@@ -31,49 +32,38 @@ function GlobalReach() {
           <Image src={tile} alt="contact us" />
         </ImageContainer>
         <TextContainer>
-          <TextHead>Global Reach And Access</TextHead>
-          <TextPara>
+          <TextHead style={{ marginBottom: "45px" }}>
+            Global Reach And Access
+          </TextHead>
+          <TextPara style={{ color: "black", fontSize: "15px" }}>
             We are committed to expanding our network in both key student
             markets and major study destination countries under a common
             powerful brand, using a standardised model of student counselling
             and recruitment that focuses on quality, honesty and integrity. ​
-            Explore and discover
           </TextPara>
-          <TextPara>
+          <TextPara style={{ color: "black" }}>
             ​ We value long-term relationships and continue to work to enhance
             business opportunities for all our partners.
           </TextPara>
-          <TextPara>
-            why an increasing number of established agencies have trusted us as
-            partners, and utilised our business model and strategies.
+          <TextPara style={{ color: "black", marginBottom: "45px" }}>
+            Explore and discover why an increasing number of established
+            agencies have trusted us as partners, and utilised our business
+            model and strategies.
           </TextPara>
           <HashLink
             to="/partners#partnersImage"
             style={{ textDecoration: "none" }}
           >
             <PartnersButton>
-              OUR PARTNERSHIP INSTITUTIONS{" "}
-              <p
-                style={{
-                  marginRight: "-2px",
-                  marginTop: "14px",
-                  marginLeft: "15px",
-                }}
-              >
-                -
-              </p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>-</p>
-              <p style={{ marginRight: "-2px", marginTop: "14px" }}>{">"}</p>
+              OUR PARTNER INSTITUTIONS{" "}
+              <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
             </PartnersButton>
           </HashLink>
           <Formik initialValues={initialValues}>
             <Form>
               <div className="mt-4">
                 <div className="d-lg-flex align-items-center">
-                  <div className="d-flex flex-column me-lg-5 mb-sm-3">
+                  <div className="d-flex flex-column me-lg-2 mb-sm-3">
                     <Label htmlFor="firstname">
                       <strong>First Name</strong>
                     </Label>
@@ -84,7 +74,7 @@ function GlobalReach() {
                       className="first-last-name"
                     />
                   </div>
-                  <div className="d-flex flex-column me-lg-5 mb-sm-3">
+                  <div className="d-flex flex-column me-lg-2 mb-sm-3">
                     <Label htmlFor="lastname">
                       <strong>Last Name</strong>
                     </Label>
@@ -98,7 +88,7 @@ function GlobalReach() {
                 </div>
                 <div className="col mb-3">
                   <Label htmlFor="email">
-                    <strong>Email*</strong>
+                    <strong>Email Address*</strong>
                   </Label>
                   <Field
                     type="text"
@@ -141,7 +131,7 @@ function GlobalReach() {
                   <Field
                     type="text"
                     as="textarea"
-                    rows="5"
+                    rows="4"
                     id="message"
                     name="message"
                     className="textarea"

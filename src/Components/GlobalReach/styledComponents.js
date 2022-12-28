@@ -4,6 +4,8 @@ export const Container = styled.div`
   padding: 25px;
   @media screen and (min-width: 875px) {
     display: flex;
+    margin-bottom: 4%;
+    margin-top: 5%;
   }
   @media screen and (max-width: 768px) {
     display: flex;
@@ -32,15 +34,17 @@ export const ImageContainer = styled.div`
 
 export const Image = styled.img`
   height: 105%;
-  width: 100%;
+  width: 120%;
 `;
 
 export const TextContainer = styled.div`
   @media screen and (min-width: 875px) {
     height: 100%;
-    width: 50%;
+    width: 60%;
     padding: 1%;
-    padding-top: 10%;
+    padding-left: 3%;
+    padding-right: 10%;
+    padding-top: 7%;
   }
   @media screen and (max-width: 768px) {
     height: 70%;
@@ -50,10 +54,12 @@ export const TextContainer = styled.div`
 `;
 
 export const TextHead = styled.h2`
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 800;
+  font-family: "Oswald", sans-serif;
+  transform: scale(1, 1.2);
+  font-weight: 500;
+  letter-spacing: 1px;
   @media screen and (min-width: 875px) {
-    font-size: 50px;
+    font-size: 45px;
   }
   @media screen and (max-width: 768px) {
     font-size: 30px;
@@ -61,6 +67,8 @@ export const TextHead = styled.h2`
 `;
 
 export const TextPara = styled.p`
+  color: #4c4c4c;
+  font-weight: 450;
   @media screen and (min-width: 875px) {
     font-size: 14px;
   }
@@ -70,17 +78,21 @@ export const TextPara = styled.p`
 `;
 
 export const PartnersButton = styled.button`
-  border: 2px solid grey;
+  border: 2px solid #28282b;
   font-family: "Oswald", sans-serif;
   background-color: transparent;
   display: flex;
   align-items: center;
-  max-height: 45px;
+  max-height: 40px;
+  transform: scale(1.1, 1.15);
+  letter-spacing: 0px;
+  margin-left: 20px;
   @media screen and (min-width: 875px) {
-    padding: 7px;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-size: 16px;
+    padding: 3px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 13.5px;
+    font-weight: 450;
   }
   @media screen and (max-width: 768px) {
     padding: 5px;
@@ -95,9 +107,11 @@ export const PartnersButton = styled.button`
 `;
 
 export const Label = styled.label`
-  font-weight: 500;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
   font-size: 18px;
+  color: #36454f;
+  letter-spacing: -0.2px;
 `;
 
 export const SubmitButton = styled.button`

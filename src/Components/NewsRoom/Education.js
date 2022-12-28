@@ -45,10 +45,21 @@ function Education() {
         </TextContainer>
       </NewsRoomImageContainer>
       <NewsContainer mt="1%">
-        <EachText fontSize="12px" fontWeight="400">
-          8th August, 2019
+        <EachText fontSize="14px" fontWeight="400">
+          Aug 15, 2019
         </EachText>
-        <EachText color="#343434" fontF fontSize="38px" fontWeight="600">
+        <EachText
+          style={{
+            transform: "scale(1.1, 1.2)",
+            marginLeft: "4.5%",
+            marginBottom: "3%",
+          }}
+          ls
+          color="#4c4c4c"
+          fontF
+          fontSize="35px"
+          fontWeight="500"
+        >
           Education, career and Migration Fair in sydney
         </EachText>
         <EachRoomImages
@@ -66,42 +77,35 @@ function Education() {
           Australia under one roof to offer valuable advice and help
           international students to chart their study and career paths.
         </EachText>
-        <EachText fontF fontSize="20px" fontWeight="600">
+        <EachText sc fontF fontSize="28px" fontWeight="400">
           What are the benefits of attending this event?
         </EachText>
-        <UnoList>
+        <UnoList style={{ margin: "0px", padding: "0px" }}>
           <EachText fontSize="14px">
             - Extend your stay in Australia on a Student Visa or a Graduate Visa
           </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
             - Find out about job opportunities on a Graduate Visa
           </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
             {" "}
             - Get up to $15,000 scholarship for your studies
           </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
             - Extend your stay in Australia on a Student Visa or a Graduate Visa
           </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
             - Find out about job opportunities on a Graduate Visa
           </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
-            {" "}
-            - Get up to $15,000 scholarship for your studies
-          </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
             - Extend your stay in Australia on a Student Visa or a Graduate Visa
           </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
-            - Find out about job opportunities on a Graduate Visa
-          </EachText>
-          <EachText mtlg="-20px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
             {" "}
             - Get up to $15,000 scholarship for your studies
           </EachText>
         </UnoList>
-        <EachText fontF fontSize="20px" fontWeight="600">
+        <EachText fontF fontSize="30px" fontWeight="400">
           Instant Experience
         </EachText>
         <EachText fontSize="14px">
@@ -114,7 +118,7 @@ function Education() {
           Registered migration agents will help our students to ensure all their
           visas, permits and papers are in order.
         </EachText>
-        <EachText fontF fontSize="20px" fontWeight="600">
+        <EachText fontF fontSize="30px" fontWeight="400">
           It's your lucky day
         </EachText>
         <EachText fontSize="14px">
@@ -124,17 +128,32 @@ function Education() {
           more.
         </EachText>
         <EachText
+          style={{ marginBottom: "-2px" }}
+          sc
           fontF
-          fontSize="20px"
-          fontWeight="600"
-          style={{ fontStyle: "italic" }}
+          fontSize="17px"
+          fontWeight="500"
+          color="#4c4c4c"
         >
-          Are You In Sydney ?
+          ARE YOU IN SYDNEY ?
         </EachText>
-        <EachText fontSize="14px">
-          SIGN UP FOR THE EVENT NOW IT'S FREE.
+        <EachText
+          style={{ display: "flex", fontStyle: "italic", marginBottom: "-5px" }}
+          fontSize="14px"
+        >
+          <p className="text-primary me-2">SIGN UP</p> FOR THE EVENT NOW IT'S
+          FREE.
         </EachText>
-        <EachText fontSize="14px">20 September | Friday | 1 pm - 6 pm</EachText>
+        <EachText
+          style={{
+            fontStyle: "italic",
+            marginBottom: "-5px",
+            marginTop: "-10px",
+          }}
+          fontSize="14px"
+        >
+          20 September | Friday | 1 pm - 6 pm
+        </EachText>
         <EachText fontSize="14px">66 Goulburn st. Sydney, Australia</EachText>
         {/* <ReactPlayerContainer> */}
         {/* <ReactPlayer
@@ -163,6 +182,21 @@ function Education() {
           <AiFillPrinter className="me-5" />
         </IconsContainer>
       </NewsContainer>
+      <div className="d-flex align-items-center justify-content-between">
+        <EachText mlsm="50px" mllg="150px" fontSize="20px">
+          Recent Posts
+        </EachText>
+        <HashLink
+          to="/news-room#news"
+          style={{
+            marginRight: "12%",
+            textDecoration: "none",
+            color: "inherit",
+          }}
+        >
+          <EachText fontSize="15px">See All</EachText>
+        </HashLink>
+      </div>
       <RecentPostsContainer>
         <HashLink
           to="/news-room/australia#news"
@@ -195,9 +229,9 @@ function Education() {
           </EachPost>
         </HashLink>
       </RecentPostsContainer>
-      <NewsContainer>
-        <EachText fontF fontSize="20px" fontWeight="700">
-          COMMENTS
+      <NewsContainer mh="65vh">
+        <EachText fontF fontSize="20px" fontWeight="400">
+          Comments
         </EachText>
         <HorizontalLine mb="50px" />
 

@@ -1,14 +1,14 @@
 import styled from "styled-components";
+import { Parallax } from "react-parallax";
 
 export const HomeContainer = styled.div`
   height: 100%;
   width: 100%;
 `;
 
-export const HomeImageContainer = styled.div`
+export const HomeImageContainer = styled(Parallax)`
   height: 160vh;
   max-width: 100%;
-  background: url("https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_2500,h_1668,al_c/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -22,13 +22,13 @@ export const HomeImageContainer = styled.div`
   }
   @media screen and (min-width: 1024px) {
     padding-left: 50px;
-    margin-top: -70px;
+    margin-top: -68px;
   }
 `;
 export const TextContainer = styled.div`
-  width: 85%;
+  width: 82%;
   padding-left: 10%;
-  padding-top: 33%;
+  padding-top: 40%;
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 768px) {
@@ -43,27 +43,35 @@ export const TextInsideImage = styled.span`
   font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
   margin-bottom: ${(props) => props.mb};
+  transform: ${(props) => props.sc && "scale(1.2, 1.3)"};
+  margin-left: ${(props) => props.ml};
+  @media screen and (max-width: 768px) {
+    margin-left: 0px;
+  }
 `;
 export const PathwayButton = styled.button`
   background-color: #e49b0f;
   color: #ffffff;
-  font-weight: 580;
+  font-weight: 500;
   border: none;
   display: flex;
-  font-size: 16px;
+  font-size: 14px;
   justify-content: center;
   align-items: center;
   width: 200px;
-  height: 55px;
+  height: 50px;
+  letter-spacing: 1px;
   margin-top: 2%;
+  transform: scale(1, 1.1);
   font-family: "Oswald", sans-serif;
   &:hover {
     background-color: #cd7f32;
   }
 `;
 export const SupportContainer = styled.div`
+  max-width: 1024px;
   @media screen and (min-width: 768px) {
-    padding-left: 11.5%;
+    padding-left: 10.6%;
     padding-top: 50px;
   }
   @media screen and (max-width: 768px) {
@@ -72,28 +80,30 @@ export const SupportContainer = styled.div`
   }
 `;
 export const SupportText = styled.h3`
+  color: #080808;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   margin-bottom: 2%;
   @media screen and (min-width: 800px) {
-    font-size: 40px;
+    font-size: 32px;
   }
   @media screen and (max-width: 768px) {
     font-size: 20px;
   }
 `;
 export const VisionButton = styled.button`
-  border: 2px solid grey;
+  border: 2px solid #28282b;
   background-color: transparent;
   font-family: "Oswald", sans-serif;
-  height: 45px;
+  transform: scale(1, 1.05);
+  height: 43px;
   width: 160px;
   display: flex;
   align-items: center;
   justify-content: center;
   @media screen and (min-width: 800px) {
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 16px;
   }
   @media screen and (max-width: 768px) {
     font-weight: 400;
@@ -110,6 +120,7 @@ export const StudyAbroadOptions = styled.div`
     display: flex;
     flex-wrap: wrap;
     padding: 500px;
+    margin-bottom: 50px;
   }
   @media screen and (min-width: 768px) {
     display: flex;
@@ -127,6 +138,8 @@ export const StudyAbroadOptions = styled.div`
 export const SingleOption = styled.div`
   @media screen and (min-width: 800px) {
     margin: 20px;
+    margin-bottom: 15px;
+    margin-right: 0px;
     height: 600px;
     width: 500px;
   }
@@ -161,6 +174,7 @@ export const StudyAbroadImage = styled.img`
 export const CountryName = styled.h2`
   font-weight: 500;
   font-family: "Oswald", sans-serif;
+  margin-bottom: 5%;
   @media screen and (min-width: 800px) {
     font-size: 32px;
   }
@@ -170,7 +184,7 @@ export const CountryName = styled.h2`
 `;
 
 export const Description = styled.p`
-  font-weight: 400;
+  font-weight: 450;
   @media screen and (min-width: 800px) {
     font-size: 15px;
   }
@@ -188,24 +202,27 @@ export const Gap = styled.div`
 `;
 
 export const Links = styled.button`
-  color: rgb(176, 76, 4);
-  font-weight: 600;
-  padding-bottom: -12px;
+  color: #eb991e;
+  font-weight: 620;
+  padding-bottom: -10px;
+  padding: 0px;
   border: none;
+  height: 25px;
   border-bottom: 0.3px dotted #cc5500;
+  transform: scale(1.1, 1.1);
   background: transparent;
   display: flex;
   align-items: center;
   @media screen and (min-width: 800px) {
-    font-size: 18px;
-    width: 160px;
+    font-size: 15.5px;
+    width: 108px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;
     width: 120px;
   }
   &:hover {
-    color: rgb(255, 142, 13);
+    color: rgb(254, 198, 133);
   }
 `;
 
@@ -239,7 +256,7 @@ export const EachItem = styled.div`
 
 export const ItemImage = styled.img`
   @media screen and (min-width: 800px) {
-    height: 100%;
+    height: 110%;
     width: 100%;
   }
   @media screen and (max-width: 768px) {
@@ -313,11 +330,11 @@ export const MeetingContainer = styled.div`
 export const MeetingTextContainer = styled.div`
   display: flex;
   flex-direction: column;
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 1024px) {
     height: 100%;
     width: 50%;
     padding-left: 60px;
-    margin-right: 150px;
+    margin-right: 50px;
   }
   @media screen and (max-width: 768px) {
     width: 80%;
@@ -328,7 +345,7 @@ export const MeetingTextContainer = styled.div`
 
 export const MeetingButton = styled.button`
   background-color: transparent;
-  border: 2px solid grey;
+  border: 2px solid #28282b;
   font-family: "Oswald", sans-serif;
   display: flex;
   justify-content: space-between;
@@ -358,7 +375,7 @@ export const MeetingButton = styled.button`
 
 export const MeetingImage = styled.img`
   @media screen and (min-width: 1024px) {
-    height: 120%;
+    height: 130%;
     width: 50%;
   }
   @media screen and (max-width: 768px) {

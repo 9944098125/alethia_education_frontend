@@ -9,6 +9,7 @@ import {
   Label,
   SubmitButton,
 } from "./styledComponents";
+import { HorizontalLine } from "../StudyAbroad/styledComponents";
 
 function ContactUs() {
   const initialValues = {
@@ -21,69 +22,83 @@ function ContactUs() {
   };
   return (
     <Fragment>
+      <HorizontalLine width="70%" ml="15%" mt="5%" />
       <ContactUsContainer>
         <ContactUsTextContainer>
           <ContactUsText
             id="contact-us"
             fontSize="30px"
-            fontWeight="600"
-            mb="20px"
+            fontWeight="400"
+            mb="40px"
             fontF
-            color
+            b
+            transfo
+            style={{ color: "#080808" }}
           >
             Contact Us
           </ContactUsText>
-          <ContactUsText fontSize="14px" fontWeight="350" mb="20px">
+          <ContactUsText
+            style={{ letterSpacing: "0.6px" }}
+            fontSize="15px"
+            fontWeight="400"
+            mb="45px"
+          >
             If you share the same thoughts and values as iae, we sincerely look
             forward to supporting you as a student or growing our business with
             you as a partner.
           </ContactUsText>
-          <ContactUsText fontF fontSize="16px" fontWeight="500" mb="25px">
-            CORPORATION ADDRESS
+          <ContactUsText
+            transfo
+            fontF
+            fontSize="14px"
+            fontWeight="500"
+            mb="38px"
+          >
+            CORPORATE ADDRESS
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="400" mb="10px">
+          <ContactUsText fontSize="18px" fontWeight="400" mb="10px">
             iae HOLDINGS, Inc. trading as iae GLOBAL
           </ContactUsText>
-          <ContactUsText fontSize="14px" fontWeight="400" mb="15px">
+          <ContactUsText fontSize="16px" fontWeight="400" mb="45px">
             7F/726 Humax Ebisu Building, Ebisu minami 1-1-1, Shibuya-ku, Tokyo,
             150-0022, Japan
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="500">
-            Telephone: +102 345 3453 345
+          <ContactUsText fontSize="15px" fontWeight="400" mb="10px">
+            Tel: +81 (0)3 6871 9422
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="500">
-            Fax: +81 (0)345 34 3453
+          <ContactUsText fontSize="15px" fontWeight="400" mb="10px">
+            Fax: +81 (0)3 6871 9311
           </ContactUsText>
-          <ContactUsText fontSize="15px" fontWeight="500">
-            Email: sri@gmail.com
+          <ContactUsText fontSize="15px" fontWeight="400">
+            Email: info@iaeglobal.net
           </ContactUsText>
         </ContactUsTextContainer>
-        <ContactUsFormContainer>
+        <ContactUsFormContainer style={{ marginLeft: "-5%" }}>
           <Formik initialValues={initialValues}>
             <Form>
-              <div className="mt-4">
+              <div className="p-3 ps-lg-5 pt-0 mt-4">
                 <div className="d-lg-flex align-items-center">
-                  <div className="d-flex flex-column me-lg-5 mb-sm-3">
+                  <div className="d-flex flex-column me-lg-2 mb-sm-3">
                     <Label htmlFor="firstname">First Name</Label>
                     <Field
                       type="text"
                       name="firstname"
                       id="firstname"
-                      className="first-last-name"
+                      className="primary-input-field2"
                     />
                   </div>
                   <div className="d-flex flex-column me-lg-5 mb-sm-3">
-                    <Label htmlFor="lastname">Last Name</Label>
+                    <Label htmlFor="lastname">Last Name*</Label>
                     <Field
                       type="text"
                       name="lastname"
                       id="lastname"
-                      className="first-last-name"
+                      className="primary-input-field2"
                     />
                   </div>
                 </div>
-                <div className="col pe-lg-5 mb-3">
-                  <Label htmlFor="email">Email*</Label>
+                <div className="col pe-lg-5 mb-0">
+                  <Label htmlFor="email">Email Address*</Label>
                   <Field
                     type="text"
                     name="email"
@@ -91,7 +106,7 @@ function ContactUs() {
                     className="primary-input-field"
                   />
                 </div>
-                <div className="d-flex flex-column pe-lg-5 mb-3">
+                <div className="d-flex flex-column pe-lg-5 mb-0">
                   <Label htmlFor="iam">I am*</Label>
                   <Field
                     as="select"
@@ -105,7 +120,7 @@ function ContactUs() {
                     <option value="others">others</option>
                   </Field>
                 </div>
-                <div className="col pe-lg-5 mb-3">
+                <div className="col pe-lg-5 mb-0">
                   <Label htmlFor="coi">Country of Interest*</Label>
                   <Field
                     type="text"
@@ -114,12 +129,12 @@ function ContactUs() {
                     className="primary-input-field"
                   />
                 </div>
-                <div className="col pe-lg-5 mb-3">
-                  <Label htmlFor="message">Message</Label>
+                <div className="col pe-lg-5 mb-5">
+                  <Label htmlFor="message">Message*</Label>
                   <Field
                     type="text"
                     as="textarea"
-                    rows="5"
+                    rows="7"
                     id="message"
                     name="message"
                     className="textarea"

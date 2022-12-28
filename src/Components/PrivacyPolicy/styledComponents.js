@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const PrivacyImageContainer = styled.div`
-  height: 80vh;
+  height: 71.5vh;
   max-width: 100vw;
   background-image: url("https://static.wixstatic.com/media/11062b_0f146956a54d4bb0a1806cff4154f448~mv2.jpg/v1/fill/w_1895,h_645,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_0f146956a54d4bb0a1806cff4154f448~mv2.jpg");
   background-size: cover;
   margin-top: -70px;
+  background-position: left;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
@@ -17,13 +18,13 @@ export const PrivacyImageContainer = styled.div`
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 50px;
-    margin-top: -70px;
+    padding-left: 120px;
+    margin-top: -68px;
   }
 `;
 export const TextContainer = styled.div`
   width: 70%;
-  padding-left: 50px;
+  padding-left: 25px;
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 768px) {
@@ -35,8 +36,9 @@ export const TextContainer = styled.div`
 export const TextInsideImage = styled.span`
   color: ${(props) => props.color};
   font-weight: ${(props) => props.fontWeight};
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
+  transform: scale(1, 1.2);
 `;
 export const PrivacyTextContainer = styled.div`
   padding: 10%;

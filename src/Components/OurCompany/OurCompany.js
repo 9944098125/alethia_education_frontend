@@ -71,14 +71,24 @@ function OurCompany() {
       <CompanyContainer>
         <CompanyImageContainer id="companyImage">
           <TextContainer>
-            <TextInsideImage color="#ffffff" fontWeight="700" fontSize="50px">
+            <TextInsideImage
+              style={{ transform: "scale(1.1, 1.3)" }}
+              color="#ffffff"
+              fontWeight="500"
+              fontSize="40px"
+            >
               Our Company
             </TextInsideImage>
           </TextContainer>
         </CompanyImageContainer>
         <StoryContainer id="story">
           <SmallContainer>
-            <TextInsideImage color="#080808" fontSize="45px" fontWeight="500">
+            <TextInsideImage
+              style={{ transform: "scale(1.1, 1.2)", marginBottom: "15px" }}
+              color="#080808"
+              fontSize="35px"
+              fontWeight="500"
+            >
               "It all began in 1992..."
             </TextInsideImage>
             <SmallText color="#080808">
@@ -90,7 +100,11 @@ function OurCompany() {
               <ValuesButton>LEARN MORE ABOUT OUR VALUES</ValuesButton>
             </HashLink>
           </SmallContainer>
-          <StatisticsImage src={stats} alt="stats" />
+          <StatisticsImage
+            style={{ marginTop: "10%" }}
+            src={stats}
+            alt="stats"
+          />
           <TextAndGridContainer>
             <TextWithGridContainer>
               <TextWithGrid>
@@ -101,7 +115,11 @@ function OurCompany() {
                 This enables us to connect students from China, India, Japan,
                 Korea and other key markets around the world with top-tier
                 educational institutions in the US, UK, Australia, New Zealand,
-                Canada and other major destination countries.
+                Canada and other major destination countries. This enables us to
+                connect students from China, India, Japan, Korea and other key
+                markets around the world with top-tier educational institutions
+                in the US, UK, Australia, New Zealand, Canada and other major
+                destination countries.
               </TextWithGrid>
               <TextWithGrid>
                 The scale and international reach of our network means we can
@@ -113,35 +131,35 @@ function OurCompany() {
             </TextWithGridContainer>
             <GridContainer>
               <GridItem>
-                <TextInGrid fontW="900" fontSizeInLg="30px" fontSizeInSm="20px">
+                <TextInGrid fontW="500" fontSizeInLg="35px" fontSizeInSm="20px">
                   350,000
                 </TextInGrid>
-                <TextInGrid fontW="400" fontSizeInLg="18px" fontSizeInSm="10px">
-                  Satisfied and successful students
+                <TextInGrid fontW="450" fontSizeInLg="16px" fontSizeInSm="10px">
+                  SATISFIED AND SUCCESSFUL STUDENTS
                 </TextInGrid>
               </GridItem>
               <GridItem>
-                <TextInGrid fontW="900" fontSizeInLg="30px" fontSizeInSm="20px">
+                <TextInGrid fontW="500" fontSizeInLg="35px" fontSizeInSm="20px">
                   60+
                 </TextInGrid>
-                <TextInGrid fontW="400" fontSizeInLg="18px" fontSizeInSm="10px">
-                  Service and Support offices
+                <TextInGrid fontW="450" fontSizeInLg="16px" fontSizeInSm="10px">
+                  SERVICE AND SUPPORT OFFICES
                 </TextInGrid>
               </GridItem>
               <GridItem>
-                <TextInGrid fontW="900" fontSizeInLg="30px" fontSizeInSm="20px">
+                <TextInGrid fontW="500" fontSizeInLg="35px" fontSizeInSm="20px">
                   1000s
                 </TextInGrid>
-                <TextInGrid fontW="400" fontSizeInLg="18px" fontSizeInSm="10px">
-                  Top University campus choices
+                <TextInGrid fontW="450" fontSizeInLg="16px" fontSizeInSm="10px">
+                  TOP UNIVERSITY CAMPUS CHOICES
                 </TextInGrid>
               </GridItem>
               <GridItem>
-                <TextInGrid fontW="900" fontSizeInLg="30px" fontSizeInSm="20px">
+                <TextInGrid fontW="500" fontSizeInLg="35px" fontSizeInSm="20px">
                   350
                 </TextInGrid>
-                <TextInGrid fontW="400" fontSizeInLg="18px" fontSizeInSm="10px">
-                  Experienced and caring Experts
+                <TextInGrid fontW="450" fontSizeInLg="16px" fontSizeInSm="10px">
+                  EXPERIENCED AND CARING EXPERTS
                 </TextInGrid>
               </GridItem>
             </GridContainer>
@@ -149,24 +167,29 @@ function OurCompany() {
         </StoryContainer>
         <VisionContainer id="vision">
           <TextInsideImage
-            ts="1px 1px 2px black"
+            ts="1px 1px 2px white"
             color="#ffffff"
-            fontSize="55px"
-            fontWeight="900"
+            fontSize="60px"
+            fontWeight="400"
           >
             Vision & Values
           </TextInsideImage>
         </VisionContainer>
-        <BeliefContainer>
+        <BeliefContainer style={{ paddingTop: "30px" }}>
           <BeliefTextContainer>
-            <TextInsideImage color="#080808" fontSize="45px" fontWeight="500">
+            <TextInsideImage
+              style={{ transform: "scale(1.02, 1.2)" }}
+              color="#080808"
+              fontSize="35px"
+              fontWeight="500"
+            >
               "We believe in World Class Education, Worldwide"
             </TextInsideImage>
             <TextInsideImage
               mb="100px"
-              color="#080808"
+              color="#4c4c4c"
               fontSize="15px"
-              fontWeight="400"
+              fontWeight="500"
               fs="italic"
             >
               - Mark Lucas, Director of iae Global
@@ -174,8 +197,8 @@ function OurCompany() {
             <AlignEndTextContainer>
               <p
                 style={{
-                  marginRight: "-100px",
-                  fontSize: "14px",
+                  marginRight: "-250px",
+                  fontSize: "15px",
                   color: "#343434",
                   fontWeight: "400",
                   textAlign: "center",
@@ -194,7 +217,9 @@ function OurCompany() {
       <DosContainer>
         <DosImage src={woman} alt="woman" />
         <ListContainer>
-          <ListHead>What We do differently:</ListHead>
+          <ListHead style={{ color: "black" }}>
+            What We do differently:
+          </ListHead>
           <UnorderedList>
             <ListItem>We put our student clients before profit</ListItem>
             <ListItem>
@@ -231,7 +256,7 @@ function OurCompany() {
       </DosContainer>
       <DosContainer>
         <ListContainer>
-          <ListHead>Our mission is to:</ListHead>
+          <ListHead style={{ color: "black" }}>Our mission is to:</ListHead>
           <UnorderedList>
             <ListItem>
               Create a global network for international student recruitment that
@@ -247,7 +272,8 @@ function OurCompany() {
             </ListItem>
             <ListItem>
               Deliver quality expertise in major international student
-              recruitment locations
+              recruitment locations. of long-term institutional relationships
+              based on mutual benefit.
             </ListItem>
             <ListItem>
               Guarantee an ongoing commitment to provide comprehensive training
@@ -261,23 +287,31 @@ function OurCompany() {
               Offer a second-to-none business management and student recruitment
               model. ​
             </ListItem>
+            <ListItem>Always put the students’ needs first.</ListItem>
           </UnorderedList>
         </ListContainer>
         <DosImage src={mission} alt="woman" />
       </DosContainer>
       <CommittedTextContainer>
-        <CommittedText>
+        <CommittedText style={{ marginBottom: "-13px" }}>
           "We are committed to being a leading transnational education marketing
+        </CommittedText>
+        <CommittedText>
           and recruitment corporation based on these values and vision."
         </CommittedText>
       </CommittedTextContainer>
       <LeadershipTeamImageContainer id="leaders" vh="60vh" src={leadership}>
-        <LeaderShipText color="#ffffff" fontSize="70px" fontWeight="800">
+        <LeaderShipText
+          style={{ transform: "scale(1.1, 1.25)", letterSpacing: "1px" }}
+          color="#ffffff"
+          fontSize="55px"
+          fontWeight="500"
+        >
           Leadership Team
         </LeaderShipText>
       </LeadershipTeamImageContainer>
       <SmallTextContainer>
-        <SmallText color="#080808">
+        <SmallText style={{ fontSize: "14px" }} color="#080808">
           iae GLOBAL is steered by a highly complementary management team, who
           bring unmatched levels of breadth and depth in experience, expertise
           and business savvy in international education and related fields.
@@ -288,7 +322,7 @@ function OurCompany() {
         <EachLeaderBlock>
           <LeaderImage src={leader1} alt="leader1" />
           <LeaderTextContainer>
-            <LeaderName>OG KIM</LeaderName>
+            <LeaderName>OJ KIM</LeaderName>
             <LeaderDescription>
               OJ Kim has been involved in the international education industry
               since 1986 and started iae Edu Net in Korea in October 1992.
@@ -312,7 +346,7 @@ function OurCompany() {
         <EachLeaderBlock>
           <LeaderImage src={leader2} alt="leader2" />
           <LeaderTextContainer>
-            <LeaderName>MARK Lucas</LeaderName>
+            <LeaderName>MARK LUCAS</LeaderName>
             <LeaderDescription>
               Mark Lucas has a career in education spanning 30 years. He
               co-founded iae GLOBAL with OJ Kim in 2006. Mark began his career
@@ -367,12 +401,24 @@ function OurCompany() {
         vh="65vh"
         src={certificates}
       >
-        <AffiliatesText color="#ffffff" fontSize="60px" fontWeight="800">
+        <AffiliatesText
+          style={{ transform: "scale(1.1, 1.2)", letterSpacing: "1px" }}
+          color="#ffffff"
+          fontSize="50px"
+          fontWeight="500"
+        >
           Certifications, Affiliates and Awards
         </AffiliatesText>
       </LeadershipTeamImageContainer>
-      <SmallTextContainer>
-        <SmallText color="#080808">
+      <SmallTextContainer style={{ width: "100%" }}>
+        <SmallText
+          style={{
+            fontSize: "15px",
+            transform: "scale(1, 0.95)",
+            width: "99%",
+          }}
+          color="#080808"
+        >
           iae GLOBAL is steered by a highly complementary management team, who
           bring unmatched levels of breadth and depth in experience, expertise
           and business savvy in international education and related fields.
@@ -380,7 +426,7 @@ function OurCompany() {
       </SmallTextContainer>
       <ThinHorizontalLine />
       <AffiliatesContainer>
-        <ListHead style={{ marginBottom: "10px", marginTop: "-20px" }}>
+        <ListHead aff style={{ marginBottom: "10px", marginTop: "-20px" }}>
           Affiliates
         </ListHead>
         <SmallText>
@@ -390,16 +436,25 @@ function OurCompany() {
         <SmallText>
           Comments about us for the American International Recruitment Council
         </SmallText>
-        <AffiliatesButton>COMMENT ABOUT US</AffiliatesButton>
+        <AffiliatesButton>COMMENTS ABOUT US</AffiliatesButton>
         <ThinHorizontalLine />
         <SmallText>
           iae GLOBAL or its directors are affiliated with or a member of:
         </SmallText>
         <ImagesRow>
-          <AffiliatedImage src={affiliated1} alt="affiliated1" width="90%" />
+          <AffiliatedImage src={affiliated1} alt="affiliated1" width="100%" />
         </ImagesRow>
         <ThinHorizontalLine />
-        <ListHead>Awards</ListHead>
+        <ListHead
+          style={{
+            marginBottom: "25px",
+            fontSize: "25px",
+            fontWeight: "500",
+            transform: "scale(1.1,1.3)",
+          }}
+        >
+          Awards
+        </ListHead>
         <SmallText>
           iae GLOBAL has been awarded the following industry accolades.
         </SmallText>

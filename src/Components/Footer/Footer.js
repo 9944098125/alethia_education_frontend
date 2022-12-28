@@ -21,25 +21,35 @@ function Footer() {
               <TextInColumn>OUR COMPANY</TextInColumn>
             </HashLink>
             <HashLink to="/our-story#story" style={{ textDecoration: "none" }}>
-              <TextInColumn>OUR STORY</TextInColumn>
+              <TextInColumn style={{ marginTop: "-7px" }}>
+                OUR STORY
+              </TextInColumn>
             </HashLink>
             <HashLink to="/our-story#vision" style={{ textDecoration: "none" }}>
-              <TextInColumn>VISION AND VALUES</TextInColumn>
+              <TextInColumn style={{ marginTop: "-7px" }}>
+                VISION & VALUES
+              </TextInColumn>
             </HashLink>
             <HashLink
               to="/our-story#leaders"
               style={{ textDecoration: "none" }}
             >
-              <TextInColumn>LEADERSHIP TEAM</TextInColumn>
+              <TextInColumn style={{ marginTop: "-7px" }}>
+                LEADERSHIP TEAM
+              </TextInColumn>
             </HashLink>
             <HashLink
               to="/our-story#affiliates"
               style={{ textDecoration: "none" }}
             >
-              <TextInColumn>AFFILIATES AND AWARDS</TextInColumn>
+              <TextInColumn style={{ marginTop: "-7px" }}>
+                AFFILIATES & AWARDS
+              </TextInColumn>
             </HashLink>
             <HashLink to="/news-room#news" style={{ textDecoration: "none" }}>
-              <TextInColumn>NEWS ROOM</TextInColumn>
+              <TextInColumn style={{ marginTop: "-7px" }}>
+                NEWS ROOM
+              </TextInColumn>
             </HashLink>
           </EachColumn>
           <EachColumn>
@@ -47,30 +57,51 @@ function Footer() {
               to="/sitemap#sitemap"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <TextInColumn>SITEMAP</TextInColumn>
+              <TextInColumn style={{ marginTop: "-7px" }}>SITEMAP</TextInColumn>
             </HashLink>
             <HashLink
               to="/privacy#privacy"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <TextInColumn>PRIVACY POLICY</TextInColumn>
+              <TextInColumn style={{ marginTop: "-7px" }}>
+                PRIVACY POLICY
+              </TextInColumn>
             </HashLink>
             <HashLink
               to="/terms#terms"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <TextInColumn>TERMS OF USE</TextInColumn>
+              <TextInColumn style={{ marginTop: "-7px" }}>
+                TERMS OF USE
+              </TextInColumn>
             </HashLink>
             <HashLink
+              smooth
               to="/offices#contact-us"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <TextInColumn>CONTACT US</TextInColumn>
+              <TextInColumn style={{ marginTop: "-7px" }}>
+                CONTACT US
+              </TextInColumn>
             </HashLink>
           </EachColumn>
-          <EachColumn>
-            <TextInColumn grey>© 2018 IAE GLOBAL. ALL RIGHTS</TextInColumn>
-            <TextInColumn grey>RESERVED</TextInColumn>
+          <EachColumn nomr style={{ marginTop: "0px" }}>
+            <TextInColumn
+              style={{ letterSpacing: "-0.3px", transform: "scale(1.1, 1.15" }}
+              grey
+            >
+              © 2018 IAE GLOBAL. ALL RIGHTS
+            </TextInColumn>
+            <TextInColumn
+              style={{
+                letterSpacing: "-0.3px",
+                transform: "scale(1.1, 1.15",
+                marginTop: "-15px",
+              }}
+              grey
+            >
+              RESERVED
+            </TextInColumn>
           </EachColumn>
         </TextContainer>
       </FooterContainer>
