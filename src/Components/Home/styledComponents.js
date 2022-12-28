@@ -58,7 +58,7 @@ export const PathwayButton = styled.button`
   font-size: 14px;
   justify-content: center;
   align-items: center;
-  width: 180px;
+  width: 200px;
   height: 50px;
   letter-spacing: 1px;
   margin-top: 2%;
@@ -69,6 +69,7 @@ export const PathwayButton = styled.button`
   }
 `;
 export const SupportContainer = styled.div`
+  max-width: 1024px;
   @media screen and (min-width: 768px) {
     padding-left: 10.6%;
     padding-top: 50px;

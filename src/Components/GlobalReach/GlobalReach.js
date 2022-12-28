@@ -35,7 +35,7 @@ function GlobalReach() {
           <TextHead style={{ marginBottom: "45px" }}>
             Global Reach And Access
           </TextHead>
-          <TextPara style={{ color: "black" }}>
+          <TextPara style={{ color: "black", fontSize: "15px" }}>
             We are committed to expanding our network in both key student
             markets and major study destination countries under a common
             powerful brand, using a standardised model of student counselling

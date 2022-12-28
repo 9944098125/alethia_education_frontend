@@ -352,7 +352,7 @@ function Home() {
             >
               GLOBAL Group
             </TextInsideImage>
-            <p style={{ fontSize: "14.5px", color: "#343434" }}>
+            <p style={{ fontSize: "15px", color: "#343434" }}>
               We are an award-winning, growing international network that places
               an average of 18,000 students a year into over 700 key partner
               educational institutions worldwide.
