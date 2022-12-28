@@ -215,7 +215,7 @@ export const Links = styled.button`
   align-items: center;
   @media screen and (min-width: 800px) {
     font-size: 15.5px;
-    width: 108px;
+    width: 90px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;
@@ -230,8 +230,7 @@ export const AwardsContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
-  width: 100%;
+  width: 90%;
   margin-top: -150px;
   @media screen and (max-width: 768px) {
     margin-top: 0px;

@@ -13,7 +13,7 @@ function Footer() {
     <Fragment>
       <FooterContainer>
         <TextContainer>
-          <EachColumn>
+          <EachColumn style={{ marginLeft: "3%" }}>
             <HashLink
               to="/our-story#companyImage"
               style={{ textDecoration: "none" }}
@@ -52,7 +52,7 @@ function Footer() {
               </TextInColumn>
             </HashLink>
           </EachColumn>
-          <EachColumn>
+          <EachColumn style={{ marginLeft: "-3%" }}>
             <HashLink
               to="/sitemap#sitemap"
               style={{ textDecoration: "none", color: "inherit" }}
@@ -85,9 +85,9 @@ function Footer() {
               </TextInColumn>
             </HashLink>
           </EachColumn>
-          <EachColumn nomr style={{ marginTop: "0px" }}>
+          <EachColumn nomr style={{ marginTop: "-10px" }}>
             <TextInColumn
-              style={{ letterSpacing: "-0.3px", transform: "scale(1.1, 1.15" }}
+              style={{ letterSpacing: "-0.3px", transform: "scale(1, 1.1" }}
               grey
             >
               © 2018 IAE GLOBAL. ALL RIGHTS
@@ -95,7 +95,7 @@ function Footer() {
             <TextInColumn
               style={{
                 letterSpacing: "-0.3px",
-                transform: "scale(1.1, 1.15",
+                transform: "scale(1, 1.1",
                 marginTop: "-15px",
               }}
               grey

@@ -51,7 +51,7 @@ function Home() {
       <>
         <Header mt="2.3%" pr="4%" pl="5%" ml="-2.4%" />
         <div className="mb-3"></div>
-        <TextContainer style={{ marginTop: "-6.5%", marginLeft: "1.5%" }}>
+        <TextContainer style={{ marginTop: "-9%", marginLeft: "1.5%" }}>
           <TextInsideImage
             mb="3%"
             color="#ffffff"
@@ -165,12 +165,11 @@ function Home() {
             marginTop: "-68px",
             paddingBottom: "200px",
             paddingTop: "-25px",
-          }}
-          bgStyle={{
+            width: "100%",
+            objectFit: "cover",
             backgroundPosition: "center",
-            zIndex: "2",
           }}
-          strength={285}
+          strength={200}
           children={<HomeContent />}
           bgImage="https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_1284,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg"
         ></Parallax>
@@ -201,9 +200,7 @@ function Home() {
               style={{ textDecoration: "none", color: "inherit" }}
               to="/study-abroad#australia"
             >
-              <Links>
-                Read more <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
-              </Links>{" "}
+              <Links>Read more</Links>{" "}
             </HashLink>
           </SingleOption>
           <SingleOption>
@@ -222,9 +219,7 @@ function Home() {
               style={{ textDecoration: "none", color: "inherit" }}
               to="/study-abroad#new-zealand"
             >
-              <Links>
-                Read more <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
-              </Links>{" "}
+              <Links>Read more</Links>{" "}
             </HashLink>
           </SingleOption>
           <SingleOption>
@@ -243,10 +238,7 @@ function Home() {
               style={{ textDecoration: "none", color: "inherit" }}
               to="/study-abroad#canada"
             >
-              <Links>
-                Read more
-                <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
-              </Links>{" "}
+              <Links>Read more </Links>{" "}
             </HashLink>
           </SingleOption>
           <SingleOption>
@@ -265,9 +257,7 @@ function Home() {
               style={{ textDecoration: "none", color: "inherit" }}
               to="/study-abroad#unitedStates"
             >
-              <Links>
-                Read more <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
-              </Links>{" "}
+              <Links>Read more</Links>{" "}
             </HashLink>
           </SingleOption>
           <SingleOption>
@@ -286,9 +276,7 @@ function Home() {
               style={{ textDecoration: "none", color: "inherit" }}
               to="/study-abroad#unitedKingdom"
             >
-              <Links>
-                Read more <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
-              </Links>
+              <Links>Read more</Links>
             </HashLink>
           </SingleOption>
           <SingleOption>
@@ -303,13 +291,11 @@ function Home() {
               style={{ textDecoration: "none", color: "inherit" }}
               to="/offices#offices"
             >
-              <Links>
-                Read more <ArrowRightAltIcon sx={{ ml: 1, mt: 0.5 }} />
-              </Links>
+              <Links>Read more</Links>
             </HashLink>
           </SingleOption>
         </StudyAbroadOptions>
-        <AwardsContainer>
+        <AwardsContainer style={{ marginBottom: "-100px" }}>
           <EachItem>
             <ItemImage src={trophy} alt="trophy" />
           </EachItem>
@@ -324,6 +310,7 @@ function Home() {
             alignItems: "center",
             paddingBottom: "100px",
             marginBottom: "10%",
+            paddingTop: "0px",
           }}
           children={<PhilosophyContent />}
           strength={250}
@@ -352,18 +339,30 @@ function Home() {
             >
               GLOBAL Group
             </TextInsideImage>
-            <p style={{ fontSize: "15px", color: "#343434" }}>
+            <p
+              style={{
+                fontSize: "15px",
+                color: "#4c4c4c",
+                marginBottom: "40px",
+              }}
+            >
               We are an award-winning, growing international network that places
               an average of 18,000 students a year into over 700 key partner
               educational institutions worldwide.
             </p>
-            <p style={{ fontSize: "14.5px", color: "#343434" }}>
+            <p
+              style={{
+                fontSize: "14.5px",
+                color: "#4c4c4c",
+                marginBottom: "40px",
+              }}
+            >
               ​ We work with some of the most prestigious and recognised
               institutions in the world. We build robust relationships with our
               partners by working together with them to grow their brand and
               enrolments.
             </p>
-            <p style={{ fontSize: "14.5px", color: "#343434" }}>
+            <p style={{ fontSize: "14.5px", color: "#4c4c4c" }}>
               Explore and discover why hundreds of institutions have trusted us
               with their recruitment and reputation.
             </p>
