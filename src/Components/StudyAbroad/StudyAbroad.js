@@ -53,10 +53,10 @@ function StudyAbroad() {
         >
           "A journey of a thousand miles begins with a single step"
         </JourneyText>
-        <JourneyText fontSize="15px" fontWeight="500" mb="0px">
+        <JourneyText fontSize="15px" fontWeight="400" mb="0px">
           Choose a country of your interest and start your adventure!
         </JourneyText>
-        <JourneyText fontSize="14px" fontWeight="500">
+        <JourneyText fontSize="14px" fontWeight="400">
           Study destinations are: Australia, New Zealand, Canada, United States
           and the United Kingdom.
         </JourneyText>
@@ -298,7 +298,10 @@ function StudyAbroad() {
             </EachCountryButtonsContainer>
           </EachCountryTextContainer>
         </EachCountryContainer>
-        <EachCountryContainer id="unitedKingdom">
+        <EachCountryContainer
+          style={{ marginBottom: "-3%" }}
+          id="unitedKingdom"
+        >
           <EachCountryImage src={unitedkingdom} alt="australia" />
           <EachCountryTextContainer>
             <EachCountryDescription

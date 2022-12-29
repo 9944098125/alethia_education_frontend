@@ -38,8 +38,8 @@ function ContactUs() {
             Contact Us
           </ContactUsText>
           <ContactUsText
-            style={{ letterSpacing: "0.6px" }}
-            fontSize="15px"
+            style={{ color: "#4c4c4c" }}
+            fontSize="16px"
             fontWeight="400"
             mb="45px"
           >
@@ -97,7 +97,7 @@ function ContactUs() {
                     />
                   </div>
                 </div>
-                <div className="col pe-lg-5 mb-0">
+                <div className="col pe-lg-5 mb-3">
                   <Label htmlFor="email">Email Address*</Label>
                   <Field
                     type="text"
@@ -106,7 +106,7 @@ function ContactUs() {
                     className="primary-input-field"
                   />
                 </div>
-                <div className="d-flex flex-column pe-lg-5 mb-0">
+                <div className="d-flex flex-column pe-lg-5 mb-3">
                   <Label htmlFor="iam">I am*</Label>
                   <Field
                     as="select"
@@ -120,7 +120,7 @@ function ContactUs() {
                     <option value="others">others</option>
                   </Field>
                 </div>
-                <div className="col pe-lg-5 mb-0">
+                <div className="col pe-lg-5 mb-3">
                   <Label htmlFor="coi">Country of Interest*</Label>
                   <Field
                     type="text"
@@ -134,7 +134,7 @@ function ContactUs() {
                   <Field
                     type="text"
                     as="textarea"
-                    rows="7"
+                    rows="5"
                     id="message"
                     name="message"
                     className="textarea"

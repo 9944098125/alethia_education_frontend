@@ -25,7 +25,7 @@ export const SitemapImageContainer = styled.div`
 `;
 export const TextContainer = styled.div`
   width: 70%;
-  padding-left: 50px;
+  padding-left: 100px;
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 768px) {
@@ -42,7 +42,7 @@ export const TextInsideImage = styled.span`
 `;
 export const LinkedItemsColumnsContainer = styled.div`
   padding: 2%;
-  padding-left: 11%;
+  padding-left: 9%;
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
@@ -81,7 +81,7 @@ export const LinkedItems = styled(Link)`
   }
 `;
 export const SubLinksContainer = styled.div`
-  padding-left: 3%;
+  padding-left: 5%;
 `;
 export const SubLinkedItems = styled.p`
   font-size: ${(props) => props.fontSize};

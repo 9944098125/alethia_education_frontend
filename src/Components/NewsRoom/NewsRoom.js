@@ -40,14 +40,14 @@ function NewsRoom() {
           </TextInsideImage>
         </TextContainer>
       </NewsRoomImageContainer>
-      <SeniorContainer>
+      <SeniorContainer style={{ paddingLeft: "7%" }}>
         <HashLink
           to="/news-room/australia#news"
           style={{ textDecoration: "none", color: "inherit" }}
         >
           <EachRowInSeniorContainer>
             <EachImage src={eachImage1} alt="university" />
-            <EachTextContainer style={{ padding: "5%" }}>
+            <EachTextContainer style={{ paddingRight: "5%" }}>
               <EachText color="#080808" fontSize="12px" fontWeight="400">
                 Jan 8, 2020
               </EachText>

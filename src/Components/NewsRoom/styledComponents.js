@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { IoMdPerson } from "react-icons/io";
 
 export const NewsRoomImageContainer = styled.div`
-  height: 72vh;
+  height: 68.5vh;
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg/v1/fill/w_1304,h_572,al_c,q_85,enc_auto/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg");
   background-size: cover;
@@ -25,7 +25,7 @@ export const NewsRoomImageContainer = styled.div`
 `;
 export const TextContainer = styled.div`
   width: 70%;
-  padding-left: 30px;
+  padding-left: 90px;
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 768px) {
@@ -48,7 +48,7 @@ export const SeniorContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 5%;
 `;
 export const EachRowInSeniorContainer = styled.div`
   margin-bottom: 2.5%;

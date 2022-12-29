@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const StudyAbroadImageContainer = styled.div`
-  height: 71vh;
+  height: 68.5vh;
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_807aa5e00d304159a136cf7ae381bb62~mv2.jpeg/v1/fill/w_980,h_601,al_b,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_807aa5e00d304159a136cf7ae381bb62~mv2.jpeg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: bottom center;
   margin-top: -70px;
   display: flex;
   align-items: flex-end;
@@ -28,6 +28,7 @@ export const TextContainer = styled.div`
   width: 70%;
   display: flex;
   flex-direction: column;
+  padding-left: 5%;
   @media screen and (max-width: 768px) {
     margin-top: 600px;
     padding: 30px;
@@ -79,7 +80,9 @@ export const CountriesContainer = styled.div`
 export const EachCountryContainer = styled.div`
   width: 80%;
   padding: 3%;
-  padding-left: 15px;
+  padding-bottom: 1%;
+  padding-left: 55px;
+  margin-bottom: -7%;
   @media screen and (min-width: 1024px) {
     height: 120vh;
     display: flex;
@@ -93,8 +96,8 @@ export const EachCountryContainer = styled.div`
 `;
 export const EachCountryImage = styled.img`
   @media screen and (min-width: 1024px) {
-    height: 94%;
-    width: 49%;
+    height: 85%;
+    width: 47%;
   }
   @media screen and (mnax-width: 768px) {
     height: 50%;
@@ -112,7 +115,7 @@ export const EachCountryDescription = styled.p`
   transform: ${(props) => props.head && "scale(1, 1.25)"};
   letter-spacing: ${(props) => props.head && "1px"};
   margin-bottom: ${(props) => props.mb};
-  color: #36454f;
+  color: #4c4c4c;
   @media screen and (min-width: 1024px) {
     font-size: ${(props) => props.fontSizeL};
   }

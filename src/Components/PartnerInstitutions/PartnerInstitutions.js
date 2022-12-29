@@ -45,23 +45,29 @@ function PartnerInstitutions() {
           </TextInsideImage>
         </TextContainer>
       </PartnersImageContainer>
-      <JourneyTextContainer style={{ width: "100%" }}>
-        <JourneyText fontSize="14px" fontWeight="400">
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          paddingLeft: "19%",
+          paddingRight: "18%",
+        }}
+      >
+        <p style={{ fontSize: "15px", color: "#4c4c4c", textAlign: "center" }}>
           We have strong and long-term partnerships with education institutions
           from all sectors, including privately owned language schools,
           vocational training institutes, major global education groups,
           world-class highly ranked universities and government colleges in all
           major study destinations.
-        </JourneyText>
-        <HorizontalLine w="130%" />
-      </JourneyTextContainer>
+        </p>
+        <HorizontalLine w="100%" />
+      </div>
+
       <UniversitiesInCountryContainer>
         <UniversitiesInSingleCountry>
-          <CountryName
-            style={{ transform: "scale(1.1, 1.3)" }}
-            fontSizeL="40px"
-            fontSizeS="25px"
-          >
+          <CountryName fontSizeL="40px" fontSizeS="25px">
             Australia
           </CountryName>
           <WrappedUniversities>
@@ -74,11 +80,7 @@ function PartnerInstitutions() {
         </UniversitiesInSingleCountry>
         <HorizontalLine width="80%" />
         <UniversitiesInSingleCountry>
-          <CountryName
-            style={{ transform: "scale(1.1, 1.3)" }}
-            fontSizeL="40px"
-            fontSizeS="25px"
-          >
+          <CountryName fontSizeL="40px" fontSizeS="25px">
             New Zealand
           </CountryName>
           <WrappedUniversities>
@@ -91,11 +93,7 @@ function PartnerInstitutions() {
         </UniversitiesInSingleCountry>
         <HorizontalLine width="80%" />
         <UniversitiesInSingleCountry>
-          <CountryName
-            style={{ transform: "scale(1.1, 1.3)" }}
-            fontSizeL="40px"
-            fontSizeS="25px"
-          >
+          <CountryName fontSizeL="40px" fontSizeS="25px">
             Canada
           </CountryName>
           <WrappedUniversities>
@@ -108,11 +106,7 @@ function PartnerInstitutions() {
         </UniversitiesInSingleCountry>
         <HorizontalLine width="80%" />
         <UniversitiesInSingleCountry>
-          <CountryName
-            style={{ transform: "scale(1.1, 1.3)" }}
-            fontSizeL="40px"
-            fontSizeS="25px"
-          >
+          <CountryName fontSizeL="40px" fontSizeS="25px">
             United States
           </CountryName>
           <WrappedUniversities>
@@ -125,11 +119,7 @@ function PartnerInstitutions() {
         </UniversitiesInSingleCountry>
         <HorizontalLine width="80%" />
         <UniversitiesInSingleCountry>
-          <CountryName
-            style={{ transform: "scale(1.1, 1.3)" }}
-            fontSizeL="40px"
-            fontSizeS="25px"
-          >
+          <CountryName fontSizeL="40px" fontSizeS="25px">
             United Kingdom
           </CountryName>
           <WrappedUniversities>

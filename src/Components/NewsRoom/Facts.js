@@ -88,7 +88,7 @@ function Facts() {
         >
           1. THE ECONOMY IS STRONG
         </EachText>
-        <EachText fontSize="14px">
+        <EachText fontSize="14px" fontWeight="300">
           Australia has gone more than 26 years without a recession, which is a
           world record, and the unemployment rate is only around five per cent.
         </EachText>
@@ -110,7 +110,7 @@ function Facts() {
         >
           2. UNSPOILT BEAUTY
         </EachText>
-        <EachText fontSize="14px">
+        <EachText fontSize="14px" fontWeight="300">
           Australia has a great variety of natural ecosystems. You can find
           golden sandy beaches, tropical rainforests, snowy mountains and vast
           deserts. There are more than 500 national parks, with 28 million
@@ -135,7 +135,7 @@ function Facts() {
         >
           3. THE HEALTH CARE SYSTEM IS FANTASTIC
         </EachText>
-        <EachText fontSize="14px">
+        <EachText fontSize="14px" fontWeight="300">
           The Australian healthcare system has been ranked among the best in the
           developed world, with Medicare providing basic cover for all
           Australians.
@@ -158,7 +158,7 @@ function Facts() {
         >
           4. IT'S A TRULY MULTI-CULTURAL SOCIETY
         </EachText>
-        <EachText fontSize="14px">
+        <EachText fontSize="14px" fontWeight="300">
           Australia has a greater proportion of its population born overseas
           than any other country. The last census shows that almost half (49 per
           cent) of Australians were born overseas or have at least one parent
@@ -181,7 +181,7 @@ function Facts() {
         >
           5. THERE'S PLENTY OF SPACE
         </EachText>
-        <EachText fontSize="14px">
+        <EachText fontSize="14px" fontWeight="300">
           With only 3.1 people per square kilometer, Australia has the lowest
           population density of any continent in the world, apart from
           Antarctica.
@@ -204,7 +204,7 @@ function Facts() {
         >
           6. IT'S HOT
         </EachText>
-        <EachText fontSize="14px">
+        <EachText fontSize="14px" fontWeight="300">
           Due to its huge size, Australia has several different climate zones
           across its eight states and territories, but if you like basking in
           the sun, you’re in luck – most of the country receives more than 4200
@@ -228,7 +228,7 @@ function Facts() {
         >
           7. LIFE'S A BEACH
         </EachText>
-        <EachText fontSize="14px">
+        <EachText fontSize="14px" fontWeight="300">
           There are so many beaches in Australia (10,685 to be exact) if you
           visited a new beach every day it would take you almost 30 years to see
           them all!
@@ -250,7 +250,7 @@ function Facts() {
         >
           8. CURRENCY ?
         </EachText>
-        <EachText fontSize="14px">
+        <EachText fontSize="14px" fontWeight="300">
           The main unit of currency in Australia is the Australian dollar (AU$
           or AUD). Denominations include: Notes. $5, $10, $20, $50 and $100
           notes; Coins. $1 and $2 coins, 5, 10, 20 and 50 cent coins; Credit
@@ -272,7 +272,7 @@ function Facts() {
         </IconsContainer>
       </NewsContainer>
       <div className="d-flex align-items-center justify-content-between">
-        <EachText mlsm="50px" mllg="150px" fontSize="20px">
+        <EachText mlsm="50px" mllg="150px" fontSize="16px" fontWeight="400">
           Recent Posts
         </EachText>
         <HashLink
@@ -321,7 +321,7 @@ function Facts() {
           </EachPost>
         </HashLink>
       </RecentPostsContainer>
-      <NewsContainer mh="65vh">
+      <NewsContainer mh="65vh" style={{ width: "76%", marginLeft: "12.5%" }}>
         <EachText fontF fontSize="20px" fontWeight="420">
           Comments
         </EachText>

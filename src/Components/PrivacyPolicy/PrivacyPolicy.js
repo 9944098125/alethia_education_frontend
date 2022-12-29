@@ -33,7 +33,7 @@ function PrivacyPolicy() {
         <PrivacyText mb="50px" fontSize="14px" fontWeight="500">
           Last Modified: 31st of Aug, 2022
         </PrivacyText>
-        <PrivacyText fontF fontSize="16px" fontWeight="800">
+        <PrivacyText fontF fontSize="15px" fontWeight="600">
           INTRODUCTION
         </PrivacyText>
         <PrivacyText fontSize="14px" fontWeight="400">
@@ -48,7 +48,7 @@ function PrivacyPolicy() {
         <PrivacyText mb="-30px" fontSize="14px" fontWeight="500">
           This Policy applies to information we collect:
         </PrivacyText>
-        <ListContainer mb="-20px">
+        <ListContainer mb="-20px" style={{ padding: "4%" }}>
           <ListItem>On this website</ListItem>
           <ListItem>
             In email, text, and other electronic messages between you and this
@@ -58,7 +58,7 @@ function PrivacyPolicy() {
         <PrivacyText mb="-30px" fontSize="14px" fontWeight="500">
           It does not apply to the information collected by:
         </PrivacyText>
-        <ListContainer>
+        <ListContainer style={{ padding: "4%" }}>
           <ListItem>
             Us offline or through any other means, including on any other
             website operated by us or any third party (including our affiliates
@@ -83,7 +83,7 @@ function PrivacyPolicy() {
         <PrivacyText fontF fontSize="16px" fontWeight="500">
           Children Under the age of 16
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="400">
           Our Website is not intended for children under 16 years of age. No one
           under age 16 may provide any information to or on the Website. We do
           not knowingly collect personal information from children under 16. If
@@ -421,12 +421,12 @@ function PrivacyPolicy() {
         <PrivacyText fontF fontSize="16px" fontWeight="500">
           CONTACT INFORMATION
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="400">
           To ask questions or comment about this privacy policy and our privacy
           practices, or to register a concern, contact us at: 8F Humax Ebisu
           Building Ebisu Minami 1-1-1, Shibuya-ku Tokyo, 150-0022, Japan
         </PrivacyText>
-        <PrivacyText fontSize="14px" fontWeight="500">
+        <PrivacyText fontSize="14px" fontWeight="400">
           info@iaeglobal.net
         </PrivacyText>
       </PrivacyTextContainer>

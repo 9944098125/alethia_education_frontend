@@ -7,12 +7,12 @@ export const CompanyContainer = styled.div`
 `;
 
 export const CompanyImageContainer = styled.div`
-  height: 71.5vh;
+  height: 70vh;
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_eb767afbe0b740b9ae383863f0b402b9~mv2.jpg/v1/fill/w_980,h_601,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_eb767afbe0b740b9ae383863f0b402b9~mv2.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: top;
+  background-position: top center;
   margin-top: -70px;
   margin-bottom: 5%;
   display: flex;
@@ -84,16 +84,16 @@ export const StoryContainer = styled.div`
 `;
 export const SmallText = styled.p`
   color: ${(props) => props.color};
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
-  font-weight: 450;
+  font-weight: 400;
   width: 90%;
   @media screen and (max-width: 768px) {
     font-size: 12px;
   }
 `;
 export const SmallContainer = styled.div`
-  width: 60%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,7 +101,7 @@ export const SmallContainer = styled.div`
 export const ValuesButton = styled.button`
   display: flex;
   justify-content: center;
-  padding: 6.5px;
+  padding: 6px;
   width: 240px;
   font-family: "Oswald", sans-serif;
   font-weight: 430;
@@ -121,7 +121,7 @@ export const ValuesButton = styled.button`
 `;
 
 export const StatisticsImage = styled.img`
-  width: 105%;
+  width: 100%;
   height: 40%;
   margin-top: 50px;
   margin-bottom: 5%;
@@ -143,12 +143,13 @@ export const TextAndGridContainer = styled.div`
 `;
 
 export const TextWithGridContainer = styled.div`
+  color: #4c4c4c;
   @media screen and (min-width: 768px) {
     width: 50%;
     padding: 5px;
     margin-right: 0px;
     padding-right: 0px;
-    margin-left: -30px;
+    margin-right: -50px;
   }
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -294,8 +295,8 @@ export const ListContainer = styled.div`
   flex-direction: column;
   align-items: flex-start;
   width: 50%;
-  padding-left: 15%;
-  padding: 5%;
+  padding-left: 20%;
+  padding: 7%;
   padding-bottom: 0%;
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -315,6 +316,7 @@ export const ListHead = styled.p`
 
 export const UnorderedList = styled.ul`
   list-style-type: disc;
+  padding-left: 5%;
   @media screen and (max-width: 768px) {
     padding: 10%;
     padding-bottom: 0px;
@@ -325,7 +327,7 @@ export const UnorderedList = styled.ul`
 `;
 export const ListItem = styled.li`
   font-size: 14px;
-  color: #343434;
+  color: #4c4c4c;
   margin-bottom: 5%;
   @media screen and (max-width: 768px) {
     margin-bottom: 3%;
@@ -337,7 +339,7 @@ export const CommittedTextContainer = styled.div`
   flex-direction: column;
   align-items: center;
   padding-top: 5%;
-  padding-left: 1%;
+  padding-left: 0%;
   @media screen and (min-width: 768px) {
     margin-bottom: 7%;
   }
@@ -350,6 +352,7 @@ export const CommittedText = styled.p`
   font-weight: 400;
   font-family: "Oswald", sans-serif;
   transform: scale(1, 1.1);
+  margin-right: -90px;
   @media screen and (min-width: 768px) {
     font-size: 38px;
   }
@@ -373,8 +376,8 @@ export const SmallTextContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 2%;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 22%;
+  padding-right: 21%;
   margin-bottom: 0px;
   margin-top: 0px;
 `;
@@ -434,7 +437,7 @@ export const AffiliatesContainer = styled.div`
 `;
 export const AffiliatesImage = styled.img`
   width: 25%;
-  height: 20%;
+  height: 18%;
   margin-bottom: 2%;
   margin-top: 2%;
 `;
@@ -443,7 +446,7 @@ export const AffiliatesButton = styled.button`
   color: white;
   width: 210px;
   margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   font-family: "Oswald", sans-serif;
   font-weight: 500;
   font-size: 13px;
@@ -481,7 +484,7 @@ export const AlignEndTextContainer = styled.div`
   @media screen and (min-width: 1024px) {
     justify-content: flex-end;
     padding-left: 7%;
-    width: 62%;
+    width: 65%;
     margin-right: -150px;
   }
 `;

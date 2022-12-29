@@ -36,13 +36,13 @@ function TermsOfUse() {
         >
           Terms of Use
         </PrivacyText>
-        <PrivacyText mb="50px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="50px" fontSize="15px" fontWeight="400">
           Last Modified: 31st of August, 2022
         </PrivacyText>
         <PrivacyText fontF fontSize="16px" fontWeight="550">
           ACCEPTANCE OF TERMS OF USE
         </PrivacyText>
-        <PrivacyText mb="15px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="15px" fontSize="15px" fontWeight="400">
           These terms of use are entered into by and between You and iae GLOBAL
           <b>("Company," "we," or "us")</b>. The following terms and conditions{" "}
           <b>(the "Terms of Use")</b> govern your access to and use of
@@ -50,7 +50,7 @@ function TermsOfUse() {
           services offered on or through www.iaeglobal.co (the "Website"),
           whether as a guest or a registered user.
         </PrivacyText>
-        <PrivacyText mb="16px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="16px" fontSize="15px" fontWeight="400">
           Please read the <b>Terms of Use</b> carefully before you start to use
           the Website. By using the Website, you accept and agree to be bound
           and abide by these Terms of Use and our Privacy Policy, found at
@@ -69,12 +69,12 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="16px" fontWeight="550">
           CHANGES TO TERMS OF USE
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           We may revise and update these Terms of Use from time to time in our
           sole discretion. All changes are effective immediately when we post
           them, and apply to all access to and use of the Website thereafter.
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           Your continued use of the Website following the posting of revised
           Terms of Use means that you accept and agree to the changes. You are
           expected to check this page from time to time so you are aware of any
@@ -83,7 +83,7 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="16px" fontWeight="550">
           ACCESSING THE WEBSITE AND ACCOUNT SECURITY
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           We reserve the right to withdraw or amend this Website, and any
           service or material we provide on the Website, in our sole discretion
           without notice. We will not be liable if for any reason all or any
@@ -91,21 +91,21 @@ function TermsOfUse() {
           time to time, we may restrict access to some parts of the Website, or
           the entire Website, to users, including registered users.
         </PrivacyText>
-        <PrivacyText mb="-3%" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-3%" fontSize="15px" fontWeight="400">
           You are responsible for both:
         </PrivacyText>
         <ListContainer>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Making all arrangements necessary for you to have access to the
             Website.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Ensuring that all persons who access the Website through your
             internet connection are aware of these Terms of Use and comply with
             them.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           To access the Website or some of the resources it offers, you may be
           asked to provide certain registration details or other information. It
           is a condition of your use of the Website that all the information you
@@ -116,7 +116,7 @@ function TermsOfUse() {
           Policy, and you consent to all actions we take with respect to your
           information, consistent with our Privacy Policy.{" "}
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           If you choose, or are provided with, a user name, password, or any
           other piece of information as part of our security procedures, you
           must treat such information as confidential, and you must not disclose
@@ -131,7 +131,7 @@ function TermsOfUse() {
           shared computer so that others are not able to view or record your
           password or other personal information.
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           We have the right to disable any user name, password, or other
           identifier, whether chosen by you or provided by us, at any time if,
           in our opinion, you have violated any provision of these Terms of Use.
@@ -139,7 +139,7 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="16px" fontWeight="550">
           INTELLECTUAL PROPERTY RIGHTS
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           The Website and its entire contents, features, and functionality
           (including but not limited to all information, software, text,
           displays, images, video, and audio, and the design, selection, and
@@ -148,7 +148,7 @@ function TermsOfUse() {
           international copyright, trademark, patent, trade secret, and other
           intellectual property or proprietary rights laws.
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           These Terms of Use permit you to use the Website for your personal,
           non-commercial use only. You must not reproduce, distribute, modify,
           create derivative works of, publicly display, publicly perform,
@@ -156,41 +156,41 @@ function TermsOfUse() {
           Website, except as follows:
         </PrivacyText>
         <ListContainer style={{ paddingTop: "10px" }} mb="-30px">
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Your computer may temporarily store copies of such materials in RAM
             incidental to your accessing and viewing those materials.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             You may store files that are automatically cached by your Web
             browser for display enhancement purposes.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             About your internet connection, the equipment you use to access our
             Website, and usage details.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             ou may print one copy of a reasonable number of pages of the Website
             for your own personal, non-commercial use and not for further
             reproduction, publication, or distribution.
           </ListItem>
         </ListContainer>
-        <PrivacyText mb="-30px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-30px" fontSize="15px" fontWeight="400">
           You must not
         </PrivacyText>
         <ListContainer mb="-16px">
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Modify copies of any materials from this site.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Use any illustrations, photographs, video or audio sequences, or any
             graphics separately from the accompanying text.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Delete or alter any copyright, trademark, or other proprietary
             rights notices from copies of materials from this site.
           </ListItem>
         </ListContainer>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           If you print, copy, modify, download, or otherwise use or provide any
           other person with access to any part of the Website in breach of the
           Terms of Use, your right to use the Website will stop immediately and
@@ -204,7 +204,7 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="16px" fontWeight="550">
           TRADEMARKS
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           The Company name, the terms “iae” and “iae GLOBAL,” the Company logo,
           and all related names, logos, product and service names, designs, and
           slogans are trademarks of the Company or its affiliates or licensors.
@@ -216,73 +216,73 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="16px" fontWeight="550">
           PROHIBITED USES
         </PrivacyText>
-        <PrivacyText mb="-16px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-16px" fontSize="15px" fontWeight="400">
           You may use the Website only for lawful purposes and in accordance
           with these Terms of Use. You agree not to use the Website:
         </PrivacyText>
         <ListContainer mb="-30px">
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             In any way that violates any applicable laws or regulations.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             For the purpose of exploiting, harming, or attempting to exploit or
             harm minors in any way by exposing them to inappropriate content,
             asking for personally identifiable information, or otherwise.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             To send, knowingly receive, upload, download, use, or re-use any
             material that does not comply with the Content Standards set out in
             these Terms of Use.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             To transmit, or procure the sending of, any advertising or
             promotional material, including any "junk mail," "chain letter,"
             "spam," or any other similar solicitation.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             To impersonate or attempt to impersonate the Company, a Company
             employee, another user, or any other person or entity (including,
             without limitation, by using email addresses associated with any of
             the foregoing).
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             To engage in any other conduct that restricts or inhibits anyone's
             use or enjoyment of the Website, or which, as determined by us, may
             harm the Company or users of the Website, or expose them to
             liability.
           </ListItem>
         </ListContainer>
-        <PrivacyText mb="-30px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-30px" fontSize="15px" fontWeight="400">
           Additionally you agree not to
         </PrivacyText>
         <ListContainer mb="-16px">
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Use the Website in any manner that could disable, overburden,
             damage, or impair the site or interfere with any other party's use
             of the Website, including their ability to engage in real time
             activities through the Website.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Use any robot, spider, or other automatic device, process, or means
             to access the Website for any purpose, including monitoring or
             copying any of the material on the Website.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Use any manual process to monitor or copy any of the material on the
             Website, or for any other purpose not expressly authorized in these
             Terms of Use, without our prior written consent.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Attempt to gain unauthorized access to, interfere with, damage, or
             disrupt any parts of the Website, the server on which the Website is
             stored, or any server, computer, or database connected to the
             Website.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Otherwise attempt to interfere with the proper working of the
             Website.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Attempt to gain unauthorized access to, interfere with, damage, or
             disrupt any parts of the Website, the server on which the Website is
             stored, or any server, computer, or database connected to the
@@ -292,7 +292,7 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="16px" fontWeight="550">
           USER CONTRIBUTION
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           The Website may contain message boards and other interactive features
           (collectively, "Interactive Services") that allow users to post,
           submit, publish, display, or transmit to other users or other persons
@@ -313,19 +313,19 @@ function TermsOfUse() {
           material for any purpose.
         </PrivacyText>
         <ListContainer mb="-30px">
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             You own or control all rights in and to the User Contributions and
             have the right to grant the licence granted above to us and our
             affiliates and service providers, and each of their and our
             respective licensees, successors, and assigns.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             That is about you but individually does not identify you, such as
             your year of birth and nationality; and/or
           </ListItem>
         </ListContainer>
 
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           You also may provide information to be published or displayed
           (hereinafter, "posted") on public areas of the Website, or transmitted
           to other users of the Website or third parties (collectively, "User
@@ -340,15 +340,15 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="16px" fontWeight="550">
           MONITORING AND ENFORCEMENT; TERMINATION
         </PrivacyText>
-        <PrivacyText mb="-16px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-16px" fontSize="15px" fontWeight="400">
           We have the right to:
         </PrivacyText>
         <ListContainer mb="-30px">
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Remove or refuse to post any User Contributions for any or no reason
             in our sole discretion.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Take any action with respect to any User Contribution that we deem
             necessary or appropriate in our sole discretion, including if we
             believe that such User Contribution violates the Terms of Use,
@@ -357,16 +357,16 @@ function TermsOfUse() {
             safety of users of the Website or the public, or could create
             liability for the Company.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Disclose your identity or other information about you to any third
             party who claims that material posted by you violates their rights,
             including their intellectual property rights or their right to
             privacy.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Directly from you when you provide it to us.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Terminate or suspend your access to all or part of the Website for
             any or no reason, including without limitation, any violation of
             these Terms of Use.
@@ -396,7 +396,7 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="16px" fontWeight="550">
           CONTENT STANDARDS
         </PrivacyText>
-        <PrivacyText mb="-16px" fontSize="15px" fontWeight="500">
+        <PrivacyText mb="-16px" fontSize="15px" fontWeight="400">
           These content standards apply to any and all User Contributions and
           use of Interactive Services. User Contributions must in their entirety
           comply with all applicable federal, state, local, and international
@@ -404,33 +404,33 @@ function TermsOfUse() {
           Contributions must not:
         </PrivacyText>
         <ListContainer mb="-30px">
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Contain any material that is defamatory, obscene, indecent, abusive,
             offensive, harassing, violent, hateful, inflammatory, or otherwise
             objectionable.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             That is about you but individually does not identify you, such as
             your year of birth and nationality; and/or
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             About your internet connection, the equipment you use to access our
             Website, and usage details.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Directly from you when you provide it to us.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             About your internet connection, the equipment you use to access our
             Website, and usage details.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Automatically as you navigate through the site. Information
             collected automatically may include usage details, IP addresses, and
             information collected through cookies and other tracking
             technologies.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Give the impression that they emanate from or are endorsed by us or
             any other person or entity, if this is not the case.
           </ListItem>
@@ -499,15 +499,15 @@ function TermsOfUse() {
           to:
         </PrivacyText>
         <ListContainer style={{ padding: "0px", paddingLeft: "40px" }}>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Link from your own or certain third-party websites to certain
             content on this Website.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Send emails or other communications with certain content, or links
             to certain content, on this Website.
           </ListItem>
-          <ListItem style={{ fontWeight: "500" }}>
+          <ListItem style={{ fontWeight: "400" }}>
             Cause limited portions of content on this Website to be displayed or
             appear to be displayed on your own or certain third-party websites.
           </ListItem>
@@ -555,7 +555,7 @@ function TermsOfUse() {
             material posted on it, or on any Website linked to it.
           </b>
         </PrivacyText>
-        <PrivacyText style={{ fontWeight: "500" }} fontSize="15px">
+        <PrivacyText style={{ fontWeight: "400" }} fontSize="15px">
           <b>
             Your use of the Website, its content, and any services or items
             obtained through the Website is at your own risk. The Website, its
@@ -620,14 +620,14 @@ function TermsOfUse() {
         <PrivacyText fontF fontSize="16px" fontWeight="550">
           WAIVER AND SEVERIBILITY
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           No waiver by the Company of any term or condition set out in these
           Terms of Use shall be deemed a further or continuing waiver of such
           term or condition or a waiver of any other term or condition, and any
           failure of the Company to assert a right or provision under these
           Terms of Use shall not constitute a waiver of such right or provision.
         </PrivacyText>
-        <PrivacyText fontSize="15px" fontWeight="500">
+        <PrivacyText fontSize="15px" fontWeight="400">
           If any provision of these Terms of Use is held by a court or other
           tribunal of competent jurisdiction to be invalid, illegal, or
           unenforceable for any reason, such provision shall be eliminated or

@@ -27,7 +27,7 @@ export const HomeImageContainer = styled(Parallax)`
 `;
 export const TextContainer = styled.div`
   width: 82%;
-  padding-left: 10%;
+  padding-left: 13%;
   padding-top: 40%;
   display: flex;
   flex-direction: column;
@@ -184,7 +184,7 @@ export const CountryName = styled.h2`
 `;
 
 export const Description = styled.p`
-  font-weight: 450;
+  font-weight: 400;
   @media screen and (min-width: 800px) {
     font-size: 15px;
   }

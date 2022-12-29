@@ -66,12 +66,12 @@ function Education() {
           src="https://static.wixstatic.com/media/e4c206_804c995b342b4a7bbdb99b9f166a1a58~mv2.png/v1/fill/w_1000,h_668,al_c,q_90,enc_auto/e4c206_804c995b342b4a7bbdb99b9f166a1a58~mv2.png"
           alt="education1"
         />
-        <EachText fontSize="14px">
+        <EachText fontSize="14px" fontWeight="300">
           Every year iae GLOBAL Australia hosts the biggest study, career and
           migration event in Australia for international students and
           travellers.
         </EachText>
-        <EachText fontSize="14px">
+        <EachText fontSize="14px" fontWeight="300">
           iae Sydney’s team bring together education representatives, migration
           agents, various experts and different service providers from all over
           Australia under one roof to offer valuable advice and help
@@ -81,26 +81,26 @@ function Education() {
           What are the benefits of attending this event?
         </EachText>
         <UnoList style={{ margin: "0px", padding: "0px" }}>
-          <EachText fontSize="14px">
+          <EachText fontSize="14px" fontWeight="300">
             - Extend your stay in Australia on a Student Visa or a Graduate Visa
           </EachText>
-          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px" fontWeight="300">
             - Find out about job opportunities on a Graduate Visa
           </EachText>
-          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px" fontWeight="300">
             {" "}
             - Get up to $15,000 scholarship for your studies
           </EachText>
-          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px" fontWeight="300">
             - Extend your stay in Australia on a Student Visa or a Graduate Visa
           </EachText>
-          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px" fontWeight="300">
             - Find out about job opportunities on a Graduate Visa
           </EachText>
-          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px" fontWeight="300">
             - Extend your stay in Australia on a Student Visa or a Graduate Visa
           </EachText>
-          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px">
+          <EachText mtlg="-15px" mtsm="-10px" fontSize="14px" fontWeight="300">
             {" "}
             - Get up to $15,000 scholarship for your studies
           </EachText>
@@ -108,20 +108,20 @@ function Education() {
         <EachText fontF fontSize="30px" fontWeight="400">
           Instant Experience
         </EachText>
-        <EachText fontSize="14px">
+        <EachText fontSize="14px" fontWeight="300">
           Students can receive one-on-one counselling with experienced experts
           from more than 50 Australian institutions, recruitment specialists
           with placement services and get their questions answered about the
           best study options and post-graduation perspectives.
         </EachText>
-        <EachText fontSize="14px">
+        <EachText fontSize="14px" fontWeight="300">
           Registered migration agents will help our students to ensure all their
           visas, permits and papers are in order.
         </EachText>
         <EachText fontF fontSize="30px" fontWeight="400">
           It's your lucky day
         </EachText>
-        <EachText fontSize="14px">
+        <EachText fontSize="14px" fontWeight="300">
           ALL Registered attendees usually receive gifts on arrival and will
           enter the chance to win lucky draw prizes such as: iPhone XR, iWatch,
           iPad mini, laptop, Australian attractions vouchers, Movie tickets and
@@ -140,6 +140,7 @@ function Education() {
         <EachText
           style={{ display: "flex", fontStyle: "italic", marginBottom: "-5px" }}
           fontSize="14px"
+          fontWeight="300"
         >
           <p className="text-primary me-2">SIGN UP</p> FOR THE EVENT NOW IT'S
           FREE.
@@ -151,10 +152,13 @@ function Education() {
             marginTop: "-10px",
           }}
           fontSize="14px"
+          fontWeight="300"
         >
           20 September | Friday | 1 pm - 6 pm
         </EachText>
-        <EachText fontSize="14px">66 Goulburn st. Sydney, Australia</EachText>
+        <EachText fontSize="14px" fontWeight="300">
+          66 Goulburn st. Sydney, Australia
+        </EachText>
         {/* <ReactPlayerContainer> */}
         {/* <ReactPlayer
           url="https://youtu.be/wzaLOqIALpo"
@@ -229,7 +233,7 @@ function Education() {
           </EachPost>
         </HashLink>
       </RecentPostsContainer>
-      <NewsContainer mh="65vh">
+      <NewsContainer mh="65vh" style={{ width: "76%", marginLeft: "12.5%" }}>
         <EachText fontF fontSize="20px" fontWeight="400">
           Comments
         </EachText>

@@ -70,7 +70,7 @@ function OurCompany() {
     <Fragment>
       <CompanyContainer>
         <CompanyImageContainer id="companyImage">
-          <TextContainer>
+          <TextContainer style={{ paddingLeft: "7%" }}>
             <TextInsideImage
               style={{ transform: "scale(1.1, 1.3)" }}
               color="#ffffff"
@@ -91,7 +91,7 @@ function OurCompany() {
             >
               "It all began in 1992..."
             </TextInsideImage>
-            <SmallText color="#080808">
+            <SmallText color="#4c4c4c" style={{ fontWeight: "400" }}>
               We started as a single office in Gangnam, Seoul, South Korea. Over
               the decades, iae GLOBAL has become one of the largest and most
               diverse student recruitment organisations in the world.
@@ -167,7 +167,8 @@ function OurCompany() {
         </StoryContainer>
         <VisionContainer id="vision">
           <TextInsideImage
-            ts="1px 1px 2px white"
+            ts="rgb(255 255 255 / 60%) 1px 1px 1px,
+            rgb(0 0 0 / 60%) -1px -1px 1px"
             color="#ffffff"
             fontSize="60px"
             fontWeight="400"
@@ -199,9 +200,10 @@ function OurCompany() {
                 style={{
                   marginRight: "-250px",
                   fontSize: "15px",
-                  color: "#343434",
+                  color: "#4c4c4c",
                   fontWeight: "400",
                   textAlign: "center",
+                  marginLeft: "100px",
                 }}
               >
                 To that end, we started a business model grounded in several
@@ -217,7 +219,7 @@ function OurCompany() {
       <DosContainer>
         <DosImage src={woman} alt="woman" />
         <ListContainer>
-          <ListHead style={{ color: "black" }}>
+          <ListHead style={{ color: "black", marginRight: "-50px" }}>
             What We do differently:
           </ListHead>
           <UnorderedList>
@@ -311,7 +313,7 @@ function OurCompany() {
         </LeaderShipText>
       </LeadershipTeamImageContainer>
       <SmallTextContainer>
-        <SmallText style={{ fontSize: "14px" }} color="#080808">
+        <SmallText style={{ fontSize: "14px" }} color="#4c4c4c">
           iae GLOBAL is steered by a highly complementary management team, who
           bring unmatched levels of breadth and depth in experience, expertise
           and business savvy in international education and related fields.
@@ -417,7 +419,7 @@ function OurCompany() {
             transform: "scale(1, 0.95)",
             width: "99%",
           }}
-          color="#080808"
+          color="#4c4c4c"
         >
           iae GLOBAL is steered by a highly complementary management team, who
           bring unmatched levels of breadth and depth in experience, expertise

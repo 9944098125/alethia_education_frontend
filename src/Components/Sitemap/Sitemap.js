@@ -92,7 +92,9 @@ function Sitemap() {
             </HashLink>
           </SubLinksContainer>
         </LinkedItemsColumns>
-        <LinkedItemsColumns style={{ paddingTop: "12px" }}>
+        <LinkedItemsColumns
+          style={{ paddingTop: "12px", marginLeft: "-150px" }}
+        >
           <LinkedItems fontSize="20px" to="/study-abroad">
             <BiChevronRight />
             STUDY ABROAD
