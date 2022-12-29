@@ -57,6 +57,7 @@ import {
   AffiliatesText,
   ThinHorizontalLine,
   AlignEndTextContainer,
+  AlignEndText,
 } from "./styledComponents";
 import DocumentTitle from "../DocumentTitle";
 
@@ -196,10 +197,9 @@ function OurCompany() {
               - Mark Lucas, Director of iae Global
             </TextInsideImage>
             <AlignEndTextContainer>
-              <p
+              <AlignEndText
                 style={{
                   marginRight: "-250px",
-                  fontSize: "15px",
                   color: "#4c4c4c",
                   fontWeight: "400",
                   textAlign: "center",
@@ -211,7 +211,7 @@ function OurCompany() {
                 to revolutionise student recruitment and marketing practices by
                 continuing to set new benchmarks and standards in the
                 international education industry.
-              </p>
+              </AlignEndText>
             </AlignEndTextContainer>
           </BeliefTextContainer>
         </BeliefContainer>

@@ -249,6 +249,9 @@ export const BeliefTextContainer = styled.div`
   padding-right: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+  @media screen and (max-width: 768px) {
+    padding-left: 0px;
+  }
 `;
 
 export const DosContainer = styled.div`
@@ -486,5 +489,18 @@ export const AlignEndTextContainer = styled.div`
     padding-left: 7%;
     width: 65%;
     margin-right: -150px;
+  }
+  @media screen and (max-width: 768px) {
+    justify-content: flex-start;
+    padding-left: 0px;
+    margin-right: 0px;
+  }
+`;
+export const AlignEndText = styled.p`
+  @media screen and (min-width: 1024px) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
   }
 `;

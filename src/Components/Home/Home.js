@@ -161,7 +161,7 @@ function Home() {
         <Parallax
           style={{
             height: "160vh",
-            marginTop: "-75px",
+            marginTop: "-68px",
             paddingBottom: "200px",
             paddingTop: "-25px",
             width: "100%",
