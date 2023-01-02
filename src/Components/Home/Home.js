@@ -41,6 +41,10 @@ import DocumentTitle from "../DocumentTitle";
 // import { useParallax } from "react-scroll-parallax";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { Parallax } from "react-parallax";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+// import "font-awesome/css/font-awesome.min.css";
+
 import Header from "../Header/Header";
 
 function Home() {
@@ -165,7 +169,6 @@ function Home() {
             paddingBottom: "200px",
             paddingTop: "-25px",
           }}
-          contentClassName="parallax"
           bgImageStyle={{
             transform: "scale(0.5, 1.2)",
             width: "100%",
