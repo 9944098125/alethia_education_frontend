@@ -21,7 +21,7 @@ export const ImageIcon = styled.img`
   height: 56.5px;
   width: 270px;
   margin-top: -15px;
-  margin-right: 70px !important;
+  margin-right: 50px !important;
   margin-left: -25px;
   margin-bottom: -2px;
   filter: contrast(1.75);
@@ -38,19 +38,19 @@ export const HoldingsButton = styled.button`
   padding-top: 8px;
   padding-bottom: 8px;
   border: none;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 500;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   transform: scale(1, 1.1);
   font-family: "Oswald", sans-serif;
   width: 120px;
-  height: 35px;
+  height: 37px;
   color: #ffffff;
   margin-right: -45px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -6px;
+  margin-top: -3px;
   @media screen and (max-width: 768px) {
     margin-left: 0px;
     margin-top: 15px;
@@ -64,10 +64,10 @@ export const HoldingsButton = styled.button`
 export const HeadLink = styled.h3`
   font-family: "Oswald", sans-serif;
   letter-spacing: 0.7px;
-  transform: scale(1.1, 1.2);
-  font-size: 12.3px;
+  transform: scale(0.9, 1.2);
+  font-size: 13px;
   color: #ffffff;
-  margin-right: 21px;
+  margin-right: 8px;
   width: 100% !important;
   font-weight: 450;
   opacity: 1;
@@ -85,13 +85,14 @@ export const HoveredBlock = styled.div`
   background-color: #ffffff;
   margin-left: -15px;
   margin-right: -85px;
-  padding: 10px;
+  padding: 17px;
   padding-left: 15px;
   position: relative;
-  width: 185px;
+  width: 165px;
   max-height: 200px;
   display: none;
   margin-top: 7px;
+  height: max-content;
 `;
 export const CompanyLink = styled(Link)`
   color: #ffffff;
@@ -105,7 +106,7 @@ export const LinksInHoveredBlock = styled.p`
   color: #080808;
   letter-spacing: 0.03em;
   transform: scale(0.95, 1.1);
-  font-size: 15px;
+  font-size: 13px;
   &:hover {
     color: grey;
   }

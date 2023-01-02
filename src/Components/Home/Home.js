@@ -166,6 +166,10 @@ function Home() {
             paddingTop: "-25px",
             width: "100%",
           }}
+          contentClassName="parallax"
+          // bgImageStyle={{
+          //   transform: "scale(0.5, 1)",
+          // }}
           strength={350}
           children={<HomeContent />}
           bgImage="https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_1284,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg"
