@@ -5,6 +5,7 @@ import eachImage2 from "../../Assets/Images/eachImage2.webp";
 import eachImage3 from "../../Assets/Images/eachImage3.webp";
 import eachImage4 from "../../Assets/Images/eachImage4.webp";
 import Footer from "../Footer/Footer";
+import { Parallax } from "react-parallax";
 
 import {
   EachImage,
