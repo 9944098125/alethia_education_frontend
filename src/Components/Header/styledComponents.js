@@ -91,7 +91,7 @@ export const HoveredBlock = styled.div`
   width: 185px;
   max-height: 200px;
   display: none;
-  margin-top: 7px;
+  margin-top: 5px;
 `;
 export const CompanyLink = styled(Link)`
   color: #ffffff;
