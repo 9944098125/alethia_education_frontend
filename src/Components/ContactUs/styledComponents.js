@@ -19,7 +19,7 @@ export const ContactUsTextContainer = styled.div`
   padding-left: 7%;
   padding-right: 20px;
   @media screen and (min-width: 1024px) {
-    width: 45%;
+    width: 40%;
   }
   @media screen and (max-width: 768px) {
     width: 90%;
@@ -49,8 +49,8 @@ export const ContactUsFormContainer = styled.div`
 export const Label = styled.label`
   font-weight: 600;
   font-family: "PT Sans Narrow", sans-serif;
-  font-size: 18px;
-  color: #343434;
+  font-size: 16px;
+  color: #4c4c4c;
 `;
 export const SubmitButton = styled.button`
   background-color: #080808;

@@ -72,6 +72,7 @@ function StudyAbroad() {
               fontSizeL="35px"
               fontSizeS="16px"
               head
+              style={{ color: "#4c4c4c" }}
             >
               Australia
             </EachCountryDescription>
@@ -131,6 +132,7 @@ function StudyAbroad() {
               fontSizeL="35px"
               fontSizeS="16px"
               head
+              style={{ color: "#4c4c4c" }}
             >
               New Zealand
             </EachCountryDescription>
@@ -189,6 +191,7 @@ function StudyAbroad() {
               fontSizeL="35px"
               fontSizeS="16px"
               head
+              style={{ color: "#4c4c4c" }}
             >
               Canada
             </EachCountryDescription>
@@ -250,6 +253,7 @@ function StudyAbroad() {
               fontSizeL="35px"
               fontSizeS="16px"
               head
+              style={{ color: "#4c4c4c" }}
             >
               United States
             </EachCountryDescription>
@@ -310,6 +314,7 @@ function StudyAbroad() {
               fontSizeL="35px"
               fontSizeS="16px"
               head
+              style={{ color: "#4c4c4c" }}
             >
               United Kingdom
             </EachCountryDescription>

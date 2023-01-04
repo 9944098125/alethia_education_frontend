@@ -39,7 +39,7 @@ function ContactUs() {
           </ContactUsText>
           <ContactUsText
             style={{ color: "#4c4c4c" }}
-            fontSize="16px"
+            fontSize="15px"
             fontWeight="400"
             mb="45px"
           >

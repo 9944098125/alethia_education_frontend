@@ -21,7 +21,7 @@ function TermsOfUse() {
     <Fragment>
       <PrivacyImageContainer id="terms">
         <TextContainer>
-          <TextInsideImage color="#ffffff" fontSize="50px" fontWeight="450">
+          <TextInsideImage color="#ffffff" fontSize="50px" fontWeight="400">
             Terms of Use
           </TextInsideImage>
         </TextContainer>

@@ -343,14 +343,14 @@ function Australia() {
             rates and starting salaries for graduates in Australia.
           </EachText>
           <EachText fontSize="14px" fontWeight="300">
-            The University of Newcastle is committed to growing top job
-            opportunities for graduates. It has some of the highest employment
-            rates and starting salaries for graduates in Australia.
+            The median salary for postgraduates is +$90k with a 95%+ employment
+            rate. AusIndustry ranked the University of Newcastle Number 1 for
+            industry collaboration in 2017, working with 300+ industry partners.
           </EachText>
           <EachText fontSize="14px" fontWeight="300">
-            The University of Newcastle is committed to growing top job
-            opportunities for graduates. It has some of the highest employment
-            rates and starting salaries for graduates in Australia.
+            The Work Integrated Learning program within each degree ensures
+            graduates have the skills, experience and network to find valuable
+            employment
           </EachText>
           <EachText
             style={{ transform: "scale(1, 1.25)" }}

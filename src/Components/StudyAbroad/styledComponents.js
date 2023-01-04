@@ -84,7 +84,7 @@ export const EachCountryContainer = styled.div`
   padding-left: 55px;
   margin-bottom: -7%;
   @media screen and (min-width: 1024px) {
-    height: 120vh;
+    height: 110vh;
     display: flex;
   }
   @media screen and (max-width: 768px) {
@@ -140,15 +140,15 @@ export const EachCountryButton = styled.button`
   font-size: 15px;
   justify-content: center;
   align-items: center;
-  border: 2px solid #4c4c4c;
-  height: 38px !important;
+  border: 2px solid #343434;
+  height: 36px !important;
   margin-right: 5%;
-  transform: scale(1, 1.2);
+  transform: scale(1.1, 1.25);
   letter-spacing: 1px;
   background: transparent;
   font-weight: 500;
   font-family: "Oswald", sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   color: #4c4c4c;
   &:hover {
     background-color: black;

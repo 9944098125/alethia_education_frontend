@@ -55,7 +55,6 @@ export const UniversitiesInSingleCountry = styled.div`
 export const CountryName = styled.p`
   font-family: "Oswald", sans-serif;
   font-weight: 500;
-  color: #4c4c4c;
   letter-spacing: 1px;
   transform: scale(1, 1.3);
   font-size: 45px;

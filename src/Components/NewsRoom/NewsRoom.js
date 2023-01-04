@@ -55,7 +55,7 @@ function NewsRoom() {
               <EachText
                 fontF
                 color="rgb(235, 153, 30)"
-                fontSize="25px"
+                fontSize="24px"
                 fontWeight="400"
               >
                 The University of Newcastle - Australia
@@ -85,7 +85,7 @@ function NewsRoom() {
               <EachText
                 fontF
                 color="rgb(235, 153, 30)"
-                fontSize="25px"
+                fontSize="23px"
                 fontWeight="400"
               >
                 Education, Career and Migration Fair in sydney
