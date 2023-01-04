@@ -474,7 +474,7 @@ function Australia() {
         >
           <EachPost>
             <PostImage src={eachImage2} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
               Education, Career & Migration Fair in study
             </EachText>
           </EachPost>
@@ -485,7 +485,7 @@ function Australia() {
         >
           <EachPost>
             <PostImage mr="25px" src={eachImage3} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
               Canada's top 10 universities
             </EachText>
           </EachPost>
@@ -493,7 +493,7 @@ function Australia() {
         <HashLink to="/news-room/facts#news" style={{ textDecoration: "none" }}>
           <EachPost>
             <PostImage src={eachImage4} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
               Facts about Australia
             </EachText>
           </EachPost>

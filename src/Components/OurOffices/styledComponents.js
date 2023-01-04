@@ -6,7 +6,7 @@ export const OfficesContainer = styled.div`
 `;
 
 export const OfficesImageContainer = styled.div`
-  height: 70vh;
+  height: 65vh;
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_1d618749ffdb472fa0b3346707c132df~mv2.jpeg/v1/fill/w_1470,h_645,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_1d618749ffdb472fa0b3346707c132df~mv2.jpeg");
   background-size: cover;
@@ -22,7 +22,7 @@ export const OfficesImageContainer = styled.div`
     padding-left: 0px;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 140px;
+    padding-left: 120px;
     padding-bottom: 5%;
     margin-top: -68px;
   }
@@ -51,7 +51,7 @@ export const SmallTextContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 6%;
-  width: 62%;
+  width: 60%;
   margin-left: 16%;
 `;
 export const SmallText = styled.p`

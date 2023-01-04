@@ -73,7 +73,7 @@ function OurCompany() {
         <CompanyImageContainer id="companyImage">
           <TextContainer style={{ paddingLeft: "7%" }}>
             <TextInsideImage
-              style={{ transform: "scale(1.1, 1.3)" }}
+              style={{ transform: "scale(1.17, 1.3)", letterSpacing: "1px" }}
               color="#ffffff"
               fontWeight="500"
               fontSize="40px"
@@ -85,7 +85,7 @@ function OurCompany() {
         <StoryContainer id="story">
           <SmallContainer>
             <TextInsideImage
-              style={{ transform: "scale(1.1, 1.2)", marginBottom: "15px" }}
+              style={{ transform: "scale(1.1, 1.3)", marginBottom: "15px" }}
               color="#080808"
               fontSize="35px"
               fontWeight="500"
@@ -199,11 +199,11 @@ function OurCompany() {
             <AlignEndTextContainer>
               <AlignEndText
                 style={{
-                  marginRight: "-250px",
+                  marginRight: "-290px",
                   color: "#4c4c4c",
                   fontWeight: "400",
                   textAlign: "center",
-                  marginLeft: "100px",
+                  marginLeft: "120px",
                 }}
               >
                 To that end, we started a business model grounded in several

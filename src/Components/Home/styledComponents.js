@@ -83,7 +83,7 @@ export const SupportText = styled.h3`
   color: #080808;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   @media screen and (min-width: 800px) {
     font-size: 32px;
   }
@@ -141,7 +141,7 @@ export const SingleOption = styled.div`
     margin-bottom: 15px;
     margin-right: 0px;
     height: 600px;
-    width: 500px;
+    width: 476px;
   }
   ${
     "" /* @media screen and (min-width: 1024px) {
@@ -175,6 +175,7 @@ export const CountryName = styled.h2`
   font-weight: 500;
   font-family: "Oswald", sans-serif;
   margin-bottom: 5%;
+  color: #4c4c4c;
   @media screen and (min-width: 800px) {
     font-size: 32px;
   }
@@ -186,7 +187,7 @@ export const CountryName = styled.h2`
 export const Description = styled.p`
   font-weight: 400;
   @media screen and (min-width: 800px) {
-    font-size: 15px;
+    font-size: 14px;
   }
   @media screen and (max-width: 768px) {
     font-size: 8px;
@@ -215,7 +216,7 @@ export const Links = styled.button`
   align-items: center;
   @media screen and (min-width: 800px) {
     font-size: 15.5px;
-    width: 90px;
+    width: 110px;
   }
   @media screen and (max-width: 768px) {
     font-size: 12px;
@@ -230,7 +231,7 @@ export const AwardsContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90%;
+  width: 100%;
   margin-top: -150px;
   @media screen and (max-width: 768px) {
     margin-top: 0px;

@@ -7,7 +7,7 @@ export const FooterContainer = styled.div`
   display: flex;
   justify-content: center;
   padding: 1%;
-  padding-top: 3.5%;
+  padding-top: 3.2%;
   padding-left: 1.6%;
 `;
 

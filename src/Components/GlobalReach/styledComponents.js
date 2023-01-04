@@ -84,8 +84,8 @@ export const PartnersButton = styled.button`
   display: flex;
   align-items: center;
   max-height: 40px;
-  transform: scale(1.1, 1.15);
-  letter-spacing: 0px;
+  transform: scale(1.1, 1.2);
+  letter-spacing: 1px;
   margin-left: 20px;
   @media screen and (min-width: 875px) {
     padding: 3px;

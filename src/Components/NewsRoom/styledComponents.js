@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { IoMdPerson } from "react-icons/io";
 
 export const NewsRoomImageContainer = styled.div`
-  height: 68.5vh;
+  height: 65vh;
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg/v1/fill/w_1304,h_572,al_c,q_85,enc_auto/e4c206_71e83e7a61bc4f8893654b4287910b67~mv2.jpg");
   background-size: cover;
@@ -176,7 +176,7 @@ export const EachPost = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 40px;
+  margin-right: 30px;
   padding: 10%;
   padding-top: 0px;
   width: 310px;
@@ -191,7 +191,7 @@ export const PostImage = styled.img`
   margin-top: ${(props) => props.mt};
   text-align: center;
   @media screen and (min-width: 1024px) {
-    height: 170px;
+    height: 190px;
     width: 310px;
   }
   @media screen and (max-width: 768px) {

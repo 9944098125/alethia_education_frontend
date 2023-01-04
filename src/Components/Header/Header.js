@@ -30,12 +30,14 @@ function Header(props) {
           <HeadLink id="home">HOME</HeadLink>
         </Link>
         <div id="parent">
-          <Link
-            to="/our-story"
-            style={{ textDecoration: "none", color: "inherit" }}
-          >
-            <HeadLink id="company">OUR COMPANY</HeadLink>
-          </Link>
+          <div>
+            <Link
+              to="/our-story"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <HeadLink id="company">OUR COMPANY</HeadLink>
+            </Link>
+          </div>
           <HoveredBlock id="child">
             <div className="d-flex flex-column">
               <HashLink

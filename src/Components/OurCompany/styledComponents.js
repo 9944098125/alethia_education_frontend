@@ -7,7 +7,7 @@ export const CompanyContainer = styled.div`
 `;
 
 export const CompanyImageContainer = styled.div`
-  height: 70vh;
+  height: 65vh;
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_eb767afbe0b740b9ae383863f0b402b9~mv2.jpg/v1/fill/w_980,h_601,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_eb767afbe0b740b9ae383863f0b402b9~mv2.jpg");
   background-size: cover;
@@ -24,7 +24,7 @@ export const CompanyImageContainer = styled.div`
     max-width: 100%;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 150px;
+    padding-left: 160px;
     padding-bottom: 50px;
     margin-top: -68px;
   }
@@ -187,6 +187,7 @@ export const GridItem = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 0px;
   @media screen and (min-width: 768px) {
     width: 150px;
@@ -487,7 +488,7 @@ export const AlignEndTextContainer = styled.div`
   @media screen and (min-width: 1024px) {
     justify-content: flex-end;
     padding-left: 7%;
-    width: 65%;
+    width: 60%;
     margin-right: -150px;
   }
   @media screen and (max-width: 768px) {

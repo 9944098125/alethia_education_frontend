@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StudyAbroadImageContainer = styled.div`
-  height: 68.5vh;
+  height: 65vh;
   max-width: 100%;
   background-image: url("https://static.wixstatic.com/media/e4c206_807aa5e00d304159a136cf7ae381bb62~mv2.jpeg/v1/fill/w_980,h_601,al_b,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_807aa5e00d304159a136cf7ae381bb62~mv2.jpeg");
   background-size: cover;
@@ -19,7 +19,7 @@ export const StudyAbroadImageContainer = styled.div`
     padding-left: 40px;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 140px;
+    padding-left: 120px;
     padding-bottom: 140px;
     margin-top: -68px;
   }

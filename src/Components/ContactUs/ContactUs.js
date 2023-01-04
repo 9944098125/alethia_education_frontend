@@ -97,7 +97,7 @@ function ContactUs() {
                     />
                   </div>
                 </div>
-                <div className="col pe-lg-5 mb-3">
+                <div className="col pe-lg-5 mb-2">
                   <Label htmlFor="email">Email Address*</Label>
                   <Field
                     type="text"
@@ -106,7 +106,7 @@ function ContactUs() {
                     className="primary-input-field"
                   />
                 </div>
-                <div className="d-flex flex-column pe-lg-5 mb-3">
+                <div className="d-flex flex-column pe-lg-5 mb-2">
                   <Label htmlFor="iam">I am*</Label>
                   <Field
                     as="select"
@@ -120,7 +120,7 @@ function ContactUs() {
                     <option value="others">others</option>
                   </Field>
                 </div>
-                <div className="col pe-lg-5 mb-3">
+                <div className="col pe-lg-5 mb-2">
                   <Label htmlFor="coi">Country of Interest*</Label>
                   <Field
                     type="text"
@@ -129,12 +129,12 @@ function ContactUs() {
                     className="primary-input-field"
                   />
                 </div>
-                <div className="col pe-lg-5 mb-5">
+                <div className="col pe-lg-5 mb-4">
                   <Label htmlFor="message">Message*</Label>
                   <Field
                     type="text"
                     as="textarea"
-                    rows="5"
+                    rows="7"
                     id="message"
                     name="message"
                     className="textarea"

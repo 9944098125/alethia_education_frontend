@@ -328,7 +328,7 @@ function Canada() {
         >
           <EachPost>
             <PostImage mr="10px" src={eachImage1} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
               The University of New Castle
             </EachText>
           </EachPost>
@@ -339,7 +339,7 @@ function Canada() {
         >
           <EachPost>
             <PostImage mr="25px" src={eachImage2} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
               Education, Career and Migration Fair in sydney
             </EachText>
           </EachPost>
@@ -347,7 +347,7 @@ function Canada() {
         <HashLink to="/news-room/facts#news" style={{ textDecoration: "none" }}>
           <EachPost>
             <PostImage mt="0px" src={eachImage4} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="500">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
               Facts about Australia
             </EachText>
           </EachPost>

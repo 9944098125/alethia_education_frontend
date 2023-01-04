@@ -208,7 +208,7 @@ function Education() {
         >
           <EachPost>
             <PostImage mr="10px" src={eachImage1} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="600">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
               The University of New Castle
             </EachText>
           </EachPost>
@@ -219,7 +219,7 @@ function Education() {
         >
           <EachPost>
             <PostImage mt="0px" mr="25px" src={eachImage3} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="600">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
               Canada's top 10 universities
             </EachText>
           </EachPost>
@@ -227,7 +227,7 @@ function Education() {
         <HashLink to="/news-room/facts#news" style={{ textDecoration: "none" }}>
           <EachPost>
             <PostImage mt="0px" src={eachImage4} alt="post1" />
-            <EachText fontF color="#080808" fontSize="20px" fontWeight="600">
+            <EachText fontF color="#080808" fontSize="20px" fontWeight="400">
               Facts about Australia
             </EachText>
           </EachPost>

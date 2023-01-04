@@ -63,6 +63,10 @@
   }
 }
 
+#parent{
+  gap: 10px;
+}
+
 #parent:hover #child {
   display: block;
   margin-bottom: -205px;

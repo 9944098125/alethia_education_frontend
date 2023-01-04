@@ -57,7 +57,7 @@ function Home() {
         <div className="mb-3"></div>
         <TextContainer style={{ marginTop: "-9%", marginLeft: "1%" }}>
           <TextInsideImage
-            mb="3%"
+            mb="4%"
             color="#ffffff"
             fontWeight="400"
             fontSize="40px"
@@ -78,7 +78,7 @@ function Home() {
           </TextInsideImage>
           <p
             className="text-white"
-            style={{ fontSize: "14px", fontWeight: "500" }}
+            style={{ fontSize: "15px", fontWeight: "400" }}
           >
             We advise and assist students seeking realistic solutions and
             achievable pathways to leading universities, colleges, vocational
@@ -112,7 +112,7 @@ function Home() {
             fontSize="40px"
             ml="9%"
           >
-            Our Philosophy is simple -
+            Our philosophy is simple -
           </TextInsideImage>
           <TextInsideImage
             sc
@@ -177,7 +177,7 @@ function Home() {
           children={<HomeContent />}
           bgImage="https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_1284,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg"
         ></Parallax>
-        <SupportContainer style={{ paddingLeft: "13%" }}>
+        <SupportContainer style={{ paddingLeft: "15%" }}>
           <SupportText>Supporting education abroad</SupportText>
           <HashLink to="/our-story#vision" style={{ textDecoration: "none" }}>
             <VisionButton>
@@ -192,19 +192,21 @@ function Home() {
             <Description>
               Millions have chosen to move Down Under to further their education
               and career prospects, making this learning powerhouse the third
-              most popular study destination in the world.
+              most popular study destination in the world. Thinking of joining
+              them?
             </Description>
             <Description>
-              Thinking of joining them? ​ Let us help you figure out your
-              options and chart the best pathway to a better future in
-              Australia.
+              ​ Let us help you figure out your options and chart the best
+              pathway to a better future in Australia.
             </Description>
 
             <HashLink
               style={{ textDecoration: "none", color: "inherit" }}
               to="/study-abroad#australia"
             >
-              <Links>Read more</Links>{" "}
+              <Links>
+                Read more <ArrowRightAltIcon sx={{ ml: 1 }} />{" "}
+              </Links>{" "}
             </HashLink>
           </SingleOption>
           <SingleOption>
@@ -223,7 +225,9 @@ function Home() {
               style={{ textDecoration: "none", color: "inherit" }}
               to="/study-abroad#new-zealand"
             >
-              <Links>Read more</Links>{" "}
+              <Links>
+                Read more <ArrowRightAltIcon sx={{ ml: 1 }} />{" "}
+              </Links>{" "}
             </HashLink>
           </SingleOption>
           <SingleOption>
@@ -242,7 +246,9 @@ function Home() {
               style={{ textDecoration: "none", color: "inherit" }}
               to="/study-abroad#canada"
             >
-              <Links>Read more </Links>{" "}
+              <Links>
+                Read more <ArrowRightAltIcon sx={{ ml: 1 }} />{" "}
+              </Links>{" "}
             </HashLink>
           </SingleOption>
           <SingleOption>
@@ -261,7 +267,9 @@ function Home() {
               style={{ textDecoration: "none", color: "inherit" }}
               to="/study-abroad#unitedStates"
             >
-              <Links>Read more</Links>{" "}
+              <Links>
+                Read more <ArrowRightAltIcon sx={{ ml: 1 }} />{" "}
+              </Links>{" "}
             </HashLink>
           </SingleOption>
           <SingleOption>
@@ -280,7 +288,9 @@ function Home() {
               style={{ textDecoration: "none", color: "inherit" }}
               to="/study-abroad#unitedKingdom"
             >
-              <Links>Read more</Links>
+              <Links>
+                Read more <ArrowRightAltIcon sx={{ ml: 1 }} />{" "}
+              </Links>
             </HashLink>
           </SingleOption>
           <SingleOption>
@@ -295,11 +305,13 @@ function Home() {
               style={{ textDecoration: "none", color: "inherit" }}
               to="/offices#offices"
             >
-              <Links>Read more</Links>
+              <Links>
+                Read more <ArrowRightAltIcon sx={{ ml: 1 }} />{" "}
+              </Links>
             </HashLink>
           </SingleOption>
         </StudyAbroadOptions>
-        <AwardsContainer style={{ marginBottom: "-100px" }}>
+        <AwardsContainer>
           <EachItem>
             <ItemImage src={trophy} alt="trophy" />
           </EachItem>
@@ -311,16 +323,15 @@ function Home() {
             maxWidth: "100%",
             display: "flex",
             justifyContent: "flex-start",
-            alignItems: "center",
-            paddingBottom: "100px",
+            alignItems: "flex-start",
             marginBottom: "10%",
-            paddingTop: "0px",
+            paddingTop: "100px",
           }}
           children={<PhilosophyContent />}
           strength={250}
           bgImage="https://static.wixstatic.com/media/e4c206_95f2a9037e1a4cb7a8b401711f05ad83~mv2.jpg/v1/fill/w_1440,h_1157,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_95f2a9037e1a4cb7a8b401711f05ad83~mv2.jpg"
         ></Parallax>
-        <MeetingContainer>
+        <MeetingContainer style={{ marginTop: "-100px" }}>
           <MeetingTextContainer>
             <TextInsideImage
               sc
