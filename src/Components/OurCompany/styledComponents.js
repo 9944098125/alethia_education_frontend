@@ -68,7 +68,8 @@ export const AffiliatesText = styled.p`
   font-family: "Oswald", sans-serif;
   font-size: ${(props) => props.fontSize};
   margin-bottom: ${(props) => props.mb};
-  text-shadow: 2px 2px black;
+  text-shadow: rgb(255 255 255 / 60%) 1px 1px 1px,
+    rgb(0 0 0 / 60%) -1px -1px 1px;
 `;
 export const StoryContainer = styled.div`
   display: flex;

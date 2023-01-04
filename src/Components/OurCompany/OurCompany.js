@@ -220,7 +220,7 @@ function OurCompany() {
         <DosImage src={woman} alt="woman" />
         <ListContainer>
           <ListHead style={{ color: "black", marginRight: "-50px" }}>
-            What We do differently:
+            What we do differently:
           </ListHead>
           <UnorderedList>
             <ListItem>We put our student clients before profit</ListItem>

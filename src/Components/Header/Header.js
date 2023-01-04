@@ -35,7 +35,9 @@ function Header(props) {
               to="/our-story"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <HeadLink id="company">OUR COMPANY</HeadLink>
+              <div className="pb-3 pt-3">
+                <HeadLink id="company">OUR COMPANY</HeadLink>
+              </div>
             </Link>
           </div>
           <HoveredBlock id="child">

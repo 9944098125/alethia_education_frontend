@@ -169,11 +169,7 @@ function Home() {
             paddingBottom: "200px",
             paddingTop: "-25px",
           }}
-          bgImageStyle={{
-            transform: "scale(0.5, 1.2)",
-            width: "100%",
-          }}
-          strength={350}
+          strength={250}
           children={<HomeContent />}
           bgImage="https://static.wixstatic.com/media/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg/v1/fill/w_1284,h_1050,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_add7ca0c7484486f995b704c2ce25185~mv2.jpg"
         ></Parallax>
@@ -196,8 +192,8 @@ function Home() {
               them?
             </Description>
             <Description>
-              ​ Let us help you figure out your options and chart the best
-              pathway to a better future in Australia.
+              Let us help you figure out your options and chart the best pathway
+              to a better future in Australia.
             </Description>
 
             <HashLink
@@ -218,8 +214,8 @@ function Home() {
               your study destination of choice?
             </Description>
             <Description>
-              ​ Let us help you figure out your options and chart the best
-              pathway to a better future in New Zealand.
+              Let us help you figure out your options and chart the best pathway
+              to a better future in New Zealand.
             </Description>
             <HashLink
               style={{ textDecoration: "none", color: "inherit" }}
@@ -239,8 +235,8 @@ function Home() {
               Canada!
             </Description>
             <Description>
-              ​Let us help you figure out your options and chart the best
-              pathway to a better future in Canada.
+              Let us help you figure out your options and chart the best pathway
+              to a better future in Canada.
             </Description>
             <HashLink
               style={{ textDecoration: "none", color: "inherit" }}
@@ -257,7 +253,7 @@ function Home() {
             <Description>
               Dreaming of living and studying in the United States but
               overwhelmed by the vast information and choices available out
-              there? ​
+              there?
             </Description>
             <Description>
               Let us help you figure out your options and chart the best pathway
@@ -311,7 +307,7 @@ function Home() {
             </HashLink>
           </SingleOption>
         </StudyAbroadOptions>
-        <AwardsContainer>
+        <AwardsContainer style={{ marginBottom: "5%" }}>
           <EachItem>
             <ItemImage src={trophy} alt="trophy" />
           </EachItem>
@@ -323,15 +319,12 @@ function Home() {
             maxWidth: "100%",
             display: "flex",
             justifyContent: "flex-start",
-            alignItems: "flex-start",
-            marginBottom: "10%",
-            paddingTop: "100px",
           }}
           children={<PhilosophyContent />}
-          strength={250}
+          strength={350}
           bgImage="https://static.wixstatic.com/media/e4c206_95f2a9037e1a4cb7a8b401711f05ad83~mv2.jpg/v1/fill/w_1440,h_1157,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e4c206_95f2a9037e1a4cb7a8b401711f05ad83~mv2.jpg"
         ></Parallax>
-        <MeetingContainer style={{ marginTop: "-100px" }}>
+        <MeetingContainer style={{ marginTop: "10%" }}>
           <MeetingTextContainer>
             <TextInsideImage
               sc

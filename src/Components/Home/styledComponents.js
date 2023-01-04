@@ -142,6 +142,7 @@ export const SingleOption = styled.div`
     margin-right: 0px;
     height: 600px;
     width: 476px;
+    padding-left: 0px;
   }
   ${
     "" /* @media screen and (min-width: 1024px) {
@@ -214,6 +215,7 @@ export const Links = styled.button`
   background: transparent;
   display: flex;
   align-items: center;
+  margin-left: 1%;
   @media screen and (min-width: 800px) {
     font-size: 15.5px;
     width: 110px;
